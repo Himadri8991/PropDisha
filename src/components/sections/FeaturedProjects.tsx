@@ -30,8 +30,11 @@ const FeaturedProjects = () => {
     scrollRef.current.scrollBy({ left: dir === "left" ? -amount : amount, behavior: "smooth" });
   };
 
-  // Showcase top 4 from real data
-  const showcase = properties.slice(0, 4);
+  // Showcase a balanced selection of 6 distinct co-listed developers
+  const showcase = ["10", "32", "39", "42", "45", "51"]
+    .map(id => properties.find(p => p.id === id))
+    .filter((p): p is typeof properties[number] => !!p);
+
 
   return (
     <section className="py-32 relative overflow-hidden">

@@ -19,12 +19,14 @@ import {
   ShieldCheck,
   X,
   MessageSquare,
-  ChevronDown
+  ChevronDown,
+  Eye
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { getProperty, properties } from "@/data/properties";
 import { toast } from "sonner";
+import EnquiryModal from "@/components/EnquiryModal";
 
 const PropertyDetail = () => {
   const { slug } = useParams();
@@ -32,7 +34,25 @@ const PropertyDetail = () => {
 
   const [slide, setSlide] = useState(0);
   const [planTab, setPlanTab] = useState<"master" | "unit" | "site">("master");
-  const [lightbox, setLightbox] = useState<number | null>(null);
+  const [activeSubPlanIndex, setActiveSubPlanIndex] = useState(0);
+  const [lightbox, setLightbox] = useState<number | string | null>(null);
+
+  // Modal State
+  const [modalConfig, setModalConfig] = useState<{
+    isOpen: boolean;
+    intent: "Buy" | "Invest" | "Commercial" | "Advisory";
+    successMsg: string;
+    successDesc: string;
+  }>({
+    isOpen: false,
+    intent: "Buy",
+    successMsg: "Enquiry Received",
+    successDesc: "An advisor will contact you within 15 minutes."
+  });
+  
+  const openModal = (intent: "Buy" | "Invest" | "Commercial" | "Advisory", msg: string, desc: string) => {
+    setModalConfig({ isOpen: true, intent, successMsg: msg, successDesc: desc });
+  };
   
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30 });
@@ -155,16 +175,14 @@ const PropertyDetail = () => {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <button 
-                    onClick={() => toast.success("Visit Request Sent", {
-                      description: `Our advisor for ${property.name} will call you shortly.`
-                    })}
+                    onClick={() => openModal("Buy", "Visit Request Sent", `Our advisor for ${property.name} will call you shortly.`)}
                     className="btn-gold !px-0 flex items-center justify-center gap-2 group"
                   >
                     <Phone className="w-4 h-4" />
                     <span>Book Visit</span>
                   </button>
                   <a 
-                    href={`https://wa.me/918580000858?text=I am interested in ${property.name} at ${property.location}`}
+                    href={`https://wa.me/919331511222?text=I am interested in ${property.name} at ${property.location}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-glass !px-0 flex items-center justify-center gap-2 hover:bg-white/5 transition-all"
@@ -173,6 +191,18 @@ const PropertyDetail = () => {
                     <span>Inquire</span>
                   </a>
                 </div>
+                
+                {property.view360 && (
+                  <a 
+                    href={property.view360}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-glass w-full flex items-center justify-center gap-2 hover:bg-gold/10 transition-all border-gold/20 text-gold group"
+                  >
+                    <Eye className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                    <span className="text-[10px] tracking-[0.2em] font-bold uppercase">360 VR Virtual Tour</span>
+                  </a>
+                )}
               </motion.div>
             </div>
 
@@ -271,6 +301,18 @@ const PropertyDetail = () => {
         </div>
       </section>
 
+      {/* 3.5 PROJECT OVERVIEW */}
+      {property.propertyDetails && (
+        <section className="py-20 bg-background relative overflow-hidden">
+          <div className="container-luxe max-w-4xl">
+            <p className="text-gold text-[10px] tracking-[0.4em] uppercase mb-6">Overview</p>
+            <p className="text-lg text-foreground/70 font-light leading-relaxed">
+              {property.propertyDetails}
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* 4. HIGHLIGHTS GRID */}
       <section className="py-32 bg-navy-soft/20">
         <div className="container-luxe">
@@ -337,6 +379,51 @@ const PropertyDetail = () => {
         </div>
       </section>
 
+      {/* 4.5 SPECIFICATIONS & FEATURES */}
+      {(property.specifications || property.features) && (
+        <section className="py-32 bg-background relative overflow-hidden">
+          <div className="container-luxe">
+            <div className="grid lg:grid-cols-2 gap-24">
+              {/* Specifications */}
+              {property.specifications && (
+                <div>
+                  <p className="text-gold text-[10px] tracking-[0.4em] uppercase mb-6">Project Details</p>
+                  <h2 className="text-4xl font-display mb-12">Technical <span className="italic">specifications.</span></h2>
+                  <div className="glass p-8 rounded-3xl border-white/5 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    {Object.entries(property.specifications).map(([key, value]) => (
+                      <div key={key} className="border-b border-white/5 pb-4 last:border-0 sm:last:border-b sm:[&:nth-last-child(-n+2)]:border-0">
+                        <p className="text-[10px] tracking-[0.2em] uppercase text-foreground/40 mb-1">
+                          {key.replace(/([A-Z])/g, ' $1').trim()}
+                        </p>
+                        <p className="text-base font-light text-foreground">{value}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Features */}
+              {property.features && (
+                <div>
+                  <p className="text-gold text-[10px] tracking-[0.4em] uppercase mb-6">Core Features</p>
+                  <h2 className="text-4xl font-display mb-12">The <span className="italic">essentials.</span></h2>
+                  <div className="glass p-8 rounded-3xl border-white/5">
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {property.features.map((feature, i) => (
+                        <li key={i} className="flex items-center gap-3 text-sm font-light text-foreground/70">
+                          <div className="w-1.5 h-1.5 rounded-full bg-gold shrink-0" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* 5. GALLERY MASONRY */}
       <section className="py-32">
         <div className="container-luxe">
@@ -387,7 +474,7 @@ const PropertyDetail = () => {
               {(["master", "unit", "site"] as const).map((t) => (
                 <button
                   key={t}
-                  onClick={() => setPlanTab(t)}
+                  onClick={() => { setPlanTab(t); setActiveSubPlanIndex(0); }}
                   className={`px-8 py-3 rounded-full text-[10px] tracking-[0.2em] uppercase font-bold transition-all duration-500 border ${
                     planTab === t
                       ? "bg-gold text-navy-deep border-gold shadow-[0_0_20px_-5px_hsl(var(--gold))]"
@@ -400,15 +487,42 @@ const PropertyDetail = () => {
             </div>
           </div>
 
-          <motion.div
-            layout
-            onClick={() => setLightbox(0)} // Zoom into first gallery image as placeholder for plan
-            className="glass rounded-[3rem] aspect-[16/9] overflow-hidden relative group cursor-zoom-in"
-          >
-            <div className="absolute inset-0 bg-navy-deep opacity-40 group-hover:opacity-60 transition-opacity" />
-            <img src={property.gallery[0]} alt="Plan Background" className="w-full h-full object-cover blur-sm scale-110 transition-transform duration-700 group-hover:scale-105" />
+          {(() => {
+            const planImages = property.plans?.[planTab];
+            const isArray = Array.isArray(planImages);
+            const planImage = isArray ? planImages[activeSubPlanIndex] : (planImages || property.gallery[0]);
+            const totalSubPlans = isArray ? planImages.length : 1;
             
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-12">
+            return (
+              <motion.div
+                layout
+                onClick={() => setLightbox(planImage)}
+                className="glass rounded-[3rem] aspect-[16/9] overflow-hidden relative group cursor-zoom-in"
+              >
+                {/* Sub-plan indicators */}
+                {isArray && totalSubPlans > 1 && (
+                  <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-20" onClick={(e) => e.stopPropagation()}>
+                    {planImages.map((_, i) => (
+                      <button
+                        key={i}
+                        onClick={() => setActiveSubPlanIndex(i)}
+                        className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                          activeSubPlanIndex === i ? "bg-gold w-6" : "bg-gray-900/50 hover:bg-black/80"
+                        }`}
+                        aria-label={`Switch to unit plan ${i + 1}`}
+                      />
+                    ))}
+                  </div>
+                )}
+                
+                <div className="absolute inset-0 bg-navy-deep opacity-40 group-hover:opacity-60 transition-opacity" />
+                <img 
+                  src={planImage} 
+                  alt={`${planTab} Plan Background`} 
+                  className="w-full h-full object-cover blur-sm scale-110 transition-transform duration-700 group-hover:scale-105" 
+                />
+                
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-12">
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -420,15 +534,30 @@ const PropertyDetail = () => {
               <p className="text-foreground/60 max-w-md text-lg font-light leading-relaxed mb-10">
                 Detailed blueprints showing the exact layout, dimensions and spatial flow of the residence. Click to expand.
               </p>
-              <button 
-                onClick={(e) => { e.stopPropagation(); toast.success("Portfolio Sent", { description: "The HD floor plans have been sent to your registered email." }); }}
-                className="btn-gold !rounded-2xl flex items-center gap-4 hover:scale-105 active:scale-95 transition-all"
-              >
-                Download PDF Portfolio
-                <ArrowRight className="w-4 h-4" />
-              </button>
+              <div className="flex items-center gap-4">
+                <button 
+                  onClick={(e) => { e.stopPropagation(); openModal("Advisory", "Portfolio Sent", "The HD floor plans have been sent to your registered email."); }}
+                  className="btn-gold !rounded-2xl flex items-center gap-4 hover:scale-105 active:scale-95 transition-all"
+                >
+                  Download PDF Portfolio
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+                {property.view360 && (
+                  <a 
+                    href={property.view360}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-glass !rounded-2xl flex items-center gap-4 hover:scale-105 active:scale-95 transition-all border-gold/30 text-gold"
+                  >
+                    Experience 360 VR
+                    <Eye className="w-4 h-4" />
+                  </a>
+                )}
+              </div>
             </div>
           </motion.div>
+          );
+          })()}
         </div>
       </section>
 
@@ -484,45 +613,50 @@ const PropertyDetail = () => {
       {/* 8. LOCATION INTELLIGENCE */}
       <section className="py-32 bg-navy-soft/20">
         <div className="container-luxe grid lg:grid-cols-2 gap-24 items-center">
-          <div className="relative aspect-square rounded-[3rem] glass overflow-hidden shadow-[0_40px_100px_-20px_rgba(0,0,0,0.6)]">
-            <div className="absolute inset-0 bg-[#061019] opacity-90" />
-            {/* Mock Map visualization */}
-            <svg viewBox="0 0 400 400" className="absolute inset-0 w-full h-full opacity-40">
-              <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="hsl(var(--gold) / 0.1)" strokeWidth="0.5"/>
-              </pattern>
-              <rect width="100%" height="100%" fill="url(#grid)" />
-              <motion.circle 
-                cx="200" cy="200" r="100" 
-                fill="none" stroke="hsl(var(--gold) / 0.2)" 
-                strokeWidth="1" strokeDasharray="4 4"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+          <div className="relative aspect-square rounded-[3rem] glass overflow-hidden shadow-[0_40px_100px_-20px_rgba(0,0,0,0.6)] group">
+            <div className="absolute inset-0 bg-[#061019] opacity-90 pointer-events-none" />
+            {/* Map visualization */}
+            <div className="absolute inset-0 opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 z-0">
+              <iframe 
+                title="Property Location Map"
+                src={property.mapEmbedUrl} 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                loading="lazy" 
+                referrerPolicy={"no-referrer-when-downgrade" as any}
               />
-              <circle cx="200" cy="200" r="8" fill="hsl(var(--gold))" />
-              <circle cx="200" cy="200" r="20" fill="none" stroke="hsl(var(--gold))" strokeWidth="0.5" className="animate-ping" />
-            </svg>
+            </div>
             
-            <div className="absolute inset-0 p-12 flex flex-col justify-between z-10">
+            {/* Overlay Elements - pointer-events-none allows clicks to pass through to map */}
+            <div className="absolute inset-0 p-8 md:p-12 flex flex-col justify-between z-10 pointer-events-none">
               <div className="flex justify-between items-start">
-                <div className="glass-strong px-4 py-2 rounded-xl text-[10px] tracking-[0.3em] uppercase text-gold">Live Connectivity Feed</div>
-                <div className="glass-strong px-4 py-2 rounded-xl text-[10px] tracking-[0.3em] uppercase text-green-500 flex items-center gap-2">
+                <div className="glass-strong px-4 py-2 rounded-xl text-[10px] tracking-[0.3em] uppercase text-gold pointer-events-none">Live Connectivity Feed</div>
+                <div className="glass-strong px-4 py-2 rounded-xl text-[10px] tracking-[0.3em] uppercase text-green-500 flex items-center gap-2 pointer-events-none">
                   <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" /> High Accessibility
                 </div>
               </div>
               
-              <div className="space-y-4">
-                {[
-                  { name: "Global Airport", time: "15 min", pos: "top-10 left-10" },
-                  { name: "CBD Hub", time: "12 min", pos: "bottom-1/4 right-10" },
-                  { name: "Heritage Park", time: "5 min", pos: "top-1/3 right-1/4" }
-                ].map(loc => (
-                  <div key={loc.name} className="glass-strong p-4 rounded-2xl flex items-center justify-between border-white/5">
-                    <span className="text-xs font-medium">{loc.name}</span>
-                    <span className="text-xs text-gold font-bold">{loc.time}</span>
+              {(() => {
+                const landmarks = property.landmarks || property.highlights?.connectivity?.map(c => {
+                  const match = c.match(/^(\d+(?:\.\d+)?\s*(?:min|mins|km))\s*(?:from|to)\s*(.*)/i);
+                  if (match) {
+                    return { name: match[2], time: match[1] };
+                  }
+                  return { name: c, time: "" };
+                }) || [];
+
+                return landmarks.length > 0 ? (
+                  <div className="space-y-4">
+                    {landmarks.map(loc => (
+                      <div key={loc.name} className="glass-strong p-4 rounded-2xl flex items-center justify-between border-white/5 opacity-80 group-hover:opacity-30 transition-opacity duration-700 pointer-events-none">
+                        <span className="text-xs font-medium">{loc.name}</span>
+                        {loc.time && <span className="text-xs text-gold font-bold">{loc.time}</span>}
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
+                ) : null;
+              })()}
             </div>
           </div>
 
@@ -561,6 +695,87 @@ const PropertyDetail = () => {
           </div>
         </div>
       </section>
+
+      {/* 8.1 LOCATION ADVANTAGES (IF PRESENT) */}
+      {property.locationAdvantages && (
+        <section className="py-24 bg-background relative overflow-hidden border-t border-white/5">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,hsl(var(--gold)/0.02),transparent_50%)] pointer-events-none" />
+          <div className="container-luxe">
+            <div className="max-w-xl mb-16">
+              <p className="text-gold text-[10px] tracking-[0.4em] uppercase mb-6">Location Advantages</p>
+              <h2 className="text-4xl font-display">Proximity to <span className="italic text-gradient-gold">everything that matters.</span></h2>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {Object.entries(property.locationAdvantages).map(([key, items], idx) => {
+                if (!items || items.length === 0) return null;
+                
+                let title = key.replace(/([A-Z])/g, ' $1').trim();
+                let IconComponent = Sparkles;
+                if (key.toLowerCase().includes("business") || key.toLowerCase().includes("transit")) {
+                  IconComponent = Train;
+                  title = "Business & Transit";
+                } else if (key.toLowerCase().includes("health")) {
+                  IconComponent = Stethoscope;
+                  title = "Healthcare";
+                } else if (key.toLowerCase().includes("education")) {
+                  IconComponent = GraduationCap;
+                  title = "Education";
+                } else if (key.toLowerCase().includes("entertainment") || key.toLowerCase().includes("leisure")) {
+                  IconComponent = Sparkles;
+                  title = "Leisure & Malls";
+                }
+                
+                return (
+                  <motion.div
+                    key={key}
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: idx * 0.1 }}
+                    viewport={{ once: true }}
+                    className="glass p-8 rounded-3xl border-white/5 flex flex-col hover:border-gold/30 transition-all duration-500"
+                  >
+                    <div className="flex items-center gap-4 mb-6">
+                      <div className="w-10 h-10 rounded-xl bg-gold/10 grid place-items-center shrink-0">
+                        <IconComponent className="w-5 h-5 text-gold" />
+                      </div>
+                      <h4 className="text-xs font-bold tracking-[0.2em] uppercase text-gold">{title}</h4>
+                    </div>
+                    <ul className="space-y-3.5 flex-1">
+                      {items.map((item, i) => (
+                        <li key={i} className="text-xs font-light text-foreground/70 flex items-start gap-3">
+                          <div className="w-1 h-1 rounded-full bg-gold/40 mt-1.5 shrink-0" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* 8.5 AWARDS & RECOGNITION */}
+      {property.awards && property.awards.length > 0 && (
+        <section className="py-20 bg-navy-soft/20">
+          <div className="container-luxe">
+            <div className="text-center mb-12">
+              <p className="text-gold text-[10px] tracking-[0.4em] uppercase mb-6">Recognition</p>
+              <h2 className="text-4xl font-display">Awards & <span className="italic">Accolades.</span></h2>
+            </div>
+            <div className="max-w-3xl mx-auto space-y-4">
+              {property.awards.map((award, i) => (
+                <div key={i} className="glass p-6 rounded-2xl flex items-center gap-4">
+                  <ShieldCheck className="w-6 h-6 text-gold shrink-0" />
+                  <p className="text-sm font-light text-foreground/80">{award}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 9. DEVELOPER & TRUST */}
       <section className="py-32">
@@ -602,8 +817,25 @@ const PropertyDetail = () => {
                 <p className="text-[10px] tracking-[0.4em] uppercase text-foreground/30 font-bold">Registration Data</p>
                 <div className="glass-strong p-8 rounded-3xl flex flex-col gap-4 border-white/5">
                   <div className="flex justify-between items-center border-b border-white/5 pb-4">
-                    <span className="text-sm text-foreground/40 font-light">RERA ID</span>
-                    <span className="text-sm font-mono tracking-widest text-gold">{property.rera}</span>
+                    <span className="text-sm text-foreground/40 font-light">PropDisha RERA</span>
+                    <span className="text-sm font-mono tracking-widest text-gold">WBRERA/RA/HOW/2025/000143</span>
+                  </div>
+                  <div className="flex justify-between items-start border-b border-white/5 pb-4">
+                    <span className="text-sm text-foreground/40 font-light mt-1">Project RERA</span>
+                    <div className="flex flex-col gap-3 items-end text-right">
+                      {typeof property.rera === 'string' ? (
+                        <span className="text-sm font-mono tracking-widest text-gold">{property.rera}</span>
+                      ) : (
+                        Object.entries(property.rera).map(([key, value]) => (
+                          <div key={key} className="flex flex-col items-end">
+                            <span className="text-[8px] tracking-[0.2em] uppercase text-foreground/30 mb-1">
+                              {key.replace(/([A-Z])/g, ' $1').trim()}
+                            </span>
+                            <span className="text-xs font-mono tracking-widest text-gold">{value}</span>
+                          </div>
+                        ))
+                      )}
+                    </div>
                   </div>
                   <div className="flex justify-between items-center border-b border-white/5 pb-4">
                     <span className="text-sm text-foreground/40 font-light">Project Status</span>
@@ -639,13 +871,13 @@ const PropertyDetail = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
               <button 
-                onClick={() => toast.success("Visit Request Sent", { description: "We will coordinate with the builder for your private tour." })}
+                onClick={() => openModal("Buy", "Visit Request Sent", "We will coordinate with the builder for your private tour.")}
                 className="btn-gold !px-16 !py-6 text-sm tracking-[0.3em] font-bold uppercase shadow-2xl hover:scale-105 active:scale-95 transition-all"
               >
                 Book Private Visit
               </button>
               <a 
-                href="https://wa.me/918580000858?text=I want to connect with a private residence advisor about PropDisha properties."
+                href="https://wa.me/919331511222?text=I want to connect with a private residence advisor about PropDisha properties."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-glass !px-16 !py-6 text-sm tracking-[0.3em] font-bold uppercase border-white/20 hover:scale-105 active:scale-95 transition-all text-center"
@@ -681,7 +913,7 @@ const PropertyDetail = () => {
             
             <div className="flex items-center gap-3">
               <a 
-                href="https://wa.me/918580000858"
+                href="https://wa.me/919331511222"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full glass border-gold/40 grid place-items-center hover:bg-gold hover:text-navy-deep transition-all duration-500"
@@ -689,7 +921,7 @@ const PropertyDetail = () => {
                 <Phone className="w-5 h-5" />
               </a>
               <button 
-                onClick={() => toast.success("Enquiry Received", { description: "An advisor will contact you within 15 minutes." })}
+                onClick={() => openModal("Invest", "Enquiry Received", "An advisor will contact you within 15 minutes.")}
                 className="btn-gold !px-8 !py-3 text-[10px] tracking-[0.2em] font-black"
               >
                 ENQUIRE NOW
@@ -711,15 +943,25 @@ const PropertyDetail = () => {
           <motion.img
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            src={property.gallery[lightbox]}
+            src={typeof lightbox === 'string' ? lightbox : property.gallery[lightbox as number]}
             alt="Fullscreen preview"
             className="max-h-full max-w-full rounded-3xl shadow-2xl"
           />
           <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-[10px] tracking-[0.5em] uppercase text-white/30 font-bold">
-            {lightbox + 1} / {property.gallery.length}
+            {typeof lightbox === 'number' ? `${lightbox + 1} / ${property.gallery.length}` : `${planTab} plan`}
           </div>
         </div>
       )}
+
+      {/* ENQUIRY MODAL */}
+      <EnquiryModal 
+        isOpen={modalConfig.isOpen}
+        onClose={() => setModalConfig(prev => ({ ...prev, isOpen: false }))}
+        propertyName={property.name}
+        defaultIntent={modalConfig.intent}
+        customSuccessMessage={modalConfig.successMsg}
+        customSuccessDescription={modalConfig.successDesc}
+      />
     </div>
   );
 };

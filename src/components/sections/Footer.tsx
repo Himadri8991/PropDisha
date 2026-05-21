@@ -10,9 +10,9 @@ const Footer = () => {
       title: "Discovery",
       links: [
         { label: "Signature Collection", to: "/properties" },
-        { label: "New Launches", to: "/properties?filter=new" },
-        { label: "Investment Hotspots", to: "/properties?filter=invest" },
-        { label: "Commercial Spaces", to: "/properties?filter=commercial" },
+        { label: "New Launches", to: "/properties?intent=Buy" },
+        { label: "Investment Hotspots", to: "/properties?intent=Invest" },
+        { label: "Commercial Spaces", to: "/properties?intent=Commercial" },
       ],
     },
     {
@@ -20,8 +20,8 @@ const Footer = () => {
       links: [
         { label: "Our Story", to: "/about" },
         { label: "Verified Guarantee", to: "/verify" },
-        { label: "Insights", to: "/insights" },
-        { label: "Careers", to: "/careers" },
+        { label: "Market Insights", to: "/insights" },
+        { label: "Work With Us", to: "/contact" },
       ],
     },
     {
@@ -97,15 +97,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-12 border-y border-white/5 mb-12">
           <div className="flex items-center gap-4 text-foreground/40">
             <MapPin className="w-5 h-5 text-gold/50" />
-            <span className="text-xs tracking-widest uppercase">Kolkata • Mumbai</span>
+            <span className="text-xs tracking-widest uppercase">Kolkata • Howrah</span>
           </div>
-          <a href="tel:+918580000858" className="flex items-center gap-4 text-foreground/40 hover:text-gold transition-colors">
+          <a href="tel:+919331511222" className="flex items-center gap-4 text-foreground/40 hover:text-gold transition-colors">
             <Phone className="w-5 h-5 text-gold/50" />
-            <span className="text-xs tracking-widest uppercase">+91 8580 000 858</span>
+            <span className="text-xs tracking-widest uppercase">+91 93315 11222</span>
           </a>
-          <a href="mailto:concierge@propdisha.com" className="flex items-center gap-4 text-foreground/40 hover:text-gold transition-colors">
+          <a href="mailto:inquiry@propdisha.com" className="flex items-center gap-4 text-foreground/40 hover:text-gold transition-colors">
             <Mail className="w-5 h-5 text-gold/50" />
-            <span className="text-xs tracking-widest uppercase">concierge@propdisha.com</span>
+            <span className="text-xs tracking-widest uppercase">inquiry@propdisha.com</span>
           </a>
         </div>
 
@@ -116,13 +116,23 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-8">
             <span className="text-[10px] tracking-[0.2em] uppercase text-foreground/20">
-              RERA Registered: WBRERA/P/KOL/2025/002334
+              RERA Registered: WBRERA/RA/HOW/2025/000143
             </span>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-green-500/40 animate-pulse" />
               <span className="text-[10px] tracking-[0.2em] uppercase text-foreground/20">System Online</span>
             </div>
           </div>
+        </div>
+        <div className="flex justify-end mt-4">
+          <a
+            href="https://iamhimadri.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[7.5px] text-white/30 hover:text-white relative transition-all duration-300 inline-block after:content-[''] after:block after:h-[1px] after:bg-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-[9px]"
+          >
+            Developed by Himadri
+          </a>
         </div>
       </div>
     </footer>
