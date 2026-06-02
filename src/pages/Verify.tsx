@@ -103,8 +103,12 @@ const Verify = () => {
                           <p className="font-medium">{foundProp.name}</p>
                         </div>
                         <div>
-                          <p className="text-[9px] tracking-[0.3em] uppercase text-foreground/30 mb-1">Developer</p>
-                          <p className="font-medium">{foundProp.developer}</p>
+                          <p className="text-[9px] tracking-[0.3em] uppercase text-foreground/30 mb-1">
+                            {foundProp.developers ? "Developers" : "Developer"}
+                          </p>
+                          <p className="font-medium">
+                            {foundProp.developers ? foundProp.developers.map(d => d.trim()).join(" & ") : foundProp.developer}
+                          </p>
                         </div>
                         <div>
                           <p className="text-[9px] tracking-[0.3em] uppercase text-foreground/30 mb-1">RERA No.</p>
@@ -207,7 +211,9 @@ const Verify = () => {
                   <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-1" />
                   <div>
                     <h3 className="font-display text-lg mb-1">{p.name}</h3>
-                    <p className="text-xs text-foreground/30 mb-2">{p.developer} · {p.city}</p>
+                    <p className="text-xs text-foreground/30 mb-2">
+                      {p.developers ? p.developers.map(d => d.trim()).join(" & ") : p.developer} · {p.city}
+                    </p>
                     <p className="font-mono text-[10px] text-gold/60">
                       {typeof p.rera === 'string' ? p.rera : "Phased Development"}
                     </p>

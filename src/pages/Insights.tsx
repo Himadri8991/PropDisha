@@ -4,6 +4,7 @@ import { Search, TrendingUp, Building2, Home, LineChart, BookOpen, ArrowRight, C
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const categories = ["All", "Market Intel", "Investment", "Lifestyle", "Policy", "Area Guide"] as const;
 type Category = (typeof categories)[number];
@@ -54,6 +55,11 @@ const articles = [
 ];
 
 const Insights = () => {
+  useSEO({
+    title: "Market Insights & Real Estate Intel | PropDisha",
+    description: "Get research-grade, jargon-free real estate intelligence on Kolkata and Howrah micro-markets. Actionable ROI analysis, guides, and policy updates compiled by expert advisors.",
+    keywords: "real estate insights, market report kolkata, property roi calculation, howrah micro-market"
+  });
   const [cat, setCat] = useState<Category>("All");
   const [q, setQ] = useState("");
 

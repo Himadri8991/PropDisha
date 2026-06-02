@@ -8,6 +8,7 @@ import {
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { properties, type Intent } from "@/data/properties";
+import { useSEO } from "@/hooks/useSEO";
 
 const cities = ["All", "Kolkata", "Howrah"] as const;
 const intents: ("All" | Intent)[] = [
@@ -17,7 +18,7 @@ const intents: ("All" | Intent)[] = [
 ];
 const bhkOptions = ["Any", "1", "2", "3", "4+"] as const;
 const statusOptions = ["All", "Ready to Move", "Under Construction", "New Launch", "Under Development"] as const;
-const developerOptions = ["All", "Srijan", "PS Group", "Godrej Properties", "Shapoorji Pallonji", "Eden Realty", "Sureka Group"] as const;
+const developerOptions = ["All", "Srijan", "PS Group", "Godrej Properties", "Shapoorji Pallonji", "Eden Realty", "Sureka Group", "Vinayak Group", "Alcove Realty", "Emami Realty", "DTC Group", "Primarc", "Mayfair Group",] as const;
 
 type SortKey = "relevance" | "price-asc" | "price-desc" | "bhk-asc" | "possession" | "roi";
 const sortOptions: { key: SortKey; label: string }[] = [
@@ -32,6 +33,11 @@ const sortOptions: { key: SortKey; label: string }[] = [
 type ViewMode = "grid" | "list";
 
 const Properties = () => {
+  useSEO({
+    title: "Curated Luxury Addresses & Properties Collection | PropDisha",
+    description: "Browse the curated collection of verified premium residential apartments, townhouses, duplexes, and riverfront properties in Kolkata & Howrah on PropDisha.",
+    keywords: "propdisha collection, verified residential kolkata, buy flats kolkata, premium duplexes kolkata, riverfront apartments howrah"
+  });
   const [searchParams, setSearchParams] = useSearchParams();
   const [city, setCity] = useState<(typeof cities)[number]>("All");
   const [intent, setIntent] = useState<(typeof intents)[number]>(
@@ -88,18 +94,28 @@ const Properties = () => {
       if (city !== "All" && p.city !== city) return false;
       if (intent !== "All" && !p.intent.includes(intent)) return false;
       if (status !== "All" && p.status !== status) return false;
-      if (developer !== "All" && !p.developer.includes(developer)) return false; 
+      if (developer !== "All") {
+        const selectedDevLower = developer.toLowerCase().trim();
+        const pDevs = p.developers 
+          ? p.developers.map(d => d.toLowerCase().trim()) 
+          : [p.developer?.toLowerCase().trim()].filter(Boolean);
+        
+        if (!pDevs.some(d => d.includes(selectedDevLower))) return false;
+      }
       if (p.priceMin > budget) return false;
       if (bhk !== "Any") {
         const n = bhk === "4+" ? 4 : parseInt(bhk);
         if (bhk === "4+" ? !p.bhk.some((b) => b >= 4) : !p.bhk.includes(n)) return false;
       }
       if (q.trim()) {
-        const t = q.toLowerCase();
+        const t = q.toLowerCase().trim();
+        const pDevs = p.developers 
+          ? p.developers.map(d => d.toLowerCase().trim()) 
+          : [p.developer?.toLowerCase().trim()].filter(Boolean);
         if (
           !p.name.toLowerCase().includes(t) &&
           !p.location.toLowerCase().includes(t) &&
-          !p.developer.toLowerCase().includes(t)
+          !pDevs.some(d => d.includes(t))
         )
           return false;
       }
@@ -463,7 +479,9 @@ const Properties = () => {
                         <div>
                           <div className="flex items-start justify-between gap-4 mb-2">
                             <div>
-                              <p className="text-[9px] tracking-[0.3em] uppercase text-foreground/30 mb-1">{p.developer} · {p.city}</p>
+                              <p className="text-[9px] tracking-[0.3em] uppercase text-foreground/30 mb-1">
+                                {p.developers ? p.developers.map(d => d.trim()).join(" & ") : p.developer} · {p.city}
+                              </p>
                               <h3 className="text-2xl font-display group-hover:text-gold transition-colors">{p.name}</h3>
                             </div>
                             <span className="text-lg font-display text-gradient-gold whitespace-nowrap shrink-0">{p.priceLabel}</span>

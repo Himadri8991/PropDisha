@@ -1,5 +1,6 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import { useSEO } from "@/hooks/useSEO";
 import Hero from "@/components/sections/Hero";
 import TrustStrip from "@/components/sections/TrustStrip";
 import FeaturedProjects from "@/components/sections/FeaturedProjects";
@@ -11,6 +12,11 @@ import FinalCTA from "@/components/sections/FinalCTA";
 import Footer from "@/components/sections/Footer";
 
 const Index = () => {
+  useSEO({
+    title: "PropDisha | Verified Luxury & Premium Real Estate in Kolkata & Howrah",
+    description: "Discover the finest luxury and premium real estate collection in Kolkata and Howrah. PropDisha offers verified, pre-screened properties, smart location intelligence, and private consultations for high-growth investments.",
+    keywords: "PropDisha, luxury real estate kolkata, verified properties kolkata, buy flats howrah, luxury apartments, real estate investment india"
+  });
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,

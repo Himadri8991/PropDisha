@@ -4,6 +4,7 @@ import { Search, HelpCircle, MessageCircle, Book, Home, FileText, Phone, Chevron
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const categories = [
   { label: "Getting Started", icon: Home, count: 6 },
@@ -67,6 +68,11 @@ const faqs = [
 ];
 
 const Help = () => {
+  useSEO({
+    title: "FAQ & Help Centre | PropDisha",
+    description: "Got questions? Find answers to frequently asked questions about PropDisha's curation methodology, legal verification, zero brokerage policy, and RERA processes.",
+    keywords: "rera support, propdisha faq, help desk real estate, property advice questions"
+  });
   const [q, setQ] = useState("");
   const [activeCat, setActiveCat] = useState("All");
   const [openFaq, setOpenFaq] = useState<number | null>(null);

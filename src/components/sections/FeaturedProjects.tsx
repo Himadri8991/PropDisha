@@ -187,11 +187,13 @@ const FeaturedProjects = () => {
         {[...Array(4)].map((_, i) => (
           <button
             key={i}
+            type="button"
             onClick={() => {
               if (!scrollRef.current) return;
               const cardW = scrollRef.current.scrollWidth / 4;
               scrollRef.current.scrollTo({ left: cardW * i, behavior: "smooth" });
             }}
+            aria-label={`Go to slide ${i + 1}`}
             className="w-6 h-1 rounded-full bg-white/10 hover:bg-gold/60 transition-colors"
           />
         ))}

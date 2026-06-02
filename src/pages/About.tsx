@@ -3,6 +3,7 @@ import { Shield, Award, Users, TrendingUp, MapPin, CheckCircle, Star, ArrowRight
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const stats = [
   { value: "₹2,400 Cr+", label: "Properties Curated", icon: TrendingUp },
@@ -32,9 +33,16 @@ const team = [
   { name: "Ananya Bose", role: "Investor Relations", city: "Howrah", quote: "The right investment doesn't feel like gambling. It feels like clarity." },
 ];
 
-const About = () => (
-  <div className="min-h-screen bg-background">
-    <Navbar />
+const About = () => {
+  useSEO({
+    title: "About PropDisha | The Antidote to Property Portals",
+    description: "Learn how PropDisha is redefining real estate discovery in Kolkata and Howrah through zero-commission, 100% RERA-verified luxury property curations and time-saving advisory services.",
+    keywords: "about propdisha, real estate agency kolkata, zero commission real estate, rera verified real estate agency"
+  });
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Navbar />
 
     {/* Hero */}
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
@@ -193,5 +201,6 @@ const About = () => (
     <Footer />
   </div>
 );
+}
 
 export default About;

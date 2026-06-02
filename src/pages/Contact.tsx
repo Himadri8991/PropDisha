@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { submitLead } from "@/lib/mock-api";
 import { toast } from "sonner";
+import { useSEO } from "@/hooks/useSEO";
 
 const offices = [
   { city: "Kolkata", address: "DLF IT Park, AF-1, Sec V, Salt Lake, Kolkata 700091", phone: "+91 93315 11222", email: "kolkata@propdisha.com" },
@@ -19,6 +20,11 @@ const faqs = [
 ];
 
 const Contact = () => {
+  useSEO({
+    title: "Contact Our Private Residence Advisors | PropDisha",
+    description: "Get in touch with PropDisha's certified property advisors. Submit an inquiry for buying, investing, commercial, or private consultations in Kolkata and Howrah.",
+    keywords: "contact propdisha, property advisors kolkata, luxury real estate consultant kolkata, real estate advice howrah"
+  });
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "", type: "Buy" });
   const [submitted, setSubmitted] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);

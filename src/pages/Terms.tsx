@@ -3,6 +3,7 @@ import { FileText, CheckCircle, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const sections = [
   {
@@ -43,9 +44,16 @@ const sections = [
   },
 ];
 
-const Terms = () => (
-  <div className="min-h-screen bg-background">
-    <Navbar />
+const Terms = () => {
+  useSEO({
+    title: "Terms of Service | PropDisha",
+    description: "Read the Terms of Service for PropDisha.com. Understand legal terms, user obligations, disclaimer of warranties, and RERA compliance information.",
+    keywords: "terms of service propdisha, real estate terms, legal terms kolkata, property site rules"
+  });
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Navbar />
 
     {/* Hero */}
     <section className="relative pt-44 pb-24 overflow-hidden">
@@ -134,5 +142,6 @@ const Terms = () => (
     <Footer />
   </div>
 );
+}
 
 export default Terms;

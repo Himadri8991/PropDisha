@@ -277,7 +277,7 @@ import lagb4 from "@/assets/lagb4.jpg";
 import lagb5 from "@/assets/lagb5.jpg";
 import lagb6 from "@/assets/lagb6.jpg";
 import lagb7 from "@/assets/lagb7.jpg";
-import lagb8 from "@/assets/lagb8.jpg"; 
+import lagb8 from "@/assets/lagb8.jpg";
 import lagb9 from "@/assets/lagb9.jpg";
 import lagb10 from "@/assets/lagb10.jpg";
 import lagb11 from "@/assets/lagb11.jpg";
@@ -354,6 +354,8 @@ import silh01 from "@/assets/silh01.jpg";
 
 import logos01 from "@/assets/logos01.jpg";
 import logos02 from "@/assets/logos02.jpg";
+import logos03 from "@/assets/logos03.webp";
+import logos04 from "@/assets/logos04.webp";
 import logos1 from "@/assets/logos1.png";
 import logos2 from "@/assets/logos2.png";
 import logos3 from "@/assets/logos3.png";
@@ -362,6 +364,14 @@ import logos5 from "@/assets/logos5.png";
 import logos6 from "@/assets/logos6.png";
 import logos7 from "@/assets/logos7.png";
 import logos8 from "@/assets/logos8.png";
+import logos9 from "@/assets/logos9.webp";
+import logos10 from "@/assets/logos10.webp";
+import logos11 from "@/assets/logos11.webp";
+import logos12 from "@/assets/logos12.webp";
+import logos13 from "@/assets/logos13.webp";
+import logos14 from "@/assets/logos14.webp";
+import logos15 from "@/assets/logos15.webp";
+import logos16 from "@/assets/logos16.webp";
 
 import ilp1 from "@/assets/ilp1.jpg";
 import ilp2 from "@/assets/ilp2.jpg";
@@ -373,6 +383,18 @@ import ilp01 from "@/assets/ilp01.jpg";
 
 import sw1 from "@/assets/sw1.jpg";
 import sw2 from "@/assets/sw2.jpg";
+import sw3 from "@/assets/sw3.jpg";
+import sw4 from "@/assets/sw4.jpg";
+import sw5 from "@/assets/sw5.jpg";
+import sw6 from "@/assets/sw6.jpg";
+import sw7 from "@/assets/sw7.jpg";
+import sw8 from "@/assets/sw8.jpg";
+import sw01 from "@/assets/sw01.jpg";
+import sw02 from "@/assets/sw02.jpg";
+import sw03 from "@/assets/sw03.jpg";
+import sw04 from "@/assets/sw04.jpg";
+import sw05 from "@/assets/sw05.jpg";
+import sw06 from "@/assets/sw06.jpg";
 
 import sp1 from "@/assets/sp1.png";
 import sp2 from "@/assets/sp2.png";
@@ -922,17 +944,373 @@ import sunm25 from "@/assets/sunm25.jpg";
 import sunm26 from "@/assets/sunm26.jpg";
 import sunm27 from "@/assets/sunm27.jpg";
 
+import amara1 from "@/assets/amara1.webp";
+import amara2 from "@/assets/amara2.webp";
+import amara3 from "@/assets/amara3.webp";
+import amara4 from "@/assets/amara4.webp";
+import amara5 from "@/assets/amara5.webp";
+import amara6 from "@/assets/amara6.webp";
+import amara7 from "@/assets/amara7.webp";
+import amara8 from "@/assets/amara8.webp";
+import amara9 from "@/assets/amara9.webp";
+import amara10 from "@/assets/amara10.webp";
+import amara11 from "@/assets/amara11.webp";
+import amara12 from "@/assets/amara12.webp";
+import amara13 from "@/assets/amara13.webp";
+import amara14 from "@/assets/amara14.webp";
+import amara01 from "@/assets/amara01.webp";
+import amara02 from "@/assets/amara02.webp";
+import amara03 from "@/assets/amara03.webp";
+import amara04 from "@/assets/amara04.webp";
+
+import v21ac1 from "@/assets/21ac1.webp";
+import v21ac2 from "@/assets/21ac2.webp";
+import v21ac3 from "@/assets/21ac3.webp";
+import v21ac4 from "@/assets/21ac4.webp";
+import v21ac5 from "@/assets/21ac5.webp";
+import v21ac6 from "@/assets/21ac6.webp";
+import v21ac7 from "@/assets/21ac7.webp";
+import v21ac8 from "@/assets/21ac8.webp";
+import v21ac01 from "@/assets/21ac01.webp";
+import v21ac02 from "@/assets/21ac02.webp";
+import v21ac03 from "@/assets/21ac03.webp";
+import v21ac04 from "@/assets/21ac04.webp";
+import v21ac05 from "@/assets/21ac05.webp";
+
+import newk1 from "@/assets/newk1.webp";
+import newk2 from "@/assets/newk2.jpeg";
+import newk3 from "@/assets/newk3.webp";
+import newk4 from "@/assets/newk4.avif";
+import newk5 from "@/assets/newk5.avif";
+import newk6 from "@/assets/newk6.avif";
+import newk7 from "@/assets/newk7.avif";
+import newk8 from "@/assets/newk8.avif";
+import newk9 from "@/assets/newk9.avif";
+import newk10 from "@/assets/newk10.avif";
+import newk01 from "@/assets/newk01.avif";
+import newk02 from "@/assets/newk02.avif";
+import newk03 from "@/assets/newk03.avif";
+import newk04 from "@/assets/newk04.avif";
+import newk05 from "@/assets/newk05.avif";
+
+import aamod1 from "@/assets/aamod1.png";
+import aamod2 from "@/assets/aamod2.jpg";
+import aamod3 from "@/assets/aamod3.png";
+import aamod4 from "@/assets/aamod4.jpg";
+import aamod5 from "@/assets/aamod5.jpg";
+import aamod6 from "@/assets/aamod6.jpg";
+import aamod7 from "@/assets/aamod7.jpg";
+import aamod8 from "@/assets/aamod8.png";
+import aamod01 from "@/assets/aamod01.jpg";
+import aamod02 from "@/assets/aamod02.jpg";
+import aamod03 from "@/assets/aamod03.jpg";
+import aamod04 from "@/assets/aamod04.jpg";
+import aamod05 from "@/assets/aamod05.jpg";
+import aamod06 from "@/assets/aamod06.jpg";
+import aamod07 from "@/assets/aamod07.jpg";
+import aamod08 from "@/assets/aamod08.jpg";
+import aamod09 from "@/assets/aamod09.jpg";
+import aamod010 from "@/assets/aamod010.jpg";
+import aamod011 from "@/assets/aamod011.jpg";
+import aamod012 from "@/assets/aamod012.jpg";
+import aamod013 from "@/assets/aamod013.jpg";
+import aamod014 from "@/assets/aamod014.jpg";
+import aamod015 from "@/assets/aamod015.jpg";
+import aamod016 from "@/assets/aamod016.jpg";
+
+import aastha1 from "@/assets/aastha1.jpg";
+import aastha2 from "@/assets/aastha2.jpg";
+import aastha3 from "@/assets/aastha3.jpg";
+import aastha4 from "@/assets/aastha4.jpg";
+import aastha5 from "@/assets/aastha5.jpg";
+import aastha6 from "@/assets/aastha6.jpg";
+import aastha7 from "@/assets/aastha7.jpg";
+import aastha8 from "@/assets/aastha8.jpg";
+import aastha9 from "@/assets/aastha9.jpg";
+import aastha10 from "@/assets/aastha10.jpg";
+import aastha11 from "@/assets/aastha11.jpg";
+import aastha12 from "@/assets/aastha12.jpg";
+import aastha01 from "@/assets/aastha01.jpg";
+import aastha02 from "@/assets/aastha02.jpg";
+import aastha03 from "@/assets/aastha03.jpg";
+import aastha04 from "@/assets/aastha04.jpg";
+import aastha05 from "@/assets/aastha05.jpg";
+import aastha06 from "@/assets/aastha06.jpg";
+import aastha07 from "@/assets/aastha07.jpg";
+import aastha08 from "@/assets/aastha08.jpg";
+
+import ebb1 from "@/assets/ebb1.jpg";
+import ebb2 from "@/assets/ebb2.jpg";
+import ebb3 from "@/assets/ebb3.jpg";
+import ebb4 from "@/assets/ebb4.jpg";
+import ebb5 from "@/assets/ebb5.jpg";
+import ebb6 from "@/assets/ebb6.jpg";
+import ebb7 from "@/assets/ebb7.jpg";
+import ebb8 from "@/assets/ebb8.jpg";
+import ebb01 from "@/assets/ebb01.jpg";
+import ebb02 from "@/assets/ebb02.jpg";
+import ebb03 from "@/assets/ebb03.jpg";
+import ebb04 from "@/assets/ebb04.jpg";
+
+import dtcdown0 from "@/assets/dtcdown0.jpg";
+import dtcdown1 from "@/assets/dtcdown1.jpeg";
+import dtcdown2 from "@/assets/dtcdown2.webp";
+import dtcdown3 from "@/assets/dtcdown3.webp";
+import dtcdown4 from "@/assets/dtcdown4.webp";
+import dtcdown5 from "@/assets/dtcdown5.webp";
+import dtcdown6 from "@/assets/dtcdown6.webp";
+import dtcdown7 from "@/assets/dtcdown7.webp";
+import dtcdown8 from "@/assets/dtcdown8.webp";
+import dtcdown9 from "@/assets/dtcdown9.webp";
+import dtcdown10 from "@/assets/dtcdown10.webp";
+import dtcdown11 from "@/assets/dtcdown11.webp";
+import dtcdown12 from "@/assets/dtcdown12.webp";
+import dtcdown13 from "@/assets/dtcdown13.webp";
+import dtcdown14 from "@/assets/dtcdown14.webp";
+import dtcdown15 from "@/assets/dtcdown15.jpg";
+import dtcdown02 from "@/assets/dtcdown02.webp";
+import dtcdown03 from "@/assets/dtcdown03.webp";
+import dtcdown04 from "@/assets/dtcdown04.webp";
+
+import dtcsw0 from "@/assets/dtcsw0.jpg";
+import dtcsw1 from "@/assets/dtcsw1.jpg";
+import dtcsw2 from "@/assets/dtcsw2.jpg";
+import dtcsw3 from "@/assets/dtcsw3.jpg";
+import dtcsw4 from "@/assets/dtcsw4.jpg";
+import dtcsw5 from "@/assets/dtcsw5.jpg";
+import dtcsw6 from "@/assets/dtcsw6.jpg";
+import dtcsw7 from "@/assets/dtcsw7.jpg";
+import dtcsw8 from "@/assets/dtcsw8.png";
+import dtcsw9 from "@/assets/dtcsw9.png";
+import dtcsw10 from "@/assets/dtcsw10.webp";
+import dtcsw11 from "@/assets/dtcsw11.jpg";
+import dtcsw12 from "@/assets/dtcsw12.jpg";
+import dtcsw01 from "@/assets/dtcsw01.png";
+import dtcsw02 from "@/assets/dtcsw02.png";
+import dtcsw03 from "@/assets/dtcsw03.png";
+import dtcsw04 from "@/assets/dtcsw04.png";
+import dtcsw05 from "@/assets/dtcsw05.png";
+
+import ccc1 from "@/assets/ccc1.jpg";
+import ccc2 from "@/assets/ccc2.jpg";
+import ccc3 from "@/assets/ccc3.jpg";
+import ccc4 from "@/assets/ccc4.jpg";
+import ccc5 from "@/assets/ccc5.jpg";
+import ccc01 from "@/assets/ccc01.png";
+import ccc02 from "@/assets/ccc02.jpg";
+import ccc03 from "@/assets/ccc03.jpg";
+
+import dtcge1 from "@/assets/dtcge1.jpg";
+import dtcge2 from "@/assets/dtcge2.jpeg";
+import dtcge3 from "@/assets/dtcge3.jpeg";
+import dtcge4 from "@/assets/dtcge4.jpeg";
+import dtcge5 from "@/assets/dtcge5.jpeg";
+import dtcge6 from "@/assets/dtcge6.jpeg";
+import dtcge7 from "@/assets/dtcge7.jpeg";
+import dtcge8 from "@/assets/dtcge8.png";
+import dtcge9 from "@/assets/dtcge9.png";
+import dtcge10 from "@/assets/dtcge10.png";
+import dtcge11 from "@/assets/dtcge11.webp";
+import dtcge12 from "@/assets/dtcge12.webp";
+import dtcge13 from "@/assets/dtcge13.webp";
+import dtcge02 from "@/assets/dtcge02.webp";
+import dtcge03 from "@/assets/dtcge03.webp";
+import dtcge04 from "@/assets/dtcge04.webp";
+import dtcge05 from "@/assets/dtcge05.webp";
+import dtcge06 from "@/assets/dtcge06.webp";
+import dtcge07 from "@/assets/dtcge07.webp";
+import dtcge08 from "@/assets/dtcge08.webp";
+import dtcge09 from "@/assets/dtcge09.webp";
+
+import dtcpg1 from "@/assets/dtcpg1.png";
+import dtcpg2 from "@/assets/dtcpg2.png";
+import dtcpg3 from "@/assets/dtcpg3.jpg";
+import dtcpg4 from "@/assets/dtcpg4.jpg";
+import dtcpg5 from "@/assets/dtcpg5.jpg";
+import dtcpg6 from "@/assets/dtcpg6.jpg";
+import dtcpg7 from "@/assets/dtcpg7.jpg";
+import dtcpg8 from "@/assets/dtcpg8.jpg";
+import dtcpg9 from "@/assets/dtcpg9.png";
+import dtcpg10 from "@/assets/dtcpg10.png";
+import dtcpg11 from "@/assets/dtcpg11.jpg";
+import dtcpg02 from "@/assets/dtcpg02.png";
+
+import skyler0 from "@/assets/skyler0.webp";
+import skyler1 from "@/assets/skyler1.jpg";
+import skyler2 from "@/assets/skyler2.jpg";
+import skyler3 from "@/assets/skyler3.webp";
+import skyler4 from "@/assets/skyler4.webp";
+import skyler5 from "@/assets/skyler5.webp";
+import skyler6 from "@/assets/skyler6.webp";
+import skyler7 from "@/assets/skyler7.webp";
+import skyler8 from "@/assets/skyler8.webp";
+import skyler9 from "@/assets/skyler9.webp";
+import skyler10 from "@/assets/skyler10.jpg";
+import skyler11 from "@/assets/skyler11.png";
+import skyler12 from "@/assets/skyler12.png";
+import skyler01 from "@/assets/skyler01.webp";
+import skyler02 from "@/assets/skyler02.webp";
+import skyler03 from "@/assets/skyler03.webp";
+import skyler04 from "@/assets/skyler04.webp";
+
+import dtcs0 from "@/assets/dtcs0.jpg";
+import dtcs1 from "@/assets/dtcs1.jpg";
+import dtcs2 from "@/assets/dtcs2.jpg";
+import dtcs3 from "@/assets/dtcs3.jpg";
+import dtcs4 from "@/assets/dtcs4.jpg";
+import dtcs5 from "@/assets/dtcs5.jpg";
+import dtcs6 from "@/assets/dtcs6.jpg";
+import dtcs7 from "@/assets/dtcs7.jpg";
+import dtcs8 from "@/assets/dtcs8.jpg";
+import dtcs9 from "@/assets/dtcs9.jpg";
+import dtcs10 from "@/assets/dtcs10.jpg";
+import dtcs11 from "@/assets/dtcs11.jpg";
+import dtcs12 from "@/assets/dtcs12.jpg";
+import dtcs13 from "@/assets/dtcs13.jpg";
+import dtcs14 from "@/assets/dtcs14.jpg";
+import dtcs15 from "@/assets/dtcs15.jpg";
+import dtcs16 from "@/assets/dtcs16.jpg";
+import dtcs17 from "@/assets/dtcs17.jpg";
+import dtcs18 from "@/assets/dtcs18.jpg";
+import dtcs19 from "@/assets/dtcs19.jpg";
+import dtcs20 from "@/assets/dtcs20.jpg";
+import dtcs21 from "@/assets/dtcs21.jpg";
+import dtcs22 from "@/assets/dtcs22.jpg";
+import dtcs23 from "@/assets/dtcs23.jpg";
+import dtcs24 from "@/assets/dtcs24.jpg";
+import dtcs25 from "@/assets/dtcs25.jpg";
+import dtcs26 from "@/assets/dtcs26.jpg";
+import dtcs01 from "@/assets/dtcs01.jpg";
+import dtcs02 from "@/assets/dtcs02.jpg";
+import dtcs03 from "@/assets/dtcs03.jpg";
+import dtcs04 from "@/assets/dtcs04.jpg";
+import dtcs05 from "@/assets/dtcs05.jpg";
+import dtcs06 from "@/assets/dtcs06.jpg";
+
+import dtccr1 from "@/assets/dtccr1.jpg";
+import dtccr2 from "@/assets/dtccr2.jpg";
+import dtccr3 from "@/assets/dtccr3.jpg";
+import dtccr4 from "@/assets/dtccr4.jpg";
+import dtccr5 from "@/assets/dtccr5.jpg";
+import dtccr6 from "@/assets/dtccr6.jpg";
+import dtccr7 from "@/assets/dtccr7.jpg";
+import dtccr8 from "@/assets/dtccr8.jpg";
+import dtccr9 from "@/assets/dtccr9.jpg";
+import dtccr10 from "@/assets/dtccr10.jpg";
+import dtccr11 from "@/assets/dtccr11.jpg";
+import dtccr12 from "@/assets/dtccr12.jpg";
+
+import dtcr1 from "@/assets/dtcr1.jpg";
+import dtcr2 from "@/assets/dtcr2.jpg";
+import dtcr3 from "@/assets/dtcr3.jpg";
+import dtcr4 from "@/assets/dtcr4.jpg";
+
+import aahana1 from "@/assets/aahana1.webp";
+import aahana2 from "@/assets/aahana2.webp";
+import aahana3 from "@/assets/aahana3.webp";
+import aahana4 from "@/assets/aahana4.webp";
+import aahana5 from "@/assets/aahana5.webp";
+import aahana6 from "@/assets/aahana6.webp";
+import aahana7 from "@/assets/aahana7.webp";
+import aahana8 from "@/assets/aahana8.webp";
+import aahana9 from "@/assets/aahana9.webp";
+import aahana10 from "@/assets/aahana10.webp";
+import aahana11 from "@/assets/aahana11.webp";
+import aahana12 from "@/assets/aahana12.webp";
+import aahana13 from "@/assets/aahana13.webp";
+import aahana14 from "@/assets/aahana14.webp";
+import aahana15 from "@/assets/aahana15.webp";
+import aahana16 from "@/assets/aahana16.webp";
+import aahana17 from "@/assets/aahana17.webp";
+import aahana18 from "@/assets/aahana18.webp";
+import aahana19 from "@/assets/aahana19.webp";
+import aahana20 from "@/assets/aahana20.webp";
+import aahana21 from "@/assets/aahana21.webp";
+import aahana22 from "@/assets/aahana22.webp";
+
+import ramdulari1 from "@/assets/ramdulari1.webp";
+import ramdulari2 from "@/assets/ramdulari2.webp";
+import ramdulari3 from "@/assets/ramdulari3.webp";
+import ramdulari4 from "@/assets/ramdulari4.webp";
+
+import aadvika1 from "@/assets/aadvika1.webp";
+import aadvika2 from "@/assets/aadvika2.webp";
+import aadvika3 from "@/assets/aadvika3.webp";
+import aadvika4 from "@/assets/aadvika4.webp";
+import aadvika5 from "@/assets/aadvika5.webp";
+import aadvika6 from "@/assets/aadvika6.webp";
+import aadvika7 from "@/assets/aadvika7.webp";
+import aadvika8 from "@/assets/aadvika8.webp";
+import aadvika9 from "@/assets/aadvika9.webp";
+import aadvika10 from "@/assets/aadvika10.webp";
+import aadvika11 from "@/assets/aadvika11.webp";
+import aadvika12 from "@/assets/aadvika12.webp";
+import aadvika13 from "@/assets/aadvika13.webp";
+import aadvika14 from "@/assets/aadvika14.webp";
+import aadvika15 from "@/assets/aadvika15.webp";
+import aadvika16 from "@/assets/aadvika16.webp";
+import aadvika17 from "@/assets/aadvika17.webp";
+import aadvika18 from "@/assets/aadvika18.webp";
+import aadvika19 from "@/assets/aadvika19.webp";
+import aadvika20 from "@/assets/aadvika20.webp";
+import aadvika21 from "@/assets/aadvika21.webp";
+import aadvika22 from "@/assets/aadvika22.webp";
+import aadvika23 from "@/assets/aadvika23.webp";
+import aadvika24 from "@/assets/aadvika24.webp";
+import aadvika25 from "@/assets/aadvika25.webp";
+import aadvika26 from "@/assets/aadvika26.webp";
+import aadvika27 from "@/assets/aadvika27.webp";
+import aadvika28 from "@/assets/aadvika28.webp";
+
+import psv1 from "@/assets/psv1.jpg";
+import psv2 from "@/assets/psv2.jpg";
+import psv3 from "@/assets/psv3.jpg";
+import psv4 from "@/assets/psv4.jpg";
+import psv5 from "@/assets/psv5.jpg";
+import psv6 from "@/assets/psv6.jpg";
+import psv7 from "@/assets/psv7.jpg";
+import psv8 from "@/assets/psv8.jpg";
+import psv9 from "@/assets/psv9.jpg";
+import psv10 from "@/assets/psv10.jpg";
+import psv11 from "@/assets/psv11.jpg";
+import psv12 from "@/assets/psv12.jpg";
+import psv13 from "@/assets/psv13.jpg";
+import psv14 from "@/assets/psv14.jpg";
+import psv15 from "@/assets/psv15.jpg";
+import psv16 from "@/assets/psv16.jpg";
+import psv17 from "@/assets/psv17.jpg";
+import psv18 from "@/assets/psv18.jpg";
+import psv01 from "@/assets/psv01.jpg";
+import psv02 from "@/assets/psv02.jpg";
+import psv03 from "@/assets/psv03.jpg";
+import psv04 from "@/assets/psv04.jpg";
+import psv05 from "@/assets/psv05.jpg";
+import psv06 from "@/assets/psv06.jpg";
+
+import mfsc1 from "@/assets/mfsc1.jpg";
+import mfsc2 from "@/assets/mfsc2.jpg";
+import mfsc3 from "@/assets/mfsc3.jpg";
+import mfsc4 from "@/assets/mfsc4.jpg";
+import mfsc5 from "@/assets/mfsc5.jpg";
+import mfsc6 from "@/assets/mfsc6.jpg";
+import mfsc7 from "@/assets/mfsc7.jpg";
+import mfsc8 from "@/assets/mfsc8.jpg";
+import mfsc9 from "@/assets/mfsc9.jpg";
+import mfsc01 from "@/assets/mfsc01.jpg";
+import mfsc02 from "@/assets/mfsc02.jpg";
+import mfsc03 from "@/assets/mfsc03.jpg";
 
 
 
-export type Intent = "Buy" | "Invest" | "Commercial" | "Luxury" | "Residential" | "Senior Living" | "Retail" | "Office Space" | "Industrial"|"Warehousing"|"IT Park" | "Hotel" | "Business" |"Affordable" | "Warehouse" | "Office" | "Plots" | "Riverfront" | "Villa" | "Resort" | "Nature";
+export type Intent = "Buy" | "Invest" | "Commercial" | "Luxury" | "Residential" | "Senior Living" | "Retail" | "Office Space" | "Industrial" | "Warehousing" | "IT Park" | "Hotel" | "Business" | "Affordable" | "Warehouse" | "Office" | "Plots" | "Riverfront" | "Villa" | "Resort" | "Nature" | "Duplex" | "Family" | "Township" | "Ultra Luxury";
 
 export type Property = {
   id: string;
   slug: string;
   name: string;
   tagline: string;
-  developer: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group";
+  developer?: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group" | "Vinayak Group" | "Alcove Realty" | "Emami Realty" | "DTC Group" | "Primarc" | "Mayfair Group";
+  developers?: string[];
   city: "Kolkata" | "Howrah";
   location: string;
   priceLabel: string;
@@ -963,14 +1341,15 @@ export type Property = {
 
   investment: {
     roi: string;
-    demand: "High" | "Rising" | "Stable" | "Ultra Luxury" | "Premium" | "Very High";
+    demand: "High" | "Rising" | "Stable" | "Ultra Luxury" | "Premium" | "Very High" | "Ultra High";
     growth: string;
     appreciation: string;
   };
 
   // ADD THESE ↓↓↓
   propertyDetails?: string;
-  awards?: string[];
+  awards?: string[];  
+
 
   specifications?: {
     landArea?: string;
@@ -1037,8 +1416,8 @@ export type Property = {
     greenSpace?: string;
     flats?: string;
     status?: string;
-    businessClub?:string;
-    officeSize?:string;
+    businessClub?: string;
+    officeSize?: string;
     greenery?: string;
     solarPower?: string;
     openApartments?: string;
@@ -1046,48 +1425,48 @@ export type Property = {
     rating?: string;
     certification?: string;
     crisilRating?: string;
-    landscapeGarden?:string;
-    landParcel?:string;
-    sizeRange?:string;
-    internalRoads?:string;
-    weightBridge?:string;
-    transportHub?:string;
-    goodsCapacity?:string;
-    flooring?:string;
-    officeArea?:string;
-    greenRating?:string;
-    buildingType?:string;
-    landSpace?:string;
-    industries?:string;
-    transportation?:string;
-    infrastructure?:string;
-    club?:string;
+    landscapeGarden?: string;
+    landParcel?: string;
+    sizeRange?: string;
+    internalRoads?: string;
+    weightBridge?: string;
+    transportHub?: string;
+    goodsCapacity?: string;
+    flooring?: string;
+    officeArea?: string;
+    greenRating?: string;
+    buildingType?: string;
+    landSpace?: string;
+    industries?: string;
+    transportation?: string;
+    infrastructure?: string;
+    club?: string;
     blocksPhase2?: string;
     blocksPhase3?: string;
-    warehouseType?:string;
-    developmentSize?:string;
-    storey?:string;
-    boulevard?:string;
-    swimmingPool?:string;
-    unitTypes?:string;
-    apartmentType?:string;
-    facing?:string;
-    views?:string;
-    families?:string;
-    activities?:string;
-    layout?:string;
-    apartmentTypes?:string;
-    lifestyleConcept?:string;
-    storeys?:string;
-    lowerLevelArea?:string;
-    upperLevelArea?:string;
-    architecture?:string;
-    officeType?:string;
+    warehouseType?: string;
+    developmentSize?: string;
+    storey?: string;
+    boulevard?: string;
+    swimmingPool?: string;
+    unitTypes?: string;
+    apartmentType?: string;
+    facing?: string;
+    views?: string;
+    families?: string;
+    activities?: string;
+    layout?: string;
+    apartmentTypes?: string;
+    lifestyleConcept?: string;
+    storeys?: string;
+    lowerLevelArea?: string;
+    upperLevelArea?: string;
+    architecture?: string;
+    officeType?: string;
     landscaping?: string;
-    developmentType?:string;
-    theme?:string;
-    possession?:string;
-    developerLegacy?:string;
+    developmentType?: string;
+    theme?: string;
+    possession?: string;
+    developerLegacy?: string;
     developer?: string;
     residenceType?: string;
     projectType?: string;
@@ -1097,36 +1476,79 @@ export type Property = {
     typology?: string;
     podium?: string;
     riverViews?: string;
-    openLayout?:string;
+    openLayout?: string;
     livingConcept?: string;
     compliance?: string;
-    sustainability?:string;
+    sustainability?: string;
     phases?: string;
     villaTypes?: string;
-    hospitality?:string;
-    newTowers?:string;
-    clubSize?:string;
-    structuralConsultant?:string;
-    architects?:string;
+    hospitality?: string;
+    newTowers?: string;
+    clubSize?: string;
+    structuralConsultant?: string;
+    architects?: string;
+    towerConfiguration?: string;
+    homes?: string;
+    centralPark?: string;
+    completionDate?: string;
+    flatTypes?: string;
+    carpetArea?: string;
+    builtupArea?: string;
+    superBuiltupArea?: string;
+    architect?: string;
+    lakeArea?: string;
+    bungalowSizes?: string;
+    townshipType?: string;
+    waterbodies?: string;
+    officeUnits?: string;
+    retailUnits?: string;
+    restaurants?: string;
+    parkingCapacity?: string;
+    residences?: string;
+    activityZones?: string;
+    height?: string;
+    smartHomes?: string;
+    developmentArea?: string;
+    rooftopFeature?: string;
+    construction?: string;
+    internalRoad?: string;
+    phase?: string;
+    gardens?: string;
+    terraces?: string;
+    apartmentSize?: string;
+    bedrooms?: string;
+    openness?: string;
+    heritage?: string;
+    foundation?: string;
+    apartmentDesign?: string;
+    shoppingComplex?: string;
+    villas?: string;
+    sizes?: string;
+    airConditioning?: string;
+    windows?: string;
+    apartmentSizes?: string;
+    smartFeatures?: string;
     
   };
 
   features?: string[];
 
+  architects?: string[];
+
   pricing?: {
-  size: string;
-  price: string;
-}[];
+    size: string;
+    price: string;
+  }[];
 
   rera:
   | string
   | {
-      phase1?: string;
-      phase2?: string;
-      phase3?: string;
-      [key: string]: string | undefined;
-    };
-    
+    phase1?: string;
+    phase2?: string;
+    phase3?: string;
+    [key: string]: string | undefined;
+  };
+
   tag?: string;
 
   mapEmbedUrl: string;
@@ -1135,6 +1557,14 @@ export type Property = {
     master?: string | string[];
     unit?: string | string[];
     site?: string | string[];
+  };
+  specificationsPricing?: {
+    baseRate?: string;
+    clubMembership?: string;
+    dependentParking?: string;
+    independentParking?: string;
+    floorEscalation?: string;
+    [key: string]: string | undefined;
   };
   landmarks?: { name: string; time: string; }[];
   locationAdvantages?: {
@@ -1151,6682 +1581,10206 @@ const defaultMap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5
 
 export const properties: Property[] = [
   {
-  id: "1",
-  slug: "spacia",
-  name: "Spacia",
-  tagline: "Crafted for Convenience. Designed for Lifestyle.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Jessore Road, Madhyamgram",
-  priceLabel: "₹78.96 L onwards",
-  priceMin: 78.96,
-  bhk: [3, 4],
-  sizeRange: "1079 – 1411 sq.ft.",
-  possession: "2030",
-  configuration: "G+12 · 6 Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Invest", "Residential"],
-  cover: spacia1,
+    id: "1",
+    slug: "spacia",
+    name: "Spacia",
+    tagline: "Crafted for Convenience. Designed for Lifestyle.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Jessore Road, Madhyamgram",
+    priceLabel: "₹78.96 L onwards",
+    priceMin: 78.96,
+    bhk: [3, 4],
+    sizeRange: "1079 – 1411 sq.ft.",
+    possession: "2030",
+    configuration: "G+12 · 6 Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Invest", "Residential"],
+    cover: spacia1,
 
-  gallery: [
-    spacia1,
-    spacia2,
-    spacia3,
-    spacia4,
-    spacia5,
-    spacia6,
-    spacia7,
-    spacia8,
-  ],
-
-  story: [
-    "Wake up to open skies and three-side open living.",
-    "Experience a lifestyle where retail, wellness, and home coexist beautifully.",
-    "Live minutes from airport, metro, railway station, and VIP Road.",
-  ],
-
-  highlights: {
-    amenities: [
-      "18,000 sq.ft Clubhouse",
-      "Swimming Pool",
-      "Outdoor Cinema",
-      "Gymnasium",
-      "Café",
-      "Community Hall",
-      "Butterfly Garden",
-      "Nature Trail",
-      "Party Lawn",
-      "Landscaped Gardens",
+    gallery: [
+      spacia1,
+      spacia2,
+      spacia3,
+      spacia4,
+      spacia5,
+      spacia6,
+      spacia7,
+      spacia8,
     ],
 
-    connectivity: [
-      "15 mins from Airport",
-      "1.8 km from upcoming Metro",
-      "2 km from Madhyamgram Railway Station",
-      "Direct VIP Road Connectivity",
-      "Beside Reliance Mall",
+    story: [
+      "Wake up to open skies and three-side open living.",
+      "Experience a lifestyle where retail, wellness, and home coexist beautifully.",
+      "Live minutes from airport, metro, railway station, and VIP Road.",
     ],
 
-    lifestyle: [
-      "3.6 Acre Development",
-      "64% Open Space",
-      "3-Sides Open Apartments",
+    highlights: {
+      amenities: [
+        "18,000 sq.ft Clubhouse",
+        "Swimming Pool",
+        "Outdoor Cinema",
+        "Gymnasium",
+        "Café",
+        "Community Hall",
+        "Butterfly Garden",
+        "Nature Trail",
+        "Party Lawn",
+        "Landscaped Gardens",
+      ],
+
+      connectivity: [
+        "15 mins from Airport",
+        "1.8 km from upcoming Metro",
+        "2 km from Madhyamgram Railway Station",
+        "Direct VIP Road Connectivity",
+        "Beside Reliance Mall",
+      ],
+
+      lifestyle: [
+        "3.6 Acre Development",
+        "64% Open Space",
+        "3-Sides Open Apartments",
+        "No Shared Walls",
+        "29,000+ sq.ft In-house Retail",
+        "IGBC Platinum Pre-Certified",
+        "449 Premium Homes",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming Madhyamgram Metro (1.8 km)",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Nearby multi-speciality hospitals",
+    },
+
+    investment: {
+      roi: "14–18%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "+12% appreciation potential",
+    },
+
+    propertyDetails:
+      "SPACIA by Srijan Realty is a premium Residential + Retail development located on Jessore Road beside Reliance Mall, Madhyamgram. Spread across 3.6 acres with 64% open space, the project offers spacious 3 & 4 BHK corner apartments with 3-side open layouts, no shared walls, and curated lifestyle amenities. The project features 29,000+ sq.ft. in-house retail, seamless airport connectivity, upcoming metro access, and IGBC Platinum Pre-Certification.",
+
+    specifications: {
+      landArea: "3.6 Acres",
+      towers: "6 Towers",
+      units: "449 Units",
+      openSpace: "64%",
+      clubhouse: "18,000 sq.ft.",
+      retail: "29,000+ sq.ft.",
+    },
+
+    features: [
+      "Corner Apartments",
+      "3-Sides Open Homes",
       "No Shared Walls",
-      "29,000+ sq.ft In-house Retail",
+      "Premium Clubhouse",
+      "Retail Plaza",
+      "Landscaped Open Spaces",
+      "Lifestyle Amenities",
       "IGBC Platinum Pre-Certified",
-      "449 Premium Homes",
     ],
-  },
 
-  nearby: {
-    metro: "Upcoming Madhyamgram Metro (1.8 km)",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Nearby multi-speciality hospitals",
-  },
+    rera: "WBRERA/P/NOR/2025/003059",
 
-  investment: {
-    roi: "14–18%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "+12% appreciation potential",
-  },
-
-  propertyDetails:
-    "SPACIA by Srijan Realty is a premium Residential + Retail development located on Jessore Road beside Reliance Mall, Madhyamgram. Spread across 3.6 acres with 64% open space, the project offers spacious 3 & 4 BHK corner apartments with 3-side open layouts, no shared walls, and curated lifestyle amenities. The project features 29,000+ sq.ft. in-house retail, seamless airport connectivity, upcoming metro access, and IGBC Platinum Pre-Certification.",
-
-  specifications: {
-    landArea: "3.6 Acres",
-    towers: "6 Towers",
-    units: "449 Units",
-    openSpace: "64%",
-    clubhouse: "18,000 sq.ft.",
-    retail: "29,000+ sq.ft.",
-  },
-
-  features: [
-    "Corner Apartments",
-    "3-Sides Open Homes",
-    "No Shared Walls",
-    "Premium Clubhouse",
-    "Retail Plaza",
-    "Landscaped Open Spaces",
-    "Lifestyle Amenities",
-    "IGBC Platinum Pre-Certified",
-  ],
-
-  rera: "WBRERA/P/NOR/2025/003059",
-
-  tag: "Featured",
+    tag: "Featured",
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.1067070565095!2d88.46135057530385!3d22.687071279410393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89fa179da6727%3A0x5f9ce1cab13c7363!2sSPACIA!5e0!3m2!1sen!2sin!4v1778823414750!5m2!1sen!2sin",
   },
   {
     id: "2",
-  slug: "primus-ganges",
-  name: "Primus Ganges",
-  tagline: "Live by the river. Move naturally. Stay connected.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Srijan Ganga City, Batanagar",
-  priceLabel: "₹30.00 L onwards",
-  priceMin: 30,
-  bhk: [0, 1, 2],
-  sizeRange: "499 – 1311 sq.ft.",
-  possession: "2030",
-  configuration: "Senior Living · 1 Tower · 202 Apartments",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Senior Living"],
-  cover: pg1,
+    slug: "primus-ganges",
+    name: "Primus Ganges",
+    tagline: "Live by the river. Move naturally. Stay connected.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Srijan Ganga City, Batanagar",
+    priceLabel: "₹30.00 L onwards",
+    priceMin: 30,
+    bhk: [0, 1, 2],
+    sizeRange: "499 – 1311 sq.ft.",
+    possession: "2030",
+    configuration: "Senior Living · 1 Tower · 202 Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Senior Living"],
+    cover: pg1,
 
-  gallery: [
-    pg1,
-    pg2,
-    pg3,
-    pg4,
-    pg5,
-    pg6,
-    pg7,
-    pg8,
-  ],
+    gallery: [
+      pg1,
+      pg2,
+      pg3,
+      pg4,
+      pg5,
+      pg6,
+      pg7,
+      pg8,
+    ],
 
-  story: [
-    "Life begins after 55 beside the timeless Ganges.",
-    "Inspired by the world’s Blue Zones for healthier, longer living.",
-    "A senior living community designed for freedom, care, and connection.",
-  ],
+    story: [
+      "Life begins after 55 beside the timeless Ganges.",
+      "Inspired by the world’s Blue Zones for healthier, longer living.",
+      "A senior living community designed for freedom, care, and connection.",
+    ],
 
-  highlights: {
-    amenities: [
-      "24×7 Medical Support",
-      "Housekeeping",
-      "Concierge Services",
+    highlights: {
+      amenities: [
+        "24×7 Medical Support",
+        "Housekeeping",
+        "Concierge Services",
+        "Chef Curated Meals",
+        "Dining Hall",
+        "Health Station",
+        "Doctor’s Room",
+        "Indoor Games",
+        "Double Height Reception Lounge",
+        "Senior Wellness Programs",
+      ],
+
+      connectivity: [
+        "Located inside 55-acre Srijan Ganga City",
+        "Direct Ganges Riverside Access",
+        "Well-connected to Central Kolkata",
+        "Smooth connectivity to Esplanade",
+        "Riverside Lifestyle Community",
+      ],
+
+      lifestyle: [
+        "Blue Zone Inspired Living",
+        "Senior-Friendly Layouts",
+        "Anti-skid Flooring",
+        "Grab Rails & Safety Features",
+        "Mindful Community Design",
+        "Nutritionist-Guided Meals",
+        "Wellness-Centric Living",
+        "Age-Reversing Lifestyle Concept",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming nearby metro connectivity",
+      school: "Nearby educational institutions",
+      hospital: "24×7 Medical Support within community",
+    },
+
+    investment: {
+      roi: "10–14%",
+      demand: "Rising",
+      growth: "High Potential",
+      appreciation: "Growing demand for premium senior living",
+    },
+
+    propertyDetails:
+      "Primus Ganges by Srijan Realty is a premium senior living community located inside the iconic 55-acre riverside township, Srijan Ganga City, Batanagar. Designed for residents aged 55 and above, the project blends wellness, comfort, safety, and community living inspired by the world’s Blue Zones. The development offers Studio, 1 & 2 BHK residences with concierge services, housekeeping, chef-curated meals, 24×7 medical support, wellness programs, anti-skid flooring, grab rails, and thoughtfully planned senior-friendly layouts beside the serene Ganges riverfront.",
+
+    specifications: {
+      towers: "1 Tower",
+      apartments: "202 Apartments",
+      township: "55 Acres",
+      propertyType: "Senior Living",
+      support: "24×7 Medical Support",
+      services: "Housekeeping & Concierge",
+    },
+
+    features: [
+      "Senior Living Community",
+      "Blue Zone Inspired Lifestyle",
       "Chef Curated Meals",
-      "Dining Hall",
-      "Health Station",
-      "Doctor’s Room",
-      "Indoor Games",
-      "Double Height Reception Lounge",
-      "Senior Wellness Programs",
-    ],
-
-    connectivity: [
-      "Located inside 55-acre Srijan Ganga City",
-      "Direct Ganges Riverside Access",
-      "Well-connected to Central Kolkata",
-      "Smooth connectivity to Esplanade",
-      "Riverside Lifestyle Community",
-    ],
-
-    lifestyle: [
-      "Blue Zone Inspired Living",
-      "Senior-Friendly Layouts",
+      "24×7 Medical Care",
+      "Housekeeping Services",
+      "Concierge Assistance",
       "Anti-skid Flooring",
-      "Grab Rails & Safety Features",
-      "Mindful Community Design",
-      "Nutritionist-Guided Meals",
-      "Wellness-Centric Living",
-      "Age-Reversing Lifestyle Concept",
+      "Grab Rails & Safety Design",
+      "Riverfront Living",
+      "Wellness Focused Amenities",
     ],
-  },
 
-  nearby: {
-    metro: "Upcoming nearby metro connectivity",
-    school: "Nearby educational institutions",
-    hospital: "24×7 Medical Support within community",
-  },
+    rera: "WBRERA/P/SOU/2025/002901",
 
-  investment: {
-    roi: "10–14%",
-    demand: "Rising",
-    growth: "High Potential",
-    appreciation: "Growing demand for premium senior living",
-  },
-
-  propertyDetails:
-    "Primus Ganges by Srijan Realty is a premium senior living community located inside the iconic 55-acre riverside township, Srijan Ganga City, Batanagar. Designed for residents aged 55 and above, the project blends wellness, comfort, safety, and community living inspired by the world’s Blue Zones. The development offers Studio, 1 & 2 BHK residences with concierge services, housekeeping, chef-curated meals, 24×7 medical support, wellness programs, anti-skid flooring, grab rails, and thoughtfully planned senior-friendly layouts beside the serene Ganges riverfront.",
-
-  specifications: {
-    towers: "1 Tower",
-    apartments: "202 Apartments",
-    township: "55 Acres",
-    propertyType: "Senior Living",
-    support: "24×7 Medical Support",
-    services: "Housekeeping & Concierge",
-  },
-
-  features: [
-    "Senior Living Community",
-    "Blue Zone Inspired Lifestyle",
-    "Chef Curated Meals",
-    "24×7 Medical Care",
-    "Housekeeping Services",
-    "Concierge Assistance",
-    "Anti-skid Flooring",
-    "Grab Rails & Safety Design",
-    "Riverfront Living",
-    "Wellness Focused Amenities",
-  ],
-
-  rera: "WBRERA/P/SOU/2025/002901",
-
-  tag: "Featured",
+    tag: "Featured",
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.564712892983!2d88.23776311051628!3d22.52050917944351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bffcef1950b%3A0x9421c7834177172!2sThe%20Royal%20Ganges%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1777890097694!5m2!1sen!2sin",
   },
 
   {
-  id: "3",
-  slug: "anu-bhoomi",
-  name: "Anu Bhoomi",
-  tagline: "A piece of earth to build your forever home.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Baruipur",
-  priceLabel: "₹26.50 L onwards",
-  priceMin: 26.5,
+    id: "3",
+    slug: "anu-bhoomi",
+    name: "Anu Bhoomi",
+    tagline: "A piece of earth to build your forever home.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Baruipur",
+    priceLabel: "₹26.50 L onwards",
+    priceMin: 26.5,
 
-  bhk: [0],
+    bhk: [0],
 
-  sizeRange: "1.5 Katha – 2.5 Katha & more",
+    sizeRange: "1.5 Katha – 2.5 Katha & more",
 
-  possession: "2027",
+    possession: "2027",
 
-  configuration: "12 Acres · Gated Plotted Community",
+    configuration: "12 Acres · Gated Plotted Community",
 
-  status: "Under Construction",
+    status: "Under Construction",
 
-  intent: ["Buy", "Invest", "Residential"],
+    intent: ["Buy", "Invest", "Residential"],
 
-  cover: anu1,
+    cover: anu1,
 
-  gallery: [
-    anu1,
-    anu2,
-    anu3,
-    anu4,
-    anu5,
-    anu6,
-  ],
-
-  story: [
-    "Build a home that reflects your soul amidst nature.",
-    "Escape the high-rise chaos and create your own paradise.",
-    "Live inside a gated plotted community crafted for peaceful modern living.",
-  ],
-
-  highlights: {
-    amenities: [
-      "AC Gym",
-      "Games Room",
-      "Modern Clubhouse",
-      "Swimming Pools",
-      "Jogging Track",
-      "Pocket Gardens",
-      "Fishing Decks",
-      "Basketball Court",
-      "Senior Citizens’ Zone",
-      "Family Park",
+    gallery: [
+      anu1,
+      anu2,
+      anu3,
+      anu4,
+      anu5,
+      anu6,
     ],
 
-    connectivity: [
-      "Easy EM Bypass Connectivity",
-      "Balampur Bazaar – 550 m",
-      "Bus / Auto Stand – 2.5 km",
-      "Paddapukur More – 2.5 km",
-      "Well-connected Baruipur Location",
+    story: [
+      "Build a home that reflects your soul amidst nature.",
+      "Escape the high-rise chaos and create your own paradise.",
+      "Live inside a gated plotted community crafted for peaceful modern living.",
     ],
 
-    lifestyle: [
-      "12 Acre Development",
+    highlights: {
+      amenities: [
+        "AC Gym",
+        "Games Room",
+        "Modern Clubhouse",
+        "Swimming Pools",
+        "Jogging Track",
+        "Pocket Gardens",
+        "Fishing Decks",
+        "Basketball Court",
+        "Senior Citizens’ Zone",
+        "Family Park",
+      ],
+
+      connectivity: [
+        "Easy EM Bypass Connectivity",
+        "Balampur Bazaar – 550 m",
+        "Bus / Auto Stand – 2.5 km",
+        "Paddapukur More – 2.5 km",
+        "Well-connected Baruipur Location",
+      ],
+
+      lifestyle: [
+        "12 Acre Development",
+        "Gated Community",
+        "Build Your Own Bungalow",
+        "Organic Ecofarm",
+        "Lake-side Family Park",
+        "Nature-inspired Living",
+        "Open Green Spaces",
+        "Modern Infrastructure",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming South Kolkata Connectivity",
+      school: "Dr. B R Ambedkar Institute (300 m)",
+      hospital: "Life Zone Nursing Home (3.5 km)",
+    },
+
+    investment: {
+      roi: "12–16%",
+      demand: "Rising",
+      growth: "High Growth Potential",
+      appreciation: "Strong plotted development demand",
+    },
+
+    propertyDetails:
+      "Anu Bhoomi by Srijan Star is a first-of-its-kind gated plotted development project in Baruipur, offering nature-inspired living with modern infrastructure and lifestyle amenities. Spread across 12 acres, the development allows residents to build their own bungalow on individually owned plots while enjoying landscaped open spaces, water bodies, clubhouse facilities, ecofarms, and seamless connectivity to EM Bypass and South Kolkata. Designed for peaceful living close to nature, Anu Bhoomi blends freedom, community, and long-term investment value.",
+
+    specifications: {
+      landArea: "12 Acres",
+      configuration: "Gated Plotted Development",
+      plotSizes: "1.5 / 2 / 2.5 Katha & more",
+      clubhouse: "Modern Clubhouse",
+      amenities: "Swimming Pools, Parks & Jogging Tracks",
+      ecofarm: "Organic Farming Zone",
+    },
+
+    features: [
       "Gated Community",
       "Build Your Own Bungalow",
-      "Organic Ecofarm",
+      "Modern Clubhouse",
       "Lake-side Family Park",
-      "Nature-inspired Living",
-      "Open Green Spaces",
-      "Modern Infrastructure",
+      "Swimming Pools",
+      "Fishing Deck",
+      "Organic Ecofarm",
+      "Jogging Tracks",
+      "Senior Citizen Zone",
+      "Nature-centric Living",
     ],
-  },
 
-  nearby: {
-    metro: "Upcoming South Kolkata Connectivity",
-    school: "Dr. B R Ambedkar Institute (300 m)",
-    hospital: "Life Zone Nursing Home (3.5 km)",
-  },
+    rera: {
+      phase1: "WBRERA/P/SOU/2025/003239",
+      phase2: "WBRERA/P/SOU/2026/004168",
+    },
 
-  investment: {
-    roi: "12–16%",
-    demand: "Rising",
-    growth: "High Growth Potential",
-    appreciation: "Strong plotted development demand",
-  },
+    tag: "Featured",
 
-  propertyDetails:
-    "Anu Bhoomi by Srijan Star is a first-of-its-kind gated plotted development project in Baruipur, offering nature-inspired living with modern infrastructure and lifestyle amenities. Spread across 12 acres, the development allows residents to build their own bungalow on individually owned plots while enjoying landscaped open spaces, water bodies, clubhouse facilities, ecofarms, and seamless connectivity to EM Bypass and South Kolkata. Designed for peaceful living close to nature, Anu Bhoomi blends freedom, community, and long-term investment value.",
-
-  specifications: {
-    landArea: "12 Acres",
-    configuration: "Gated Plotted Development",
-    plotSizes: "1.5 / 2 / 2.5 Katha & more",
-    clubhouse: "Modern Clubhouse",
-    amenities: "Swimming Pools, Parks & Jogging Tracks",
-    ecofarm: "Organic Farming Zone",
-  },
-
-  features: [
-    "Gated Community",
-    "Build Your Own Bungalow",
-    "Modern Clubhouse",
-    "Lake-side Family Park",
-    "Swimming Pools",
-    "Fishing Deck",
-    "Organic Ecofarm",
-    "Jogging Tracks",
-    "Senior Citizen Zone",
-    "Nature-centric Living",
-  ],
-
-  rera: {
-    phase1: "WBRERA/P/SOU/2025/003239",
-    phase2: "WBRERA/P/SOU/2026/004168",
-  },
-
-  tag: "Featured",
-
-  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118020.39530124124!2d88.28654487639022!3d22.423855506229447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026d7b747630cd%3A0xdd04c0b0801d54f2!2sAnu%20Bhoomi%20by%20Srijan%20Star!5e0!3m2!1sen!2sin!4v1778833137412!5m2!1sen!2sin",
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118020.39530124124!2d88.28654487639022!3d22.423855506229447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026d7b747630cd%3A0xdd04c0b0801d54f2!2sAnu%20Bhoomi%20by%20Srijan%20Star!5e0!3m2!1sen!2sin!4v1778833137412!5m2!1sen!2sin",
   },
 
   {
-  id: "4",
-  slug: "westcom",
-  name: "WestCom",
-  tagline: "The definitive business centre of Kolkata.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Taratala",
-  priceLabel: "₹1 Cr onwards",
-  priceMin: 100,
-  bhk: [0],
-  sizeRange: "1645 sq.ft. onwards",
-  possession: "2030",
-  configuration: "G+6 · 1 Tower",
-  status: "Under Construction",
-  intent: ["Commercial", "Invest", "Retail", "Office Space"],
-  cover: westcom1,
+    id: "4",
+    slug: "westcom",
+    name: "WestCom",
+    tagline: "The definitive business centre of Kolkata.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Taratala",
+    priceLabel: "₹1 Cr onwards",
+    priceMin: 100,
+    bhk: [0],
+    sizeRange: "1645 sq.ft. onwards",
+    possession: "2030",
+    configuration: "G+6 · 1 Tower",
+    status: "Under Construction",
+    intent: ["Commercial", "Invest", "Retail", "Office Space"],
+    cover: westcom1,
 
-  gallery: [
-    westcom1,
-    westcom2,
-    westcom3,
-    westcom4,
-    westcom5,
-    westcom6,
-    westcom7,
-    westcom8,
-    westcom9,
-    westcom10,
-    westcom11,
-    westcom12,
-    westcom13,
-    westcom14,
-  ],
-
-  story: [
-    "Where Kolkata’s next generation businesses will rise.",
-    "A commercial ecosystem balancing work, retail, and leisure.",
-    "Strategically connected to metro, port, and business corridors.",
-  ],
-
-  highlights: {
-    amenities: [
-      "100% Power Backup",
-      "24×7 Access",
-      "Premium Lobby",
-      "Retail Spaces",
-      "Office Floors",
-      "Automobile Showrooms",
-      "Stormwater Management",
-      "Hospitality Ecosystem Nearby",
+    gallery: [
+      westcom1,
+      westcom2,
+      westcom3,
+      westcom4,
+      westcom5,
+      westcom6,
+      westcom7,
+      westcom8,
+      westcom9,
+      westcom10,
+      westcom11,
+      westcom12,
+      westcom13,
+      westcom14,
     ],
 
-    connectivity: [
-      "2.7 km from DH Road Crossing",
-      "3.3 km from Upcoming Metro Station",
-      "Close to Major Business Hubs",
-      "Excellent Road & Rail Connectivity",
-      "Near Shipping Port Connectivity",
+    story: [
+      "Where Kolkata’s next generation businesses will rise.",
+      "A commercial ecosystem balancing work, retail, and leisure.",
+      "Strategically connected to metro, port, and business corridors.",
     ],
 
-    lifestyle: [
-      "3,30,105 sq.ft Saleable Area",
-      "1.5-acre Lake Within Premises",
-      "Emerging Commercial Destination",
-      "Retail + Office Ecosystem",
-      "Future Appreciation Potential",
-      "Presence of Major Corporates",
-      "Affordable Commercial Ownership",
+    highlights: {
+      amenities: [
+        "100% Power Backup",
+        "24×7 Access",
+        "Premium Lobby",
+        "Retail Spaces",
+        "Office Floors",
+        "Automobile Showrooms",
+        "Stormwater Management",
+        "Hospitality Ecosystem Nearby",
+      ],
+
+      connectivity: [
+        "2.7 km from DH Road Crossing",
+        "3.3 km from Upcoming Metro Station",
+        "Close to Major Business Hubs",
+        "Excellent Road & Rail Connectivity",
+        "Near Shipping Port Connectivity",
+      ],
+
+      lifestyle: [
+        "3,30,105 sq.ft Saleable Area",
+        "1.5-acre Lake Within Premises",
+        "Emerging Commercial Destination",
+        "Retail + Office Ecosystem",
+        "Future Appreciation Potential",
+        "Presence of Major Corporates",
+        "Affordable Commercial Ownership",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming Taratala Metro (3.3 km)",
+      school: "Nearby Educational Institutions",
+      hospital: "Premium Hospitals Nearby",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong commercial appreciation expected",
+    },
+
+    propertyDetails:
+      "Srijan WestCom is a premium Commercial, Retail & Office Space development strategically located in Taratala, Kolkata. Designed as a future-ready business destination, the project offers ownership office spaces from 1645 sq.ft. onwards with retail outlets, automobile showrooms, and premium office infrastructure. Featuring a 1.5-acre lake, 24×7 accessibility, 100% power backup, and seamless metro-road connectivity, WestCom is positioned as one of Kolkata’s fastest-growing commercial investment hubs.",
+
+    specifications: {
+      saleableArea: "3,30,105 sq.ft.",
+      towers: "1 Tower",
+      configuration: "G+6",
+      lake: "1.5-acre Lake",
+      powerBackup: "100% Backup",
+      accessibility: "24×7 Operational Access",
+    },
+
+    features: [
+      "Retail + Office Spaces",
+      "Commercial Ownership",
+      "Premium Infrastructure",
+      "Lake-facing Commercial Environment",
+      "Excellent Metro Connectivity",
+      "Corporate Business Ecosystem",
+      "Future Growth Corridor",
+      "Stormwater Management System",
     ],
+
+    rera: "WBRERA/P/KOL/2025/002334",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.674816058637!2d88.29060117529882!3d22.5163806795318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027987919564f1%3A0x77d05cad67f9e59a!2sc6%2C%20108%2C%20Natun%20Nagar%20Ln%2C%20Sarkarpool%2C%20Natun%20Nagar%2C%20Taratala%2C%20Maheshtala%2C%20West%20Bengal%20700143!5e0!3m2!1sen!2sin!4v1778832567772!5m2!1sen!2sin",
   },
 
-  nearby: {
-    metro: "Upcoming Taratala Metro (3.3 km)",
-    school: "Nearby Educational Institutions",
-    hospital: "Premium Hospitals Nearby",
-  },
+  {
+    id: "5",
+    slug: "srijan-bt-road-retail",
+    name: "Srijan BT Road Retail",
+    tagline: "Powering the Future of Retail on BT Road.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "BT Road, Khardah (Beside Electrosteel)",
+    priceLabel: "Price on Request",
+    priceMin: 0,
 
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong commercial appreciation expected",
-  },
+    bhk: [0],
 
-  propertyDetails:
-    "Srijan WestCom is a premium Commercial, Retail & Office Space development strategically located in Taratala, Kolkata. Designed as a future-ready business destination, the project offers ownership office spaces from 1645 sq.ft. onwards with retail outlets, automobile showrooms, and premium office infrastructure. Featuring a 1.5-acre lake, 24×7 accessibility, 100% power backup, and seamless metro-road connectivity, WestCom is positioned as one of Kolkata’s fastest-growing commercial investment hubs.",
+    sizeRange: "9580 sq.ft.",
+    possession: "2028",
 
-  specifications: {
-    saleableArea: "3,30,105 sq.ft.",
-    towers: "1 Tower",
-    configuration: "G+6",
-    lake: "1.5-acre Lake",
-    powerBackup: "100% Backup",
-    accessibility: "24×7 Operational Access",
-  },
+    configuration: "Retail Block · Commercial Hub",
+    status: "Under Construction",
 
-  features: [
-    "Retail + Office Spaces",
-    "Commercial Ownership",
-    "Premium Infrastructure",
-    "Lake-facing Commercial Environment",
-    "Excellent Metro Connectivity",
-    "Corporate Business Ecosystem",
-    "Future Growth Corridor",
-    "Stormwater Management System",
-  ],
+    intent: ["Commercial", "Retail", "Invest"],
 
-  rera: "WBRERA/P/KOL/2025/002334",
+    cover: btroad1,
 
-  tag: "Featured",
+    gallery: [
+      btroad1,
+      btroad2,
+      btroad3,
 
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.674816058637!2d88.29060117529882!3d22.5163806795318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027987919564f1%3A0x77d05cad67f9e59a!2sc6%2C%20108%2C%20Natun%20Nagar%20Ln%2C%20Sarkarpool%2C%20Natun%20Nagar%2C%20Taratala%2C%20Maheshtala%2C%20West%20Bengal%20700143!5e0!3m2!1sen!2sin!4v1778832567772!5m2!1sen!2sin",
-},
+    ],
 
-{
-  id: "5",
-  slug: "srijan-bt-road-retail",
-  name: "Srijan BT Road Retail",
-  tagline: "Powering the Future of Retail on BT Road.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "BT Road, Khardah (Beside Electrosteel)",
-  priceLabel: "Price on Request",
-  priceMin: 0,
+    story: [
+      "Built for brands that want visibility, scale, and footfall.",
+      "A landmark retail destination on one of Kolkata’s busiest corridors.",
+      "Where connectivity, workforce, and commerce drive future-ready growth.",
+    ],
 
-  bhk: [0],
+    highlights: {
+      amenities: [
+        "Ample Car Parking",
+        "Lift Facility",
+        "Retail Brand Signage Zones",
+        "Wide Internal Access",
+        "Modern Commercial Infrastructure",
+        "High Visibility Frontage",
+      ],
 
-  sizeRange: "9580 sq.ft.",
-  possession: "2028",
+      connectivity: [
+        "Near Sodepur Crossing",
+        "Direct BT Road Connectivity",
+        "Dense Residential Catchment",
+        "Excellent Workforce Access",
+        "Seamless Kolkata Connectivity",
+      ],
 
-  configuration: "Retail Block · Commercial Hub",
-  status: "Under Construction",
+      lifestyle: [
+        "2 Lakh sq.ft Development",
+        "480 ft Frontage",
+        "Full Glass Facade",
+        "Beamless Structure",
+        "9x9 Wide Column Span",
+        "Future-ready Retail Infrastructure",
+      ],
+    },
 
-  intent: ["Commercial", "Retail", "Invest"],
+    nearby: {
+      metro: "Nearby Metro Connectivity",
+      school: "Nearby Educational Institutions",
+      hospital: "Nearby Multi-speciality Hospitals",
+    },
 
-  cover: btroad1,
+    investment: {
+      roi: "15–22%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Prime BT Road commercial appreciation potential",
+    },
 
-  gallery: [
-    btroad1,
-    btroad2,
-    btroad3,
-    
-  ],
+    propertyDetails:
+      "Srijan BT Road Retail is a premium retail and commercial destination strategically located near Sodepur Crossing on BT Road, beside Electrosteel. Spread across 2 lakh sq.ft., the project offers unmatched visibility with an iconic 480 ft frontage, future-ready infrastructure, full glass façade architecture, beamless design, and excellent connectivity across Kolkata. Positioned in one of the busiest commercial corridors, it is designed to maximize retail exposure, customer reach, and long-term business growth.",
 
-  story: [
-    "Built for brands that want visibility, scale, and footfall.",
-    "A landmark retail destination on one of Kolkata’s busiest corridors.",
-    "Where connectivity, workforce, and commerce drive future-ready growth.",
-  ],
+    specifications: {
+      landArea: "2 Lakh sq.ft.",
+      frontage: "480 ft",
+      structure: "Beamless Structure",
+      columnSpan: "9x9 Wide Column Span",
+      facade: "Full Glass Facade",
+      propertyType: "Business Club · Commercial · Retail",
+    },
 
-  highlights: {
-    amenities: [
+    features: [
       "Ample Car Parking",
-      "Lift Facility",
-      "Retail Brand Signage Zones",
-      "Wide Internal Access",
-      "Modern Commercial Infrastructure",
-      "High Visibility Frontage",
-    ],
-
-    connectivity: [
-      "Near Sodepur Crossing",
-      "Direct BT Road Connectivity",
-      "Dense Residential Catchment",
-      "Excellent Workforce Access",
-      "Seamless Kolkata Connectivity",
-    ],
-
-    lifestyle: [
-      "2 Lakh sq.ft Development",
-      "480 ft Frontage",
-      "Full Glass Facade",
       "Beamless Structure",
-      "9x9 Wide Column Span",
-      "Future-ready Retail Infrastructure",
+      "Wide 9x9 Column Span",
+      "Full Glass Facade",
+      "Lift Facility",
+      "Retail Signage Facility",
+      "Prime BT Road Frontage",
+      "High Footfall Potential",
     ],
+
+    rera: "On Request",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.304865234613!2d88.37158527530477!3d22.716907279389233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b3abc41bcbb%3A0xdee11feae5580612!2sSrijan%20Industrial%20Logistic%20Park%2C%20BT%20Road!5e0!3m2!1sen!2sin!4v1778834369538!5m2!1sen!2sin",
   },
 
-  nearby: {
-    metro: "Nearby Metro Connectivity",
-    school: "Nearby Educational Institutions",
-    hospital: "Nearby Multi-speciality Hospitals",
-  },
+  {
+    id: "6",
+    slug: "palladina",
+    name: "Palladina",
+    tagline: "A World Apart.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Near ITC Royal Bengal & JW Marriott, EM Bypass",
+    priceLabel: "₹6.44 Cr onwards",
+    priceMin: 644,
+    bhk: [4, 4.5],
+    sizeRange: "3350 – 4965 sq.ft.",
+    possession: "2029",
+    configuration: "1 Tower · 72 Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: pal1,
 
-  investment: {
-    roi: "15–22%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Prime BT Road commercial appreciation potential",
-  },
+    gallery: [
+      pal1,
+      pal2,
+      pal3,
+      pal4,
+      pal5,
+      pal6,
+      pal7,
+      pal8,
+      pal9,
+      pal10,
+    ],
 
-  propertyDetails:
-    "Srijan BT Road Retail is a premium retail and commercial destination strategically located near Sodepur Crossing on BT Road, beside Electrosteel. Spread across 2 lakh sq.ft., the project offers unmatched visibility with an iconic 480 ft frontage, future-ready infrastructure, full glass façade architecture, beamless design, and excellent connectivity across Kolkata. Positioned in one of the busiest commercial corridors, it is designed to maximize retail exposure, customer reach, and long-term business growth.",
+    story: [
+      "Rise above the city with panoramic skyline and wetland views.",
+      "Experience rare luxury crafted with sculpted greens and geometric elegance.",
+      "Live in expansive simplex and duplex residences designed for extraordinary living.",
+    ],
 
-  specifications: {
-    landArea: "2 Lakh sq.ft.",
-    frontage: "480 ft",
-    structure: "Beamless Structure",
-    columnSpan: "9x9 Wide Column Span",
-    facade: "Full Glass Facade",
-    propertyType: "Business Club · Commercial · Retail",
-  },
+    highlights: {
+      amenities: [
+        "Sky Deck Pool",
+        "Sky Club",
+        "Fitness Garden",
+        "Celebration Lawn",
+        "Rejuvenation Cabana",
+        "Sunken BBQ Zone",
+        "Terrace Pool",
+        "Premium Recreational Spaces",
+      ],
 
-  features: [
-    "Ample Car Parking",
-    "Beamless Structure",
-    "Wide 9x9 Column Span",
-    "Full Glass Facade",
-    "Lift Facility",
-    "Retail Signage Facility",
-    "Prime BT Road Frontage",
-    "High Footfall Potential",
-  ],
+      connectivity: [
+        "Prime EM Bypass Location",
+        "Near ITC Royal Bengal",
+        "Near JW Marriott",
+        "Seamless Access to Business Hubs",
+        "Connected to Healthcare & Lifestyle Destinations",
+      ],
 
-  rera: "On Request",
+      lifestyle: [
+        "Simplex & Duplex Homes",
+        "Panoramic Wetland Views",
+        "Vaastu-Compliant Residences",
+        "Luxury High-Rise Living",
+        "Low Density Development",
+        "Only 72 Exclusive Apartments",
+      ],
+    },
 
-  tag: "Featured",
+    nearby: {
+      metro: "Upcoming EM Bypass Metro Connectivity",
+      school: "Nearby premium schools & institutions",
+      hospital: "Close to leading healthcare hubs",
+    },
 
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.304865234613!2d88.37158527530477!3d22.716907279389233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b3abc41bcbb%3A0xdee11feae5580612!2sSrijan%20Industrial%20Logistic%20Park%2C%20BT%20Road!5e0!3m2!1sen!2sin!4v1778834369538!5m2!1sen!2sin",
-},
+    investment: {
+      roi: "15–20%",
+      demand: "Ultra Luxury",
+      growth: "Strong",
+      appreciation: "Premium EM Bypass appreciation potential",
+    },
 
-{
-  id: "6",
-  slug: "palladina",
-  name: "Palladina",
-  tagline: "A World Apart.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Near ITC Royal Bengal & JW Marriott, EM Bypass",
-  priceLabel: "₹6.44 Cr onwards",
-  priceMin: 644,
-  bhk: [4, 4.5],
-  sizeRange: "3350 – 4965 sq.ft.",
-  possession: "2029",
-  configuration: "1 Tower · 72 Apartments",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: pal1,
+    propertyDetails:
+      "Palladina by Srijan Realty is an ultra-luxury residential development located near ITC Royal Bengal and JW Marriott on EM Bypass, Kolkata. Inspired by the brilliance and rarity of Palladium, the project offers expansive simplex and duplex residences with panoramic wetland and skyline views. Featuring only 72 exclusive apartments, Palladina combines architectural excellence, world-class amenities, Vaastu-compliant planning, and premium lifestyle experiences through its iconic Sky Club, Sky Deck Pool, landscaped leisure zones, and curated luxury spaces.",
 
-  gallery: [
-    pal1,
-    pal2,
-    pal3,
-    pal4,
-    pal5,
-    pal6,
-    pal7,
-    pal8,
-    pal9,
-    pal10,
-  ],
+    specifications: {
+      towers: "1 Tower",
+      apartments: "72 Apartments",
+      recreation: "Sky Deck",
+      health: "Fitness Garden",
+      community: "Celebration Lawn",
+      rejuvenation: "Rejuvenation Cabana",
+    },
 
-  story: [
-    "Rise above the city with panoramic skyline and wetland views.",
-    "Experience rare luxury crafted with sculpted greens and geometric elegance.",
-    "Live in expansive simplex and duplex residences designed for extraordinary living.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Sky Deck Pool",
+    features: [
+      "Ultra Luxury Residences",
+      "Simplex & Duplex Apartments",
       "Sky Club",
-      "Fitness Garden",
-      "Celebration Lawn",
-      "Rejuvenation Cabana",
-      "Sunken BBQ Zone",
-      "Terrace Pool",
-      "Premium Recreational Spaces",
-    ],
-
-    connectivity: [
-      "Prime EM Bypass Location",
-      "Near ITC Royal Bengal",
-      "Near JW Marriott",
-      "Seamless Access to Business Hubs",
-      "Connected to Healthcare & Lifestyle Destinations",
-    ],
-
-    lifestyle: [
-      "Simplex & Duplex Homes",
+      "Sky Deck Pool",
       "Panoramic Wetland Views",
-      "Vaastu-Compliant Residences",
-      "Luxury High-Rise Living",
-      "Low Density Development",
-      "Only 72 Exclusive Apartments",
+      "Vaastu-Compliant Homes",
+      "Low Density Living",
+      "Architectural Landmark Design",
     ],
+
+    rera: "WBRERA/P/KOL/2025/002336",
+
+    tag: "Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.850163294759!2d88.39260277529974!3d22.547284979509765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02779b6e11832b%3A0x6c4364959f093795!2sPalladina%20by%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1778853687524!5m2!1sen!2sin",
   },
 
-  nearby: {
-    metro: "Upcoming EM Bypass Metro Connectivity",
-    school: "Nearby premium schools & institutions",
-    hospital: "Close to leading healthcare hubs",
-  },
+  {
+    id: "7",
+    slug: "optima",
+    name: "Optima",
+    tagline: "Where open space meets elevated urban living.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Rajarhat Chowmatha",
+    priceLabel: "₹66.31 L onwards",
+    priceMin: 66.31,
+    bhk: [2, 3],
+    sizeRange: "921 – 1649 sq.ft.",
+    possession: "2034",
+    configuration: "14 Towers · 1446 Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Invest", "Residential"],
+    cover: opt1,
 
-  investment: {
-    roi: "15–20%",
-    demand: "Ultra Luxury",
-    growth: "Strong",
-    appreciation: "Premium EM Bypass appreciation potential",
-  },
+    gallery: [
+      opt1,
+      opt2,
+      opt3,
+      opt4,
+      opt5,
+      opt6,
+      opt7,
+      opt8,
+      opt9,
+      opt10,
+    ],
 
-  propertyDetails:
-    "Palladina by Srijan Realty is an ultra-luxury residential development located near ITC Royal Bengal and JW Marriott on EM Bypass, Kolkata. Inspired by the brilliance and rarity of Palladium, the project offers expansive simplex and duplex residences with panoramic wetland and skyline views. Featuring only 72 exclusive apartments, Palladina combines architectural excellence, world-class amenities, Vaastu-compliant planning, and premium lifestyle experiences through its iconic Sky Club, Sky Deck Pool, landscaped leisure zones, and curated luxury spaces.",
+    story: [
+      "Wake up to airy homes surrounded by over 70% open space.",
+      "Experience modern living with wellness, recreation, and workspaces seamlessly integrated.",
+      "Live in Rajarhat’s landmark residential destination designed for comfort and community.",
+    ],
 
-  specifications: {
-    towers: "1 Tower",
-    apartments: "72 Apartments",
-    recreation: "Sky Deck",
-    health: "Fitness Garden",
-    community: "Celebration Lawn",
-    rejuvenation: "Rejuvenation Cabana",
-  },
+    highlights: {
+      amenities: [
+        "Indoor Gymnasium",
+        "Open Café",
+        "Swimming Pool",
+        "Jacuzzi",
+        "Aqua Gymnasium",
+        "Banquet Hall",
+        "Co-working Spaces",
+        "Home Theatre",
+        "Yoga & Meditation Zone",
+        "Kids Pool",
+        "Squash Court",
+        "Virtual Gaming",
+      ],
 
-  features: [
-    "Ultra Luxury Residences",
-    "Simplex & Duplex Apartments",
-    "Sky Club",
-    "Sky Deck Pool",
-    "Panoramic Wetland Views",
-    "Vaastu-Compliant Homes",
-    "Low Density Living",
-    "Architectural Landmark Design",
-  ],
+      connectivity: [
+        "Prime Rajarhat Chowmatha Location",
+        "Easy Access to New Town",
+        "Close to IT & Business Hubs",
+        "Well Connected to Airport",
+        "Seamless City Connectivity",
+      ],
 
-  rera: "WBRERA/P/KOL/2025/002336",
+      lifestyle: [
+        "70% Open Space",
+        "2+ Balconies in Every Apartment",
+        "1446 Spacious Homes",
+        "Modern Lifestyle Amenities",
+        "Family-Centric Community",
+        "Nature & Urban Living Blend",
+      ],
+    },
 
-  tag: "Luxury",
+    nearby: {
+      metro: "Upcoming Metro Connectivity nearby",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Nearby premium healthcare facilities",
+    },
 
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.850163294759!2d88.39260277529974!3d22.547284979509765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02779b6e11832b%3A0x6c4364959f093795!2sPalladina%20by%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1778853687524!5m2!1sen!2sin",
-},
+    investment: {
+      roi: "13–18%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong Rajarhat growth potential",
+    },
 
-{
-  id: "7",
-  slug: "optima",
-  name: "Optima",
-  tagline: "Where open space meets elevated urban living.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Rajarhat Chowmatha",
-  priceLabel: "₹66.31 L onwards",
-  priceMin: 66.31,
-  bhk: [2, 3],
-  sizeRange: "921 – 1649 sq.ft.",
-  possession: "2034",
-  configuration: "14 Towers · 1446 Apartments",
-  status: "Under Construction",
-  intent: ["Buy", "Invest", "Residential"],
-  cover: opt1,
+    propertyDetails:
+      "Srijan Optima is a landmark residential development located at Rajarhat Chowmatha, Kolkata. Spread across a thoughtfully planned community with over 70% open space, the project offers more than 1,400 spacious apartments designed with multiple balconies for enhanced ventilation and natural light. Optima blends modern urban living with wellness-focused amenities including co-working spaces, aqua gymnasium, swimming pool, yoga zones, banquet facilities, and recreational experiences, creating a vibrant lifestyle destination in Rajarhat.",
 
-  gallery: [
-    opt1,
-    opt2,
-    opt3,
-    opt4,
-    opt5,
-    opt6,
-    opt7,
-    opt8,
-    opt9,
-    opt10,
-  ],
+    specifications: {
+      towers: "14 Towers",
+      apartments: "1446 Apartments",
+      openSpace: "70%",
+      amenity1: "Indoor Gymnasium",
+      amenity2: "Open Café",
+      amenity3: "Podium",
+      amenity4: "Jacuzzi",
+    },
 
-  story: [
-    "Wake up to airy homes surrounded by over 70% open space.",
-    "Experience modern living with wellness, recreation, and workspaces seamlessly integrated.",
-    "Live in Rajarhat’s landmark residential destination designed for comfort and community.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Indoor Gymnasium",
-      "Open Café",
-      "Swimming Pool",
-      "Jacuzzi",
-      "Aqua Gymnasium",
-      "Banquet Hall",
+    features: [
+      "Large Open Spaces",
+      "Multi-Balcony Apartments",
+      "Premium Lifestyle Amenities",
       "Co-working Spaces",
-      "Home Theatre",
-      "Yoga & Meditation Zone",
-      "Kids Pool",
-      "Squash Court",
-      "Virtual Gaming",
+      "Family-Centric Living",
+      "Wellness-Focused Design",
+      "Modern Community Planning",
+      "Prime Rajarhat Address",
     ],
-
-    connectivity: [
-      "Prime Rajarhat Chowmatha Location",
-      "Easy Access to New Town",
-      "Close to IT & Business Hubs",
-      "Well Connected to Airport",
-      "Seamless City Connectivity",
-    ],
-
-    lifestyle: [
-      "70% Open Space",
-      "2+ Balconies in Every Apartment",
-      "1446 Spacious Homes",
-      "Modern Lifestyle Amenities",
-      "Family-Centric Community",
-      "Nature & Urban Living Blend",
-    ],
-  },
-
-  nearby: {
-    metro: "Upcoming Metro Connectivity nearby",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Nearby premium healthcare facilities",
-  },
-
-  investment: {
-    roi: "13–18%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong Rajarhat growth potential",
-  },
-
-  propertyDetails:
-    "Srijan Optima is a landmark residential development located at Rajarhat Chowmatha, Kolkata. Spread across a thoughtfully planned community with over 70% open space, the project offers more than 1,400 spacious apartments designed with multiple balconies for enhanced ventilation and natural light. Optima blends modern urban living with wellness-focused amenities including co-working spaces, aqua gymnasium, swimming pool, yoga zones, banquet facilities, and recreational experiences, creating a vibrant lifestyle destination in Rajarhat.",
-
-  specifications: {
-    towers: "14 Towers",
-    apartments: "1446 Apartments",
-    openSpace: "70%",
-    amenity1: "Indoor Gymnasium",
-    amenity2: "Open Café",
-    amenity3: "Podium",
-    amenity4: "Jacuzzi",
-  },
-
-  features: [
-    "Large Open Spaces",
-    "Multi-Balcony Apartments",
-    "Premium Lifestyle Amenities",
-    "Co-working Spaces",
-    "Family-Centric Living",
-    "Wellness-Focused Design",
-    "Modern Community Planning",
-    "Prime Rajarhat Address",
-  ],
 
     rera: {
-    phase1: "WBRERA/P/NOR/2024/002162",
-    phase2: "WBRERA/P/NOR/2025/002447",
+      phase1: "WBRERA/P/NOR/2024/002162",
+      phase2: "WBRERA/P/NOR/2025/002447",
+    },
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.7833930194374!2d88.489487575302!3d22.624562479454717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a1c6e37f2883%3A0x25cb92a1c0346086!2sSrijan%20Optima!5e0!3m2!1sen!2sin!4v1778810272158!5m2!1sen!2sin",
   },
 
-  tag: "Featured",
+  {
+    id: "8",
+    slug: "srijan-industrial-logistic-park-alampur",
+    name: "Srijan Industrial Logistic Park – Alampur",
+    tagline: "Built for industrial growth. Designed for seamless logistics.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Alampur",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "5123 sq.ft onwards",
+    possession: "June 2028",
+    configuration: "35 Acre Industrial & Logistics Park",
+    status: "Under Construction",
+    intent: ["Commercial", "Industrial", "Invest"],
+    cover: slip1,
 
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.7833930194374!2d88.489487575302!3d22.624562479454717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a1c6e37f2883%3A0x25cb92a1c0346086!2sSrijan%20Optima!5e0!3m2!1sen!2sin!4v1778810272158!5m2!1sen!2sin",
-},
+    gallery: [
+      slip1,
+      slip2,
+      slip3,
+      slip4,
+      slip5,
+      slip6,
+      slip7,
+      slip8,
+      slip9,
+      slip10,
+      slip11,
+    ],
 
-{
-  id: "8",
-  slug: "srijan-industrial-logistic-park-alampur",
-  name: "Srijan Industrial Logistic Park – Alampur",
-  tagline: "Built for industrial growth. Designed for seamless logistics.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Alampur",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "5123 sq.ft onwards",
-  possession: "June 2028",
-  configuration: "35 Acre Industrial & Logistics Park",
-  status: "Under Construction",
-  intent: ["Commercial", "Industrial", "Invest"],
-  cover: slip1,
+    story: [
+      "Expand your business from one of Bengal’s fastest-growing logistics corridors.",
+      "Operate seamlessly with industrial-grade infrastructure and heavy goods handling.",
+      "Experience a green, non-polluting industrial ecosystem built for the future.",
+    ],
 
-  gallery: [
-    slip1,
-    slip2,
-    slip3,
-    slip4,
-    slip5,
-    slip6,
-    slip7,
-    slip8,
-    slip9,
-    slip10,
-    slip11,
-  ],
+    highlights: {
+      amenities: [
+        "24x7 Security & CCTV Surveillance",
+        "Heavy Goods Handling Facility",
+        "Boom Barriers Installed",
+        "Professional Maintenance",
+        "Ample Car Parking",
+        "Food Court",
+        "Canteen Facilities",
+        "Weight Bridge",
+        "FM Radio Room",
+        "Rain Water Harvesting",
+      ],
 
-  story: [
-    "Expand your business from one of Bengal’s fastest-growing logistics corridors.",
-    "Operate seamlessly with industrial-grade infrastructure and heavy goods handling.",
-    "Experience a green, non-polluting industrial ecosystem built for the future.",
-  ],
+      connectivity: [
+        "3 km from Dhulagarh Truck Terminal",
+        "6 km from Sankrail Station",
+        "8.5 km from Kona Expressway",
+        "Access to National & Local Markets",
+        "Close to Urban Infrastructure & Labour Hub",
+      ],
 
-  highlights: {
-    amenities: [
-      "24x7 Security & CCTV Surveillance",
-      "Heavy Goods Handling Facility",
-      "Boom Barriers Installed",
-      "Professional Maintenance",
+      lifestyle: [
+        "35 Acre Industrial Development",
+        "Non-Polluting Green Complex",
+        "Modern Hi-Tech Buildings",
+        "Up to 10m Wide Internal Roads",
+        "Vast Landscaped Gardens",
+        "Vastu Compliant Infrastructure",
+      ],
+    },
+
+    nearby: {
+      metro: "Well connected via transport corridors",
+      school: "Nearby urban infrastructure access",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Expanding Industrial Zone",
+      appreciation: "Strong industrial growth potential",
+    },
+
+    propertyDetails:
+      "Srijan Industrial Logistic Park – Alampur is a premium industrial and warehousing hub strategically located just 3 km from Dhulagarh Truck Terminal and 4 km from the Srijan Industrial Logistic Park – Bombay Road. Spread across more than 35 acres, the project is designed as a non-polluting green industrial complex catering to manufacturing, warehousing, and logistics expansion needs in West Bengal. Featuring modern infrastructure, heavy goods handling facilities, wide internal roads, professional maintenance, and advanced security systems, the development provides a future-ready ecosystem for industrial businesses.",
+
+    specifications: {
+      landArea: "35 Acres",
+      propertyType: "Warehousing & Industrial",
+      startingUnit: "5123 sq.ft onwards",
+      roads: "Up to 10m Wide Internal Roads",
+      security: "24x7 CCTV Surveillance",
+      policy: "Non-Polluting Green Complex",
+    },
+
+    features: [
+      "24 Hrs Water Supply",
+      "24x7 Security CCTV",
+      "All Government Approvals",
       "Ample Car Parking",
-      "Food Court",
-      "Canteen Facilities",
-      "Weight Bridge",
-      "FM Radio Room",
-      "Rain Water Harvesting",
-    ],
-
-    connectivity: [
-      "3 km from Dhulagarh Truck Terminal",
-      "6 km from Sankrail Station",
-      "8.5 km from Kona Expressway",
-      "Access to National & Local Markets",
-      "Close to Urban Infrastructure & Labour Hub",
-    ],
-
-    lifestyle: [
-      "35 Acre Industrial Development",
-      "Non-Polluting Green Complex",
+      "Boom Barriers Installed",
+      "Drainage System",
+      "VDF Flooring",
+      "Lightning Arrestor",
       "Modern Hi-Tech Buildings",
-      "Up to 10m Wide Internal Roads",
-      "Vast Landscaped Gardens",
-      "Vastu Compliant Infrastructure",
-    ],
-  },
-
-  nearby: {
-    metro: "Well connected via transport corridors",
-    school: "Nearby urban infrastructure access",
-    hospital: "Nearby healthcare facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Expanding Industrial Zone",
-    appreciation: "Strong industrial growth potential",
-  },
-
-  propertyDetails:
-    "Srijan Industrial Logistic Park – Alampur is a premium industrial and warehousing hub strategically located just 3 km from Dhulagarh Truck Terminal and 4 km from the Srijan Industrial Logistic Park – Bombay Road. Spread across more than 35 acres, the project is designed as a non-polluting green industrial complex catering to manufacturing, warehousing, and logistics expansion needs in West Bengal. Featuring modern infrastructure, heavy goods handling facilities, wide internal roads, professional maintenance, and advanced security systems, the development provides a future-ready ecosystem for industrial businesses.",
-
-  specifications: {
-    landArea: "35 Acres",
-    propertyType: "Warehousing & Industrial",
-    startingUnit: "5123 sq.ft onwards",
-    roads: "Up to 10m Wide Internal Roads",
-    security: "24x7 CCTV Surveillance",
-    policy: "Non-Polluting Green Complex",
-  },
-
-  features: [
-    "24 Hrs Water Supply",
-    "24x7 Security CCTV",
-    "All Government Approvals",
-    "Ample Car Parking",
-    "Boom Barriers Installed",
-    "Drainage System",
-    "VDF Flooring",
-    "Lightning Arrestor",
-    "Modern Hi-Tech Buildings",
-    "Rain Water Harvesting",
-    "Solid Waste Management",
-    "Heavy Goods Lift Facility",
-    "Weight Bridge",
-    "Professional Facility Management",
-  ],
-
-  rera: "",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14735.44727544968!2d88.19490348715821!3d22.584270900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027fe3f0906413%3A0xca6d61e3f0148bdf!2sSRIJAN%20INDUSTRIAL%20LOGISITCS%20PARK%2C%20ALAMPUR%20(NH-6)!5e0!3m2!1sen!2sin!4v1778823723807!5m2!1sen!2sin",
-},
-
-{
-  id: "9",
-  slug: "the-quarters",
-  name: "The Quarters",
-  tagline: "Where business meets luxury lifestyle.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Off Park Street, Intellia Business Park",
-  priceLabel: "Details on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "67,000 sq.ft.",
-  possession: "Under Construction",
-  configuration: "9 Floors · Luxury Business Club",
-  status: "Under Construction",
-  intent: ["Commercial", "Business", "Luxury"],
-  cover: quarters1,
-
-  gallery: [
-    quarters1,
-    quarters2,
-    quarters3,
-    quarters4,
-    quarters5,
-    quarters6,
-    quarters7,
-    quarters8,
-    quarters9,
-    quarters10,
-    quarters11,
-    quarters12,
-    quarters13,
-  ],
-
-  story: [
-    "Work, network, and unwind in Kolkata’s first luxury business club.",
-    "An iconic destination crafted for ambitious professionals and visionary leaders.",
-    "Experience premium hospitality, recreation, and business under one address.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Atrium Café",
-      "Luxury Bar",
-      "Conference Rooms",
-      "Double-Height Banquet",
-      "Fine Dining Restaurant",
-      "Games Arena",
-      "Gymnasium",
-      "Pool & Sit-Outs",
-      "Rooftop Sports Turf",
-      "Seminar Rooms",
-    ],
-
-    connectivity: [
-      "Located Off Park Street",
-      "1.4 km from Park Circus 7 Point Crossing",
-      "2 km from Quest Mall",
-      "Central City Connectivity",
-      "Located within Intellia Business Park",
-    ],
-
-    lifestyle: [
-      "67,000 sq.ft Luxury Business Club",
-      "9 Floors of Premium Spaces",
-      "Natural Waterbody Inside Project",
-      "Part of 7 Lakh sq.ft Business Park",
-      "Luxury Networking Destination",
-      "Business & Leisure Integration",
-    ],
-  },
-
-  nearby: {
-    metro: "Nearby Park Street & Sealdah Metro Connectivity",
-    school: "Close to central Kolkata institutions",
-    hospital: "Nearby premium healthcare centers",
-  },
-
-  investment: {
-    roi: "12–16%",
-    demand: "High",
-    growth: "Strong",
-    appreciation: "Prime Central Kolkata commercial value",
-  },
-
-  propertyDetails:
-    "The Quarters – The Business Club by Srijan Realty is Kolkata’s first luxury business club located within Intellia Business Park, off Park Street. Spread across over 67,000 sq.ft. and 9 premium floors, the club combines luxury hospitality, recreation, networking, and business experiences into one iconic destination. Designed as a benchmark of excellence and lifestyle sophistication, The Quarters features fine dining, conference facilities, wellness spaces, sports zones, lounges, banquet areas, and premium leisure amenities in the heart of the city.",
-
-  specifications: {
-    clubArea: "67,000 sq.ft.",
-    floors: "9 Floors",
-    businessPark: "7 Lakh sq.ft.",
-    location: "Heart of Kolkata",
-    waterbody: "Natural Waterbody within Project",
-    connectivity: "Prime Central Location",
-  },
-
-  features: [
-    "Luxury Business Club",
-    "Fine Dining Experience",
-    "Executive Conference Spaces",
-    "Rooftop Sports Turf",
-    "Premium Wellness Zones",
-    "Networking & Leisure Spaces",
-    "Double-Height Banquet",
-    "Integrated Business Lifestyle",
-  ],
-
-  rera: "",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.8194799470757!2d88.37171447529975!3d22.54843407950903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276ef0ff122a1%3A0xea8286f4fce1721b!2s22%2C%20Gobra%20Rd%2C%20Seal%20Lane%2C%20Tangra%2C%20Kolkata%2C%20West%20Bengal%20700046!5e0!3m2!1sen!2sin!4v1778824222211!5m2!1sen!2sin",
-},
-
-{
-  id: "10",
-  slug: "the-royal-ganges",
-  name: "The Royal Ganges",
-  tagline: "Romance The River From Your Own Home.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Maheshtala, Near New Alipore via Sampriti Flyover",
-  priceLabel: "₹61.84 L onwards",
-  priceMin: 61.84,
-  bhk: [2, 2.5, 3, 4],
-  sizeRange: "1047 – 4047 sq.ft.",
-  possession: "Ongoing Phased Development",
-  configuration: "2300+ Apartments · 158+ Duplexes · 63 Bungalows",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Invest", "Residential"],
-  cover: rg1,
-
-  gallery: [
-    rg0,
-    rg01,
-    rg1,
-    rg2,
-    rg3,
-    rg4,
-    rg5,
-    rg6,
-    rg7,
-    rg8,
-    rg9,
-    rg10,
-    rg11,
-    rg12,
-    rg13,
-    rg14,
-    rg15,
-    rg16,
-    rg17,
-    rg18,
-    rg19,
-    rg20,
-    rg21,
-    rg22,
-    rg23,
-    rg24,
-    rg25,
-    rg26,
-    rg27,
-    rg28,
-    rg29,
-    rg30,
-    rg31,
-    rg32,
-    rg33,
-    rg34,
-    rg35,
-    rg36,
-    rg37,
-    rg38,
-  ],
-
-  story: [
-    "Wake up to uninterrupted views of the holy Ganges.",
-    "Experience serene riverside living across a 39 lakh sq.ft township.",
-    "Live surrounded by open skies, luxury amenities, and private riverfront experiences.",
-  ],
-
-  highlights: {
-    amenities: [
-      "70,000 sq.ft River Club",
-      "Private Jetty",
-      "Fast Ferry Service",
-      "Sky Deck Amenities",
-      "Fitness & Wellness Zones",
-      "Celebration Spaces",
-      "Riverside Landscapes",
-      "Shuttle Service",
-    ],
-
-    connectivity: [
-      "23 mins from New Alipore",
-      "Connected via Sampriti Flyover",
-      "Shuttle to Taratala Metro",
-      "Shuttle to Bata More",
-      "Excellent Riverside Connectivity",
-    ],
-
-    lifestyle: [
-      "39 Lakh sq.ft Mega Township",
-      "1 km Private Ganges Track",
-      "26.53 Acres Development",
-      "19.36 Acres Open Space",
-      "Ganga Facing Homes",
-      "Private Terraces & Decks",
-      "Future Ready Amenities",
-    ],
-  },
-
-  nearby: {
-    metro: "Taratala Metro via Shuttle Service",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Nearby healthcare facilities",
-  },
-
-  investment: {
-    roi: "14–20%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Premium riverfront appreciation potential",
-  },
-
-  propertyDetails:
-    "The Royal Ganges by Srijan Realty is a landmark riverside township spread across 39 lakh sq.ft in Maheshtala, Kolkata. Featuring luxury apartments, duplexes, and exclusive bungalows with panoramic Ganges views, the development offers over 1 km of private riverfront living combined with world-class lifestyle amenities. With 26.53 acres of land and extensive open spaces, residents enjoy serene luxury living, private ferry access, a massive River Club, landscaped leisure zones, and seamless connectivity to central Kolkata.",
-
-  specifications: {
-    landArea: "26.53 Acres",
-    openSpace: "19.36 Acres",
-    apartments: "2300+ Apartments",
-    duplexes: "158+ Duplexes",
-    bungalows: "63 Exclusive Bungalows",
-    clubhouse: "70,000 sq.ft River Club",
-  },
-
-  features: [
-    "Ganga Facing Apartments",
-    "Luxury Duplexes",
-    "Exclusive Bungalows",
-    "Private Jetty",
-    "Fast Ferry Service",
-    "Riverside Living",
-    "Large Open Spaces",
-    "Premium Clubhouse",
-    "Private Decks & Terraces",
-    "Future Ready Amenities",
-  ],
-
-  rera: {
-  royalGanges1Phase1: "WBRERA/P/KOL/2023/000199",
-  royalGanges2Phase1: "WBRERA/P/KOL/2023/000261",
-  royalGanges1Phase2: "WBRERA/P/KOL/2023/000260",
-  royalGanges2Phase2: "WBRERA/P/KOL/2023/000739",
-},
-
-  tag: "Riverfront Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5739832438367!2d88.24015589999999!3d22.520161599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bffcef1950b%3A0x9421c7834177172!2sThe%20Royal%20Ganges%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1778824856653!5m2!1sen!2sin",
-  view360: "https://www.theroyalganges.com/360-vr-amenities/TRG/",
-  plans: {
-    master: rg01,
-    site: rg01,
-  },
-},
-
-{
-  id: "11",
-  slug: "town-square",
-  name: "Town Square",
-  tagline: "Luxury living at the epicenter of New Town.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Action Area-1, New Town | Near Biswa Bangla Gate",
-  priceLabel: "₹2.69 Cr onwards",
-  priceMin: 269,
-  bhk: [3, 3.5, 4, 5],
-  sizeRange: "1820 – 3626 sq.ft.",
-  possession: "Jan 2028",
-  configuration: "B+G+15/19/24/25 · 7 Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Invest", "Residential"],
-  cover: ts1,
-
-  gallery: [
-    ts1,
-    ts2,
-    ts3,
-    ts4,
-    ts5,
-    ts6,
-    ts7,
-    ts8,
-    ts9,
-    ts10,
-    ts11,
-    ts12,
-    ts13,
-    ts14,
-    ts15,
-    ts16,
-    ts17,
-    ts18,
-  ],
-
-  story: [
-    "Wake up to breathtaking skyline views in the heart of New Town.",
-    "Experience supersized living spaces surrounded by curated greens.",
-    "Live moments away from Kolkata’s future CBD, culture, and technology hub.",
-  ],
-
-  highlights: {
-    amenities: [
-      "20,000 sq.ft Premium Club",
-      "AC Gymnasium",
-      "AC Guest Room",
-      "Meditation Area",
-      "Massage & Jacuzzi",
-      "Jogging Track",
-      "Children’s Play Zone",
-      "Multipurpose Court",
-      "Decorated Cabana",
-      "Sunken Sitting Area",
-    ],
-
-    connectivity: [
-      "1.5 km from Biswa Bangla Gate",
-      "Opposite Novotel",
-      "9 mins from CBD Area",
-      "Major Arterial Road Connectivity",
-      "Roads on all 4 Sides",
-    ],
-
-    lifestyle: [
-      "6.29 Acre Development",
-      "87% Open Space",
-      "3-Sides Open Views",
-      "270° Open Apartments",
-      "IGBC Platinum GH Pre-Certified",
-      "350 Premium Homes",
-    ],
-  },
-
-  nearby: {
-    metro: "Near New Town Metro Connectivity",
-    school: "Close to reputed schools & educational hubs",
-    hospital: "Nearby premium healthcare centers",
-  },
-
-  investment: {
-    roi: "16–22%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong appreciation potential in New Town",
-  },
-
-  propertyDetails:
-    "Town Square by Srijan Realty is a premium luxury residential development located in Action Area-1, New Town, opposite Novotel and near Biswa Bangla Gate. Spread across 6.29 acres with 87% open space, the project offers expansive 3, 3.5, 4 & 5 BHK residences with breathtaking 270-degree open views and world-class amenities. Strategically located on Major Arterial Road near the upcoming CBD, the project combines unmatched connectivity, curated greens, and luxury lifestyle experiences with a premium 20,000 sq.ft clubhouse and IGBC Platinum GH Pre-Certification.",
-
-  specifications: {
-    landArea: "6.29 Acres",
-    towers: "7 Towers",
-    units: "350 Units",
-    openSpace: "87%",
-    clubhouse: "20,000 sq.ft.",
-    configuration: "B+G+15/19/24/25",
-  },
-
-  features: [
-    "3-Sides Open Apartments",
-    "270° Open Views",
-    "Premium Clubhouse",
-    "Home Automation Provision",
-    "Solar Powered Facilities",
-    "Electric Vehicle Charging Points",
-    "Landscaped Greens",
-    "IGBC Platinum Pre-Certified",
-  ],
-
-  rera: "WBRERA/P/NOR/2023/000063",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.9458481931247!2d88.46165347530075!3d22.581128579485707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b04600bf99%3A0x10dffe9f070054e0!2sTOWN%20SQUARE%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1778830136368!5m2!1sen!2sin",
-
-  plans: {
-    master: ts01,
-  },
-},
-
-{
-  id: "12",
-  slug: "botanica",
-  name: "Botanica",
-  tagline: "A journey through nature, crafted into luxury living.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Off Southern Bypass",
-  priceLabel: "₹1.59 Cr onwards",
-  priceMin: 159,
-  bhk: [3, 4],
-  sizeRange: "2722 – 3842 sq.ft.",
-  possession: "Phase I - 2028 | Phase II - 2029",
-  configuration: "G+1 / G+2 Bungalows · 212 Homes",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: bot1,
-
-  gallery: [
-    bot1,
-    bot2,
-    bot3,
-    bot4,
-    bot5,
-    bot6,
-    bot7,
-    bot8,
-    bot9,
-    bot10,
-    bot11,
-    bot12,
-    bot13,
-    bot14,
-    bot15,
-    bot16,
-  ],
-
-  story: [
-    "Live inside a landscape inspired by valleys, hills, clouds, and oasis.",
-    "Wake up to serene greens, private spaces, and bungalow-style luxury.",
-    "Experience a home designed as a lifelong dream surrounded by nature.",
-  ],
-
-  highlights: {
-    amenities: [
-      "25,000 sq.ft Clubhouse",
-      "Swimming Pool",
-      "Gymnasium",
-      "Indoor Games Room",
-      "Yoga Area",
-      "Pet Park",
-      "Walking Track",
-      "Multipurpose Court",
-      "Children’s Play Area",
-      "Reflexology Path",
-    ],
-
-    connectivity: [
-      "Prime Southern Bypass Location",
-      "Excellent City Connectivity",
-      "Quick Access to Urban Conveniences",
-      "Well Connected to Major Road Networks",
-    ],
-
-    lifestyle: [
-      "11 Acre Development",
-      "212 Premium Bungalows",
-      "Botanic Cloud Zone",
-      "The Hill Experience",
-      "The Valley Landscape",
-      "The Oasis Gardens",
-      "Luxury Low-Rise Living",
-      "Nature-Centric Township",
-    ],
-  },
-
-  nearby: {
-    metro: "Upcoming Southern Bypass Connectivity",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Close to leading healthcare centers",
-  },
-
-  investment: {
-    roi: "14–19%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong luxury bungalow appreciation potential",
-  },
-
-  propertyDetails:
-    "Botanica by Srijan Realty is a premium bungalow township located off Southern Bypass, Kolkata. Spread across 11 acres, the project is inspired by the unique concept of 'Journey of the Valley' and divided into four themed zones — The Botanic Cloud, The Hill, The Valley, and The Oasis. Offering luxurious G+1 and G+2 bungalows with curated landscapes, private green spaces, and world-class lifestyle amenities, Botanica creates an immersive nature-inspired living experience designed for modern families seeking serenity and exclusivity.",
-
-  specifications: {
-    landArea: "11 Acres",
-    blocks: "G+1 & G+2",
-    bungalows: "212 Bungalows",
-    clubhouse: "25,000 sq.ft.",
-    themedZones: "Hill, Valley, Oasis, Botanic Cloud",
-  },
-
-  features: [
-    "Luxury Bungalows",
-    "Nature-Themed Township",
-    "Swimming Pool",
-    "Pet Park",
-    "Yoga & Wellness Areas",
-    "Walking & Reflexology Tracks",
-    "Premium Clubhouse",
-    "Landscaped Green Zones",
-  ],
-
-  rera: {
-    phase1: "WBRERA/P/SOU/2023/000205",
-    phase2: "WBRERA/P/SOU/2024/001089",
-  },
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.15442024894!2d88.3888654752961!3d22.423212979598468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0273b285e335ef%3A0xca4e31b004a9917c!2sBOTANICA!5e0!3m2!1sen!2sin!4v1778831410719!5m2!1sen!2sin",
-
-  view360: "https://www.srijanrealty.com/model-flat-vr/botanica/index.html",
-  plans: {
-    master: bot01,
-  },
-},
-
-{
-  id: "13",
-  slug: "nirvana",
-  name: "Nirvana",
-  tagline: "Own your home. Not shared living.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Rajpur Dhamaitala | Near Southern Bypass",
-  priceLabel: "₹1.04 Cr onwards",
-  priceMin: 104,
-  bhk: [3],
-  sizeRange: "2244 – 2274 sq.ft.",
-  possession: "2028",
-  configuration: "G+1 · 300 Bungalows",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: nir1,
-
-  gallery: [
-    nir1,
-    nir2,
-    nir3,
-    nir4,
-    nir5,
-    nir6,
-    nir7,
-    nir8,
-    nir9,
-    nir10,
-    nir11,
-  ],
-
-  story: [
-    "Wake up to natural light, private greens, and peaceful surroundings.",
-    "Experience bungalow living away from the chaos yet connected to the city.",
-    "Own an independent lifestyle with privacy, security, and open skies.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Club House",
-      "Swimming Pool with Jacuzzi",
-      "AC Banquet Hall",
-      "Gymnasium",
-      "Meditation Area",
-      "Yoga Zone",
-      "Amphitheatre",
-      "Multipurpose Court",
-      "Outdoor Gym",
-      "Barbecue Zone",
-    ],
-
-    connectivity: [
-      "Near Southern Bypass",
-      "Connected to South Kolkata",
-      "Easy Access to City Hubs",
-      "Well-connected Road Infrastructure",
-      "Peaceful Residential Neighborhood",
-    ],
-
-    lifestyle: [
-      "12.32 Acre Township",
-      "300 Premium Bungalows",
-      "Private Garden & Backyard",
-      "Attached Car Parking",
-      "96%–100% Natural Light",
-      "Skylight Roof Design",
-    ],
-  },
-
-  nearby: {
-    metro: "Upcoming South Kolkata Metro Connectivity",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Nearby multi-speciality hospitals",
-  },
-
-  investment: {
-    roi: "13–18%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong bungalow appreciation potential",
-  },
-
-  propertyDetails:
-    "Nirvana by Srijan Realty is a premium bungalow township located near Southern Bypass at Rajpur Dhamaitala, Kolkata. Spread across approximately 12.32 acres, the project offers around 300 G+1 independent bungalows with private gardens, backyard spaces, attached parking, and skylight roof designs for maximum natural light. Combining the privacy of standalone homes with the convenience of gated community living, Nirvana features world-class amenities including a clubhouse, swimming pool, gymnasium, amphitheatre, meditation zones, and landscaped open spaces.",
-
-  specifications: {
-    landArea: "12.32 Acres",
-    blocks: "G+1",
-    bungalows: "300 Bungalows",
-    naturalLight: "96% – 100%",
-    parking: "Attached to Doorstep",
-    specialAreas: "Roof, Private Garden, Backyard",
-  },
-
-  features: [
-    "Independent Bungalow Living",
-    "Private Garden & Backyard",
-    "Skylight Roof Design",
-    "Clubhouse & Swimming Pool",
-    "Smart Security System",
-    "Senior Citizen Court",
-    "Landscaped Open Spaces",
-    "Attached Car Parking",
-  ],
-
-  rera: "WBRERA/P/SOU/2024/001142",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.43055482912!2d88.3963504752958!3d22.412814879605804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026f0e5cb851a3%3A0x7f0d717540ac6dad!2sSRIJAN%20NIRVANA!5e0!3m2!1sen!2sin!4v1778832065938!5m2!1sen!2sin",
-  plans: {
-    master: nir01,
-  },
-},
-
-{
-  id: "14",
-  slug: "solus",
-  name: "Solus",
-  tagline: "Luxury living with unmatched connectivity.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Jessore Road, Madhyamgram | Beside Star Mall",
-  priceLabel: "₹67.25 L onwards",
-  priceMin: 67.25,
-  bhk: [3, 4],
-  sizeRange: "897 – 1528 sq.ft.",
-  possession: "Sept 2028",
-  configuration: "7 Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: sol1,
-
-  gallery: [
-    sol1,
-    sol2,
-    sol3,
-    sol4,
-    sol5,
-    sol6,
-    sol7,
-    sol8,
-    sol9,
-    sol10,
-    sol11,
-    sol12,
-    sol13,
-    sol14,
-    sol15,
-    sol16,
-    sol17,
-    sol18,
-    sol19,
-    sol20,
-    sol21,
-    sol22,
-    sol23,
-  ],
-
-  story: [
-    "Live at the first boutique residential landmark on Jessore Road.",
-    "Experience aspirational luxury with hyper retail and curated recreational hubs.",
-    "Enjoy seamless airport connectivity and a lifestyle crafted for modern living.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Swimming Pool",
-      "AC Cineplex",
-      "AC Gymnasium",
-      "Club House",
-      "Outdoor Cinema",
-      "Jogging Track",
-      "Cafe",
-      "Meditation Area",
-      "Multipurpose Court",
-      "Entertainment Centre",
-    ],
-
-    connectivity: [
-      "Located Right on Jessore Road",
-      "Beside Star Mall",
-      "Near Dum Dum Airport",
-      "Excellent North Kolkata Connectivity",
-      "Hyper Retail within the Project",
-    ],
-
-    lifestyle: [
-      "Boutique Residential Development",
-      "Internationally Designed Landscape",
-      "4 Level Recreational Hubs",
-      "Ergonomically Designed Apartments",
-      "Premium Community Spaces",
-      "Luxury Lifestyle Amenities",
-    ],
-  },
-
-  nearby: {
-    metro: "Upcoming Metro Connectivity Nearby",
-    school: "Nearby reputed schools & educational institutions",
-    hospital: "Nearby multi-speciality hospitals",
-  },
-
-  investment: {
-    roi: "13–17%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong appreciation potential on Jessore Road",
-  },
-
-  propertyDetails:
-    "Solus by Srijan Realty is the first boutique residential development on Jessore Road near Dum Dum Airport, Madhyamgram. Designed for aspirational modern living, the project offers luxurious 3 & 4 BHK residences with ergonomically planned layouts and internationally designed landscapes. Featuring hyper retail within the development and four levels of recreational hubs, Solus combines premium amenities, seamless connectivity, and a vibrant lifestyle experience in North Kolkata.",
-
-  specifications: {
-    towers: "7 Towers",
-    locationAdvantage: "Right on Jessore Road",
-    retail: "Hyper Retail within Project",
-    landscape: "Internationally Designed",
-    design: "Ergonomically Designed Apartments",
-    recreationalHubs: "4 Level Recreational Hubs",
-  },
-
-  features: [
-    "Boutique Residential Development",
-    "Hyper Retail Plaza",
-    "Outdoor Cinema",
-    "International Landscape Design",
-    "Luxury Clubhouse",
-    "Swimming Pool",
-    "Entertainment Zones",
-    "Premium Lifestyle Amenities",
-  ],
-
-  rera: "WBRERA/NPR-000146",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.72921915241!2d88.46805297530429!3d22.701121979400323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f69b359c285%3A0xa3936db8e0f262d!2sSOLUS%20-%20Differential%20Living!5e0!3m2!1sen!2sin!4v1778832767287!5m2!1sen!2sin",
-
-  view360: "https://www.srijanrealty.com/360-vr-amenities/solus/index.html",
-},
-
-// {
-//   id: "15",
-//   slug: "eternia",
-//   name: "Eternia",
-//   tagline: "Luxury living in the lap of nature.",
-//   developer: "Srijan",
-//   city: "Kolkata",
-//   location: "Madhyamgram | Opposite NSG Hub",
-//   priceLabel: "₹39.81 L onwards",
-//   priceMin: 39.81,
-//   bhk: [2, 3],
-//   sizeRange: "813 – 1261 sq.ft.",
-//   possession: "2025",
-//   configuration: "26 Towers · 914 Apartments",
-//   status: "Under Construction",
-//   intent: ["Buy", "Residential", "Invest"],
-//   cover: eter1,
-
-//   gallery: [
-//     eter1,
-//     eter2,
-//     eter3,
-//     eter4,
-//     eter5,
-//     eter6,
-//     eter7,
-//     eter8,
-//     eter9,
-//     eter10,
-//   ],
-
-//   story: [
-//     "Wake up surrounded by acres of greenery and serene water bodies.",
-//     "Experience peaceful urban living inspired by nature and wellness.",
-//     "Live in a landmark community crafted for timeless happiness.",
-//   ],
-
-//   highlights: {
-//     amenities: [
-//       "2 Swimming Pools with Deck",
-//       "Outdoor Cinema",
-//       "AC Gymnasium",
-//       "Floating Gazebo",
-//       "Home Theatre",
-//       "Squash Court",
-//       "Jogging Track",
-//       "Meditation Garden",
-//       "Yoga Garden",
-//       "Community Hall",
-//     ],
-
-//     connectivity: [
-//       "Opposite NSG Hub",
-//       "2.2 km from Madhyamgram Chowmatha",
-//       "Excellent Road Connectivity",
-//       "Well-connected Urban Location",
-//       "Close to Daily Conveniences",
-//     ],
-
-//     lifestyle: [
-//       "Serene Pollution-Free Environment",
-//       "Large Natural Water Body",
-//       "914 Premium Apartments",
-//       "Award-winning Landscape Design",
-//       "Nature-inspired Community",
-//       "Landmark Residential Township",
-//     ],
-//   },
-
-//   nearby: {
-//     metro: "Upcoming Metro Connectivity Nearby",
-//     school: "Nearby reputed schools & institutions",
-//     hospital: "Nearby hospitals & healthcare centers",
-//   },
-
-//   investment: {
-//     roi: "12–16%",
-//     demand: "High",
-//     growth: "Rapidly Developing",
-//     appreciation: "Strong growth potential in Madhyamgram",
-//   },
-
-//   propertyDetails:
-//     "Eternia by Srijan Realty is a premium residential township located opposite NSG Hub on Badu Road, Madhyamgram. Offering thoughtfully designed 2 & 3 BHK apartments, the project blends luxury living with nature through acres of greenery, landscaped gardens, and serene water bodies. Spread across a landmark development with 26 towers and 914 apartments, Eternia features extensive lifestyle amenities, wellness spaces, and recreational zones crafted to deliver peaceful urban living in a pollution-free environment.",
-
-//   specifications: {
-//     towers: "26 Towers",
-//     apartments: "914 Apartments",
-//     environment: "Pollution-Free Surroundings",
-//     landscape: "Award-winning Landscaped Greens",
-//     waterBody: "Large Natural Water Body",
-//     lifestyle: "Nature-inspired Living",
-//   },
-
-//   features: [
-//     "Nature-themed Township",
-//     "Floating Gazebo",
-//     "Outdoor Cinema",
-//     "Yoga & Meditation Gardens",
-//     "Home Theatre",
-//     "Multiple Swimming Pools",
-//     "Landscaped Open Spaces",
-//     "Luxury Lifestyle Amenities",
-//   ],
-
-//   rera: "WBRERA/P/NOR/2024/001228",
-
-//   tag: "Featured",
-
-//   mapEmbedUrl:
-//     "https://www.google.com/maps/embed?pb=!1m18...",
-
-//   view360: "https://www.srijanrealty.com/360_virtual_tour/eternia/tour.html",
-//   plans: {
-//     master: eter01,
-//   },
-// },
-
-{
-  id: "16",
-  slug: "srijan-logistic-park-bt-road",
-  name: "Srijan Logistic Park – BT Road",
-  tagline: "Built for logistics. Designed for industrial growth.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "BT Road, Near Khardah & Sodepur",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "7,000 sq.ft. onwards",
-  possession: "2026",
-  configuration: "9+ Acre Industrial Logistic Hub",
-  status: "Under Construction",
-  intent: ["Commercial", "Warehousing", "Invest"],
-  cover: silp2,
-
-  gallery: [
-    silp1,
-    silp2,
-    silp3,
-    silp4,
-    silp5,
-    silp6,
-  ],
-
-  story: [
-    "Scale your industrial operations with seamless logistics connectivity.",
-    "Operate from a green non-polluting industrial ecosystem on BT Road.",
-    "Access national markets through a strategically connected logistics hub.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Massive Goods Lifts",
-      "Weigh Bridge Facility",
-      "Food Court & Canteen",
-      "Drivers Rest Room",
-      "Labour Quarters",
-      "24x7 Security",
-      "CCTV Surveillance",
-      "Power Backup",
-      "Water Treatment Plant",
       "Rain Water Harvesting",
-    ],
-
-    connectivity: [
-      "1.3 km from Khardah Railway Station",
-      "1.8 km from Sodepur More Crossing",
-      "Direct BT Road Connectivity",
-      "Connected to Kolkata & Howrah",
-      "Access to National & Local Markets",
-    ],
-
-    lifestyle: [
-      "9+ Acre Industrial Hub",
-      "Non-Polluting Green Complex",
-      "Industrial & Logistics Ready",
-      "Ample Skilled & Unskilled Labour",
-      "Wide Internal Roads",
+      "Solid Waste Management",
+      "Heavy Goods Lift Facility",
+      "Weight Bridge",
       "Professional Facility Management",
     ],
+
+    rera: "",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14735.44727544968!2d88.19490348715821!3d22.584270900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027fe3f0906413%3A0xca6d61e3f0148bdf!2sSRIJAN%20INDUSTRIAL%20LOGISITCS%20PARK%2C%20ALAMPUR%20(NH-6)!5e0!3m2!1sen!2sin!4v1778823723807!5m2!1sen!2sin",
   },
 
-  nearby: {
-    metro: "Nearby North Kolkata Transit Connectivity",
-    school: "Nearby educational institutions",
-    hospital: "Nearby hospitals & healthcare facilities",
-  },
+  {
+    id: "9",
+    slug: "the-quarters",
+    name: "The Quarters",
+    tagline: "Where business meets luxury lifestyle.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Off Park Street, Intellia Business Park",
+    priceLabel: "Details on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "67,000 sq.ft.",
+    possession: "Under Construction",
+    configuration: "9 Floors · Luxury Business Club",
+    status: "Under Construction",
+    intent: ["Commercial", "Business", "Luxury"],
+    cover: quarters1,
 
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Industrial Expansion Zone",
-    appreciation: "Strong warehousing demand growth",
-  },
-
-  propertyDetails:
-    "Srijan Industrial Logistic Park, BT Road is a premium industrial and warehousing hub strategically located near Khardah Railway Station and Sodepur More Crossing. Spread across more than 9 acres, the project is designed as a non-polluting green logistics complex catering to the growing industrial and warehousing demands of West Bengal. With units starting from approximately 7,000 sq.ft., the project offers seamless connectivity to Kolkata, Howrah, and major metropolitan cities including Mumbai, Delhi, and Chennai, making it an ideal self-sustained logistics ecosystem.",
-
-  specifications: {
-    landArea: "9+ Acres",
-    unitSize: "7,000 sq.ft. onwards",
-    policy: "Only Non-Polluting Companies Allowed",
-    roads: "Up to 10m Wide Internal Roads",
-    transport: "Economic & Speedy Transportation",
-    logistics: "Bulk Material Handling Facilities",
-  },
-
-  features: [
-    "Warehousing Spaces",
-    "Heavy Goods Lifts",
-    "Weigh Bridge Facility",
-    "Food Court & Canteen",
-    "Power Backup",
-    "Rain Water Harvesting",
-    "24x7 Security & CCTV",
-    "Professional Facility Management",
-  ],
-
-  rera: "",
-
-  tag: "Commercial",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.304865234613!2d88.37158527530477!3d22.716907279389233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b3abc41bcbb%3A0xdee11feae5580612!2sSrijan%20Industrial%20Logistic%20Park%2C%20BT%20Road!5e0!3m2!1sen!2sin!4v1778834672097!5m2!1sen!2sin",
-  plans: {
-    master: silp01,
-  },
-},
-
-{
-  id: "17",
-  slug: "greenfield-city",
-  name: "Greenfield City",
-  tagline: "A greener lifestyle crafted for modern living.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Maheshtala | Near Behala Chowrasta Metro",
-  priceLabel: "₹59.00 L onwards",
-  priceMin: 59,
-  bhk: [3],
-  sizeRange: "1056 – 1323 sq.ft.",
-  possession: "2027",
-  configuration: "96 Blocks · 4066 Flats",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Affordable"],
-  cover: gf1,
-
-  gallery: [
-    gf1,
-    gf2,
-    gf3,
-    gf4,
-    gf5,
-    gf6,
-    gf7,
-    gf8,
-    gf9,
-    gf10,
-    gf11,
-  ],
-
-  story: [
-    "Wake up surrounded by vast green landscapes and open skies.",
-    "Experience affordable luxury with premium amenities and lifestyle conveniences.",
-    "Live in a self-sustained gated township connected to metro and city hubs.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Two 5-Star Clubhouses",
-      "Two Swimming Pools",
-      "AC Banquet Hall",
-      "AC Home Theatre",
-      "Amphitheatre",
-      "Jogging Track",
-      "Children’s Play Zone",
-      "Private Party Lounge",
-      "Outdoor Sports Area",
-      "Shopping Plaza",
+    gallery: [
+      quarters1,
+      quarters2,
+      quarters3,
+      quarters4,
+      quarters5,
+      quarters6,
+      quarters7,
+      quarters8,
+      quarters9,
+      quarters10,
+      quarters11,
+      quarters12,
+      quarters13,
     ],
 
-    connectivity: [
-      "Near Behala Chowrasta Metro",
-      "4 km from Joka - BBD Bag Metro",
-      "In-House AC Bus Facility",
-      "Well Connected to South Kolkata",
-      "Easy Access to Daily Conveniences",
+    story: [
+      "Work, network, and unwind in Kolkata’s first luxury business club.",
+      "An iconic destination crafted for ambitious professionals and visionary leaders.",
+      "Experience premium hospitality, recreation, and business under one address.",
     ],
 
-    lifestyle: [
-      "33 Acres of Green Open Space",
-      "Gated Township Living",
-      "4066 Residential Flats",
-      "Pollution Free Environment",
-      "Ready-to-Move & Under Construction Options",
-      "Large Landscaped Gardens",
-    ],
-  },
+    highlights: {
+      amenities: [
+        "Atrium Café",
+        "Luxury Bar",
+        "Conference Rooms",
+        "Double-Height Banquet",
+        "Fine Dining Restaurant",
+        "Games Arena",
+        "Gymnasium",
+        "Pool & Sit-Outs",
+        "Rooftop Sports Turf",
+        "Seminar Rooms",
+      ],
 
-  nearby: {
-    metro: "Behala Chowrasta Metro",
-    school: "Provision for School within Township",
-    hospital: "Nearby healthcare & emergency facilities",
-  },
+      connectivity: [
+        "Located Off Park Street",
+        "1.4 km from Park Circus 7 Point Crossing",
+        "2 km from Quest Mall",
+        "Central City Connectivity",
+        "Located within Intellia Business Park",
+      ],
 
-  investment: {
-    roi: "10–15%",
-    demand: "High",
-    growth: "Steady",
-    appreciation: "Strong future growth with metro connectivity",
-  },
+      lifestyle: [
+        "67,000 sq.ft Luxury Business Club",
+        "9 Floors of Premium Spaces",
+        "Natural Waterbody Inside Project",
+        "Part of 7 Lakh sq.ft Business Park",
+        "Luxury Networking Destination",
+        "Business & Leisure Integration",
+      ],
+    },
 
-  propertyDetails:
-    "Greenfield City by Srijan Realty is a large integrated residential township located in Maheshtala near Behala Chowrasta Metro. Designed around lush greenery and expansive open spaces, the project offers affordable yet premium 3 BHK apartments with high-end specifications and lifestyle amenities. Spread across acres of landscaped development, Greenfield City features two 5-star clubhouses, shopping plaza, in-house AC bus services, sports zones, gardens, and a pollution-free gated environment crafted for comfortable modern living.",
+    nearby: {
+      metro: "Nearby Park Street & Sealdah Metro Connectivity",
+      school: "Close to central Kolkata institutions",
+      hospital: "Nearby premium healthcare centers",
+    },
 
-  specifications: {
-    blocks: "96 Blocks",
-    flats: "4066 Flats",
-    greenSpace: "33 Acres Open Space",
-    clubhouse: "2 Five-Star Clubhouses",
-    connectivity: "4 km from Joka Metro",
-    status: "Ready & Under Construction",
-  },
+    investment: {
+      roi: "12–16%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Prime Central Kolkata commercial value",
+    },
 
-  features: [
-    "Gated Township",
-    "Two Swimming Pools",
-    "In-House Shopping Plaza",
-    "In-House AC Bus Service",
-    "Large Landscaped Gardens",
-    "24x7 Security",
-    "Children’s Play Areas",
-    "Pollution-Free Living",
-  ],
+    propertyDetails:
+      "The Quarters – The Business Club by Srijan Realty is Kolkata’s first luxury business club located within Intellia Business Park, off Park Street. Spread across over 67,000 sq.ft. and 9 premium floors, the club combines luxury hospitality, recreation, networking, and business experiences into one iconic destination. Designed as a benchmark of excellence and lifestyle sophistication, The Quarters features fine dining, conference facilities, wellness spaces, sports zones, lounges, banquet areas, and premium leisure amenities in the heart of the city.",
 
-  rera: {
-  phase2: "HIRA/P/SOU/2018/000031",
-  phase4: "HIRA/P/SOU/2020/000814",
-  phase5: "HIRA/P/SOU/2020/000845",
-},
+    specifications: {
+      clubArea: "67,000 sq.ft.",
+      floors: "9 Floors",
+      businessPark: "7 Lakh sq.ft.",
+      location: "Heart of Kolkata",
+      waterbody: "Natural Waterbody within Project",
+      connectivity: "Prime Central Location",
+    },
 
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.215580982317!2d88.27103267529822!3d22.496093379546345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bc6685089e3%3A0xfa90a7e902f18ec8!2sGreenfield%20City%20Central%20Park!5e0!3m2!1sen!2sin!4v1778835699219!5m2!1sen!2sin",
-
-  view360: "https://www.srijanrealty.com/360_virtual_tour/greenfield_city/",
-
-plans: {
-    master: gf01,
-  },
-},
-
-{
-  id: "18",
-  slug: "intellia-business-park",
-  name: "Intellia",
-  tagline: "Where work meets lifestyle in the heart of Kolkata.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Park Circus, Kolkata",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "2000 sq.ft onwards",
-  possession: "June 2028",
-  configuration: "4 Towers · 7,00,000 sq.ft Business Park",
-  status: "Under Construction",
-  intent: ["Commercial", "Invest"],
-  cover: intel1,
-
-  gallery: [
-    intel1,
-    intel2,
-    intel3,
-    intel4,
-    intel5,
-    intel6,
-    intel7,
-    intel8,
-  ],
-
-  story: [
-    "Work from Kolkata’s first platinum-rated A-grade business park in CBD.",
-    "Experience open-air workspaces, wellness zones, and lifestyle-driven offices.",
-    "Build your business in a destination designed around work, play, and connectivity.",
-  ],
-
-  highlights: {
-    amenities: [
-      "70,000 sq.ft Business Club",
-      "Food Court",
-      "Open-Air Co-working Spaces",
-      "Sports Turfs on Roofs",
-      "Mini Golf Area",
-      "Pool Bar Area",
-      "Business Lounge",
-      "Adda Zones",
-      "Shuttle Service",
-      "Natural Waterbody",
+    features: [
+      "Luxury Business Club",
+      "Fine Dining Experience",
+      "Executive Conference Spaces",
+      "Rooftop Sports Turf",
+      "Premium Wellness Zones",
+      "Networking & Leisure Spaces",
+      "Double-Height Banquet",
+      "Integrated Business Lifestyle",
     ],
 
-    connectivity: [
-      "1.4 km from Park Circus 7 Point Crossing",
-      "3 km from Sealdah Railway Station",
-      "2 km from Quest Mall",
-      "Excellent Road & Rail Connectivity",
-      "Easy Public Transport Access",
+    rera: "",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.8194799470757!2d88.37171447529975!3d22.54843407950903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276ef0ff122a1%3A0xea8286f4fce1721b!2s22%2C%20Gobra%20Rd%2C%20Seal%20Lane%2C%20Tangra%2C%20Kolkata%2C%20West%20Bengal%20700046!5e0!3m2!1sen!2sin!4v1778824222211!5m2!1sen!2sin",
+  },
+
+  {
+    id: "10",
+    slug: "the-royal-ganges",
+    name: "The Royal Ganges",
+    tagline: "Romance The River From Your Own Home.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Maheshtala, Near New Alipore via Sampriti Flyover",
+    priceLabel: "₹61.84 L onwards",
+    priceMin: 61.84,
+    bhk: [2, 2.5, 3, 4],
+    sizeRange: "1047 – 4047 sq.ft.",
+    possession: "Ongoing Phased Development",
+    configuration: "2300+ Apartments · 158+ Duplexes · 63 Bungalows",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Invest", "Residential"],
+    cover: rg1,
+
+    gallery: [
+      rg0,
+      rg01,
+      rg1,
+      rg2,
+      rg3,
+      rg4,
+      rg5,
+      rg6,
+      rg7,
+      rg8,
+      rg9,
+      rg10,
+      rg11,
+      rg12,
+      rg13,
+      rg14,
+      rg15,
+      rg16,
+      rg17,
+      rg18,
+      rg19,
+      rg20,
+      rg21,
+      rg22,
+      rg23,
+      rg24,
+      rg25,
+      rg26,
+      rg27,
+      rg28,
+      rg29,
+      rg30,
+      rg31,
+      rg32,
+      rg33,
+      rg34,
+      rg35,
+      rg36,
+      rg37,
+      rg38,
     ],
 
-    lifestyle: [
-      "7,00,000 sq.ft Development",
-      "65% Open Space",
-      "IGBC NB Platinum Pre-Certified",
-      "24×7 Operational Business Hub",
-      "International Standard Office Spaces",
-      "Largest Business Park in Central Kolkata",
-    ],
-  },
-
-  nearby: {
-    metro: "Upcoming Metro Connectivity Nearby",
-    school: "Close to major educational institutions",
-    hospital: "Nearby premium healthcare facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Strong",
-    appreciation: "Prime CBD commercial appreciation potential",
-  },
-
-  propertyDetails:
-    "Intellia Business Park by Srijan Realty is a platinum-rated A-grade commercial development located in Park Circus, Kolkata. Spread across approximately 7,00,000 sq.ft over 5.5 acres, the project offers premium office spaces designed around the concept of work and play. Featuring open-air meeting zones, lifestyle amenities, natural waterbodies, sports facilities, and a massive 70,000 sq.ft business club, Intellia delivers an international-standard workspace experience in the heart of Kolkata’s CBD with exceptional road, rail, and public transport connectivity.",
-
-  specifications: {
-    landArea: "340 Cottahs / 5.5 Acres",
-    towers: "4 Towers",
-    projectSize: "7,00,000 sq.ft.",
-    openSpace: "65%",
-    businessClub: "70,000 sq.ft.",
-    officeSize: "2000 sq.ft onwards",
-  },
-
-  features: [
-    "A-Grade Business Park",
-    "Open-Air Co-working Spaces",
-    "Natural Waterbody",
-    "Business Club",
-    "Sports Turfs",
-    "EV Charging Points",
-    "Ample Parking Space",
-    "IGBC Platinum Pre-Certified",
-  ],
-
-  rera: "WBRERA/P/KOL/2023/000331",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.8194799470757!2d88.37171447529975!3d22.54843407950903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277538d878c37%3A0x2e18f8d193717ad5!2sIntellia%20Business%20Park!5e0!3m2!1sen!2sin!4v1778838838170!5m2!1sen!2sin",
-  plans: {
-    master: intel01,
-  },
-},
-
-// {
-//   id: "19",
-//   slug: "natura",
-//   name: "Natura",
-//   tagline: "Where luxury meets nature in South Kolkata.",
-//   developer: "Srijan",
-//   city: "Kolkata",
-//   location: "New Alipore | Near Petrol Pump",
-//   priceLabel: "₹1.88 Cr onwards",
-//   priceMin: 188,
-//   bhk: [4],
-//   sizeRange: "1974 sq.ft.",
-//   possession: "2025",
-//   configuration: "G+10/G+11 · 4 Blocks",
-//   status: "Under Construction",
-//   intent: ["Buy", "Luxury", "Residential"],
-//   cover: nat1,
-
-//   gallery: [
-//     nat1,
-//     nat2,
-//     nat3,
-//     nat4,
-//     nat5,
-//     nat6,
-//     nat7,
-//     nat8,
-//     nat9,
-//     nat10,
-//     nat11,
-//     nat12,
-//   ],
-
-//   story: [
-//     "Wake up amidst lush greenery in the heart of South Kolkata.",
-//     "Experience well-ventilated luxury homes designed around nature.",
-//     "Live sustainably with solar-powered living and expansive open spaces.",
-//   ],
-
-//   highlights: {
-//     amenities: [
-//       "Infinity Swimming Pool",
-//       "AC Gymnasium",
-//       "AC Cineplex",
-//       "AC Banquet Hall",
-//       "Community Hall",
-//       "Badminton Court",
-//       "Amphitheatre",
-//       "Indoor Games Room",
-//       "Pool Deck",
-//       "Children’s Play Area",
-//     ],
-
-//     connectivity: [
-//       "1.5 km from New Alipore Petrol Pump",
-//       "Excellent South Kolkata Connectivity",
-//       "Close to Major Road Networks",
-//       "Nearby Lifestyle & Retail Destinations",
-//     ],
-
-//     lifestyle: [
-//       "75% Open Space",
-//       "3-Sides Open Luxury Apartments",
-//       "2,000+ Plants Across Development",
-//       "Up to 75% Solar Powered",
-//       "241 Premium Flats",
-//       "Nature-Inspired Living",
-//     ],
-//   },
-
-//   nearby: {
-//     metro: "Nearby Metro Connectivity",
-//     school: "Close to reputed South Kolkata schools",
-//     hospital: "Nearby leading hospitals & healthcare centers",
-//   },
-
-//   investment: {
-//     roi: "13–18%",
-//     demand: "High",
-//     growth: "Strong",
-//     appreciation: "Premium South Kolkata appreciation potential",
-//   },
-
-//   propertyDetails:
-//     "Srijan Natura is a premium residential development in New Alipore, South Kolkata, inspired by the beauty of nature and designed for luxurious urban living. Spread amidst lush greenery with over 2,000 plants, the project offers spacious 4 BHK residences with 3-side open layouts, expansive ventilation, and sustainable features including up to 75% solar-powered infrastructure. Featuring world-class amenities like an infinity pool, cineplex, gymnasium, amphitheatre, landscaped lawns, and wellness spaces, Natura blends luxury, sustainability, and serene living seamlessly.",
-
-//   specifications: {
-//     blocks: "4 Blocks",
-//     flats: "241 Flats",
-//     configuration: "G+10/G+11 Towers",
-//     openSpace: "75%",
-//     greenery: "2,000+ Plants",
-//     solarPower: "Up to 75% Solar Powered",
-//   },
-
-//   features: [
-//     "3-Sides Open Apartments",
-//     "Infinity Swimming Pool",
-//     "Solar Powered Facilities",
-//     "Smart Security System",
-//     "Rain Water Harvesting",
-//     "Luxury Club Amenities",
-//     "Nature-Inspired Architecture",
-//     "Well-Ventilated Homes",
-//   ],
-
-//   rera: "WBRERA/P/KOL/2025/002336",
-
-//   tag: "Featured",
-
-//   mapEmbedUrl:
-//     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.1880971478517!2d88.33083287529826!3d22.497124879545478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0270bcc7e5aaab%3A0x903453b0abc6148d!2sNATURA!5e0!3m2!1sen!2sin!4v1778839915581!5m2!1sen!2sin",
-
-//     view360:
-//   "https://www.srijanrealty.com/construction-progress/360-virtula-tour/natura/"
-// ,
-//   plans: {
-//     master: nat01,
-//   },
-// },
-
-{
-  id: "20",
-  slug: "laguna-bay",
-  name: "Laguna Bay",
-  tagline: "Luxury living beside the water.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Matheswartala Road | Near ILEAD Campus",
-  priceLabel: "₹1.95 Cr onwards",
-  priceMin: 195,
-  bhk: [3],
-  sizeRange: "1364 – 1593 sq.ft.",
-  possession: "Feb 2029",
-  configuration: "Boutique Residential Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: lagb1,
-
-  gallery: [
-    lagb1,
-    lagb2,
-    lagb3,
-    lagb4,
-    lagb5,
-    lagb6,
-    lagb7,
-    lagb8,
-    lagb9,
-    lagb10,
-    lagb11,
-    lagb12,
-    lagb13,
-    lagb14,
-
-  ],
-
-  story: [
-    "Wake up to calming lake views and open skies.",
-    "Experience modern luxury apartments designed with superior airflow and natural light.",
-    "Live beside a vast natural waterbody in the heart of Central Kolkata.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Podium Swimming Pool",
-      "Sky Bridge",
-      "Gymnasium",
-      "Indoor Games Room",
-      "Billiard Room",
-      "Card Room",
-      "Kids Play Area",
-      "Sports Area",
-      "Barbeque Terrace Deck",
-      "Pondside Cabana",
+    story: [
+      "Wake up to uninterrupted views of the holy Ganges.",
+      "Experience serene riverside living across a 39 lakh sq.ft township.",
+      "Live surrounded by open skies, luxury amenities, and private riverfront experiences.",
     ],
 
-    connectivity: [
-      "Only 3 mins from Topsia",
-      "Near Science City",
-      "Excellent Public & Private Transport Connectivity",
-      "Upcoming 80 ft Wide Approach Road",
-      "Central Kolkata Connectivity",
+    highlights: {
+      amenities: [
+        "70,000 sq.ft River Club",
+        "Private Jetty",
+        "Fast Ferry Service",
+        "Sky Deck Amenities",
+        "Fitness & Wellness Zones",
+        "Celebration Spaces",
+        "Riverside Landscapes",
+        "Shuttle Service",
+      ],
+
+      connectivity: [
+        "23 mins from New Alipore",
+        "Connected via Sampriti Flyover",
+        "Shuttle to Taratala Metro",
+        "Shuttle to Bata More",
+        "Excellent Riverside Connectivity",
+      ],
+
+      lifestyle: [
+        "39 Lakh sq.ft Mega Township",
+        "1 km Private Ganges Track",
+        "26.53 Acres Development",
+        "19.36 Acres Open Space",
+        "Ganga Facing Homes",
+        "Private Terraces & Decks",
+        "Future Ready Amenities",
+      ],
+    },
+
+    nearby: {
+      metro: "Taratala Metro via Shuttle Service",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Premium riverfront appreciation potential",
+    },
+
+    propertyDetails:
+      "The Royal Ganges by Srijan Realty is a landmark riverside township spread across 39 lakh sq.ft in Maheshtala, Kolkata. Featuring luxury apartments, duplexes, and exclusive bungalows with panoramic Ganges views, the development offers over 1 km of private riverfront living combined with world-class lifestyle amenities. With 26.53 acres of land and extensive open spaces, residents enjoy serene luxury living, private ferry access, a massive River Club, landscaped leisure zones, and seamless connectivity to central Kolkata.",
+
+    specifications: {
+      landArea: "26.53 Acres",
+      openSpace: "19.36 Acres",
+      apartments: "2300+ Apartments",
+      duplexes: "158+ Duplexes",
+      bungalows: "63 Exclusive Bungalows",
+      clubhouse: "70,000 sq.ft River Club",
+    },
+
+    features: [
+      "Ganga Facing Apartments",
+      "Luxury Duplexes",
+      "Exclusive Bungalows",
+      "Private Jetty",
+      "Fast Ferry Service",
+      "Riverside Living",
+      "Large Open Spaces",
+      "Premium Clubhouse",
+      "Private Decks & Terraces",
+      "Future Ready Amenities",
     ],
 
-    lifestyle: [
-      "32,000 sq.ft Natural Waterbody",
+    rera: {
+      royalGanges1Phase1: "WBRERA/P/KOL/2023/000199",
+      royalGanges2Phase1: "WBRERA/P/KOL/2023/000261",
+      royalGanges1Phase2: "WBRERA/P/KOL/2023/000260",
+      royalGanges2Phase2: "WBRERA/P/KOL/2023/000739",
+    },
+
+    tag: "Riverfront Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5739832438367!2d88.24015589999999!3d22.520161599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bffcef1950b%3A0x9421c7834177172!2sThe%20Royal%20Ganges%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1778824856653!5m2!1sen!2sin",
+    view360: "https://www.theroyalganges.com/360-vr-amenities/TRG/",
+    plans: {
+      master: rg01,
+      site: rg01,
+    },
+  },
+
+  {
+    id: "11",
+    slug: "town-square",
+    name: "Town Square",
+    tagline: "Luxury living at the epicenter of New Town.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Action Area-1, New Town | Near Biswa Bangla Gate",
+    priceLabel: "₹2.69 Cr onwards",
+    priceMin: 269,
+    bhk: [3, 3.5, 4, 5],
+    sizeRange: "1820 – 3626 sq.ft.",
+    possession: "Jan 2028",
+    configuration: "B+G+15/19/24/25 · 7 Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Invest", "Residential"],
+    cover: ts1,
+
+    gallery: [
+      ts1,
+      ts2,
+      ts3,
+      ts4,
+      ts5,
+      ts6,
+      ts7,
+      ts8,
+      ts9,
+      ts10,
+      ts11,
+      ts12,
+      ts13,
+      ts14,
+      ts15,
+      ts16,
+      ts17,
+      ts18,
+    ],
+
+    story: [
+      "Wake up to breathtaking skyline views in the heart of New Town.",
+      "Experience supersized living spaces surrounded by curated greens.",
+      "Live moments away from Kolkata’s future CBD, culture, and technology hub.",
+    ],
+
+    highlights: {
+      amenities: [
+        "20,000 sq.ft Premium Club",
+        "AC Gymnasium",
+        "AC Guest Room",
+        "Meditation Area",
+        "Massage & Jacuzzi",
+        "Jogging Track",
+        "Children’s Play Zone",
+        "Multipurpose Court",
+        "Decorated Cabana",
+        "Sunken Sitting Area",
+      ],
+
+      connectivity: [
+        "1.5 km from Biswa Bangla Gate",
+        "Opposite Novotel",
+        "9 mins from CBD Area",
+        "Major Arterial Road Connectivity",
+        "Roads on all 4 Sides",
+      ],
+
+      lifestyle: [
+        "6.29 Acre Development",
+        "87% Open Space",
+        "3-Sides Open Views",
+        "270° Open Apartments",
+        "IGBC Platinum GH Pre-Certified",
+        "350 Premium Homes",
+      ],
+    },
+
+    nearby: {
+      metro: "Near New Town Metro Connectivity",
+      school: "Close to reputed schools & educational hubs",
+      hospital: "Nearby premium healthcare centers",
+    },
+
+    investment: {
+      roi: "16–22%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in New Town",
+    },
+
+    propertyDetails:
+      "Town Square by Srijan Realty is a premium luxury residential development located in Action Area-1, New Town, opposite Novotel and near Biswa Bangla Gate. Spread across 6.29 acres with 87% open space, the project offers expansive 3, 3.5, 4 & 5 BHK residences with breathtaking 270-degree open views and world-class amenities. Strategically located on Major Arterial Road near the upcoming CBD, the project combines unmatched connectivity, curated greens, and luxury lifestyle experiences with a premium 20,000 sq.ft clubhouse and IGBC Platinum GH Pre-Certification.",
+
+    specifications: {
+      landArea: "6.29 Acres",
+      towers: "7 Towers",
+      units: "350 Units",
+      openSpace: "87%",
+      clubhouse: "20,000 sq.ft.",
+      configuration: "B+G+15/19/24/25",
+    },
+
+    features: [
       "3-Sides Open Apartments",
-      "Superior Light & Wind Flow",
-      "IGBC Platinum Rated Project",
-      "Boutique Luxury Living",
-      "Lake-facing Lifestyle",
-    ],
-  },
-
-  nearby: {
-    metro: "Upcoming East-West Metro Connectivity",
-    school: "Near ILEAD Campus & reputed institutions",
-    hospital: "Close to major healthcare facilities",
-  },
-
-  investment: {
-    roi: "15–19%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong appreciation potential in Central Kolkata",
-  },
-
-  propertyDetails:
-    "Laguna Bay by Srijan Realty is an IGBC Platinum-rated boutique residential project located near Science City and Topsia in Central Kolkata. Designed for modern luxury living, the project offers spacious 3 BHK residences with almost every apartment being 3-sides open for superior natural light and ventilation. Surrounded by soothing landscapes and a vast 32,000 sq.ft natural waterbody, Laguna Bay combines tranquility, connectivity, and premium lifestyle amenities including a sky bridge, pool, gymnasium, and leisure zones.",
-
-  specifications: {
-    waterbody: "32,000 sq.ft Natural Waterbody",
-    openApartments: "3-Sides Open Homes",
-    connectivity: "3 mins from Topsia",
-    roadway: "Upcoming 80 ft Wide Road",
-    rating: "IGBC Platinum Rated",
-    propertyType: "Boutique Luxury Apartments",
-  },
-
-  features: [
-    "3-Sides Open Apartments",
-    "Natural Waterbody Views",
-    "Sky Bridge",
-    "Podium Swimming Pool",
-    "Indoor Games Room",
-    "Premium Club Amenities",
-    "Landscaped Open Spaces",
-    "IGBC Platinum Rated Project",
-  ],
-
-  rera: "WBRERA Registered",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.9501522571923!2d88.3860787752996!3d22.543539979512392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02775e5f166ac5%3A0x3f9bf6efd2c00f57!2sLAGUNA%20BAY!5e0!3m2!1sen!2sin!4v1778840391826!5m2!1sen!2sin",
-
-  plans: {
-    master: lagb01,
-  },
-},
-
-// {
-//   id: "21",
-//   slug: "ozone",
-//   name: "Ozone",
-//   tagline: "Where nature’s tranquility meets luxury living.",
-//   developer: "Srijan",
-//   city: "Kolkata",
-//   location: "EM Bypass | Near Kamalgazi More",
-//   priceLabel: "Price on Request",
-//   priceMin: 0,
-//   bhk: [4],
-//   sizeRange: "2065 sq.ft.",
-//   possession: "2025",
-//   configuration: "7 Blocks · 530 Apartments",
-//   status: "Under Construction",
-//   intent: ["Buy", "Luxury", "Residential"],
-//   cover: ozone1,
-
-//   gallery: [
-//     ozone1,
-//     ozone2,
-//     ozone3,
-//     ozone4,
-//     ozone5,
-//     ozone6,
-//     ozone7,
-//     ozone8,
-//     ozone9,
-//     ozone10,
-//     ozone11,
-//     ozone12,
-//   ],
-
-//   story: [
-//     "Wake up amidst landscaped greens away from the city chaos.",
-//     "Experience luxurious 4 BHK living with nature-inspired serenity.",
-//     "Live in an award-winning gated community on EM Bypass.",
-//   ],
-
-//   highlights: {
-//     amenities: [
-//       "30,000 sq.ft Clubhouse",
-//       "Swimming Pool",
-//       "AC Cineplex",
-//       "Spa & Jacuzzi",
-//       "Badminton Court",
-//       "Cafe",
-//       "Indoor Games Room",
-//       "Rooftop Party Decks",
-//       "Yoga Area",
-//       "Children’s Play Area",
-//     ],
-
-//     connectivity: [
-//       "Prime EM Bypass Location",
-//       "Near Kamalgazi More",
-//       "Close to Patuli & Narendrapur",
-//       "Easy Access to Garia Bazaar",
-//       "Excellent South Kolkata Connectivity",
-//     ],
-
-//     lifestyle: [
-//       "IGBC Gold-Rated Project",
-//       "6-Star CRISIL Rating",
-//       "Luxury Gated Community",
-//       "Green Living Concept",
-//       "530 Premium Apartments",
-//       "Award-Winning Development",
-//     ],
-//   },
-
-//   nearby: {
-//     metro: "Nearby Metro Connectivity",
-//     school: "Close to reputed educational institutions",
-//     hospital: "Nearby multi-speciality healthcare facilities",
-//   },
-
-//   investment: {
-//     roi: "13–18%",
-//     demand: "High",
-//     growth: "Strong",
-//     appreciation: "High demand for luxury green-living homes",
-//   },
-
-//   propertyDetails:
-//     "Ozone by Srijan Realty is an award-winning luxury residential project located on EM Bypass near Kamalgazi More, Kolkata. Offering spacious 4 BHK residences within a premium gated community, Ozone combines luxurious living with serene green surroundings. The project features 530 premium apartments across 7 blocks, a 30,000 sq.ft clubhouse, IGBC Gold Certification, and a prestigious 6-Star CRISIL Real Estate Rating. Designed for modern green living, Ozone offers world-class lifestyle amenities and seamless connectivity across South Kolkata.",
-
-//   specifications: {
-//     blocks: "7 Blocks",
-//     apartments: "530 Apartments",
-//     clubhouse: "30,000 sq.ft.",
-//     certification: "IGBC Gold-Rated",
-//     crisilRating: "6-Star CRISIL Rating",
-//     configuration: "Luxury 4 BHK Homes",
-//   },
-
-//   features: [
-//     "Luxury Gated Community",
-//     "IGBC Gold Certification",
-//     "6-Star CRISIL Rating",
-//     "Premium Clubhouse",
-//     "Rooftop Party Decks",
-//     "Green Living Spaces",
-//     "State-of-the-Art Security",
-//     "Luxury Lifestyle Amenities",
-//   ],
-
-// rera: {
-//   phase2: "HIRA/P/SOU/2018/000009",
-//   phase3: "HIRA/P/SOU/2019/000524",
-// },
-
-//   tag: "Featured",
-
-//   mapEmbedUrl:
-//     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.376713844152!2d88.39288477529695!3d22.45247367957738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02718eef9d0521%3A0x8d57bc4779f46ce9!2sOzone!5e0!3m2!1sen!2sin!4v1778841673700!5m2!1sen!2sin",
-  
-//   plans: {
-//     master: ozone01,
-//   },
-// },
-
-// {
-//   id: "22",
-//   slug: "eternis",
-//   name: "Eternis",
-//   tagline: "An oasis of greenery in the heart of the city.",
-//   developer: "Srijan",
-//   city: "Kolkata",
-//   location: "Jessore Road, Madhyamgram Chowmatha",
-//   priceLabel: "₹42.82 L onwards",
-//   priceMin: 42.82,
-//   bhk: [2, 3],
-//   sizeRange: "823 – 1637 sq.ft.",
-//   possession: "2016",
-//   configuration: "B+G+11 · 13 Towers",
-//   status: "Ready to Move",
-//   intent: ["Buy", "Residential", "Invest"],
-//   cover: etern1,
-
-//   gallery: [
-//     etern1,
-//     etern2,
-//     etern3,
-//     etern4,
-//     etern5,
-//     etern6,
-//     etern7,
-//     etern8,
-//     etern9,
-//     etern10,
-//     etern11,
-//     etern12,
-//     etern13,
-//     etern14,
-//     etern15,
-//   ],
-
-//   story: [
-//     "Wake up surrounded by lush greenery and full-grown mango orchards.",
-//     "Experience nature-inspired living with modern lifestyle amenities.",
-//     "Live seamlessly connected to airport, schools, hospitals, and entertainment hubs.",
-//   ],
-
-//   highlights: {
-//     amenities: [
-//       "Swimming Pool",
-//       "AC Banquet Hall",
-//       "Gymnasium",
-//       "Single Screen Cinema",
-//       "Amphitheatre",
-//       "Badminton Court",
-//       "Children’s Play Area",
-//       "Café",
-//       "Entertainment Centre",
-//       "Guest Room",
-//     ],
-
-//     connectivity: [
-//       "Bang on Jessore Road",
-//       "Close to Dum Dum Airport",
-//       "Easy Access to Kolkata IT Hub",
-//       "Nearby Schools & Colleges",
-//       "Close to Hospitals & Entertainment Zones",
-//     ],
-
-//     lifestyle: [
-//       "61% Open Space",
-//       "Mango Orchards",
-//       "55,000 sq.ft Landscaped Garden",
-//       "824 Premium Flats",
-//       "Commercial Space Inside Complex",
-//       "Nature-Centric Community Living",
-//     ],
-//   },
-
-//   nearby: {
-//     metro: "Nearby Metro Connectivity",
-//     school: "Surrounded by reputed schools & colleges",
-//     hospital: "Nearby hospitals & healthcare centers",
-//   },
-
-//   investment: {
-//     roi: "10–14%",
-//     demand: "High",
-//     growth: "Stable",
-//     appreciation: "Strong residential demand in Madhyamgram",
-//   },
-
-//   propertyDetails:
-//     "Eternis by Srijan Realty is a nature-inspired residential development located on Jessore Road near Madhyamgram Chowmatha, Kolkata. Spread across 345 cottahs of land with 61% open space and lush mango orchards, the project offers thoughtfully designed 2 & 3 BHK apartments across 13 towers. Featuring landscaped gardens, modern lifestyle amenities, commercial spaces, and seamless connectivity to Dum Dum Airport and Kolkata’s IT hubs, Eternis blends greenery, comfort, and urban convenience into one eternal living experience.",
-
-//   specifications: {
-//     towers: "13 Towers",
-//     flats: "824 Flats",
-//     openSpace: "61%",
-//     landscapeGarden: "55,000 sq.ft.",
-//     configuration: "B+G+11",
-//     landParcel: "345 Cottahs",
-//   },
-
-//   features: [
-//     "Nature-Centric Living",
-//     "Mango Orchards",
-//     "Large Landscaped Gardens",
-//     "Swimming Pool",
-//     "Single Screen Cinema",
-//     "Commercial Spaces",
-//     "Modern Lifestyle Amenities",
-//     "Excellent Airport Connectivity",
-//   ],
-
-//   rera: "Completed Project",
-
-//   tag: "Featured",
-
-//   mapEmbedUrl:
-//     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14724.55101872857!2d88.4514319026891!3d22.685915270575617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f6af6f58591%3A0xc25c57bf71e51709!2sETERNIS!5e0!3m2!1sen!2sin!4v1778843266185!5m2!1sen!2sin",
-//   view360:"https://www.srijanrealty.com/360-vr-amenities/eternis/index.htm",
-//   plans: {
-//     master: etern01,
-//   },
-// },
-
-{
-  id: "23",
-  slug: "srijan-ravi-logistics-park",
-  name: "Srijan Ravi Logistics Park",
-  tagline: "Built for logistics. Designed for industrial growth.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Taratala, B.B.T. Road",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "6,000 – 7,00,000 sq.ft.",
-  possession: "2026",
-  configuration: "Industrial Logistics Park · 9+ Acres",
-  status: "Under Construction",
-  intent: ["Commercial", "Industrial", "Invest"],
-  cover: ravi1,
-
-  gallery: [
-    ravi1,
-    ravi2,
-    ravi3,
-    ravi4,
-    ravi5,
-    ravi6,
-    ravi7,
-    ravi8,
-    ravi9,
-    ravi10,
-    ravi11,
-    ravi12,
-    ravi13,
-    ravi14,
-    ravi15,
-  ],
-
-  story: [
-    "Build your logistics and industrial operations at the gateway of Kolkata.",
-    "Move goods seamlessly with direct connectivity to port, airport, and highways.",
-    "Scale your business inside a master-planned logistics ecosystem.",
-  ],
-
-  highlights: {
-    amenities: [
-      "24 Hrs Security",
-      "Power Backup",
-      "Bank & ATM",
-      "Huge Landscaping",
-      "Labour Quarters",
-      "Internal Weight Bridge",
-      "Rain Water Harvesting",
-      "Heavy Goods Lift",
-      "Food Court",
-      "Fire Fighting System",
+      "270° Open Views",
+      "Premium Clubhouse",
+      "Home Automation Provision",
+      "Solar Powered Facilities",
+      "Electric Vehicle Charging Points",
+      "Landscaped Greens",
+      "IGBC Platinum Pre-Certified",
     ],
 
-    connectivity: [
-      "3.5 km from Taratala",
-      "Connected to Port & Airport",
-      "Excellent Road Connectivity",
-      "Well Connected to Howrah & Kolkata",
-      "Strategic Access to Central India Routes",
+    rera: "WBRERA/P/NOR/2023/000063",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.9458481931247!2d88.46165347530075!3d22.581128579485707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b04600bf99%3A0x10dffe9f070054e0!2sTOWN%20SQUARE%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1778830136368!5m2!1sen!2sin",
+
+    plans: {
+      master: ts01,
+    },
+  },
+
+  {
+    id: "12",
+    slug: "botanica",
+    name: "Botanica",
+    tagline: "A journey through nature, crafted into luxury living.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Off Southern Bypass",
+    priceLabel: "₹1.59 Cr onwards",
+    priceMin: 159,
+    bhk: [3, 4],
+    sizeRange: "2722 – 3842 sq.ft.",
+    possession: "Phase I - 2028 | Phase II - 2029",
+    configuration: "G+1 / G+2 Bungalows · 212 Homes",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: bot1,
+
+    gallery: [
+      bot1,
+      bot2,
+      bot3,
+      bot4,
+      bot5,
+      bot6,
+      bot7,
+      bot8,
+      bot9,
+      bot10,
+      bot11,
+      bot12,
+      bot13,
+      bot14,
+      bot15,
+      bot16,
     ],
 
-    lifestyle: [
-      "9+ Acre Master Planned Hub",
-      "Up to 10 mtr Wide Internal Roads",
-      "60 MT Internal Weight Bridge",
-      "Container & Truck Hub",
-      "Non-Polluting Green Factory Setup",
-      "Industrial & Warehousing Ecosystem",
-    ],
-  },
-
-  nearby: {
-    metro: "Nearby Taratala Metro Connectivity",
-    school: "Nearby workforce & training hubs",
-    hospital: "Close to healthcare facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Industrial Growth Corridor",
-    appreciation: "Strong warehousing & logistics demand",
-  },
-
-  propertyDetails:
-    "Srijan Ravi Logistics Park is a large-scale industrial and logistics development located on B.B.T. Road near Taratala, Kolkata. Spread across more than 9 acres, the project offers warehousing, logistics parks, non-polluting factory setups, and industrial spaces ranging from 6,000 sq.ft. to 7,00,000 sq.ft. on sale or rent. Strategically positioned near Kolkata Port, airport, and major transport corridors, the project is designed as a self-sustained logistics hub with modern infrastructure, container movement facilities, wide metallic roads, and industrial-grade support systems.",
-
-  specifications: {
-    landArea: "9+ Acres",
-    sizeRange: "6,000 – 7,00,000 sq.ft.",
-    internalRoads: "Up to 10 mtr Wide",
-    weightBridge: "60 MT Internal Weight Bridge",
-    transportHub: "Container & Truck Hub",
-    goodsCapacity: "4 Ton Goods Distribution Capacity",
-  },
-
-  features: [
-    "Logistics Park",
-    "Warehousing Facilities",
-    "Industrial Factory Setup",
-    "Container & Truck Movement Hub",
-    "Wide Internal Metallic Roads",
-    "Power Backup",
-    "Heavy Goods Infrastructure",
-    "Non-Polluting Green Industrial Development",
-  ],
-
-  rera: "Under Development",
-
-  tag: "Industrial",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.66886134956!2d88.29356797529884!3d22.516603979531688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bac2dacaa53%3A0x4c8adf9dfd6419a1!2sSrijan%20Ravi%20Logistics%20Park!5e0!3m2!1sen!2sin!4v1778916815540!5m2!1sen!2sin",
-
-  plans: {
-    master: ravi01,
-  },
-},
-
-{
-  id: "24",
-  slug: "srijan-industrial-logistic-hub",
-  name: "Srijan Industrial Logistic Hub",
-  tagline: "Built for logistics, warehousing, and industrial growth.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Jhinjira Bazaar, Mahestala",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "6,000 sq.ft onwards",
-  possession: "2023",
-  configuration: "Industrial Logistic Hub",
-  status: "Under Construction",
-  intent: ["Commercial", "Industrial", "Invest"],
-  cover: silh5,
-
-  gallery: [
-    silh1,
-    silh2,
-    silh3,
-    silh4,
-    silh5,
-    silh6,
-    silh7,
-    silh8,
-    silh9,
-    silh10,
-    silh11,
-    silh12,
-    silh13,
-    silh14,
-    silh15,
-    silh16,
-  ],
-
-  story: [
-    "Expand your business in a strategically connected logistics destination.",
-    "Operate seamlessly with warehousing, goods movement, and industrial infrastructure.",
-    "Build for growth with a future-ready industrial ecosystem near Kolkata.",
-  ],
-
-  highlights: {
-    amenities: [
-      "24/7 Security with CCTV",
-      "100% Power Backup",
-      "Massive Goods Lift",
-      "Internal 60 MT Weight Bridge",
-      "Huge Loading & Unloading Bays",
-      "Wide Internal Roads",
-      "Rain Water Harvesting",
-      "Storm Water Drainage",
-      "Worker Restrooms",
-      "Landscaped Environment",
+    story: [
+      "Live inside a landscape inspired by valleys, hills, clouds, and oasis.",
+      "Wake up to serene greens, private spaces, and bungalow-style luxury.",
+      "Experience a home designed as a lifelong dream surrounded by nature.",
     ],
 
-    connectivity: [
-      "Connected to Kolkata & Howrah",
-      "Easy Access to Port",
-      "Airport Connectivity",
-      "Road Connectivity to Central India",
-      "Strategic Distribution Hub Location",
-    ],
+    highlights: {
+      amenities: [
+        "25,000 sq.ft Clubhouse",
+        "Swimming Pool",
+        "Gymnasium",
+        "Indoor Games Room",
+        "Yoga Area",
+        "Pet Park",
+        "Walking Track",
+        "Multipurpose Court",
+        "Children’s Play Area",
+        "Reflexology Path",
+      ],
 
-    lifestyle: [
-      "Non-Pollution Green Factory Setup",
-      "Warehousing & Logistics Hub",
-      "Sale & Rental Availability",
-      "Industrial Expansion Ready",
-      "Skilled & Unskilled Workforce Nearby",
-      "Self-Sustained Distribution Ecosystem",
-    ],
-  },
+      connectivity: [
+        "Prime Southern Bypass Location",
+        "Excellent City Connectivity",
+        "Quick Access to Urban Conveniences",
+        "Well Connected to Major Road Networks",
+      ],
 
-  nearby: {
-    metro: "Nearby Kolkata Metro Connectivity",
-    school: "Nearby workforce & community infrastructure",
-    hospital: "Nearby healthcare facilities",
-  },
+      lifestyle: [
+        "11 Acre Development",
+        "212 Premium Bungalows",
+        "Botanic Cloud Zone",
+        "The Hill Experience",
+        "The Valley Landscape",
+        "The Oasis Gardens",
+        "Luxury Low-Rise Living",
+        "Nature-Centric Township",
+      ],
+    },
 
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Industrial Growth Zone",
-    appreciation: "Strong logistics and warehousing demand",
-  },
+    nearby: {
+      metro: "Upcoming Southern Bypass Connectivity",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Close to leading healthcare centers",
+    },
 
-  propertyDetails:
-    "Srijan Industrial Logistic Hub (SILH) is a large-scale industrial and warehousing development located at Jhinjira Bazaar, Mahestala. Designed for non-pollution industries, logistics operations, and factory setups, the project offers spaces ranging from 4,000 sq.ft to 3,50,000 sq.ft for sale and rent. Strategically connected to Kolkata, Howrah, airport, port, and major transportation routes, SILH provides an ideal self-sustained ecosystem for goods distribution and industrial business expansion.",
+    investment: {
+      roi: "14–19%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong luxury bungalow appreciation potential",
+    },
 
-  specifications: {
-    propertyType: "Logistic Park / Warehousing / Factory Setup",
-    roadway: "10 mtrs Wide Metallic Roads",
-    weightBridge: "60 MT Internal Weight Bridge",
-    security: "24/7 CCTV Surveillance",
-    flooring: "VDF Flooring",
-    structure: "RCC Structure with Canopy",
-  },
+    propertyDetails:
+      "Botanica by Srijan Realty is a premium bungalow township located off Southern Bypass, Kolkata. Spread across 11 acres, the project is inspired by the unique concept of 'Journey of the Valley' and divided into four themed zones — The Botanic Cloud, The Hill, The Valley, and The Oasis. Offering luxurious G+1 and G+2 bungalows with curated landscapes, private green spaces, and world-class lifestyle amenities, Botanica creates an immersive nature-inspired living experience designed for modern families seeking serenity and exclusivity.",
 
-  features: [
-    "Industrial Warehousing",
-    "Goods Distribution Infrastructure",
-    "Massive Goods Lift",
-    "100% Power Backup",
-    "Huge Loading Bays",
-    "Wide Internal Roads",
-    "Green Industrial Campus",
-    "Rain Water Harvesting",
-  ],
+    specifications: {
+      landArea: "11 Acres",
+      blocks: "G+1 & G+2",
+      bungalows: "212 Bungalows",
+      clubhouse: "25,000 sq.ft.",
+      themedZones: "Hill, Valley, Oasis, Botanic Cloud",
+    },
 
-  rera: "On Request",
-
-  tag: "Industrial",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.907821747932!2d88.25561767529861!3d22.507641379537926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027b6791223e83%3A0x6f7d26f1c2abeb3!2sSrijan%20Industrial%20Logistic%20Hub!5e0!3m2!1sen!2sin!4v1778917914247!5m2!1sen!2sin",
-
-  plans: {
-    master: silh01,
-  },
-},
-
-{
-  id: "25",
-  slug: "logos",
-  name: "Logos",
-  tagline: "Where business rises in the heart of Kolkata.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "224 AJC Bose Road, Kolkata",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "1000 sq.ft onwards",
-  possession: "October 2027",
-  configuration: "B+G+16",
-  status: "Under Construction",
-  intent: ["Commercial", "Invest", "Office Space"],
-  cover: logos1,
-
-  gallery: [
-    logos1,
-    logos2,
-    logos3,
-    logos4,
-    logos5,
-    logos6,
-    logos7,
-    logos8,
-    
-  ],
-
-  story: [
-    "Build your business at one of Kolkata’s most strategic CBD locations.",
-    "Experience smart office infrastructure with sustainable design.",
-    "Work in a Grade-A commercial destination crafted for the future.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Conference Cum Training Room",
-      "Integrated Building Management System",
-      "Intelligent Fire Fighting System",
-      "Mechanical Car Parking",
-      "Vertical Garden",
-      "Multiple Optic Fiber Connectivity",
-      "Grand Entrance Lobby",
-      "Intercom Facility",
-      "Facade Cleaning System",
-      "Processed Water Supply",
-    ],
-
-    connectivity: [
-      "Prime AJC Bose Road Location",
-      "Near Sealdah Railway Station",
-      "Near Park Circus Railway Station",
-      "Connected via Maa Flyover",
-      "Close to Rabindra Sadan Metro",
-      "Excellent Public Transport Access",
-    ],
-
-    lifestyle: [
-      "Grade-A Office Spaces",
-      "IGBC Platinum Green Building (Applied)",
-      "Smart Commercial Infrastructure",
-      "Health & Well-being Focused Design",
-      "Modern Business Ecosystem",
-      "CBD Commercial Address",
-    ],
-  },
-
-  nearby: {
-    metro: "Rabindra Sadan & Sealdah Metro Connectivity",
-    school: "Close to major educational institutions",
-    hospital: "Nearby premium hospitals & healthcare centers",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Strong",
-    appreciation: "Prime CBD commercial appreciation potential",
-  },
-
-  propertyDetails:
-    "LOGOS by Srijan Realty is a premium Grade-A smart office development located on AJC Bose Road in Kolkata’s prime CBD district. Designed as a B+G+16 commercial tower, the project offers modern office spaces starting from 1000 sq.ft with world-class infrastructure, intelligent building systems, and sustainable design principles. Strategically connected to major railway stations, metro corridors, Maa Flyover, and key city landmarks, LOGOS combines excellent accessibility with green-certified business architecture for future-ready enterprises.",
-
-  specifications: {
-    floors: "B+G+16",
-    officeArea: "1000 sq.ft onwards",
-    parking: "108 Car Parking Spaces",
-    greenRating: "IGBC Platinum Rated (Applied)",
-    buildingType: "Grade-A Smart Office",
-    connectivity: "CBD Prime Location",
-  },
-
-  features: [
-    "Grade-A Commercial Tower",
-    "Smart Office Infrastructure",
-    "Integrated Building Management",
-    "Mechanical Parking",
-    "Vertical Garden Facade",
-    "High-Speed Fiber Connectivity",
-    "Green Certified Design",
-    "Prime CBD Connectivity",
-  ],
-
-  rera: "WBRERA/P/KOL/2023/000110",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.023255717196!2d88.35678577529954!3d22.540801579514344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772a312ef249%3A0x25870088bb47d48e!2sLOGOS!5e0!3m2!1sen!2sin!4v1778918509461!5m2!1sen!2sin",
-
-  plans: {
-    master: logos01,
-    unit: logos02,
-  },
-},
-
-{
-  id: "26",
-  slug: "srijan-industrial-logistic-park",
-  name: "Srijan Industrial Logistic Park",
-  tagline: "Eastern India’s modern industrial and warehousing hub.",
-  developer: "Srijan",
-  city: "Howrah",
-  location: "NH-06, Biparnna Para, Domjur",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [0],
-  sizeRange: "5,000 – 5,00,000 sq.ft.",
-  possession: "2016",
-  configuration: "Industrial & Warehousing Facility",
-  status: "Ready to Move",
-  intent: ["Commercial", "Industrial", "Invest"],
-  cover: ilp1,
-
-  gallery: [
-    ilp1,
-    ilp2,
-    ilp3,
-    ilp4,
-    ilp5,
-    ilp6,
-  ],
-
-  story: [
-    "Build your business in Eastern India’s modern logistics destination.",
-    "Experience industrial infrastructure designed for scale and efficiency.",
-    "Connect seamlessly to national and regional markets through NH-06.",
-  ],
-
-  highlights: {
-    amenities: [
-      "24 Hrs Security",
-      "CCTV Surveillance",
-      "Conference Room",
-      "Guest House",
-      "DC Power Backup",
-      "Weigh Bridge",
-      "Wide Internal Roads",
-      "Professional Maintenance",
-      "Courier Service",
-      "Departmental Store",
-    ],
-
-    connectivity: [
-      "Located on NH-06",
-      "Excellent Access to National Markets",
-      "Fast Transportation Connectivity",
-      "Close to Urban Infrastructure",
-      "Access to Eastern & North-Eastern Distribution Networks",
-    ],
-
-    lifestyle: [
-      "World-Class Industrial Facility",
-      "Warehousing & Logistics Support",
-      "Bulk Material Handling Facilities",
-      "Only Non-Polluting Industries Allowed",
-      "Modern Industrial Ecosystem",
-      "Large Scale Development Options",
-    ],
-  },
-
-  nearby: {
-    metro: "Nearby Howrah Connectivity",
-    school: "Industrial & workforce support infrastructure nearby",
-    hospital: "Nearby healthcare & urban facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Expanding",
-    appreciation: "Strong logistics & warehousing growth corridor",
-  },
-
-  propertyDetails:
-    "Srijan Industrial Logistic Park (SILP) is a world-class industrial and warehousing development located on NH-06 in Domjur, Howrah. Offering industrial spaces ranging from 5,000 sq.ft. to 5,00,000 sq.ft., SILP provides modern infrastructure and business-ready facilities for non-polluting industries under one roof. Strategically positioned to become a key distribution hub for Eastern and North-Eastern India, the project combines seamless transportation access, professional maintenance, logistics support, and scalable industrial solutions for warehousing, manufacturing, and distribution businesses.",
-
-  specifications: {
-    landSpace: "5,000 – 5,00,000 sq.ft.",
-    location: "NH-06, Domjur, Howrah",
-    industries: "Only Non-Polluting Industries",
-    transportation: "Economic & Speedy",
-    infrastructure: "Urban Infrastructure & Labour Access",
-    accessibility: "National & Local Market Connectivity",
-  },
-
-  features: [
-    "World-Class Logistics Infrastructure",
-    "Warehousing Facilities",
-    "Manufacturing Spaces",
-    "Bulk Material Handling",
-    "Wide Roads",
-    "CCTV Security",
-    "Power Backup",
-    "Industrial Ecosystem",
-  ],
-
-  rera: "Not Applicable",
-
-  tag: "Industrial",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.4143735118696!2d88.22899707530134!3d22.600996379471542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027f5c9a80ac07%3A0xc8dcefb03b832495!2sSrijan%20Industrial%20Logistic%20Park!5e0!3m2!1sen!2sin!4v1778919254395!5m2!1sen!2sin",
-
-  plans: {
-    master: ilp01,
-  },
-},
-
-{
-  id: "27",
-  slug: "southwinds",
-  name: "SouthWinds",
-  tagline: "Where luxury, greenery, and tranquility come together.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Ghoshal Para Road, Southern Bypass",
-  priceLabel: "₹55.32 L onwards",
-  priceMin: 55.32,
-  bhk: [2, 3, 3.5],
-  sizeRange: "824 – 1500 sq.ft.",
-  possession: "2026",
-  configuration: "G+11 · 16 Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: sw1,
-
-  gallery: [
-    sw1,
-    sw2,
-    
-  ],
-
-  story: [
-    "Wake up amidst landscaped greens and tranquil waterbodies.",
-    "Experience world-class living in the first high-rise community on Southern Bypass.",
-    "Live surrounded by open spaces, celebration zones, and lifestyle comforts.",
-  ],
-
-  highlights: {
-    amenities: [
-      "World Class Resident’s Club",
+    features: [
+      "Luxury Bungalows",
+      "Nature-Themed Township",
       "Swimming Pool",
-      "Gymnasium",
-      "Meditation Area",
-      "Yoga Zone",
-      "Indoor Games Room",
-      "AC Community Hall",
-      "AC Home Theatre",
-      "Multipurpose Court",
-      "Children’s Play Area",
-    ],
-
-    connectivity: [
-      "Prime Southern Bypass Location",
-      "Excellent Road Connectivity",
-      "Close to Major City Hubs",
-      "Easy Airport & South Kolkata Access",
-      "Well Connected Residential Corridor",
-    ],
-
-    lifestyle: [
-      "630 Cottahs Development",
-      "65% Open Space",
-      "Waterbody & Fountain Landscape",
-      "1323 Apartments",
-      "Huge Landscaped Gardens",
-      "Peaceful Community Living",
-    ],
-  },
-
-  nearby: {
-    metro: "Upcoming South Kolkata Metro Connectivity",
-    school: "Nearby reputed schools & colleges",
-    hospital: "Close to major healthcare centers",
-  },
-
-  investment: {
-    roi: "12–16%",
-    demand: "High",
-    growth: "Rising",
-    appreciation: "Strong future growth potential on Southern Bypass",
-  },
-
-  propertyDetails:
-    "SouthWinds by Srijan Realty is a premium residential high-rise development located on Ghoshal Para Road along Southern Bypass, Kolkata. Spread across 630 cottahs of land with 65% open space, the project features 1323 thoughtfully designed apartments across 16 towers. As the first high-rise residential project on Southern Bypass, SouthWinds combines landscaped greenery, waterbodies, luxury lifestyle amenities, and expansive open spaces to create a peaceful and celebration-driven living experience.",
-
-  specifications: {
-    landArea: "630 Cottahs",
-    towers: "16 Towers",
-    apartments: "1323 Apartments",
-    openSpace: "65%",
-    club: "World Class Resident’s Club",
-    configuration: "G+11",
-  },
-
-  features: [
-    "Landscaped Gardens",
-    "Waterbody & Fountains",
-    "World Class Clubhouse",
-    "Swimming Pool",
-    "Yoga & Meditation Zones",
-    "Huge Open Spaces",
-    "High-Rise Community Living",
-    "Ample Parking Facilities",
-  ],
-
-  rera: "Under Construction Project",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.6479570604347!2d88.41176077529556!3d22.404625179611713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026deedb5d3703%3A0x97d71503ab553d4f!2s132%2C%20Ghosal%20Para%20Ln%2C%20Manikpur%2C%20Chowhati%2C%20Rajpur%2C%20Rajpur%20Sonarpur%2C%20Kolkata%2C%20West%20Bengal%20700148!5e0!3m2!1sen!2sin!4v1778919720860!5m2!1sen!2sin",
-},
-
-{
-  id: "28",
-  slug: "swapno-puron",
-  name: "Swapno Puron",
-  tagline: "Where every space embodies joy and comfort.",
-  developer: "Srijan",
-  city: "Kolkata",
-  location: "Amtala, D.H Road | Near Joka Metro",
-  priceLabel: "₹11.25 L onwards",
-  priceMin: 11.25,
-  bhk: [1, 2, 3],
-  sizeRange: "319 – 943 sq.ft.",
-  possession: "2024",
-  configuration: "G+4 with Lift · Phase 1, 2 & 3",
-  status: "Under Construction",
-  intent: ["Buy", "Affordable", "Residential"],
-  cover: sp5,
-
-  gallery: [
-    sp1,
-    sp2,
-    sp3,
-    sp4,
-    sp5,
-    sp6,
-    sp7,
-    sp8,
-    sp9,
-  ],
-
-  story: [
-    "Wake up beside serene water bodies and endless greenery.",
-    "Experience affordable gated community living with modern comforts.",
-    "Live moments away from Joka Metro and the growing southern corridor.",
-  ],
-
-  highlights: {
-    amenities: [
-      "3-acre Natural Lake",
-      "Boating Facility",
-      "Fishing Deck",
-      "Swimming Pool",
-      "AC Community Hall",
-      "Gymnasium",
-      "Indoor Games Room",
-      "Basketball Court",
-      "Outdoor Sports Area",
-      "Walking Track",
-    ],
-
-    connectivity: [
-      "Near Joka Metro",
-      "Located on D.H Road",
-      "Easy South Kolkata Connectivity",
-      "Well-connected to Joka & Amtala",
-      "Rapidly Developing Residential Zone",
-    ],
-
-    lifestyle: [
-      "20 Acre Township",
-      "Enough Green Space",
-      "Water Body Views",
-      "756 Apartments",
-      "Gated Community Living",
-      "Modern Affordable Housing",
-    ],
-  },
-
-  nearby: {
-    metro: "Joka Metro",
-    school: "Nearby schools & educational institutes",
-    hospital: "Nearby hospitals & healthcare centers",
-  },
-
-  investment: {
-    roi: "10–15%",
-    demand: "High",
-    growth: "Emerging",
-    appreciation: "Strong growth potential in Joka-Amtala corridor",
-  },
-
-  propertyDetails:
-    "Swapno Puron by Srijan Realty & Star Group is a large gated community residential project located in Amtala on D.H Road near Joka Metro. Spread across 20 acres with lush greenery and scenic water bodies, the project offers thoughtfully designed 1RK, 1, 2 & 3 bedroom apartments with modern amenities and lifestyle facilities. Featuring a 3-acre natural lake, boating facilities, landscaped spaces, sports amenities, and seamless connectivity to South Kolkata, Swapno Puron delivers affordable community living with nature-inspired comfort.",
-
-  specifications: {
-    landArea: "20 Acres",
-    blocksPhase2: "8 Blocks",
-    blocksPhase3: "3 Blocks",
-    floors: "G+4 with Lift",
-    apartments: "756 Apartments",
-    lake: "3-acre Natural Lake",
-  },
-
-  features: [
-    "Gated Community",
-    "Natural Lake with Boating",
-    "Green Open Spaces",
-    "Swimming Pool",
-    "Sports Facilities",
-    "Affordable Housing",
-    "Water Body Views",
-    "Modern Community Amenities",
-  ],
-
-  rera: "WBRERA/P/SOU/2024/001229",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7207701181064!2d88.27341377529443!3d22.364169879640656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02645a6e13b6b7%3A0xd430e7fd43eeba27!2sSwapno%20Puron%20Amtala!5e0!3m2!1sen!2sin!4v1778920165198!5m2!1sen!2sin",
-},
-
-{
-  id: "29",
-  slug: "ps-logistics-park",
-  name: "PS Logistics Park",
-  tagline: "Finest Logistics, Close to Your City.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "Kona Expressway",
-  priceLabel: "₹2.99 Cr onwards",
-  priceMin: 299,
-  bhk: [0],
-  sizeRange: "7500 – 25000+ sq.ft.",
-  possession: "Under Development",
-  configuration: "21 Acres · 1.8 Million sq.ft.",
-  status: "Under Construction",
-  intent: ["Commercial", "Warehouse", "Invest"],
-  cover: pslg2,
-
-  gallery: [
-    pslg1,
-    pslg2,
-    pslg3,
-    pslg4,
-    pslg5,
-    pslg6,
-    pslg7,
-    pslg8,
-    pslg9,
-    pslg10,
-    pslg11,
-  ],
-
-  story: [
-    "Build your business at one of Kolkata’s most connected logistics destinations.",
-    "Experience seamless warehousing designed for productivity, movement, and growth.",
-    "Work closer to the city with modern infrastructure and multimodal connectivity.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Smart Storage Systems",
-      "Secure RCC Warehouses",
-      "Skill Development Centres",
-      "Open Infrastructure",
-      "Mobility Ecosystem",
-      "Safety & Security Systems",
-      "Human-Centric Workspaces",
+      "Pet Park",
+      "Yoga & Wellness Areas",
+      "Walking & Reflexology Tracks",
+      "Premium Clubhouse",
       "Landscaped Green Zones",
     ],
 
-    connectivity: [
-      "Prime Kona Expressway Access",
-      "Excellent Multimodal Connectivity",
-      "Easy Movement of Goods & Workforce",
-      "Strategic Industrial Corridor Location",
-      "Connected to Kolkata Business Zones",
-    ],
-
-    lifestyle: [
-      "21 Acre Development",
-      "65% Open Spaces",
-      "1.8 Million sq.ft Logistics Hub",
-      "People-First Infrastructure",
-      "Industrial Ecosystem",
-      "Future-Ready Commercial Warehousing",
-    ],
-  },
-
-  nearby: {
-    metro: "Connected via major transport corridors",
-    school: "Nearby educational institutions",
-    hospital: "Nearby healthcare facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Expanding",
-    appreciation: "Strong industrial & warehousing demand growth",
-  },
-
-  propertyDetails:
-    "PS Logistics Park by PS Group is a large-scale industrial and warehousing development located on Kona Expressway, Kolkata. Spread across 21 acres with 65% open spaces and 1.8 million sq.ft. of logistics infrastructure, the project offers modern RCC warehouses, smart storage systems, and future-ready industrial facilities. Designed around productivity, safety, and workforce well-being, the development ensures seamless movement through multimodal transport connectivity while creating a people-first logistics ecosystem close to the city.",
-
-  specifications: {
-    landArea: "21 Acres",
-    openSpace: "65%",
-    developmentSize: "1.8 Million sq.ft.",
-    warehouseType: "RCC Warehouses",
-    infrastructure: "Industrial & Logistics Hub",
-    connectivity: "Multimodal Transport Access",
-  },
-
-  features: [
-    "Modern RCC Warehouses",
-    "Smart Storage Systems",
-    "Industrial Infrastructure",
-    "Secure Logistics Ecosystem",
-    "Human-Centric Design",
-    "Open Infrastructure Planning",
-    "Multimodal Connectivity",
-    "Large-Scale Commercial Development",
-  ],
-
-  pricing: [
-    {
-      size: "7500 – 10000 sq.ft.",
-      price: "₹2.99 Cr onwards",
+    rera: {
+      phase1: "WBRERA/P/SOU/2023/000205",
+      phase2: "WBRERA/P/SOU/2024/001089",
     },
-    {
-      size: "10001 – 15000 sq.ft.",
-      price: "₹3.89 Cr onwards",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.15442024894!2d88.3888654752961!3d22.423212979598468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0273b285e335ef%3A0xca4e31b004a9917c!2sBOTANICA!5e0!3m2!1sen!2sin!4v1778831410719!5m2!1sen!2sin",
+
+    view360: "https://www.srijanrealty.com/model-flat-vr/botanica/index.html",
+    plans: {
+      master: bot01,
     },
-    {
-      size: "15001 – 20000 sq.ft.",
-      price: "₹6.50 Cr onwards",
-    },
-    {
-      size: "20001 – 25000 sq.ft.",
-      price: "₹8 Cr onwards",
-    },
-    {
-      size: "25001+ sq.ft.",
-      price: "₹10 Cr onwards",
-    },
-  ],
-
-  rera: "Commercial Project",
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7408710396744!2d88.26343047507827!3d22.588793079480222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02792ba3ff4fa5%3A0x4b7302733cb15be3!2sPS%20Logistics%20Park!5e0!3m2!1sen!2sin!4v1778922972027!5m2!1sen!2sin",
-
-  plans: {
-    site: pslg01,
-  },
-},
-
-{
-  id: "30",
-  slug: "sansara",
-  name: "Sansara",
-  tagline: "A world of its own by the river.",
-  developer: "PS Group",
-  city: "Howrah",
-  location: "Riverfront, Howrah | On the banks of the Ganges",
-  priceLabel: "₹3.30 Cr onwards",
-  priceMin: 330,
-  bhk: [3, 4, 4.5, 5],
-  sizeRange: "2515 – 6580 sq.ft.",
-  possession: "Ongoing Phased Development",
-  configuration: "G+40 · 5 Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Invest", "Residential"],
-  cover: sans12,
-
-  gallery: [
-    sans12,
-    sans13,
-    sans14,
-    sans15,
-    sans1,
-    sans2,
-    sans3,
-    sans4,
-    sans5,
-    sans6,
-    sans7,
-    sans8,
-    sans9,
-    sans10,
-    sans11,
-    sans12,
-    sans13,
-    sans14,
-    sans15,
-  ],
-
-  story: [
-    "Wake up to uninterrupted views of the Ganges and the iconic Howrah Bridge.",
-    "Experience elevated riverfront living with open skies, landscaped greens, and curated luxury.",
-    "Live in a world where serenity, community, and timeless luxury come together beautifully.",
-  ],
-
-  highlights: {
-    amenities: [
-      "1000 Ft Riverfront Boulevard",
-      "2.5 Acres Elevated Landscape",
-      "Private Jetty",
-      "Sports Arena",
-      "Health & Fitness Zones",
-      "Kids Activity Spaces",
-      "Blue Therapy Zones",
-      "Green Therapy Landscapes",
-      "Neighbourhood Mall",
-      "Temple & Riverfront Ghat",
-    ],
-
-    connectivity: [
-      "Prime Howrah Riverfront Location",
-      "Seamless Kolkata Connectivity",
-      "Excellent Metro & Commute Access",
-      "Easy Access to Education & Healthcare",
-      "Connected to Major City Hubs",
-    ],
-
-    lifestyle: [
-      "17.4 Acre Riverfront Development",
-      "70% Open-to-Sky Spaces",
-      "East-Facing River View Homes",
-      "Luxury High-Rise Towers",
-      "40 Storey Skyline Living",
-      "Panoramic Ganges Views",
-      "Integrated Community Living",
-    ],
   },
 
-  nearby: {
-    metro: "Excellent Metro & City Connectivity",
-    school: "Nearby reputed educational institutions",
-    hospital: "Close to leading healthcare facilities",
-  },
-
-  investment: {
-    roi: "15–22%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Premium riverfront appreciation potential",
-  },
-
-  propertyDetails:
-    "Sansara by PS Group is a landmark luxury riverfront development in Howrah, spread across 17.4 acres on the banks of the Ganges. Featuring east-facing residences with panoramic river views and the iconic Howrah Bridge as a backdrop, Sansara redefines waterfront luxury living. Designed with elevated landscapes, private leisure zones, sports arenas, wellness spaces, temple & ghat experiences, and a 1000 ft riverfront boulevard, the project creates a seamless blend of serenity, elegance, and modern urban lifestyle.",
-
-  specifications: {
-    landArea: "17.4 Acres",
-    towers: "5 Towers",
-    storey: "G+40",
-    openSpace: "70% Open-to-Sky",
-    landscape: "2.5 Acres Elevated Landscape",
-    boulevard: "1000 Ft Riverfront Boulevard",
-  },
-
-  features: [
-    "Riverfront Residences",
-    "East-Facing Homes",
-    "Panoramic Ganges Views",
-    "Private Jetty",
-    "Elevated Landscapes",
-    "Luxury Sky Living",
-    "Temple & Ghat Experience",
-    "Sports & Wellness Zones",
-    "Integrated Lifestyle Community",
-    "High-Rise Riverfront Towers",
-  ],
-
-  rera: {
-    phase1: "WBRERA/P/HOW/2024/001857",
-    phase2: "WBRERA/P/HOW/2025/003377",
-    phase3: "WBRERA/P/HOW/2026/004253",
-  },
-
-  tag: "Riverfront Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7129829557925!2d88.34037717507823!3d22.589835679479396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02776aca924225%3A0xd15c9d294c5319a9!2sSansara!5e0!3m2!1sen!2sin!4v1778926371666!5m2!1sen!2sin",
-
-  plans: {
-    master: sans01,
-    site: sans01,
-    unit: [sans02, sans03, sans04, sans05],
-  },
-},
-
-{
-  id: "31",
-  slug: "jade-grove",
-  name: "Jade Grove",
-  tagline: "Stay rooted. Reach extraordinary.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "Near Entally, Central Kolkata",
-  priceLabel: "₹1.03 Cr onwards",
-  priceMin: 103,
-  bhk: [2, 3, 4],
-  sizeRange: "616 – 658 sq.ft. carpet area",
-  possession: "Final Phase Ongoing",
-  configuration: "293 Apartments · 3.27 Acres",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential", "Invest"],
-  cover: jg1,
-
-  gallery: [
-    jg1,
-    jg2,
-    jg3,
-    jg4,
-    jg5,
-    jg6,
-    jg7,
-    jg8,
-    jg9,
-    jg10,
-  ],
-
-  story: [
-    "Live in the heart of Central Kolkata surrounded by openness and greenery.",
-    "Experience calm, cross-ventilated homes designed for light, air, and privacy.",
-    "Rise above the city while staying connected to your roots and memories.",
-  ],
-
-  highlights: {
-    amenities: [
-      "30 Mtr Triple-Height Swimming Pool",
-      "30+ Lifestyle Amenities",
-      "Central Landscaped Greens",
-      "Indoor Recreation Spaces",
-      "Children’s Play Areas",
-      "Relaxation & Wellness Zones",
-      "Community Gathering Spaces",
-      "Shaded Walkways",
-    ],
-
-    connectivity: [
-      "Prime Central Kolkata Address",
-      "Near Entally",
-      "Excellent Metro & City Connectivity",
-      "Close to Schools & Healthcare",
-      "Easy Access to Business Districts",
-    ],
-
-    lifestyle: [
-      "3.27 Acre Development",
-      "69% Open to Sky",
-      "293 Premium Apartments",
-      "Three-Side Open Homes",
-      "Cross Ventilated Layouts",
-      "Large Central Landscape",
-      "Refined Architecture",
-    ],
-  },
-
-  nearby: {
-    metro: "Excellent Metro Connectivity",
-    school: "Nearby reputed educational institutions",
-    hospital: "Close to major healthcare centers",
-  },
-
-  investment: {
-    roi: "13–18%",
-    demand: "High",
-    growth: "Strong",
-    appreciation: "Premium Central Kolkata appreciation potential",
-  },
-
-  propertyDetails:
-    "Jade Grove by PS Group is a premium residential development located near Entally in the heart of Central Kolkata. Spread across 3.27 acres with 69% open-to-sky space, the project offers thoughtfully designed 2, 3, and 4 BHK homes with cross-ventilated, three-side open layouts. Featuring expansive landscaped greens, refined architecture, and 30+ curated lifestyle amenities, Jade Grove creates a peaceful urban sanctuary while maintaining seamless access to the city’s established neighborhoods, business hubs, schools, and healthcare centers.",
-
-  specifications: {
-    landArea: "3.27 Acres",
-    apartments: "293 Apartments",
-    openSpace: "69% Open to Sky",
-    swimmingPool: "30 Mtr Triple-Height Pool",
-    unitTypes: "2, 3 & 4 BHK",
-    amenities: "30+ Lifestyle Amenities",
-  },
-
-  features: [
-    "Three-Side Open Homes",
-    "Cross Ventilated Apartments",
-    "Large Landscaped Greens",
-    "Triple-Height Swimming Pool",
-    "Central Kolkata Address",
-    "Luxury Lifestyle Amenities",
-    "Children & Wellness Zones",
-    "Premium Urban Living",
-  ],
-
-  rera: {
-    phase1: "WBRERA/P/KOL/2023/000783",
-    phase2: "WBRERA/P/KOL/2024/001773",
-  },
-
-  tag: "Central Kolkata Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.553831221487!2d88.37807417507729!3d22.558380379501866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a4e85fc731%3A0x98e8df763d986920!2sJade%20Grove!5e0!3m2!1sen!2sin!4v1778928230261!5m2!1sen!2sin",
-    
-  plans: {
-    master: jg01,
-    site: jg01,
-    unit: [jg02, jg03, jg04],
-  },
-},
-
-{
-  id: "32",
-  slug: "one10",
-  name: "One10",
-  tagline: "Homes designed for tomorrow, ready to live in today.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "New Town, Action Area I, Behind Novotel",
-  priceLabel: "₹4.49 Cr onwards",
-  priceMin: 449,
-  bhk: [5],
-  sizeRange: "2766 – 2792 sq.ft.",
-  possession: "Ready To Move",
-  configuration: "9 Acres · Luxury High-Rise Development",
-  status: "Ready to Move",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: one101,
-
-  gallery: [
-    one100,
-    one101,
-    one102,
-    one103,
-    one104,
-    one105,
-    one106,
-    one107,
-    one108,
-    one109,
-    one110,
-    one111,
-  ],
-
-  story: [
-    "Wake up to breathtaking wetland views and endless open skies.",
-    "Experience Kolkata’s first residential project exclusively designed for kids.",
-    "Live in expansive 5 BHK homes crafted for modern family living.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Olympic-Sized Swimming Pool",
-      "Triple Height Sports Arena",
-      "Outdoor Theatre",
-      "Nature Trails",
-      "Jungle Gyms",
-      "Outdoor Multi-Sport Courts",
-      "Senior’s Lounge",
-      "Wellness Centre",
-      "50+ Lifestyle Amenities",
-    ],
-
-    connectivity: [
-      "900 meters from Novotel",
-      "Prime Action Area I Location",
-      "Excellent New Town Connectivity",
-      "Close to Business & IT Hubs",
-      "Easy Access to Major Arterial Roads",
-    ],
-
-    lifestyle: [
-      "9 Acre Development",
-      "70% Open Space",
-      "3-Side Open Flats",
-      "South Facing Apartments",
-      "1000 Acre Wetland Views",
-      "Vaastu-Compliant Homes",
-      "Family-Centric Luxury Living",
-    ],
-  },
-
-  nearby: {
-    metro: "Nearby New Town Metro Connectivity",
-    school: "Close to reputed schools & educational hubs",
-    hospital: "Nearby premium healthcare facilities",
-  },
-
-  investment: {
-    roi: "15–22%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Premium appreciation potential in New Town",
-  },
-
-  propertyDetails:
-    "One10 by PS Group is a luxury ready-to-move residential development located in New Town Action Area I, Kolkata. Spread across 9 acres with 70% open space, the project offers expansive 5 BHK apartments designed especially for large Indian families. Featuring breathtaking 1000-acre wetland views, 3-side open south-facing residences, and over 50 premium amenities, One10 delivers a complete lifestyle experience centered around children, wellness, recreation, and family living. Strategically located behind Novotel near Kolkata’s upcoming business and lifestyle hub, the project blends luxury, functionality, and future-ready living.",
-
-  specifications: {
-    landArea: "9 Acres",
-    openSpace: "70%",
-    apartmentType: "5 BHK Luxury Apartments",
-    facing: "South Facing",
-    views: "1000 Acre Wetland Views",
-    amenities: "50+ Amenities across 3.5 Acres",
-  },
-
-  features: [
-    "Ready To Move Apartments",
-    "3-Side Open Homes",
-    "Kids-Centric Development",
-    "Olympic-Sized Pool",
-    "Outdoor Sports Courts",
-    "Nature Trails",
-    "Triple Height Sports Arena",
-    "Senior’s Lounge",
-    "Wellness Centre",
-    "Vaastu-Compliant Apartments",
-  ],
-
-  rera: {
-    phase1: "HIRA/P/NOR/2018/000136",
-    phase2: "WBRERA/P/NOR/2023/000082",
-    phase3: "WBRERA/P/NOR/2023/000894",
-  },
-
-  tag: "Luxury Ready To Move",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117992.25415314833!2d88.3919015!3d22.4569392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02754b59e8b7dd%3A0xbf5ed3c21738afda!2sOne10!5e0!3m2!1sen!2sin!4v1778930728939!5m2!1sen!2sin",
-
-  plans: {
-    site: one0100,
-    master: one0100,
-    unit: [one0200, one0300],
-    
-  },
-},
-
-{
-  id: "33",
-  slug: "quintessa",
-  name: "Quintessa",
-  tagline: "It’s incomparable. It’s rare. It’s yours to own.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "Kankurgachi, Kolkata",
-  priceLabel: "₹3.98 Cr onwards",
-  priceMin: 398,
-  bhk: [4, 4.5, 5, 6],
-  sizeRange: "Luxury Simplexes & Penthouses",
-  possession: "Under Construction",
-  configuration: "16 Storey · 80 Exclusive Families",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: quin1,
-
-  gallery: [
-    quin1,
-    quin2,
-    quin3,
-    quin4,
-    quin5,
-    quin6,
-    quin7,
-    quin8,
-    quin9,
-    quin10,
-    quin11,
-    quin12,
-    quin13,
-    quin14,
-    quin15,
-    quin16,
-    quin17,
-    quin18,
-    quin19,
-    quin20,
-    quin21,
-    quin22,
-    quin23,
-    quin24,
-    quin25,
-    quin26,
-  ],
-
-  story: [
-    "Experience rare luxury crafted for only 80 exclusive families.",
-    "Wake up to expansive 3-side open homes filled with light and elegance.",
-    "Live surrounded by indulgent amenities in the heart of North Kolkata.",
-  ],
-
-  highlights: {
-    amenities: [
-      "28,000 sq.ft Club Luxuries",
-      "Wellness Spaces",
-      "Sports Amenities",
-      "Kids’ Activity Zones",
-      "Luxury Clubhouse Floor",
-      "Entertainment & Gathering Spaces",
-      "Indoor Lifestyle Amenities",
-      "Outdoor Leisure Zones",
-    ],
-
-    connectivity: [
-      "Prime Kankurgachi Location",
-      "Excellent North Kolkata Connectivity",
-      "Close to Educational Institutions",
-      "Easy Access to Healthcare Facilities",
-      "Well Connected to Leisure Destinations",
-    ],
-
-    lifestyle: [
-      "Only 80 Exclusive Families",
-      "3-Side Open Apartments",
-      "Vaastu-Compliant Homes",
-      "Large Windows & Open Layouts",
-      "Step-In Closets",
-      "King-Size Kitchens",
-      "Luxury Penthouses",
-      "Curated Lifestyle Living",
-    ],
-  },
-
-  nearby: {
-    metro: "Nearby Metro Connectivity",
-    school: "Close to reputed educational institutions",
-    hospital: "Nearby healthcare facilities",
-  },
-
-  investment: {
-    roi: "14–20%",
-    demand: "Ultra Luxury",
-    growth: "Strong",
-    appreciation: "Premium appreciation potential in Kankurgachi",
-  },
-
-  propertyDetails:
-    "Quintessa by PS Group is an ultra-luxury residential development located in Kankurgachi, Kolkata. Designed for only 80 exclusive families, the project offers expansive 4, 4.5, 5 & 6 BHK simplexes and penthouses with elegant 3-side open layouts, large windows, step-in closets, and Vaastu-compliant planning. Featuring a one-of-a-kind clubhouse spread across an entire floor, along with wellness, sports, leisure, and entertainment amenities, Quintessa delivers a rare lifestyle experience crafted for discerning homeowners in the heart of North Kolkata.",
-
-  specifications: {
-    clubhouse: "28,000 sq.ft Club Luxuries",
-    floors: "16 Storey",
-    families: "80 Exclusive Families",
-    activities: "35+ Lifestyle Activities",
-    layout: "3-Side Open Homes",
-    apartmentTypes: "Simplexes & Penthouses",
-  },
-
-  features: [
-    "Luxury Simplexes",
-    "Exclusive Penthouses",
-    "3-Side Open Apartments",
-    "Vaastu-Compliant Homes",
-    "Large Windows",
-    "Step-In Closets",
-    "King-Size Kitchens",
-    "Luxury Clubhouse",
-    "Sports & Wellness Amenities",
-    "Curated Lifestyle Spaces",
-  ],
-
-  rera: "WBRERA/P/KOL/2023/000776",
-
-  tag: "Ultra Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.952137270867!2d88.38298677507797!3d22.580893379485833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02771cfc7f89e5%3A0x1cef7f2bd260f726!2sQUINTESSA!5e0!3m2!1sen!2sin!4v1779086342843!5m2!1sen!2sin",
-
-  plans: {
-    site: quin01,
-    master: quin01,
-    unit: [quin02, quin03, quin04, quin05, quin06, quin07, quin08, quin09, quin001, quin002, quin003, quin004, quin005, quin006],
-  },
-},
-
-{
-  id: "34",
-  slug: "vaanya",
-  name: "Vaanya",
-  tagline: "Urban Forest Living.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "New Town Action Area II, Near Axis Mall & Eco Park",
-  priceLabel: "₹4.02 Cr onwards",
-  priceMin: 402,
-  bhk: [4],
-  sizeRange: "1969 – 2368 sq.ft.",
-  possession: "Under Development",
-  configuration: "35 Storey High Rise · 9 Acres",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential", "Invest"],
-  cover: van1,
-
-  gallery: [
-    van1,
-    van2,
-    van3,
-    van4,
-    van5,
-    van6,
-    van7,
-    van8,
-    van9,
-    van10,
-    van11,
-    van13,
-    van14,
-    van15,
-    van16,
-    van17,
-    van18,
-    van19,
-    van20,
-    van21,
-    van22,
-  ],
-
-  story: [
-    "Wake up surrounded by lush forests, rare flora, and serene blue spaces.",
-    "Experience urban luxury blended seamlessly with nature and wellness.",
-    "Live amidst expansive greenery with world-class lifestyle experiences in the heart of New Town.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Tree-Lined Lap Pool",
-      "Lagoon with Sunken Decks",
-      "Forest Walk",
-      "Thought Pods",
-      "Games Rooms",
-      "Gymnasium",
-      "Salon & Spa",
-      "Sauna",
-      "Café",
-      "Indoor-Outdoor Activity Zones",
-    ],
-
-    connectivity: [
-      "Prime Action Area II Location",
-      "Near Axis Mall",
-      "Close to Eco Park",
-      "Easy Airport Connectivity",
-      "Nearby New Town Metro Station",
-    ],
-
-    lifestyle: [
-      "9 Acre Forest Inspired Development",
-      "83% Open To Sky",
-      "2000+ Trees",
-      "2 Lakh+ Shrubs",
-      "35 Storey High-Rise Towers",
-      "Forest Therapy Inspired Design",
-      "Blue Space Living",
-      "Nature-Centric Luxury Lifestyle",
-    ],
-  },
-
-  nearby: {
-    metro: "New Town Metro Station",
-    school: "Nearby reputed educational institutions",
-    hospital: "Close to major healthcare centers",
-  },
-
-  investment: {
-    roi: "15–22%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong appreciation potential in New Town",
-  },
-
-  propertyDetails:
-    "Vaanya by PS Group is a luxury urban forest residential development located in New Town Action Area II, Kolkata. Spread across 9 acres with 83% open-to-sky spaces, the project blends lush greenery, forest-inspired architecture, and premium living experiences. Featuring spacious 4 BHK apartments surrounded by 2000+ trees and over 2 lakh shrubs, Vaanya introduces concepts like Forest Therapy, Blue Space, and Tree Talk to enhance wellness and lifestyle. With luxury amenities, nature-inspired leisure zones, and seamless connectivity to Eco Park, Axis Mall, Airport, and New Town Metro, Vaanya redefines nature-centric luxury living in Kolkata.",
-
-  specifications: {
-    landArea: "9 Acres",
-    openSpace: "83% Open To Sky",
-    towers: "35 Storey High-Rise Towers",
-    greenery: "2000+ Trees & 2 Lakh+ Shrubs",
-    apartmentType: "4 BHK Luxury Apartments",
-    lifestyleConcept: "Urban Forest Living",
-  },
-
-  features: [
-    "Urban Forest Theme",
-    "Forest Therapy Design",
-    "Blue Space Inspired Living",
-    "Thought Pods",
-    "Forest Walk",
-    "Lagoon with Sunken Decks",
-    "Nature-Centric Amenities",
-    "High-Rise Luxury Towers",
-    "Wellness Focused Spaces",
-    "Large Open Landscapes",
-  ],
-
-  pricing: [
-    {
-      size: "1969 sq.ft.",
-      price: "₹4.02 Cr onwards",
-    },
-    {
-      size: "2045 sq.ft.",
-      price: "₹4.12 Cr onwards",
-    },
-    {
-      size: "2336 sq.ft.",
-      price: "₹4.30 Cr onwards",
-    },
-    {
-      size: "2368 sq.ft.",
-      price: "₹4.43 Cr onwards",
-    },
-  ],
-
-  rera: "WBRERA/P/NOR/2023/000089",
-
-  tag: "Urban Forest Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.864178133545!2d88.49263207507815!3d22.58418267948353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020ac43d533df7%3A0x306adff40a6d767d!2sVaanya!5e0!3m2!1sen!2sin!4v1779087939280!5m2!1sen!2sin",
-
-  plans: {
-    site: van01,
-    master: van01,
-    unit: [van02, van03, van04, van05],
-  },
-},
-
-{
-  id: "35",
-  slug: "antares",
-  name: "Antares",
-  tagline: "Exclusive and uber luxe homes at a stellar location.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "Sarat Bose Road",
-  priceLabel: "Price On Request",
-  priceMin: 0,
-  bhk: [5],
-  sizeRange: "4888 sq.ft. Duplex",
-  possession: "Under Construction",
-  configuration: "23 Storeys · 26 Crafted Apartments",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: ant1,
-
-  gallery: [
-    ant1,
-    ant2,
-    ant3,
-    ant4,
-    ant5,
-    ant6,
-    ant7,
-    ant8,
-    ant9,
-    ant10,
-    ant11,
-    ant12,
-  ],
-
-  story: [
-    "Live in ultra-spacious duplex residences crafted for modern luxury.",
-    "Experience naturally lit Vaastu-compliant homes designed to amplify positivity.",
-    "Wake up in the heart of South Kolkata surrounded by elegance and exclusivity.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Dedicated G+2 Luxury Club",
-      "Indoor Lifestyle Amenities",
-      "Outdoor Leisure Zones",
-      "Sloping Green Walkways",
-      "Wellness Spaces",
-      "Safety & Security Systems",
-      "Premium Recreational Facilities",
-      "Occupational Comfort Features",
-    ],
-
-    connectivity: [
-      "Prime Sarat Bose Road Address",
-      "Excellent South Kolkata Connectivity",
-      "Close to Lifestyle Destinations",
-      "Nearby Healthcare Facilities",
-      "Easy Access to Educational Institutions",
-    ],
-
-    lifestyle: [
-      "23 Storey Landmark Tower",
-      "Only 26 Exclusive Apartments",
-      "Ultra Luxury Duplex Homes",
-      "Vaastu-Compliant Residences",
-      "Naturally Lit Living Spaces",
-      "Low Density Elite Living",
-    ],
-  },
-
-  nearby: {
-    metro: "Nearby South Kolkata Metro Connectivity",
-    school: "Close to reputed educational institutions",
-    hospital: "Nearby premium healthcare centers",
-  },
-
-  investment: {
-    roi: "14–20%",
-    demand: "Ultra Luxury",
-    growth: "Strong",
-    appreciation: "Prime South Kolkata luxury appreciation potential",
-  },
-
-  propertyDetails:
-    "Antares by PS Group is an ultra-luxury residential development located on Sarat Bose Road in South Kolkata. Rising 23 storeys high with only 26 crafted apartments, the project offers expansive 5 BHK duplex homes designed for exclusivity, elegance, and comfort. Featuring Vaastu-compliant layouts, naturally lit interiors, lush landscaped walkways, and a dedicated G+2 luxury club experience, Antares combines sophisticated architecture with premium lifestyle amenities in one of Kolkata’s most prestigious residential neighborhoods.",
-
-  specifications: {
-    storeys: "23 Storeys",
-    apartments: "26 Crafted Apartments",
-    apartmentType: "5 BHK Duplex",
-    lowerLevelArea: "2551 sq.ft.",
-    upperLevelArea: "2337 sq.ft.",
-    clubhouse: "Dedicated G+2 Club Experience",
-  },
-
-  features: [
-    "Ultra Luxury Duplex Residences",
-    "Vaastu-Compliant Homes",
-    "Naturally Lit Interiors",
-    "Dedicated Luxury Club",
-    "Landscaped Green Walkways",
-    "Low Density Living",
-    "Premium Lifestyle Amenities",
-    "Prime South Kolkata Address",
-  ],
-
-  pricing: [
   {
-    size: "4888 sq.ft. Duplex",
-    price: "Price On Request",
-  },
-],
+    id: "13",
+    slug: "nirvana",
+    name: "Nirvana",
+    tagline: "Own your home. Not shared living.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Rajpur Dhamaitala | Near Southern Bypass",
+    priceLabel: "₹1.04 Cr onwards",
+    priceMin: 104,
+    bhk: [3],
+    sizeRange: "2244 – 2274 sq.ft.",
+    possession: "2028",
+    configuration: "G+1 · 300 Bungalows",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: nir1,
 
-  rera: "WBRERA/P/KOL/2023/000202",
-
-  tag: "Ultra Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.062179928439!2d88.35190527507669!3d22.539343379515447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027715c971e86b%3A0xb47ae0370483248a!2sAntares!5e0!3m2!1sen!2sin!4v1779089643347!5m2!1sen!2sin",
-
-  plans: {
-    site: ant01,
-    master: ant01,
-    unit: [ant02, ant03],
-  },
-},
-{
-  id: "36",
-  slug: "the-dominion",
-  name: "The Dominion",
-  tagline: "Boutique workspaces crafted for modern business.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "Lansdowne, Sarat Bose Road",
-  priceLabel: "₹1.80 Cr onwards",
-  priceMin: 180,
-  bhk: [0],
-  sizeRange: "Office & Retail Spaces",
-  possession: "Under Construction",
-  configuration: "G+7 · 1 Tower · 26 Units",
-  status: "Under Construction",
-  intent: ["Commercial", "Office", "Retail", "Invest"],
-  cover: dom1,
-
-  gallery: [
-    dom1,
-    dom2,
-  ],
-
-  story: [
-    "Build your business in a boutique commercial landmark on Sarat Bose Road.",
-    "Experience intelligently designed office spaces filled with natural light.",
-    "Work from a premium address connected to Kolkata’s retail and business hubs.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Boutique Office Spaces",
-      "Retail & Display Outlets",
-      "Glass Façade Architecture",
-      "Natural Light Optimized Workspaces",
-      "Safety & Security Systems",
-      "Energy Efficient Design",
-      "Occupational Health & Comfort Features",
+    gallery: [
+      nir1,
+      nir2,
+      nir3,
+      nir4,
+      nir5,
+      nir6,
+      nir7,
+      nir8,
+      nir9,
+      nir10,
+      nir11,
     ],
 
-    connectivity: [
-      "Prime Sarat Bose Road Location",
-      "Excellent Lansdowne Connectivity",
-      "Close to Retail & Business Districts",
-      "Easy Access to Major Roads",
-      "Well Connected to Central Kolkata",
+    story: [
+      "Wake up to natural light, private greens, and peaceful surroundings.",
+      "Experience bungalow living away from the chaos yet connected to the city.",
+      "Own an independent lifestyle with privacy, security, and open skies.",
     ],
 
-    lifestyle: [
-      "Boutique Commercial Development",
-      "Modern Glass Façade",
-      "Premium Corporate Address",
-      "Low Density Office Environment",
-      "High Space Efficiency",
-      "Future-Ready Business Infrastructure",
-    ],
-  },
+    highlights: {
+      amenities: [
+        "Club House",
+        "Swimming Pool with Jacuzzi",
+        "AC Banquet Hall",
+        "Gymnasium",
+        "Meditation Area",
+        "Yoga Zone",
+        "Amphitheatre",
+        "Multipurpose Court",
+        "Outdoor Gym",
+        "Barbecue Zone",
+      ],
 
-  nearby: {
-    metro: "Nearby Metro Connectivity",
-    school: "Close to educational institutions",
-    hospital: "Nearby healthcare facilities",
-  },
+      connectivity: [
+        "Near Southern Bypass",
+        "Connected to South Kolkata",
+        "Easy Access to City Hubs",
+        "Well-connected Road Infrastructure",
+        "Peaceful Residential Neighborhood",
+      ],
 
-  investment: {
-    roi: "12–16%",
-    demand: "High",
-    growth: "Strong",
-    appreciation: "Premium commercial appreciation potential",
-  },
-
-  propertyDetails:
-    "The Dominion by PS Group is a boutique commercial office and retail development located on Sarat Bose Road in Lansdowne, Kolkata. Designed to meet modern business needs, the project combines intelligent architecture, enhanced space efficiency, and premium business infrastructure. Featuring a stunning glass façade, naturally lit workspaces, and a prime central location, The Dominion offers boutique offices, display units, and retail spaces for businesses seeking visibility, connectivity, and a distinguished corporate identity.",
-
-  specifications: {
-    towers: "1 Tower",
-    configuration: "G+7",
-    units: "26 Offices, Display & Retail Outlets",
-    architecture: "Glass Façade Commercial Building",
-    officeType: "Boutique Offices",
-    retail: "Retail & Display Units",
-  },
-
-  features: [
-    "Boutique Office Spaces",
-    "Retail & Display Units",
-    "Premium Glass Façade",
-    "Natural Light Focused Design",
-    "Prime Lansdowne Address",
-    "Energy Efficient Infrastructure",
-    "Business-Centric Planning",
-    "Modern Commercial Development",
-  ],
-
-  pricing: [
-    {
-      size: "Office & Display Units",
-      price: "₹1.80 Cr onwards",
+      lifestyle: [
+        "12.32 Acre Township",
+        "300 Premium Bungalows",
+        "Private Garden & Backyard",
+        "Attached Car Parking",
+        "96%–100% Natural Light",
+        "Skylight Roof Design",
+      ],
     },
-    {
-      size: "Retail Spaces",
-      price: "Price on Request",
+
+    nearby: {
+      metro: "Upcoming South Kolkata Metro Connectivity",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Nearby multi-speciality hospitals",
     },
-  ],
 
-  rera: "WBRERA/P/KOL/2023/000090",
-
-  tag: "Commercial",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.251924625551!2d88.35035447507647!3d22.532233779520492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277ca9e36bafb%3A0x324897aa562658cf!2sThe%20Dominion!5e0!3m2!1sen!2sin!4v1779090575105!5m2!1sen!2sin",
-
-  plans: {
-    site: dom02,
-    master: dom01,
-    unit: [dom03, dom04, dom05, dom06, dom07],
-  },
-},
-
-{
-  id: "37",
-  slug: "the-reserve",
-  name: "The Reserve",
-  tagline: "A billionaire’s paradise in the heart of Ballygunge.",
-  developer: "PS Group",
-  city: "Kolkata",
-  location: "Ballygunge Circular Road, AJC Crossing",
-  priceLabel: "Price on Request",
-  priceMin: 0,
-  bhk: [4, 5, 6],
-  sizeRange: "1905 sq.ft. onwards",
-  possession: "Ready To Move",
-  configuration: "30/34 Storey Luxury Towers · 3 Acres",
-  status: "Ready to Move",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: res1,
-
-  gallery: [
-    res1,
-    res2,
-    res3,
-    res4,
-    res5,
-    res6,
-    res7,
-    res8,
-    res9,
-    res10,
-    res11,
-    res12,
-    res13,
-    res14,
-  ],
-
-  story: [
-    "Wake up to unmatched luxury in one of South Kolkata’s most prestigious addresses.",
-    "Experience bespoke condominiums, duplexes, and pool villas crafted for the extraordinary.",
-    "Live amidst elevated gardens, cascading landscapes, and world-class lifestyle experiences.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Elevated Walkways",
-      "Luxury Club Amenities",
-      "Pool Villas",
-      "Sports & Fitness Facilities",
-      "Wellness Spaces",
-      "Private Leisure Zones",
-      "Landscaped Gardens",
-      "Exotic Cabanas",
-      "Recreation Lounges",
-      "Premium Security Systems",
-    ],
-
-    connectivity: [
-      "Prime Ballygunge Circular Road Address",
-      "Near AJC Crossing",
-      "Excellent South Kolkata Connectivity",
-      "Connected to Premium Lifestyle Zones",
-      "Easy Access to Business Districts",
-    ],
-
-    lifestyle: [
-      "3 Acre Luxury Development",
-      "1 Acre of Landscaping",
-      "30/34 Storey High-Rise Towers",
-      "Bespoke Duplexes & Pool Villas",
-      "Ultra Luxury Condominium Living",
-      "Premium South Kolkata Neighborhood",
-    ],
-  },
-
-  nearby: {
-    metro: "Nearby South Kolkata Metro Connectivity",
-    school: "Close to reputed schools & institutions",
-    hospital: "Nearby premium healthcare facilities",
-  },
-
-  investment: {
-    roi: "18–25%",
-    demand: "Ultra Luxury",
-    growth: "Strong",
-    appreciation: "High appreciation potential in Ballygunge",
-  },
-
-  propertyDetails:
-    "The Reserve by PS Group is one of Kolkata’s most luxurious residential developments located on Ballygunge Circular Road near AJC Crossing. Spread across 3 acres with over an acre dedicated to elevated landscapes, gardens, exotic cabanas, and cascading leisure spaces, the project offers bespoke condominiums, duplexes, and pool villas crafted for elite living. Featuring premium sports, wellness, recreation, and lifestyle amenities, The Reserve delivers an ultra-luxury living experience in one of South Kolkata’s most prestigious neighborhoods.",
-
-  specifications: {
-    landArea: "3 Acres",
-    landscaping: "1 Acre Elevated Landscaping",
-    towers: "30/34 Storey High-Rise Towers",
-    apartmentTypes: "Luxury Condominiums, Duplexes & Pool Villas",
-    locationAdvantage: "Ballygunge Circular Road",
-    lifestyle: "Ultra Luxury Residential Development",
-  },
-
-  features: [
-    "Luxury Condominiums",
-    "Exclusive Duplexes",
-    "Private Pool Villas",
-    "Elevated Landscaped Gardens",
-    "Exotic Cabanas",
-    "Wellness & Recreation Zones",
-    "Premium South Kolkata Address",
-    "High-Rise Skyline Living",
-    "Luxury Lifestyle Amenities",
-  ],
-
-  pricing: [
-    {
-      size: "4 BHK",
-      price: "Price on Request",
+    investment: {
+      roi: "13–18%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong bungalow appreciation potential",
     },
-    {
-      size: "Terrace/Pool Villaments",
-      price: "Price on Request",
+
+    propertyDetails:
+      "Nirvana by Srijan Realty is a premium bungalow township located near Southern Bypass at Rajpur Dhamaitala, Kolkata. Spread across approximately 12.32 acres, the project offers around 300 G+1 independent bungalows with private gardens, backyard spaces, attached parking, and skylight roof designs for maximum natural light. Combining the privacy of standalone homes with the convenience of gated community living, Nirvana features world-class amenities including a clubhouse, swimming pool, gymnasium, amphitheatre, meditation zones, and landscaped open spaces.",
+
+    specifications: {
+      landArea: "12.32 Acres",
+      blocks: "G+1",
+      bungalows: "300 Bungalows",
+      naturalLight: "96% – 100%",
+      parking: "Attached to Doorstep",
+      specialAreas: "Roof, Private Garden, Backyard",
     },
-  ],
 
-  rera: "HIRA/P/KOL/2018/000013",
-
-  tag: "Ultra Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.0283996584335!2d88.35525287507674!3d22.540608879514533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027718ad0b4e83%3A0x78b2fd0cd912ceb!2sThe%20Reserve!5e0!3m2!1sen!2sin!4v1779091832972!5m2!1sen!2sin",
-
-  plans: {
-    site: res01,
-    master: res01,
-    unit: [res02, res03, res04],
-  },
-},
-
-{
-  id: "38",
-  slug: "godrej-zen-estate",
-  name: "Godrej Zen Estate",
-  tagline: "Experience The Essence Of Bali.",
-  developer: "Godrej Properties",
-  city: "Kolkata",
-  location: "Off Diamond Harbour Road, Kolkata",
-  priceLabel: "₹45 L onwards",
-  priceMin: 45,
-  bhk: [0],
-  sizeRange: "Plots",
-  possession: "June 2027",
-  configuration: "Balinese-Themed Plotted Development",
-  status: "Under Construction",
-  intent: ["Plots", "Invest", "Residential"],
-  cover: zen1,
-
-  gallery: [
-    zen1,
-    zen2,
-    zen3,
-    zen4,
-    zen5,
-    zen6,
-    zen7,
-    zen8,
-    zen9,
-    zen10,
-  ],
-
-  story: [
-    "Discover a serene Balinese-inspired lifestyle surrounded by lush greenery.",
-    "Build your dream home in a peaceful sanctuary designed around nature and elegance.",
-    "Experience tranquil plotted living crafted with harmony, culture, and timeless beauty.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Balinese Landscape Design",
-      "Meditation Spaces",
-      "Nature Inspired Pathways",
-      "Landscaped Greens",
-      "Wellness Zones",
-      "Open Leisure Areas",
-      "Community Spaces",
-      "Secure Gated Development",
+    features: [
+      "Independent Bungalow Living",
+      "Private Garden & Backyard",
+      "Skylight Roof Design",
+      "Clubhouse & Swimming Pool",
+      "Smart Security System",
+      "Senior Citizen Court",
+      "Landscaped Open Spaces",
+      "Attached Car Parking",
     ],
 
-    connectivity: [
-      "Prime Off-Diamond Harbour Road Location",
-      "Excellent Kolkata Connectivity",
-      "Easy Access to Major Roads",
-      "Connected to Urban Infrastructure",
-      "Close to Lifestyle Destinations",
-    ],
+    rera: "WBRERA/P/SOU/2024/001142",
 
-    lifestyle: [
-      "Balinese-Themed Community",
-      "Nature-Centric Living",
-      "Luxury Plotted Development",
-      "Peaceful Residential Environment",
-      "Elegant Architectural Inspiration",
-      "Future Ready Investment Destination",
-    ],
-  },
+    tag: "Featured",
 
-  nearby: {
-    metro: "Connected via major Kolkata transport routes",
-    school: "Nearby reputed schools & educational institutions",
-    hospital: "Nearby healthcare & lifestyle facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Developing",
-    appreciation: "Strong plotted development appreciation potential",
-  },
-
-  propertyDetails:
-    "Godrej Zen Estate by Godrej Properties is a premium Balinese-themed plotted residential development located off Diamond Harbour Road, Kolkata. Inspired by the serene beauty and cultural richness of Bali, the project blends lush landscapes, elegant design, and tranquil open spaces to create a harmonious living experience. Designed as a peaceful sanctuary connected deeply with nature, Godrej Zen Estate offers luxury plotted living with modern infrastructure, secure community planning, and future-ready investment potential.",
-
-  specifications: {
-    developmentType: "Plotted Residential Development",
-    theme: "Balinese Inspired",
-    possession: "June 2027",
-    propertyType: "Plots",
-    infrastructure: "Premium Gated Community",
-    developerLegacy: "Godrej Properties",
-  },
-
-  features: [
-    "Balinese-Themed Architecture",
-    "Luxury Residential Plots",
-    "Nature Inspired Living",
-    "Landscaped Green Zones",
-    "Peaceful Wellness Spaces",
-    "Secure Gated Community",
-    "Premium Infrastructure",
-    "Future Ready Investment",
-  ],
-
-  pricing: [
-    {
-      size: "Residential Plots",
-      price: "₹45 L onwards",
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.43055482912!2d88.3963504752958!3d22.412814879605804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026f0e5cb851a3%3A0x7f0d717540ac6dad!2sSRIJAN%20NIRVANA!5e0!3m2!1sen!2sin!4v1778832065938!5m2!1sen!2sin",
+    plans: {
+      master: nir01,
     },
-  ],
+  },
 
-  rera: {
-  phase1: "WBRERA/P/SOU/2025/002609",
-  phase2: "WBRERA/P/SOU/2025/002728",
-  phase3: "WBRERA/P/SOU/2025/002990",
-  phase4: "WBRERA/P/SOU/2025/002991",
-},
+  {
+    id: "14",
+    slug: "solus",
+    name: "Solus",
+    tagline: "Luxury living with unmatched connectivity.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Jessore Road, Madhyamgram | Beside Star Mall",
+    priceLabel: "₹67.25 L onwards",
+    priceMin: 67.25,
+    bhk: [3, 4],
+    sizeRange: "897 – 1528 sq.ft.",
+    possession: "Sept 2028",
+    configuration: "7 Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: sol1,
 
-  tag: "Featured",
+    gallery: [
+      sol1,
+      sol2,
+      sol3,
+      sol4,
+      sol5,
+      sol6,
+      sol7,
+      sol8,
+      sol9,
+      sol10,
+      sol11,
+      sol12,
+      sol13,
+      sol14,
+      sol15,
+      sol16,
+      sol17,
+      sol18,
+      sol19,
+      sol20,
+      sol21,
+      sol22,
+      sol23,
+    ],
 
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2195.4177916903686!2d88.27102383495495!3d22.268976277679215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0267e2e853b9f9%3A0xdbe316ae12eb71f8!2sGodrej%20Zen%20Estate%2C%20Off%20Diamond%20Harbour%20Road%2C%20Kolkata!5e0!3m2!1sen!2sin!4v1779093401559!5m2!1sen!2sin",
+    story: [
+      "Live at the first boutique residential landmark on Jessore Road.",
+      "Experience aspirational luxury with hyper retail and curated recreational hubs.",
+      "Enjoy seamless airport connectivity and a lifestyle crafted for modern living.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Swimming Pool",
+        "AC Cineplex",
+        "AC Gymnasium",
+        "Club House",
+        "Outdoor Cinema",
+        "Jogging Track",
+        "Cafe",
+        "Meditation Area",
+        "Multipurpose Court",
+        "Entertainment Centre",
+      ],
+
+      connectivity: [
+        "Located Right on Jessore Road",
+        "Beside Star Mall",
+        "Near Dum Dum Airport",
+        "Excellent North Kolkata Connectivity",
+        "Hyper Retail within the Project",
+      ],
+
+      lifestyle: [
+        "Boutique Residential Development",
+        "Internationally Designed Landscape",
+        "4 Level Recreational Hubs",
+        "Ergonomically Designed Apartments",
+        "Premium Community Spaces",
+        "Luxury Lifestyle Amenities",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming Metro Connectivity Nearby",
+      school: "Nearby reputed schools & educational institutions",
+      hospital: "Nearby multi-speciality hospitals",
+    },
+
+    investment: {
+      roi: "13–17%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential on Jessore Road",
+    },
+
+    propertyDetails:
+      "Solus by Srijan Realty is the first boutique residential development on Jessore Road near Dum Dum Airport, Madhyamgram. Designed for aspirational modern living, the project offers luxurious 3 & 4 BHK residences with ergonomically planned layouts and internationally designed landscapes. Featuring hyper retail within the development and four levels of recreational hubs, Solus combines premium amenities, seamless connectivity, and a vibrant lifestyle experience in North Kolkata.",
+
+    specifications: {
+      towers: "7 Towers",
+      locationAdvantage: "Right on Jessore Road",
+      retail: "Hyper Retail within Project",
+      landscape: "Internationally Designed",
+      design: "Ergonomically Designed Apartments",
+      recreationalHubs: "4 Level Recreational Hubs",
+    },
+
+    features: [
+      "Boutique Residential Development",
+      "Hyper Retail Plaza",
+      "Outdoor Cinema",
+      "International Landscape Design",
+      "Luxury Clubhouse",
+      "Swimming Pool",
+      "Entertainment Zones",
+      "Premium Lifestyle Amenities",
+    ],
+
+    rera: "WBRERA/NPR-000146",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.72921915241!2d88.46805297530429!3d22.701121979400323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f69b359c285%3A0xa3936db8e0f262d!2sSOLUS%20-%20Differential%20Living!5e0!3m2!1sen!2sin!4v1778832767287!5m2!1sen!2sin",
+
+    view360: "https://www.srijanrealty.com/360-vr-amenities/solus/index.html",
+  },
+
+  // {
+  //   id: "15",
+  //   slug: "eternia",
+  //   name: "Eternia",
+  //   tagline: "Luxury living in the lap of nature.",
+  //   developer: "Srijan",
+  //   city: "Kolkata",
+  //   location: "Madhyamgram | Opposite NSG Hub",
+  //   priceLabel: "₹39.81 L onwards",
+  //   priceMin: 39.81,
+  //   bhk: [2, 3],
+  //   sizeRange: "813 – 1261 sq.ft.",
+  //   possession: "2025",
+  //   configuration: "26 Towers · 914 Apartments",
+  //   status: "Under Construction",
+  //   intent: ["Buy", "Residential", "Invest"],
+  //   cover: eter1,
+
+  //   gallery: [
+  //     eter1,
+  //     eter2,
+  //     eter3,
+  //     eter4,
+  //     eter5,
+  //     eter6,
+  //     eter7,
+  //     eter8,
+  //     eter9,
+  //     eter10,
+  //   ],
+
+  //   story: [
+  //     "Wake up surrounded by acres of greenery and serene water bodies.",
+  //     "Experience peaceful urban living inspired by nature and wellness.",
+  //     "Live in a landmark community crafted for timeless happiness.",
+  //   ],
+
+  //   highlights: {
+  //     amenities: [
+  //       "2 Swimming Pools with Deck",
+  //       "Outdoor Cinema",
+  //       "AC Gymnasium",
+  //       "Floating Gazebo",
+  //       "Home Theatre",
+  //       "Squash Court",
+  //       "Jogging Track",
+  //       "Meditation Garden",
+  //       "Yoga Garden",
+  //       "Community Hall",
+  //     ],
+
+  //     connectivity: [
+  //       "Opposite NSG Hub",
+  //       "2.2 km from Madhyamgram Chowmatha",
+  //       "Excellent Road Connectivity",
+  //       "Well-connected Urban Location",
+  //       "Close to Daily Conveniences",
+  //     ],
+
+  //     lifestyle: [
+  //       "Serene Pollution-Free Environment",
+  //       "Large Natural Water Body",
+  //       "914 Premium Apartments",
+  //       "Award-winning Landscape Design",
+  //       "Nature-inspired Community",
+  //       "Landmark Residential Township",
+  //     ],
+  //   },
+
+  //   nearby: {
+  //     metro: "Upcoming Metro Connectivity Nearby",
+  //     school: "Nearby reputed schools & institutions",
+  //     hospital: "Nearby hospitals & healthcare centers",
+  //   },
+
+  //   investment: {
+  //     roi: "12–16%",
+  //     demand: "High",
+  //     growth: "Rapidly Developing",
+  //     appreciation: "Strong growth potential in Madhyamgram",
+  //   },
+
+  //   propertyDetails:
+  //     "Eternia by Srijan Realty is a premium residential township located opposite NSG Hub on Badu Road, Madhyamgram. Offering thoughtfully designed 2 & 3 BHK apartments, the project blends luxury living with nature through acres of greenery, landscaped gardens, and serene water bodies. Spread across a landmark development with 26 towers and 914 apartments, Eternia features extensive lifestyle amenities, wellness spaces, and recreational zones crafted to deliver peaceful urban living in a pollution-free environment.",
+
+  //   specifications: {
+  //     towers: "26 Towers",
+  //     apartments: "914 Apartments",
+  //     environment: "Pollution-Free Surroundings",
+  //     landscape: "Award-winning Landscaped Greens",
+  //     waterBody: "Large Natural Water Body",
+  //     lifestyle: "Nature-inspired Living",
+  //   },
+
+  //   features: [
+  //     "Nature-themed Township",
+  //     "Floating Gazebo",
+  //     "Outdoor Cinema",
+  //     "Yoga & Meditation Gardens",
+  //     "Home Theatre",
+  //     "Multiple Swimming Pools",
+  //     "Landscaped Open Spaces",
+  //     "Luxury Lifestyle Amenities",
+  //   ],
+
+  //   rera: "WBRERA/P/NOR/2024/001228",
+
+  //   tag: "Featured",
+
+  //   mapEmbedUrl:
+  //     "https://www.google.com/maps/embed?pb=!1m18...",
+
+  //   view360: "https://www.srijanrealty.com/360_virtual_tour/eternia/tour.html",
+  //   plans: {
+  //     master: eter01,
+  //   },
+  // },
+
+  {
+    id: "16",
+    slug: "srijan-logistic-park-bt-road",
+    name: "Srijan Logistic Park – BT Road",
+    tagline: "Built for logistics. Designed for industrial growth.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "BT Road, Near Khardah & Sodepur",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "7,000 sq.ft. onwards",
+    possession: "2026",
+    configuration: "9+ Acre Industrial Logistic Hub",
+    status: "Under Construction",
+    intent: ["Commercial", "Warehousing", "Invest"],
+    cover: silp2,
+
+    gallery: [
+      silp1,
+      silp2,
+      silp3,
+      silp4,
+      silp5,
+      silp6,
+    ],
+
+    story: [
+      "Scale your industrial operations with seamless logistics connectivity.",
+      "Operate from a green non-polluting industrial ecosystem on BT Road.",
+      "Access national markets through a strategically connected logistics hub.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Massive Goods Lifts",
+        "Weigh Bridge Facility",
+        "Food Court & Canteen",
+        "Drivers Rest Room",
+        "Labour Quarters",
+        "24x7 Security",
+        "CCTV Surveillance",
+        "Power Backup",
+        "Water Treatment Plant",
+        "Rain Water Harvesting",
+      ],
+
+      connectivity: [
+        "1.3 km from Khardah Railway Station",
+        "1.8 km from Sodepur More Crossing",
+        "Direct BT Road Connectivity",
+        "Connected to Kolkata & Howrah",
+        "Access to National & Local Markets",
+      ],
+
+      lifestyle: [
+        "9+ Acre Industrial Hub",
+        "Non-Polluting Green Complex",
+        "Industrial & Logistics Ready",
+        "Ample Skilled & Unskilled Labour",
+        "Wide Internal Roads",
+        "Professional Facility Management",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby North Kolkata Transit Connectivity",
+      school: "Nearby educational institutions",
+      hospital: "Nearby hospitals & healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Industrial Expansion Zone",
+      appreciation: "Strong warehousing demand growth",
+    },
+
+    propertyDetails:
+      "Srijan Industrial Logistic Park, BT Road is a premium industrial and warehousing hub strategically located near Khardah Railway Station and Sodepur More Crossing. Spread across more than 9 acres, the project is designed as a non-polluting green logistics complex catering to the growing industrial and warehousing demands of West Bengal. With units starting from approximately 7,000 sq.ft., the project offers seamless connectivity to Kolkata, Howrah, and major metropolitan cities including Mumbai, Delhi, and Chennai, making it an ideal self-sustained logistics ecosystem.",
+
+    specifications: {
+      landArea: "9+ Acres",
+      unitSize: "7,000 sq.ft. onwards",
+      policy: "Only Non-Polluting Companies Allowed",
+      roads: "Up to 10m Wide Internal Roads",
+      transport: "Economic & Speedy Transportation",
+      logistics: "Bulk Material Handling Facilities",
+    },
+
+    features: [
+      "Warehousing Spaces",
+      "Heavy Goods Lifts",
+      "Weigh Bridge Facility",
+      "Food Court & Canteen",
+      "Power Backup",
+      "Rain Water Harvesting",
+      "24x7 Security & CCTV",
+      "Professional Facility Management",
+    ],
+
+    rera: "",
+
+    tag: "Commercial",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.304865234613!2d88.37158527530477!3d22.716907279389233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b3abc41bcbb%3A0xdee11feae5580612!2sSrijan%20Industrial%20Logistic%20Park%2C%20BT%20Road!5e0!3m2!1sen!2sin!4v1778834672097!5m2!1sen!2sin",
+    plans: {
+      master: silp01,
+    },
+  },
+
+  {
+    id: "17",
+    slug: "greenfield-city",
+    name: "Greenfield City",
+    tagline: "A greener lifestyle crafted for modern living.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Maheshtala | Near Behala Chowrasta Metro",
+    priceLabel: "₹59.00 L onwards",
+    priceMin: 59,
+    bhk: [3],
+    sizeRange: "1056 – 1323 sq.ft.",
+    possession: "2027",
+    configuration: "96 Blocks · 4066 Flats",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Affordable"],
+    cover: gf1,
+
+    gallery: [
+      gf1,
+      gf2,
+      gf3,
+      gf4,
+      gf5,
+      gf6,
+      gf7,
+      gf8,
+      gf9,
+      gf10,
+      gf11,
+    ],
+
+    story: [
+      "Wake up surrounded by vast green landscapes and open skies.",
+      "Experience affordable luxury with premium amenities and lifestyle conveniences.",
+      "Live in a self-sustained gated township connected to metro and city hubs.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Two 5-Star Clubhouses",
+        "Two Swimming Pools",
+        "AC Banquet Hall",
+        "AC Home Theatre",
+        "Amphitheatre",
+        "Jogging Track",
+        "Children’s Play Zone",
+        "Private Party Lounge",
+        "Outdoor Sports Area",
+        "Shopping Plaza",
+      ],
+
+      connectivity: [
+        "Near Behala Chowrasta Metro",
+        "4 km from Joka - BBD Bag Metro",
+        "In-House AC Bus Facility",
+        "Well Connected to South Kolkata",
+        "Easy Access to Daily Conveniences",
+      ],
+
+      lifestyle: [
+        "33 Acres of Green Open Space",
+        "Gated Township Living",
+        "4066 Residential Flats",
+        "Pollution Free Environment",
+        "Ready-to-Move & Under Construction Options",
+        "Large Landscaped Gardens",
+      ],
+    },
+
+    nearby: {
+      metro: "Behala Chowrasta Metro",
+      school: "Provision for School within Township",
+      hospital: "Nearby healthcare & emergency facilities",
+    },
+
+    investment: {
+      roi: "10–15%",
+      demand: "High",
+      growth: "Steady",
+      appreciation: "Strong future growth with metro connectivity",
+    },
+
+    propertyDetails:
+      "Greenfield City by Srijan Realty is a large integrated residential township located in Maheshtala near Behala Chowrasta Metro. Designed around lush greenery and expansive open spaces, the project offers affordable yet premium 3 BHK apartments with high-end specifications and lifestyle amenities. Spread across acres of landscaped development, Greenfield City features two 5-star clubhouses, shopping plaza, in-house AC bus services, sports zones, gardens, and a pollution-free gated environment crafted for comfortable modern living.",
+
+    specifications: {
+      blocks: "96 Blocks",
+      flats: "4066 Flats",
+      greenSpace: "33 Acres Open Space",
+      clubhouse: "2 Five-Star Clubhouses",
+      connectivity: "4 km from Joka Metro",
+      status: "Ready & Under Construction",
+    },
+
+    features: [
+      "Gated Township",
+      "Two Swimming Pools",
+      "In-House Shopping Plaza",
+      "In-House AC Bus Service",
+      "Large Landscaped Gardens",
+      "24x7 Security",
+      "Children’s Play Areas",
+      "Pollution-Free Living",
+    ],
+
+    rera: {
+      phase2: "HIRA/P/SOU/2018/000031",
+      phase4: "HIRA/P/SOU/2020/000814",
+      phase5: "HIRA/P/SOU/2020/000845",
+    },
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.215580982317!2d88.27103267529822!3d22.496093379546345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bc6685089e3%3A0xfa90a7e902f18ec8!2sGreenfield%20City%20Central%20Park!5e0!3m2!1sen!2sin!4v1778835699219!5m2!1sen!2sin",
+
+    view360: "https://www.srijanrealty.com/360_virtual_tour/greenfield_city/",
 
     plans: {
-    site: zen01,
-    master: zen01,
+      master: gf01,
+    },
   },
-},
 
-{
-  id: "39",
-  slug: "godrej-blue",
-  name: "Godrej Blue",
-  tagline: "The calm waters are calling you home to a serene view.",
-  developer: "Godrej Properties",
-  city: "Kolkata",
-  location: "BL Saha Road, New Alipore, Kolkata",
-  priceLabel: "₹2.49 Cr onwards",
-  priceMin: 249,
-  bhk: [3, 4],
-  sizeRange: "Premium Spacious Residences",
-  possession: "September 2029",
-  configuration: "Luxury Residential Development",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential", "Invest"],
-  cover: blue0,
+  {
+    id: "18",
+    slug: "intellia-business-park",
+    name: "Intellia",
+    tagline: "Where work meets lifestyle in the heart of Kolkata.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Park Circus, Kolkata",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "2000 sq.ft onwards",
+    possession: "June 2028",
+    configuration: "4 Towers · 7,00,000 sq.ft Business Park",
+    status: "Under Construction",
+    intent: ["Commercial", "Invest"],
+    cover: intel1,
 
-  gallery: [
-    blue1,
-    blue0,
-    blue2,
-    blue3,
-    blue4,
-    blue5,
-  ],
+    gallery: [
+      intel1,
+      intel2,
+      intel3,
+      intel4,
+      intel5,
+      intel6,
+      intel7,
+      intel8,
+    ],
 
-  story: [
-    "Wake up to calming waterfront-inspired views in the heart of South Kolkata.",
-    "Experience luxury living crafted around serenity, connectivity, and elegance.",
-    "Live moments away from premium lifestyle hubs, golf greens, healthcare, and education.",
-  ],
+    story: [
+      "Work from Kolkata’s first platinum-rated A-grade business park in CBD.",
+      "Experience open-air workspaces, wellness zones, and lifestyle-driven offices.",
+      "Build your business in a destination designed around work, play, and connectivity.",
+    ],
 
-  highlights: {
-    amenities: [
-      "Luxury Clubhouse",
+    highlights: {
+      amenities: [
+        "70,000 sq.ft Business Club",
+        "Food Court",
+        "Open-Air Co-working Spaces",
+        "Sports Turfs on Roofs",
+        "Mini Golf Area",
+        "Pool Bar Area",
+        "Business Lounge",
+        "Adda Zones",
+        "Shuttle Service",
+        "Natural Waterbody",
+      ],
+
+      connectivity: [
+        "1.4 km from Park Circus 7 Point Crossing",
+        "3 km from Sealdah Railway Station",
+        "2 km from Quest Mall",
+        "Excellent Road & Rail Connectivity",
+        "Easy Public Transport Access",
+      ],
+
+      lifestyle: [
+        "7,00,000 sq.ft Development",
+        "65% Open Space",
+        "IGBC NB Platinum Pre-Certified",
+        "24×7 Operational Business Hub",
+        "International Standard Office Spaces",
+        "Largest Business Park in Central Kolkata",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming Metro Connectivity Nearby",
+      school: "Close to major educational institutions",
+      hospital: "Nearby premium healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Prime CBD commercial appreciation potential",
+    },
+
+    propertyDetails:
+      "Intellia Business Park by Srijan Realty is a platinum-rated A-grade commercial development located in Park Circus, Kolkata. Spread across approximately 7,00,000 sq.ft over 5.5 acres, the project offers premium office spaces designed around the concept of work and play. Featuring open-air meeting zones, lifestyle amenities, natural waterbodies, sports facilities, and a massive 70,000 sq.ft business club, Intellia delivers an international-standard workspace experience in the heart of Kolkata’s CBD with exceptional road, rail, and public transport connectivity.",
+
+    specifications: {
+      landArea: "340 Cottahs / 5.5 Acres",
+      towers: "4 Towers",
+      projectSize: "7,00,000 sq.ft.",
+      openSpace: "65%",
+      businessClub: "70,000 sq.ft.",
+      officeSize: "2000 sq.ft onwards",
+    },
+
+    features: [
+      "A-Grade Business Park",
+      "Open-Air Co-working Spaces",
+      "Natural Waterbody",
+      "Business Club",
+      "Sports Turfs",
+      "EV Charging Points",
+      "Ample Parking Space",
+      "IGBC Platinum Pre-Certified",
+    ],
+
+    rera: "WBRERA/P/KOL/2023/000331",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.8194799470757!2d88.37171447529975!3d22.54843407950903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277538d878c37%3A0x2e18f8d193717ad5!2sIntellia%20Business%20Park!5e0!3m2!1sen!2sin!4v1778838838170!5m2!1sen!2sin",
+    plans: {
+      master: intel01,
+    },
+  },
+
+  // {
+  //   id: "19",
+  //   slug: "natura",
+  //   name: "Natura",
+  //   tagline: "Where luxury meets nature in South Kolkata.",
+  //   developer: "Srijan",
+  //   city: "Kolkata",
+  //   location: "New Alipore | Near Petrol Pump",
+  //   priceLabel: "₹1.88 Cr onwards",
+  //   priceMin: 188,
+  //   bhk: [4],
+  //   sizeRange: "1974 sq.ft.",
+  //   possession: "2025",
+  //   configuration: "G+10/G+11 · 4 Blocks",
+  //   status: "Under Construction",
+  //   intent: ["Buy", "Luxury", "Residential"],
+  //   cover: nat1,
+
+  //   gallery: [
+  //     nat1,
+  //     nat2,
+  //     nat3,
+  //     nat4,
+  //     nat5,
+  //     nat6,
+  //     nat7,
+  //     nat8,
+  //     nat9,
+  //     nat10,
+  //     nat11,
+  //     nat12,
+  //   ],
+
+  //   story: [
+  //     "Wake up amidst lush greenery in the heart of South Kolkata.",
+  //     "Experience well-ventilated luxury homes designed around nature.",
+  //     "Live sustainably with solar-powered living and expansive open spaces.",
+  //   ],
+
+  //   highlights: {
+  //     amenities: [
+  //       "Infinity Swimming Pool",
+  //       "AC Gymnasium",
+  //       "AC Cineplex",
+  //       "AC Banquet Hall",
+  //       "Community Hall",
+  //       "Badminton Court",
+  //       "Amphitheatre",
+  //       "Indoor Games Room",
+  //       "Pool Deck",
+  //       "Children’s Play Area",
+  //     ],
+
+  //     connectivity: [
+  //       "1.5 km from New Alipore Petrol Pump",
+  //       "Excellent South Kolkata Connectivity",
+  //       "Close to Major Road Networks",
+  //       "Nearby Lifestyle & Retail Destinations",
+  //     ],
+
+  //     lifestyle: [
+  //       "75% Open Space",
+  //       "3-Sides Open Luxury Apartments",
+  //       "2,000+ Plants Across Development",
+  //       "Up to 75% Solar Powered",
+  //       "241 Premium Flats",
+  //       "Nature-Inspired Living",
+  //     ],
+  //   },
+
+  //   nearby: {
+  //     metro: "Nearby Metro Connectivity",
+  //     school: "Close to reputed South Kolkata schools",
+  //     hospital: "Nearby leading hospitals & healthcare centers",
+  //   },
+
+  //   investment: {
+  //     roi: "13–18%",
+  //     demand: "High",
+  //     growth: "Strong",
+  //     appreciation: "Premium South Kolkata appreciation potential",
+  //   },
+
+  //   propertyDetails:
+  //     "Srijan Natura is a premium residential development in New Alipore, South Kolkata, inspired by the beauty of nature and designed for luxurious urban living. Spread amidst lush greenery with over 2,000 plants, the project offers spacious 4 BHK residences with 3-side open layouts, expansive ventilation, and sustainable features including up to 75% solar-powered infrastructure. Featuring world-class amenities like an infinity pool, cineplex, gymnasium, amphitheatre, landscaped lawns, and wellness spaces, Natura blends luxury, sustainability, and serene living seamlessly.",
+
+  //   specifications: {
+  //     blocks: "4 Blocks",
+  //     flats: "241 Flats",
+  //     configuration: "G+10/G+11 Towers",
+  //     openSpace: "75%",
+  //     greenery: "2,000+ Plants",
+  //     solarPower: "Up to 75% Solar Powered",
+  //   },
+
+  //   features: [
+  //     "3-Sides Open Apartments",
+  //     "Infinity Swimming Pool",
+  //     "Solar Powered Facilities",
+  //     "Smart Security System",
+  //     "Rain Water Harvesting",
+  //     "Luxury Club Amenities",
+  //     "Nature-Inspired Architecture",
+  //     "Well-Ventilated Homes",
+  //   ],
+
+  //   rera: "WBRERA/P/KOL/2025/002336",
+
+  //   tag: "Featured",
+
+  //   mapEmbedUrl:
+  //     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.1880971478517!2d88.33083287529826!3d22.497124879545478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0270bcc7e5aaab%3A0x903453b0abc6148d!2sNATURA!5e0!3m2!1sen!2sin!4v1778839915581!5m2!1sen!2sin",
+
+  //     view360:
+  //   "https://www.srijanrealty.com/construction-progress/360-virtula-tour/natura/"
+  // ,
+  //   plans: {
+  //     master: nat01,
+  //   },
+  // },
+
+  {
+    id: "20",
+    slug: "laguna-bay",
+    name: "Laguna Bay",
+    tagline: "Luxury living beside the water.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Matheswartala Road | Near ILEAD Campus",
+    priceLabel: "₹1.95 Cr onwards",
+    priceMin: 195,
+    bhk: [3],
+    sizeRange: "1364 – 1593 sq.ft.",
+    possession: "Feb 2029",
+    configuration: "Boutique Residential Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: lagb1,
+
+    gallery: [
+      lagb1,
+      lagb2,
+      lagb3,
+      lagb4,
+      lagb5,
+      lagb6,
+      lagb7,
+      lagb8,
+      lagb9,
+      lagb10,
+      lagb11,
+      lagb12,
+      lagb13,
+      lagb14,
+
+    ],
+
+    story: [
+      "Wake up to calming lake views and open skies.",
+      "Experience modern luxury apartments designed with superior airflow and natural light.",
+      "Live beside a vast natural waterbody in the heart of Central Kolkata.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Podium Swimming Pool",
+        "Sky Bridge",
+        "Gymnasium",
+        "Indoor Games Room",
+        "Billiard Room",
+        "Card Room",
+        "Kids Play Area",
+        "Sports Area",
+        "Barbeque Terrace Deck",
+        "Pondside Cabana",
+      ],
+
+      connectivity: [
+        "Only 3 mins from Topsia",
+        "Near Science City",
+        "Excellent Public & Private Transport Connectivity",
+        "Upcoming 80 ft Wide Approach Road",
+        "Central Kolkata Connectivity",
+      ],
+
+      lifestyle: [
+        "32,000 sq.ft Natural Waterbody",
+        "3-Sides Open Apartments",
+        "Superior Light & Wind Flow",
+        "IGBC Platinum Rated Project",
+        "Boutique Luxury Living",
+        "Lake-facing Lifestyle",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming East-West Metro Connectivity",
+      school: "Near ILEAD Campus & reputed institutions",
+      hospital: "Close to major healthcare facilities",
+    },
+
+    investment: {
+      roi: "15–19%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in Central Kolkata",
+    },
+
+    propertyDetails:
+      "Laguna Bay by Srijan Realty is an IGBC Platinum-rated boutique residential project located near Science City and Topsia in Central Kolkata. Designed for modern luxury living, the project offers spacious 3 BHK residences with almost every apartment being 3-sides open for superior natural light and ventilation. Surrounded by soothing landscapes and a vast 32,000 sq.ft natural waterbody, Laguna Bay combines tranquility, connectivity, and premium lifestyle amenities including a sky bridge, pool, gymnasium, and leisure zones.",
+
+    specifications: {
+      waterbody: "32,000 sq.ft Natural Waterbody",
+      openApartments: "3-Sides Open Homes",
+      connectivity: "3 mins from Topsia",
+      roadway: "Upcoming 80 ft Wide Road",
+      rating: "IGBC Platinum Rated",
+      propertyType: "Boutique Luxury Apartments",
+    },
+
+    features: [
+      "3-Sides Open Apartments",
+      "Natural Waterbody Views",
+      "Sky Bridge",
+      "Podium Swimming Pool",
+      "Indoor Games Room",
+      "Premium Club Amenities",
       "Landscaped Open Spaces",
+      "IGBC Platinum Rated Project",
+    ],
+
+    rera: "WBRERA Registered",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.9501522571923!2d88.3860787752996!3d22.543539979512392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02775e5f166ac5%3A0x3f9bf6efd2c00f57!2sLAGUNA%20BAY!5e0!3m2!1sen!2sin!4v1778840391826!5m2!1sen!2sin",
+
+    plans: {
+      master: lagb01,
+    },
+  },
+
+  // {
+  //   id: "21",
+  //   slug: "ozone",
+  //   name: "Ozone",
+  //   tagline: "Where nature’s tranquility meets luxury living.",
+  //   developer: "Srijan",
+  //   city: "Kolkata",
+  //   location: "EM Bypass | Near Kamalgazi More",
+  //   priceLabel: "Price on Request",
+  //   priceMin: 0,
+  //   bhk: [4],
+  //   sizeRange: "2065 sq.ft.",
+  //   possession: "2025",
+  //   configuration: "7 Blocks · 530 Apartments",
+  //   status: "Under Construction",
+  //   intent: ["Buy", "Luxury", "Residential"],
+  //   cover: ozone1,
+
+  //   gallery: [
+  //     ozone1,
+  //     ozone2,
+  //     ozone3,
+  //     ozone4,
+  //     ozone5,
+  //     ozone6,
+  //     ozone7,
+  //     ozone8,
+  //     ozone9,
+  //     ozone10,
+  //     ozone11,
+  //     ozone12,
+  //   ],
+
+  //   story: [
+  //     "Wake up amidst landscaped greens away from the city chaos.",
+  //     "Experience luxurious 4 BHK living with nature-inspired serenity.",
+  //     "Live in an award-winning gated community on EM Bypass.",
+  //   ],
+
+  //   highlights: {
+  //     amenities: [
+  //       "30,000 sq.ft Clubhouse",
+  //       "Swimming Pool",
+  //       "AC Cineplex",
+  //       "Spa & Jacuzzi",
+  //       "Badminton Court",
+  //       "Cafe",
+  //       "Indoor Games Room",
+  //       "Rooftop Party Decks",
+  //       "Yoga Area",
+  //       "Children’s Play Area",
+  //     ],
+
+  //     connectivity: [
+  //       "Prime EM Bypass Location",
+  //       "Near Kamalgazi More",
+  //       "Close to Patuli & Narendrapur",
+  //       "Easy Access to Garia Bazaar",
+  //       "Excellent South Kolkata Connectivity",
+  //     ],
+
+  //     lifestyle: [
+  //       "IGBC Gold-Rated Project",
+  //       "6-Star CRISIL Rating",
+  //       "Luxury Gated Community",
+  //       "Green Living Concept",
+  //       "530 Premium Apartments",
+  //       "Award-Winning Development",
+  //     ],
+  //   },
+
+  //   nearby: {
+  //     metro: "Nearby Metro Connectivity",
+  //     school: "Close to reputed educational institutions",
+  //     hospital: "Nearby multi-speciality healthcare facilities",
+  //   },
+
+  //   investment: {
+  //     roi: "13–18%",
+  //     demand: "High",
+  //     growth: "Strong",
+  //     appreciation: "High demand for luxury green-living homes",
+  //   },
+
+  //   propertyDetails:
+  //     "Ozone by Srijan Realty is an award-winning luxury residential project located on EM Bypass near Kamalgazi More, Kolkata. Offering spacious 4 BHK residences within a premium gated community, Ozone combines luxurious living with serene green surroundings. The project features 530 premium apartments across 7 blocks, a 30,000 sq.ft clubhouse, IGBC Gold Certification, and a prestigious 6-Star CRISIL Real Estate Rating. Designed for modern green living, Ozone offers world-class lifestyle amenities and seamless connectivity across South Kolkata.",
+
+  //   specifications: {
+  //     blocks: "7 Blocks",
+  //     apartments: "530 Apartments",
+  //     clubhouse: "30,000 sq.ft.",
+  //     certification: "IGBC Gold-Rated",
+  //     crisilRating: "6-Star CRISIL Rating",
+  //     configuration: "Luxury 4 BHK Homes",
+  //   },
+
+  //   features: [
+  //     "Luxury Gated Community",
+  //     "IGBC Gold Certification",
+  //     "6-Star CRISIL Rating",
+  //     "Premium Clubhouse",
+  //     "Rooftop Party Decks",
+  //     "Green Living Spaces",
+  //     "State-of-the-Art Security",
+  //     "Luxury Lifestyle Amenities",
+  //   ],
+
+  // rera: {
+  //   phase2: "HIRA/P/SOU/2018/000009",
+  //   phase3: "HIRA/P/SOU/2019/000524",
+  // },
+
+  //   tag: "Featured",
+
+  //   mapEmbedUrl:
+  //     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.376713844152!2d88.39288477529695!3d22.45247367957738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02718eef9d0521%3A0x8d57bc4779f46ce9!2sOzone!5e0!3m2!1sen!2sin!4v1778841673700!5m2!1sen!2sin",
+
+  //   plans: {
+  //     master: ozone01,
+  //   },
+  // },
+
+  // {
+  //   id: "22",
+  //   slug: "eternis",
+  //   name: "Eternis",
+  //   tagline: "An oasis of greenery in the heart of the city.",
+  //   developer: "Srijan",
+  //   city: "Kolkata",
+  //   location: "Jessore Road, Madhyamgram Chowmatha",
+  //   priceLabel: "₹42.82 L onwards",
+  //   priceMin: 42.82,
+  //   bhk: [2, 3],
+  //   sizeRange: "823 – 1637 sq.ft.",
+  //   possession: "2016",
+  //   configuration: "B+G+11 · 13 Towers",
+  //   status: "Ready to Move",
+  //   intent: ["Buy", "Residential", "Invest"],
+  //   cover: etern1,
+
+  //   gallery: [
+  //     etern1,
+  //     etern2,
+  //     etern3,
+  //     etern4,
+  //     etern5,
+  //     etern6,
+  //     etern7,
+  //     etern8,
+  //     etern9,
+  //     etern10,
+  //     etern11,
+  //     etern12,
+  //     etern13,
+  //     etern14,
+  //     etern15,
+  //   ],
+
+  //   story: [
+  //     "Wake up surrounded by lush greenery and full-grown mango orchards.",
+  //     "Experience nature-inspired living with modern lifestyle amenities.",
+  //     "Live seamlessly connected to airport, schools, hospitals, and entertainment hubs.",
+  //   ],
+
+  //   highlights: {
+  //     amenities: [
+  //       "Swimming Pool",
+  //       "AC Banquet Hall",
+  //       "Gymnasium",
+  //       "Single Screen Cinema",
+  //       "Amphitheatre",
+  //       "Badminton Court",
+  //       "Children’s Play Area",
+  //       "Café",
+  //       "Entertainment Centre",
+  //       "Guest Room",
+  //     ],
+
+  //     connectivity: [
+  //       "Bang on Jessore Road",
+  //       "Close to Dum Dum Airport",
+  //       "Easy Access to Kolkata IT Hub",
+  //       "Nearby Schools & Colleges",
+  //       "Close to Hospitals & Entertainment Zones",
+  //     ],
+
+  //     lifestyle: [
+  //       "61% Open Space",
+  //       "Mango Orchards",
+  //       "55,000 sq.ft Landscaped Garden",
+  //       "824 Premium Flats",
+  //       "Commercial Space Inside Complex",
+  //       "Nature-Centric Community Living",
+  //     ],
+  //   },
+
+  //   nearby: {
+  //     metro: "Nearby Metro Connectivity",
+  //     school: "Surrounded by reputed schools & colleges",
+  //     hospital: "Nearby hospitals & healthcare centers",
+  //   },
+
+  //   investment: {
+  //     roi: "10–14%",
+  //     demand: "High",
+  //     growth: "Stable",
+  //     appreciation: "Strong residential demand in Madhyamgram",
+  //   },
+
+  //   propertyDetails:
+  //     "Eternis by Srijan Realty is a nature-inspired residential development located on Jessore Road near Madhyamgram Chowmatha, Kolkata. Spread across 345 cottahs of land with 61% open space and lush mango orchards, the project offers thoughtfully designed 2 & 3 BHK apartments across 13 towers. Featuring landscaped gardens, modern lifestyle amenities, commercial spaces, and seamless connectivity to Dum Dum Airport and Kolkata’s IT hubs, Eternis blends greenery, comfort, and urban convenience into one eternal living experience.",
+
+  //   specifications: {
+  //     towers: "13 Towers",
+  //     flats: "824 Flats",
+  //     openSpace: "61%",
+  //     landscapeGarden: "55,000 sq.ft.",
+  //     configuration: "B+G+11",
+  //     landParcel: "345 Cottahs",
+  //   },
+
+  //   features: [
+  //     "Nature-Centric Living",
+  //     "Mango Orchards",
+  //     "Large Landscaped Gardens",
+  //     "Swimming Pool",
+  //     "Single Screen Cinema",
+  //     "Commercial Spaces",
+  //     "Modern Lifestyle Amenities",
+  //     "Excellent Airport Connectivity",
+  //   ],
+
+  //   rera: "Completed Project",
+
+  //   tag: "Featured",
+
+  //   mapEmbedUrl:
+  //     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14724.55101872857!2d88.4514319026891!3d22.685915270575617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f6af6f58591%3A0xc25c57bf71e51709!2sETERNIS!5e0!3m2!1sen!2sin!4v1778843266185!5m2!1sen!2sin",
+  //   view360:"https://www.srijanrealty.com/360-vr-amenities/eternis/index.htm",
+  //   plans: {
+  //     master: etern01,
+  //   },
+  // },
+
+  {
+    id: "23",
+    slug: "srijan-ravi-logistics-park",
+    name: "Srijan Ravi Logistics Park",
+    tagline: "Built for logistics. Designed for industrial growth.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Taratala, B.B.T. Road",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "6,000 – 7,00,000 sq.ft.",
+    possession: "2026",
+    configuration: "Industrial Logistics Park · 9+ Acres",
+    status: "Under Construction",
+    intent: ["Commercial", "Industrial", "Invest"],
+    cover: ravi1,
+
+    gallery: [
+      ravi1,
+      ravi2,
+      ravi3,
+      ravi4,
+      ravi5,
+      ravi6,
+      ravi7,
+      ravi8,
+      ravi9,
+      ravi10,
+      ravi11,
+      ravi12,
+      ravi13,
+      ravi14,
+      ravi15,
+    ],
+
+    story: [
+      "Build your logistics and industrial operations at the gateway of Kolkata.",
+      "Move goods seamlessly with direct connectivity to port, airport, and highways.",
+      "Scale your business inside a master-planned logistics ecosystem.",
+    ],
+
+    highlights: {
+      amenities: [
+        "24 Hrs Security",
+        "Power Backup",
+        "Bank & ATM",
+        "Huge Landscaping",
+        "Labour Quarters",
+        "Internal Weight Bridge",
+        "Rain Water Harvesting",
+        "Heavy Goods Lift",
+        "Food Court",
+        "Fire Fighting System",
+      ],
+
+      connectivity: [
+        "3.5 km from Taratala",
+        "Connected to Port & Airport",
+        "Excellent Road Connectivity",
+        "Well Connected to Howrah & Kolkata",
+        "Strategic Access to Central India Routes",
+      ],
+
+      lifestyle: [
+        "9+ Acre Master Planned Hub",
+        "Up to 10 mtr Wide Internal Roads",
+        "60 MT Internal Weight Bridge",
+        "Container & Truck Hub",
+        "Non-Polluting Green Factory Setup",
+        "Industrial & Warehousing Ecosystem",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby Taratala Metro Connectivity",
+      school: "Nearby workforce & training hubs",
+      hospital: "Close to healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Industrial Growth Corridor",
+      appreciation: "Strong warehousing & logistics demand",
+    },
+
+    propertyDetails:
+      "Srijan Ravi Logistics Park is a large-scale industrial and logistics development located on B.B.T. Road near Taratala, Kolkata. Spread across more than 9 acres, the project offers warehousing, logistics parks, non-polluting factory setups, and industrial spaces ranging from 6,000 sq.ft. to 7,00,000 sq.ft. on sale or rent. Strategically positioned near Kolkata Port, airport, and major transport corridors, the project is designed as a self-sustained logistics hub with modern infrastructure, container movement facilities, wide metallic roads, and industrial-grade support systems.",
+
+    specifications: {
+      landArea: "9+ Acres",
+      sizeRange: "6,000 – 7,00,000 sq.ft.",
+      internalRoads: "Up to 10 mtr Wide",
+      weightBridge: "60 MT Internal Weight Bridge",
+      transportHub: "Container & Truck Hub",
+      goodsCapacity: "4 Ton Goods Distribution Capacity",
+    },
+
+    features: [
+      "Logistics Park",
+      "Warehousing Facilities",
+      "Industrial Factory Setup",
+      "Container & Truck Movement Hub",
+      "Wide Internal Metallic Roads",
+      "Power Backup",
+      "Heavy Goods Infrastructure",
+      "Non-Polluting Green Industrial Development",
+    ],
+
+    rera: "Under Development",
+
+    tag: "Industrial",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.66886134956!2d88.29356797529884!3d22.516603979531688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bac2dacaa53%3A0x4c8adf9dfd6419a1!2sSrijan%20Ravi%20Logistics%20Park!5e0!3m2!1sen!2sin!4v1778916815540!5m2!1sen!2sin",
+
+    plans: {
+      master: ravi01,
+    },
+  },
+
+  {
+    id: "24",
+    slug: "srijan-industrial-logistic-hub",
+    name: "Srijan Industrial Logistic Hub",
+    tagline: "Built for logistics, warehousing, and industrial growth.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Jhinjira Bazaar, Mahestala",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "6,000 sq.ft onwards",
+    possession: "2023",
+    configuration: "Industrial Logistic Hub",
+    status: "Under Construction",
+    intent: ["Commercial", "Industrial", "Invest"],
+    cover: silh5,
+
+    gallery: [
+      silh1,
+      silh2,
+      silh3,
+      silh4,
+      silh5,
+      silh6,
+      silh7,
+      silh8,
+      silh9,
+      silh10,
+      silh11,
+      silh12,
+      silh13,
+      silh14,
+      silh15,
+      silh16,
+    ],
+
+    story: [
+      "Expand your business in a strategically connected logistics destination.",
+      "Operate seamlessly with warehousing, goods movement, and industrial infrastructure.",
+      "Build for growth with a future-ready industrial ecosystem near Kolkata.",
+    ],
+
+    highlights: {
+      amenities: [
+        "24/7 Security with CCTV",
+        "100% Power Backup",
+        "Massive Goods Lift",
+        "Internal 60 MT Weight Bridge",
+        "Huge Loading & Unloading Bays",
+        "Wide Internal Roads",
+        "Rain Water Harvesting",
+        "Storm Water Drainage",
+        "Worker Restrooms",
+        "Landscaped Environment",
+      ],
+
+      connectivity: [
+        "Connected to Kolkata & Howrah",
+        "Easy Access to Port",
+        "Airport Connectivity",
+        "Road Connectivity to Central India",
+        "Strategic Distribution Hub Location",
+      ],
+
+      lifestyle: [
+        "Non-Pollution Green Factory Setup",
+        "Warehousing & Logistics Hub",
+        "Sale & Rental Availability",
+        "Industrial Expansion Ready",
+        "Skilled & Unskilled Workforce Nearby",
+        "Self-Sustained Distribution Ecosystem",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby Kolkata Metro Connectivity",
+      school: "Nearby workforce & community infrastructure",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Industrial Growth Zone",
+      appreciation: "Strong logistics and warehousing demand",
+    },
+
+    propertyDetails:
+      "Srijan Industrial Logistic Hub (SILH) is a large-scale industrial and warehousing development located at Jhinjira Bazaar, Mahestala. Designed for non-pollution industries, logistics operations, and factory setups, the project offers spaces ranging from 4,000 sq.ft to 3,50,000 sq.ft for sale and rent. Strategically connected to Kolkata, Howrah, airport, port, and major transportation routes, SILH provides an ideal self-sustained ecosystem for goods distribution and industrial business expansion.",
+
+    specifications: {
+      propertyType: "Logistic Park / Warehousing / Factory Setup",
+      roadway: "10 mtrs Wide Metallic Roads",
+      weightBridge: "60 MT Internal Weight Bridge",
+      security: "24/7 CCTV Surveillance",
+      flooring: "VDF Flooring",
+      structure: "RCC Structure with Canopy",
+    },
+
+    features: [
+      "Industrial Warehousing",
+      "Goods Distribution Infrastructure",
+      "Massive Goods Lift",
+      "100% Power Backup",
+      "Huge Loading Bays",
+      "Wide Internal Roads",
+      "Green Industrial Campus",
+      "Rain Water Harvesting",
+    ],
+
+    rera: "On Request",
+
+    tag: "Industrial",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.907821747932!2d88.25561767529861!3d22.507641379537926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027b6791223e83%3A0x6f7d26f1c2abeb3!2sSrijan%20Industrial%20Logistic%20Hub!5e0!3m2!1sen!2sin!4v1778917914247!5m2!1sen!2sin",
+
+    plans: {
+      master: silh01,
+    },
+  },
+
+  {
+    id: "25",
+    slug: "logos",
+    name: "Logos",
+    tagline: "Where business rises in the heart of Kolkata.",
+    developers: [
+      "Srijan ",
+      "Primarc ",
+    ],
+    city: "Kolkata",
+    location: "224 AJC Bose Road, Beck Bagan, Kolkata",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "1000 sq.ft onwards",
+    possession: "October 2027",
+    configuration: "B+G+16",
+    status: "Under Construction",
+    intent: ["Commercial", "Invest", "Office Space"],
+    cover: logos1,
+
+    gallery: [
+      logos1,
+      logos2,
+      logos3,
+      logos4,
+      logos5,
+      logos6,
+      logos7,
+      logos8,
+      logos9,
+      logos10,
+      logos11,
+      logos12,
+      logos13,
+      logos14,
+      logos15,
+      logos16,
+    ],
+
+    story: [
+      "Build your business at one of Kolkata’s most strategic CBD locations.",
+      "Experience Grade-A smart offices designed for future-ready enterprises.",
+      "Work in a sustainable commercial landmark connected to every part of the city.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Conference Cum Training Room",
+        "Integrated Building Management System",
+        "Intelligent Fire Fighting System",
+        "Mechanical Car Parking",
+        "Vertical Garden",
+        "Grand Entrance Lobby",
+        "Multiple Optic Fiber Connectivity",
+        "Intercom Facility",
+        "Facade Cleaning System",
+        "Processed Water Supply",
+        "High Speed Elevators",
+        "Premium Lift Lobbies",
+      ],
+
+      connectivity: [
+        "Located on AJC Bose Road",
+        "Connected via Maa Flyover",
+        "Near Sealdah Railway Station",
+        "Near Park Circus Railway Station",
+        "Close to Rabindra Sadan Metro",
+        "Easy Access to Park Street",
+        "Excellent CBD Connectivity",
+        "Connected to Major Business Districts",
+      ],
+
+      lifestyle: [
+        "Grade-A Office Spaces",
+        "Smart Commercial Infrastructure",
+        "IGBC Platinum Green Building (Applied)",
+        "Business Friendly Ecosystem",
+        "Future Ready Workspaces",
+        "Employee Wellbeing Focused Design",
+        "Premium Corporate Address",
+        "Modern Sustainable Architecture",
+      ],
+    },
+
+    nearby: {
+      metro: "Rabindra Sadan & Sealdah Metro Connectivity",
+      school: "Close to leading educational institutions",
+      hospital: "Belle Vue, AMRI & other premium hospitals nearby",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Prime CBD commercial appreciation potential",
+    },
+
+    propertyDetails:
+      "LOGOS is a premium Grade-A commercial office development jointly developed by Srijan Realty and Primarc Group. Strategically located at 224 AJC Bose Road in Beck Bagan, Kolkata, the project offers smart office spaces starting from 1000 sq.ft within a B+G+16 tower. Designed with intelligent building systems, sustainable infrastructure, mechanical parking, premium lobbies, and future-ready office specifications, LOGOS aims to become one of Kolkata's most sought-after commercial business destinations.",
+
+    specifications: {
+      floors: "B+G+16",
+      officeArea: "1000 sq.ft onwards",
+      parking: "108 Car Parking Spaces",
+      greenRating: "IGBC Platinum Rated (Applied)",
+      buildingType: "Grade-A Smart Office",
+      connectivity: "CBD Prime Location",
+      flooring: "Densified Flooring",
+      windows: "Aluminium Glazed Windows",
+      facade:
+        "Glazing + ACP + Stone + Ceramic + Metal Cladding",
+      airConditioning: "Dedicated AC Ledge Provision",
+    },
+
+    features: [
+      "Grade-A Commercial Tower",
+      "Smart Office Infrastructure",
+      "Integrated Building Management",
+      "Mechanical Parking",
+      "Vertical Garden",
+      "High Speed Fiber Connectivity",
+      "Conference Facilities",
+      "Premium Lift Lobbies",
+      "Green Building Design",
+      "Prime CBD Address",
+      "Excellent Public Transport Connectivity",
+      "Future Ready Workspaces",
+    ],
+
+    pricing: [
+      {
+        size: "1000 – 2500 sq.ft",
+        price: "Price On Request",
+      },
+      {
+        size: "2500 – 5000 sq.ft",
+        price: "Price On Request",
+      },
+      {
+        size: "5000+ sq.ft",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Park Street",
+        "Camac Street",
+        "Dalhousie",
+        "Esplanade",
+        "Sector V",
+        "BBD Bagh",
+      ],
+
+      connectivity: [
+        "Maa Flyover",
+        "AJC Bose Road",
+        "Sealdah Railway Station",
+        "Park Circus Railway Station",
+        "Rabindra Sadan Metro",
+      ],
+
+      healthcare: [
+        "Belle Vue Clinic",
+        "AMRI Hospital",
+        "Apollo Multispeciality Hospital",
+      ],
+
+      hospitality: [
+        "ITC Royal Bengal",
+        "JW Marriott Kolkata",
+        "The Park Hotel",
+      ],
+    },
+
+    rera: "WBRERA/P/KOL/2023/000110",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.023255717196!2d88.35678577529954!3d22.540801579514344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772a312ef249%3A0x25870088bb47d48e!2sLOGOS!5e0!3m2!1sen!2sin!4v1778918509461!5m2!1sen!2sin",
+
+    plans: {
+      master: logos01,
+      site: logos03,
+      unit: [logos02, logos04,]
+    },
+  },
+
+  {
+    id: "26",
+    slug: "srijan-industrial-logistic-park",
+    name: "Srijan Industrial Logistic Park",
+    tagline: "Eastern India’s modern industrial and warehousing hub.",
+    developer: "Srijan",
+    city: "Howrah",
+    location: "NH-06, Biparnna Para, Domjur",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [0],
+    sizeRange: "5,000 – 5,00,000 sq.ft.",
+    possession: "2016",
+    configuration: "Industrial & Warehousing Facility",
+    status: "Ready to Move",
+    intent: ["Commercial", "Industrial", "Invest"],
+    cover: ilp1,
+
+    gallery: [
+      ilp1,
+      ilp2,
+      ilp3,
+      ilp4,
+      ilp5,
+      ilp6,
+    ],
+
+    story: [
+      "Build your business in Eastern India’s modern logistics destination.",
+      "Experience industrial infrastructure designed for scale and efficiency.",
+      "Connect seamlessly to national and regional markets through NH-06.",
+    ],
+
+    highlights: {
+      amenities: [
+        "24 Hrs Security",
+        "CCTV Surveillance",
+        "Conference Room",
+        "Guest House",
+        "DC Power Backup",
+        "Weigh Bridge",
+        "Wide Internal Roads",
+        "Professional Maintenance",
+        "Courier Service",
+        "Departmental Store",
+      ],
+
+      connectivity: [
+        "Located on NH-06",
+        "Excellent Access to National Markets",
+        "Fast Transportation Connectivity",
+        "Close to Urban Infrastructure",
+        "Access to Eastern & North-Eastern Distribution Networks",
+      ],
+
+      lifestyle: [
+        "World-Class Industrial Facility",
+        "Warehousing & Logistics Support",
+        "Bulk Material Handling Facilities",
+        "Only Non-Polluting Industries Allowed",
+        "Modern Industrial Ecosystem",
+        "Large Scale Development Options",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby Howrah Connectivity",
+      school: "Industrial & workforce support infrastructure nearby",
+      hospital: "Nearby healthcare & urban facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Expanding",
+      appreciation: "Strong logistics & warehousing growth corridor",
+    },
+
+    propertyDetails:
+      "Srijan Industrial Logistic Park (SILP) is a world-class industrial and warehousing development located on NH-06 in Domjur, Howrah. Offering industrial spaces ranging from 5,000 sq.ft. to 5,00,000 sq.ft., SILP provides modern infrastructure and business-ready facilities for non-polluting industries under one roof. Strategically positioned to become a key distribution hub for Eastern and North-Eastern India, the project combines seamless transportation access, professional maintenance, logistics support, and scalable industrial solutions for warehousing, manufacturing, and distribution businesses.",
+
+    specifications: {
+      landSpace: "5,000 – 5,00,000 sq.ft.",
+      location: "NH-06, Domjur, Howrah",
+      industries: "Only Non-Polluting Industries",
+      transportation: "Economic & Speedy",
+      infrastructure: "Urban Infrastructure & Labour Access",
+      accessibility: "National & Local Market Connectivity",
+    },
+
+    features: [
+      "World-Class Logistics Infrastructure",
+      "Warehousing Facilities",
+      "Manufacturing Spaces",
+      "Bulk Material Handling",
+      "Wide Roads",
+      "CCTV Security",
+      "Power Backup",
+      "Industrial Ecosystem",
+    ],
+
+    rera: "Not Applicable",
+
+    tag: "Industrial",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.4143735118696!2d88.22899707530134!3d22.600996379471542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027f5c9a80ac07%3A0xc8dcefb03b832495!2sSrijan%20Industrial%20Logistic%20Park!5e0!3m2!1sen!2sin!4v1778919254395!5m2!1sen!2sin",
+
+    plans: {
+      master: ilp01,
+    },
+  },
+
+  {
+    id: "27",
+    slug: "southwinds",
+    name: "SouthWinds",
+    tagline: "Where luxury, greenery, and tranquility come together.",
+    developers: [
+      "Srijan ",
+      "Primarc ",
+    ],
+    city: "Kolkata",
+    location: "Ghoshal Para Road, Southern Bypass",
+    priceLabel: "₹55.32 L onwards",
+    priceMin: 55.32,
+    bhk: [2, 2.5, 3, 3.5, 4],
+    sizeRange: "824 – 1500 sq.ft.",
+    possession: "2026",
+    configuration: "16 Towers · G+11/G+13/G+18",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: sw3,
+
+    gallery: [
+      sw3,
+      sw2,
+      sw1,
+      sw4,
+      sw5,
+      sw6,
+      sw7,
+      sw8,
+    ],
+
+    story: [
+      "Wake up amidst landscaped greens and tranquil waterbodies.",
+      "Experience world-class living in the first high-rise community on Southern Bypass.",
+      "Live surrounded by open spaces, celebration zones, and lifestyle comforts.",
+    ],
+
+    highlights: {
+      amenities: [
+        "45,000 sq.ft Club Facilities",
+        "Multiple Swimming Pools",
+        "Kids Pool",
+        "15,000 sq.ft New Clubhouse",
+        "30,000 sq.ft Operational Club",
+        "Mini Golf Course",
+        "Cricket Practice Area",
+        "Basketball Court",
+        "Badminton Court",
+        "Skating Rink",
+        "Pet Zone",
+        "Indoor Games Room",
+        "Yoga Zone",
+        "Meditation Area",
+        "Community Halls",
+        "Children's Play Area",
+      ],
+
+      connectivity: [
+        "Prime Southern Bypass Location",
+        "Excellent Road Connectivity",
+        "Close to Major City Hubs",
+        "Easy Airport & South Kolkata Access",
+        "Well Connected Residential Corridor",
+      ],
+
+      lifestyle: [
+        "630 Cottahs Township",
+        "60%+ Open Space",
+        "1323 Apartments",
+        "Pond Facing Residences",
+        "Landscaped Green Zones",
+        "In-house Shopping Complex",
+        "Integrated Residential Township",
+        "High-Rise Community Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming South Kolkata Metro Connectivity",
+      school: "Nearby reputed schools & colleges",
+      hospital: "Close to major healthcare centers",
+    },
+
+    investment: {
+      roi: "12–16%",
+      demand: "High",
+      growth: "Rising",
+      appreciation: "Strong future growth potential on Southern Bypass",
+    },
+
+    propertyDetails:
+      "SouthWinds is a landmark integrated residential township developed jointly by Srijan Realty and Primarc Group on Southern Bypass, Kolkata. Spread across approximately 630 cottahs with over 60% open space, the project comprises 16 residential towers and 1323 apartments. The township features landscaped gardens, waterbodies, multiple swimming pools, a 30,000 sq.ft operational clubhouse, an additional 15,000 sq.ft clubhouse, an in-house shopping complex, and lifestyle amenities including mini golf, cricket practice zones, pet parks, skating rink, basketball and badminton courts. Offering spacious 2, 2.5, 3 and 4 BHK residences with excellent connectivity, SouthWinds represents one of South Kolkata's most prominent residential communities.",
+
+    specifications: {
+      landArea: "630 Cottahs",
+      towers: "16 Towers",
+      apartments: "1323 Apartments",
+      openSpace: "65%",
+      clubhouse: "45,000 sq.ft Combined Club Facilities",
+      shoppingComplex: "In-house Shopping Complex",
+      configuration: "G+11/G+13/G+18",
+    },
+
+    features: [
+      "Landscaped Gardens",
+      "Waterbody & Fountains",
+      "World Class Clubhouse",
+      "Swimming Pool",
+      "Yoga & Meditation Zones",
+      "Huge Open Spaces",
+      "High-Rise Community Living",
+      "Ample Parking Facilities",
+      "Joint Venture Development",
+      "16 Residential Towers",
+      "1323 Apartments",
+      "Pond Facing Homes",
+      "30,000 sq.ft Clubhouse",
+      "15,000 sq.ft Additional Club",
+      "Mini Golf Course",
+      "Cricket Practice Area",
+      "Pet Zone",
+      "Skating Rink",
+      "Basketball Court",
+      "Badminton Court",
+      "Multiple Swimming Pools",
+      "Children's Play Areas",
+      "In-house Shopping Complex",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "2.5 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "3 BHK",
+        price: "₹55.32 L onwards",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    rera: {
+      phase2: "HIRA/P/SOU/2018/000134",
+      phase3: "HIRA/P/SOU/2018/000137",
+      phase4: "HIRA/P/SOU/2019/000453",
+      phase5: "WBRERA/P/SOU/2023/000024",
+      phase6: "WBRERA/P/SOU/2023/000065",
+    },
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.6479570604347!2d88.41176077529556!3d22.404625179611713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026deedb5d3703%3A0x97d71503ab553d4f!2s132%2C%20Ghosal%20Para%20Ln%2C%20Manikpur%2C%20Chowhati%2C%20Rajpur%2C%20Rajpur%20Sonarpur%2C%20Kolkata%2C%20West%20Bengal%20700148!5e0!3m2!1sen!2sin!4v1778919720860!5m2!1sen!2sin",
+
+    plans: {
+      unit: [sw01, sw02, sw03, sw04, sw05, sw06,]
+    },
+
+  },
+
+  {
+    id: "28",
+    slug: "swapno-puron",
+    name: "Swapno Puron",
+    tagline: "Where every space embodies joy and comfort.",
+    developer: "Srijan",
+    city: "Kolkata",
+    location: "Amtala, D.H Road | Near Joka Metro",
+    priceLabel: "₹11.25 L onwards",
+    priceMin: 11.25,
+    bhk: [1, 2, 3],
+    sizeRange: "319 – 943 sq.ft.",
+    possession: "2024",
+    configuration: "G+4 with Lift · Phase 1, 2 & 3",
+    status: "Under Construction",
+    intent: ["Buy", "Affordable", "Residential"],
+    cover: sp5,
+
+    gallery: [
+      sp1,
+      sp2,
+      sp3,
+      sp4,
+      sp5,
+      sp6,
+      sp7,
+      sp8,
+      sp9,
+    ],
+
+    story: [
+      "Wake up beside serene water bodies and endless greenery.",
+      "Experience affordable gated community living with modern comforts.",
+      "Live moments away from Joka Metro and the growing southern corridor.",
+    ],
+
+    highlights: {
+      amenities: [
+        "3-acre Natural Lake",
+        "Boating Facility",
+        "Fishing Deck",
+        "Swimming Pool",
+        "AC Community Hall",
+        "Gymnasium",
+        "Indoor Games Room",
+        "Basketball Court",
+        "Outdoor Sports Area",
+        "Walking Track",
+      ],
+
+      connectivity: [
+        "Near Joka Metro",
+        "Located on D.H Road",
+        "Easy South Kolkata Connectivity",
+        "Well-connected to Joka & Amtala",
+        "Rapidly Developing Residential Zone",
+      ],
+
+      lifestyle: [
+        "20 Acre Township",
+        "Enough Green Space",
+        "Water Body Views",
+        "756 Apartments",
+        "Gated Community Living",
+        "Modern Affordable Housing",
+      ],
+    },
+
+    nearby: {
+      metro: "Joka Metro",
+      school: "Nearby schools & educational institutes",
+      hospital: "Nearby hospitals & healthcare centers",
+    },
+
+    investment: {
+      roi: "10–15%",
+      demand: "High",
+      growth: "Emerging",
+      appreciation: "Strong growth potential in Joka-Amtala corridor",
+    },
+
+    propertyDetails:
+      "Swapno Puron by Srijan Realty & Star Group is a large gated community residential project located in Amtala on D.H Road near Joka Metro. Spread across 20 acres with lush greenery and scenic water bodies, the project offers thoughtfully designed 1RK, 1, 2 & 3 bedroom apartments with modern amenities and lifestyle facilities. Featuring a 3-acre natural lake, boating facilities, landscaped spaces, sports amenities, and seamless connectivity to South Kolkata, Swapno Puron delivers affordable community living with nature-inspired comfort.",
+
+    specifications: {
+      landArea: "20 Acres",
+      blocksPhase2: "8 Blocks",
+      blocksPhase3: "3 Blocks",
+      floors: "G+4 with Lift",
+      apartments: "756 Apartments",
+      lake: "3-acre Natural Lake",
+    },
+
+    features: [
+      "Gated Community",
+      "Natural Lake with Boating",
+      "Green Open Spaces",
+      "Swimming Pool",
+      "Sports Facilities",
+      "Affordable Housing",
+      "Water Body Views",
+      "Modern Community Amenities",
+    ],
+
+    rera: "WBRERA/P/SOU/2024/001229",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7207701181064!2d88.27341377529443!3d22.364169879640656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02645a6e13b6b7%3A0xd430e7fd43eeba27!2sSwapno%20Puron%20Amtala!5e0!3m2!1sen!2sin!4v1778920165198!5m2!1sen!2sin",
+  },
+
+  {
+    id: "29",
+    slug: "ps-logistics-park",
+    name: "PS Logistics Park",
+    tagline: "Finest Logistics, Close to Your City.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "Kona Expressway",
+    priceLabel: "₹2.99 Cr onwards",
+    priceMin: 299,
+    bhk: [0],
+    sizeRange: "7500 – 25000+ sq.ft.",
+    possession: "Under Development",
+    configuration: "21 Acres · 1.8 Million sq.ft.",
+    status: "Under Construction",
+    intent: ["Commercial", "Warehouse", "Invest"],
+    cover: pslg2,
+
+    gallery: [
+      pslg1,
+      pslg2,
+      pslg3,
+      pslg4,
+      pslg5,
+      pslg6,
+      pslg7,
+      pslg8,
+      pslg9,
+      pslg10,
+      pslg11,
+    ],
+
+    story: [
+      "Build your business at one of Kolkata’s most connected logistics destinations.",
+      "Experience seamless warehousing designed for productivity, movement, and growth.",
+      "Work closer to the city with modern infrastructure and multimodal connectivity.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Smart Storage Systems",
+        "Secure RCC Warehouses",
+        "Skill Development Centres",
+        "Open Infrastructure",
+        "Mobility Ecosystem",
+        "Safety & Security Systems",
+        "Human-Centric Workspaces",
+        "Landscaped Green Zones",
+      ],
+
+      connectivity: [
+        "Prime Kona Expressway Access",
+        "Excellent Multimodal Connectivity",
+        "Easy Movement of Goods & Workforce",
+        "Strategic Industrial Corridor Location",
+        "Connected to Kolkata Business Zones",
+      ],
+
+      lifestyle: [
+        "21 Acre Development",
+        "65% Open Spaces",
+        "1.8 Million sq.ft Logistics Hub",
+        "People-First Infrastructure",
+        "Industrial Ecosystem",
+        "Future-Ready Commercial Warehousing",
+      ],
+    },
+
+    nearby: {
+      metro: "Connected via major transport corridors",
+      school: "Nearby educational institutions",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Expanding",
+      appreciation: "Strong industrial & warehousing demand growth",
+    },
+
+    propertyDetails:
+      "PS Logistics Park by PS Group is a large-scale industrial and warehousing development located on Kona Expressway, Kolkata. Spread across 21 acres with 65% open spaces and 1.8 million sq.ft. of logistics infrastructure, the project offers modern RCC warehouses, smart storage systems, and future-ready industrial facilities. Designed around productivity, safety, and workforce well-being, the development ensures seamless movement through multimodal transport connectivity while creating a people-first logistics ecosystem close to the city.",
+
+    specifications: {
+      landArea: "21 Acres",
+      openSpace: "65%",
+      developmentSize: "1.8 Million sq.ft.",
+      warehouseType: "RCC Warehouses",
+      infrastructure: "Industrial & Logistics Hub",
+      connectivity: "Multimodal Transport Access",
+    },
+
+    features: [
+      "Modern RCC Warehouses",
+      "Smart Storage Systems",
+      "Industrial Infrastructure",
+      "Secure Logistics Ecosystem",
+      "Human-Centric Design",
+      "Open Infrastructure Planning",
+      "Multimodal Connectivity",
+      "Large-Scale Commercial Development",
+    ],
+
+    pricing: [
+      {
+        size: "7500 – 10000 sq.ft.",
+        price: "₹2.99 Cr onwards",
+      },
+      {
+        size: "10001 – 15000 sq.ft.",
+        price: "₹3.89 Cr onwards",
+      },
+      {
+        size: "15001 – 20000 sq.ft.",
+        price: "₹6.50 Cr onwards",
+      },
+      {
+        size: "20001 – 25000 sq.ft.",
+        price: "₹8 Cr onwards",
+      },
+      {
+        size: "25001+ sq.ft.",
+        price: "₹10 Cr onwards",
+      },
+    ],
+
+    rera: "Commercial Project",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7408710396744!2d88.26343047507827!3d22.588793079480222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02792ba3ff4fa5%3A0x4b7302733cb15be3!2sPS%20Logistics%20Park!5e0!3m2!1sen!2sin!4v1778922972027!5m2!1sen!2sin",
+
+    plans: {
+      site: pslg01,
+    },
+  },
+
+  {
+    id: "30",
+    slug: "sansara",
+    name: "Sansara",
+    tagline: "A world of its own by the river.",
+    developer: "PS Group",
+    city: "Howrah",
+    location: "Riverfront, Howrah | On the banks of the Ganges",
+    priceLabel: "₹3.30 Cr onwards",
+    priceMin: 330,
+    bhk: [3, 4, 4.5, 5],
+    sizeRange: "2515 – 6580 sq.ft.",
+    possession: "Ongoing Phased Development",
+    configuration: "G+40 · 5 Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Invest", "Residential"],
+    cover: sans12,
+
+    gallery: [
+      sans12,
+      sans13,
+      sans14,
+      sans15,
+      sans1,
+      sans2,
+      sans3,
+      sans4,
+      sans5,
+      sans6,
+      sans7,
+      sans8,
+      sans9,
+      sans10,
+      sans11,
+      sans12,
+      sans13,
+      sans14,
+      sans15,
+    ],
+
+    story: [
+      "Wake up to uninterrupted views of the Ganges and the iconic Howrah Bridge.",
+      "Experience elevated riverfront living with open skies, landscaped greens, and curated luxury.",
+      "Live in a world where serenity, community, and timeless luxury come together beautifully.",
+    ],
+
+    highlights: {
+      amenities: [
+        "1000 Ft Riverfront Boulevard",
+        "2.5 Acres Elevated Landscape",
+        "Private Jetty",
+        "Sports Arena",
+        "Health & Fitness Zones",
+        "Kids Activity Spaces",
+        "Blue Therapy Zones",
+        "Green Therapy Landscapes",
+        "Neighbourhood Mall",
+        "Temple & Riverfront Ghat",
+      ],
+
+      connectivity: [
+        "Prime Howrah Riverfront Location",
+        "Seamless Kolkata Connectivity",
+        "Excellent Metro & Commute Access",
+        "Easy Access to Education & Healthcare",
+        "Connected to Major City Hubs",
+      ],
+
+      lifestyle: [
+        "17.4 Acre Riverfront Development",
+        "70% Open-to-Sky Spaces",
+        "East-Facing River View Homes",
+        "Luxury High-Rise Towers",
+        "40 Storey Skyline Living",
+        "Panoramic Ganges Views",
+        "Integrated Community Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent Metro & City Connectivity",
+      school: "Nearby reputed educational institutions",
+      hospital: "Close to leading healthcare facilities",
+    },
+
+    investment: {
+      roi: "15–22%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Premium riverfront appreciation potential",
+    },
+
+    propertyDetails:
+      "Sansara by PS Group is a landmark luxury riverfront development in Howrah, spread across 17.4 acres on the banks of the Ganges. Featuring east-facing residences with panoramic river views and the iconic Howrah Bridge as a backdrop, Sansara redefines waterfront luxury living. Designed with elevated landscapes, private leisure zones, sports arenas, wellness spaces, temple & ghat experiences, and a 1000 ft riverfront boulevard, the project creates a seamless blend of serenity, elegance, and modern urban lifestyle.",
+
+    specifications: {
+      landArea: "17.4 Acres",
+      towers: "5 Towers",
+      storey: "G+40",
+      openSpace: "70% Open-to-Sky",
+      landscape: "2.5 Acres Elevated Landscape",
+      boulevard: "1000 Ft Riverfront Boulevard",
+    },
+
+    features: [
+      "Riverfront Residences",
+      "East-Facing Homes",
+      "Panoramic Ganges Views",
+      "Private Jetty",
+      "Elevated Landscapes",
+      "Luxury Sky Living",
+      "Temple & Ghat Experience",
+      "Sports & Wellness Zones",
+      "Integrated Lifestyle Community",
+      "High-Rise Riverfront Towers",
+    ],
+
+    rera: {
+      phase1: "WBRERA/P/HOW/2024/001857",
+      phase2: "WBRERA/P/HOW/2025/003377",
+      phase3: "WBRERA/P/HOW/2026/004253",
+    },
+
+    tag: "Riverfront Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7129829557925!2d88.34037717507823!3d22.589835679479396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02776aca924225%3A0xd15c9d294c5319a9!2sSansara!5e0!3m2!1sen!2sin!4v1778926371666!5m2!1sen!2sin",
+
+    plans: {
+      master: sans01,
+      site: sans01,
+      unit: [sans02, sans03, sans04, sans05],
+    },
+  },
+
+  {
+    id: "31",
+    slug: "jade-grove",
+    name: "Jade Grove",
+    tagline: "Stay rooted. Reach extraordinary.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "Near Entally, Central Kolkata",
+    priceLabel: "₹1.03 Cr onwards",
+    priceMin: 103,
+    bhk: [2, 3, 4],
+    sizeRange: "616 – 658 sq.ft. carpet area",
+    possession: "Final Phase Ongoing",
+    configuration: "293 Apartments · 3.27 Acres",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: jg1,
+
+    gallery: [
+      jg1,
+      jg2,
+      jg3,
+      jg4,
+      jg5,
+      jg6,
+      jg7,
+      jg8,
+      jg9,
+      jg10,
+    ],
+
+    story: [
+      "Live in the heart of Central Kolkata surrounded by openness and greenery.",
+      "Experience calm, cross-ventilated homes designed for light, air, and privacy.",
+      "Rise above the city while staying connected to your roots and memories.",
+    ],
+
+    highlights: {
+      amenities: [
+        "30 Mtr Triple-Height Swimming Pool",
+        "30+ Lifestyle Amenities",
+        "Central Landscaped Greens",
+        "Indoor Recreation Spaces",
+        "Children’s Play Areas",
+        "Relaxation & Wellness Zones",
+        "Community Gathering Spaces",
+        "Shaded Walkways",
+      ],
+
+      connectivity: [
+        "Prime Central Kolkata Address",
+        "Near Entally",
+        "Excellent Metro & City Connectivity",
+        "Close to Schools & Healthcare",
+        "Easy Access to Business Districts",
+      ],
+
+      lifestyle: [
+        "3.27 Acre Development",
+        "69% Open to Sky",
+        "293 Premium Apartments",
+        "Three-Side Open Homes",
+        "Cross Ventilated Layouts",
+        "Large Central Landscape",
+        "Refined Architecture",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent Metro Connectivity",
+      school: "Nearby reputed educational institutions",
+      hospital: "Close to major healthcare centers",
+    },
+
+    investment: {
+      roi: "13–18%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Premium Central Kolkata appreciation potential",
+    },
+
+    propertyDetails:
+      "Jade Grove by PS Group is a premium residential development located near Entally in the heart of Central Kolkata. Spread across 3.27 acres with 69% open-to-sky space, the project offers thoughtfully designed 2, 3, and 4 BHK homes with cross-ventilated, three-side open layouts. Featuring expansive landscaped greens, refined architecture, and 30+ curated lifestyle amenities, Jade Grove creates a peaceful urban sanctuary while maintaining seamless access to the city’s established neighborhoods, business hubs, schools, and healthcare centers.",
+
+    specifications: {
+      landArea: "3.27 Acres",
+      apartments: "293 Apartments",
+      openSpace: "69% Open to Sky",
+      swimmingPool: "30 Mtr Triple-Height Pool",
+      unitTypes: "2, 3 & 4 BHK",
+      amenities: "30+ Lifestyle Amenities",
+    },
+
+    features: [
+      "Three-Side Open Homes",
+      "Cross Ventilated Apartments",
+      "Large Landscaped Greens",
+      "Triple-Height Swimming Pool",
+      "Central Kolkata Address",
+      "Luxury Lifestyle Amenities",
+      "Children & Wellness Zones",
+      "Premium Urban Living",
+    ],
+
+    rera: {
+      phase1: "WBRERA/P/KOL/2023/000783",
+      phase2: "WBRERA/P/KOL/2024/001773",
+    },
+
+    tag: "Central Kolkata Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.553831221487!2d88.37807417507729!3d22.558380379501866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a4e85fc731%3A0x98e8df763d986920!2sJade%20Grove!5e0!3m2!1sen!2sin!4v1778928230261!5m2!1sen!2sin",
+
+    plans: {
+      master: jg01,
+      site: jg01,
+      unit: [jg02, jg03, jg04],
+    },
+  },
+
+  {
+    id: "32",
+    slug: "one10",
+    name: "One10",
+    tagline: "Homes designed for tomorrow, ready to live in today.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "New Town, Action Area I, Behind Novotel",
+    priceLabel: "₹4.49 Cr onwards",
+    priceMin: 449,
+    bhk: [5],
+    sizeRange: "2766 – 2792 sq.ft.",
+    possession: "Ready To Move",
+    configuration: "9 Acres · Luxury High-Rise Development",
+    status: "Ready to Move",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: one101,
+
+    gallery: [
+      one100,
+      one101,
+      one102,
+      one103,
+      one104,
+      one105,
+      one106,
+      one107,
+      one108,
+      one109,
+      one110,
+      one111,
+    ],
+
+    story: [
+      "Wake up to breathtaking wetland views and endless open skies.",
+      "Experience Kolkata’s first residential project exclusively designed for kids.",
+      "Live in expansive 5 BHK homes crafted for modern family living.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Olympic-Sized Swimming Pool",
+        "Triple Height Sports Arena",
+        "Outdoor Theatre",
+        "Nature Trails",
+        "Jungle Gyms",
+        "Outdoor Multi-Sport Courts",
+        "Senior’s Lounge",
+        "Wellness Centre",
+        "50+ Lifestyle Amenities",
+      ],
+
+      connectivity: [
+        "900 meters from Novotel",
+        "Prime Action Area I Location",
+        "Excellent New Town Connectivity",
+        "Close to Business & IT Hubs",
+        "Easy Access to Major Arterial Roads",
+      ],
+
+      lifestyle: [
+        "9 Acre Development",
+        "70% Open Space",
+        "3-Side Open Flats",
+        "South Facing Apartments",
+        "1000 Acre Wetland Views",
+        "Vaastu-Compliant Homes",
+        "Family-Centric Luxury Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby New Town Metro Connectivity",
+      school: "Close to reputed schools & educational hubs",
+      hospital: "Nearby premium healthcare facilities",
+    },
+
+    investment: {
+      roi: "15–22%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Premium appreciation potential in New Town",
+    },
+
+    propertyDetails:
+      "One10 by PS Group is a luxury ready-to-move residential development located in New Town Action Area I, Kolkata. Spread across 9 acres with 70% open space, the project offers expansive 5 BHK apartments designed especially for large Indian families. Featuring breathtaking 1000-acre wetland views, 3-side open south-facing residences, and over 50 premium amenities, One10 delivers a complete lifestyle experience centered around children, wellness, recreation, and family living. Strategically located behind Novotel near Kolkata’s upcoming business and lifestyle hub, the project blends luxury, functionality, and future-ready living.",
+
+    specifications: {
+      landArea: "9 Acres",
+      openSpace: "70%",
+      apartmentType: "5 BHK Luxury Apartments",
+      facing: "South Facing",
+      views: "1000 Acre Wetland Views",
+      amenities: "50+ Amenities across 3.5 Acres",
+    },
+
+    features: [
+      "Ready To Move Apartments",
+      "3-Side Open Homes",
+      "Kids-Centric Development",
+      "Olympic-Sized Pool",
+      "Outdoor Sports Courts",
+      "Nature Trails",
+      "Triple Height Sports Arena",
+      "Senior’s Lounge",
+      "Wellness Centre",
+      "Vaastu-Compliant Apartments",
+    ],
+
+    rera: {
+      phase1: "HIRA/P/NOR/2018/000136",
+      phase2: "WBRERA/P/NOR/2023/000082",
+      phase3: "WBRERA/P/NOR/2023/000894",
+    },
+
+    tag: "Luxury Ready To Move",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117992.25415314833!2d88.3919015!3d22.4569392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02754b59e8b7dd%3A0xbf5ed3c21738afda!2sOne10!5e0!3m2!1sen!2sin!4v1778930728939!5m2!1sen!2sin",
+
+    plans: {
+      site: one0100,
+      master: one0100,
+      unit: [one0200, one0300],
+
+    },
+  },
+
+  {
+    id: "33",
+    slug: "quintessa",
+    name: "Quintessa",
+    tagline: "It’s incomparable. It’s rare. It’s yours to own.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "Kankurgachi, Kolkata",
+    priceLabel: "₹3.98 Cr onwards",
+    priceMin: 398,
+    bhk: [4, 4.5, 5, 6],
+    sizeRange: "Luxury Simplexes & Penthouses",
+    possession: "Under Construction",
+    configuration: "16 Storey · 80 Exclusive Families",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: quin1,
+
+    gallery: [
+      quin1,
+      quin2,
+      quin3,
+      quin4,
+      quin5,
+      quin6,
+      quin7,
+      quin8,
+      quin9,
+      quin10,
+      quin11,
+      quin12,
+      quin13,
+      quin14,
+      quin15,
+      quin16,
+      quin17,
+      quin18,
+      quin19,
+      quin20,
+      quin21,
+      quin22,
+      quin23,
+      quin24,
+      quin25,
+      quin26,
+    ],
+
+    story: [
+      "Experience rare luxury crafted for only 80 exclusive families.",
+      "Wake up to expansive 3-side open homes filled with light and elegance.",
+      "Live surrounded by indulgent amenities in the heart of North Kolkata.",
+    ],
+
+    highlights: {
+      amenities: [
+        "28,000 sq.ft Club Luxuries",
+        "Wellness Spaces",
+        "Sports Amenities",
+        "Kids’ Activity Zones",
+        "Luxury Clubhouse Floor",
+        "Entertainment & Gathering Spaces",
+        "Indoor Lifestyle Amenities",
+        "Outdoor Leisure Zones",
+      ],
+
+      connectivity: [
+        "Prime Kankurgachi Location",
+        "Excellent North Kolkata Connectivity",
+        "Close to Educational Institutions",
+        "Easy Access to Healthcare Facilities",
+        "Well Connected to Leisure Destinations",
+      ],
+
+      lifestyle: [
+        "Only 80 Exclusive Families",
+        "3-Side Open Apartments",
+        "Vaastu-Compliant Homes",
+        "Large Windows & Open Layouts",
+        "Step-In Closets",
+        "King-Size Kitchens",
+        "Luxury Penthouses",
+        "Curated Lifestyle Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby Metro Connectivity",
+      school: "Close to reputed educational institutions",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "Ultra Luxury",
+      growth: "Strong",
+      appreciation: "Premium appreciation potential in Kankurgachi",
+    },
+
+    propertyDetails:
+      "Quintessa by PS Group is an ultra-luxury residential development located in Kankurgachi, Kolkata. Designed for only 80 exclusive families, the project offers expansive 4, 4.5, 5 & 6 BHK simplexes and penthouses with elegant 3-side open layouts, large windows, step-in closets, and Vaastu-compliant planning. Featuring a one-of-a-kind clubhouse spread across an entire floor, along with wellness, sports, leisure, and entertainment amenities, Quintessa delivers a rare lifestyle experience crafted for discerning homeowners in the heart of North Kolkata.",
+
+    specifications: {
+      clubhouse: "28,000 sq.ft Club Luxuries",
+      floors: "16 Storey",
+      families: "80 Exclusive Families",
+      activities: "35+ Lifestyle Activities",
+      layout: "3-Side Open Homes",
+      apartmentTypes: "Simplexes & Penthouses",
+    },
+
+    features: [
+      "Luxury Simplexes",
+      "Exclusive Penthouses",
+      "3-Side Open Apartments",
+      "Vaastu-Compliant Homes",
+      "Large Windows",
+      "Step-In Closets",
+      "King-Size Kitchens",
+      "Luxury Clubhouse",
+      "Sports & Wellness Amenities",
+      "Curated Lifestyle Spaces",
+    ],
+
+    rera: "WBRERA/P/KOL/2023/000776",
+
+    tag: "Ultra Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.952137270867!2d88.38298677507797!3d22.580893379485833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02771cfc7f89e5%3A0x1cef7f2bd260f726!2sQUINTESSA!5e0!3m2!1sen!2sin!4v1779086342843!5m2!1sen!2sin",
+
+    plans: {
+      site: quin01,
+      master: quin01,
+      unit: [quin02, quin03, quin04, quin05, quin06, quin07, quin08, quin09, quin001, quin002, quin003, quin004, quin005, quin006],
+    },
+  },
+
+  {
+    id: "34",
+    slug: "vaanya",
+    name: "Vaanya",
+    tagline: "Urban Forest Living.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "New Town Action Area II, Near Axis Mall & Eco Park",
+    priceLabel: "₹4.02 Cr onwards",
+    priceMin: 402,
+    bhk: [4],
+    sizeRange: "1969 – 2368 sq.ft.",
+    possession: "Under Development",
+    configuration: "35 Storey High Rise · 9 Acres",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: van1,
+
+    gallery: [
+      van1,
+      van2,
+      van3,
+      van4,
+      van5,
+      van6,
+      van7,
+      van8,
+      van9,
+      van10,
+      van11,
+      van13,
+      van14,
+      van15,
+      van16,
+      van17,
+      van18,
+      van19,
+      van20,
+      van21,
+      van22,
+    ],
+
+    story: [
+      "Wake up surrounded by lush forests, rare flora, and serene blue spaces.",
+      "Experience urban luxury blended seamlessly with nature and wellness.",
+      "Live amidst expansive greenery with world-class lifestyle experiences in the heart of New Town.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Tree-Lined Lap Pool",
+        "Lagoon with Sunken Decks",
+        "Forest Walk",
+        "Thought Pods",
+        "Games Rooms",
+        "Gymnasium",
+        "Salon & Spa",
+        "Sauna",
+        "Café",
+        "Indoor-Outdoor Activity Zones",
+      ],
+
+      connectivity: [
+        "Prime Action Area II Location",
+        "Near Axis Mall",
+        "Close to Eco Park",
+        "Easy Airport Connectivity",
+        "Nearby New Town Metro Station",
+      ],
+
+      lifestyle: [
+        "9 Acre Forest Inspired Development",
+        "83% Open To Sky",
+        "2000+ Trees",
+        "2 Lakh+ Shrubs",
+        "35 Storey High-Rise Towers",
+        "Forest Therapy Inspired Design",
+        "Blue Space Living",
+        "Nature-Centric Luxury Lifestyle",
+      ],
+    },
+
+    nearby: {
+      metro: "New Town Metro Station",
+      school: "Nearby reputed educational institutions",
+      hospital: "Close to major healthcare centers",
+    },
+
+    investment: {
+      roi: "15–22%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in New Town",
+    },
+
+    propertyDetails:
+      "Vaanya by PS Group is a luxury urban forest residential development located in New Town Action Area II, Kolkata. Spread across 9 acres with 83% open-to-sky spaces, the project blends lush greenery, forest-inspired architecture, and premium living experiences. Featuring spacious 4 BHK apartments surrounded by 2000+ trees and over 2 lakh shrubs, Vaanya introduces concepts like Forest Therapy, Blue Space, and Tree Talk to enhance wellness and lifestyle. With luxury amenities, nature-inspired leisure zones, and seamless connectivity to Eco Park, Axis Mall, Airport, and New Town Metro, Vaanya redefines nature-centric luxury living in Kolkata.",
+
+    specifications: {
+      landArea: "9 Acres",
+      openSpace: "83% Open To Sky",
+      towers: "35 Storey High-Rise Towers",
+      greenery: "2000+ Trees & 2 Lakh+ Shrubs",
+      apartmentType: "4 BHK Luxury Apartments",
+      lifestyleConcept: "Urban Forest Living",
+    },
+
+    features: [
+      "Urban Forest Theme",
+      "Forest Therapy Design",
+      "Blue Space Inspired Living",
+      "Thought Pods",
+      "Forest Walk",
+      "Lagoon with Sunken Decks",
+      "Nature-Centric Amenities",
+      "High-Rise Luxury Towers",
+      "Wellness Focused Spaces",
+      "Large Open Landscapes",
+    ],
+
+    pricing: [
+      {
+        size: "1969 sq.ft.",
+        price: "₹4.02 Cr onwards",
+      },
+      {
+        size: "2045 sq.ft.",
+        price: "₹4.12 Cr onwards",
+      },
+      {
+        size: "2336 sq.ft.",
+        price: "₹4.30 Cr onwards",
+      },
+      {
+        size: "2368 sq.ft.",
+        price: "₹4.43 Cr onwards",
+      },
+    ],
+
+    rera: "WBRERA/P/NOR/2023/000089",
+
+    tag: "Urban Forest Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.864178133545!2d88.49263207507815!3d22.58418267948353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020ac43d533df7%3A0x306adff40a6d767d!2sVaanya!5e0!3m2!1sen!2sin!4v1779087939280!5m2!1sen!2sin",
+
+    plans: {
+      site: van01,
+      master: van01,
+      unit: [van02, van03, van04, van05],
+    },
+  },
+
+  {
+    id: "35",
+    slug: "antares",
+    name: "Antares",
+    tagline: "Exclusive and uber luxe homes at a stellar location.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "Sarat Bose Road",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [5],
+    sizeRange: "4888 sq.ft. Duplex",
+    possession: "Under Construction",
+    configuration: "23 Storeys · 26 Crafted Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: ant1,
+
+    gallery: [
+      ant1,
+      ant2,
+      ant3,
+      ant4,
+      ant5,
+      ant6,
+      ant7,
+      ant8,
+      ant9,
+      ant10,
+      ant11,
+      ant12,
+    ],
+
+    story: [
+      "Live in ultra-spacious duplex residences crafted for modern luxury.",
+      "Experience naturally lit Vaastu-compliant homes designed to amplify positivity.",
+      "Wake up in the heart of South Kolkata surrounded by elegance and exclusivity.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Dedicated G+2 Luxury Club",
+        "Indoor Lifestyle Amenities",
+        "Outdoor Leisure Zones",
+        "Sloping Green Walkways",
+        "Wellness Spaces",
+        "Safety & Security Systems",
+        "Premium Recreational Facilities",
+        "Occupational Comfort Features",
+      ],
+
+      connectivity: [
+        "Prime Sarat Bose Road Address",
+        "Excellent South Kolkata Connectivity",
+        "Close to Lifestyle Destinations",
+        "Nearby Healthcare Facilities",
+        "Easy Access to Educational Institutions",
+      ],
+
+      lifestyle: [
+        "23 Storey Landmark Tower",
+        "Only 26 Exclusive Apartments",
+        "Ultra Luxury Duplex Homes",
+        "Vaastu-Compliant Residences",
+        "Naturally Lit Living Spaces",
+        "Low Density Elite Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby South Kolkata Metro Connectivity",
+      school: "Close to reputed educational institutions",
+      hospital: "Nearby premium healthcare centers",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "Ultra Luxury",
+      growth: "Strong",
+      appreciation: "Prime South Kolkata luxury appreciation potential",
+    },
+
+    propertyDetails:
+      "Antares by PS Group is an ultra-luxury residential development located on Sarat Bose Road in South Kolkata. Rising 23 storeys high with only 26 crafted apartments, the project offers expansive 5 BHK duplex homes designed for exclusivity, elegance, and comfort. Featuring Vaastu-compliant layouts, naturally lit interiors, lush landscaped walkways, and a dedicated G+2 luxury club experience, Antares combines sophisticated architecture with premium lifestyle amenities in one of Kolkata’s most prestigious residential neighborhoods.",
+
+    specifications: {
+      storeys: "23 Storeys",
+      apartments: "26 Crafted Apartments",
+      apartmentType: "5 BHK Duplex",
+      lowerLevelArea: "2551 sq.ft.",
+      upperLevelArea: "2337 sq.ft.",
+      clubhouse: "Dedicated G+2 Club Experience",
+    },
+
+    features: [
+      "Ultra Luxury Duplex Residences",
+      "Vaastu-Compliant Homes",
+      "Naturally Lit Interiors",
+      "Dedicated Luxury Club",
+      "Landscaped Green Walkways",
+      "Low Density Living",
       "Premium Lifestyle Amenities",
+      "Prime South Kolkata Address",
+    ],
+
+    pricing: [
+      {
+        size: "4888 sq.ft. Duplex",
+        price: "Price On Request",
+      },
+    ],
+
+    rera: "WBRERA/P/KOL/2023/000202",
+
+    tag: "Ultra Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.062179928439!2d88.35190527507669!3d22.539343379515447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027715c971e86b%3A0xb47ae0370483248a!2sAntares!5e0!3m2!1sen!2sin!4v1779089643347!5m2!1sen!2sin",
+
+    plans: {
+      site: ant01,
+      master: ant01,
+      unit: [ant02, ant03],
+    },
+  },
+  {
+    id: "36",
+    slug: "the-dominion",
+    name: "The Dominion",
+    tagline: "Boutique workspaces crafted for modern business.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "Lansdowne, Sarat Bose Road",
+    priceLabel: "₹1.80 Cr onwards",
+    priceMin: 180,
+    bhk: [0],
+    sizeRange: "Office & Retail Spaces",
+    possession: "Under Construction",
+    configuration: "G+7 · 1 Tower · 26 Units",
+    status: "Under Construction",
+    intent: ["Commercial", "Office", "Retail", "Invest"],
+    cover: dom1,
+
+    gallery: [
+      dom1,
+      dom2,
+    ],
+
+    story: [
+      "Build your business in a boutique commercial landmark on Sarat Bose Road.",
+      "Experience intelligently designed office spaces filled with natural light.",
+      "Work from a premium address connected to Kolkata’s retail and business hubs.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Boutique Office Spaces",
+        "Retail & Display Outlets",
+        "Glass Façade Architecture",
+        "Natural Light Optimized Workspaces",
+        "Safety & Security Systems",
+        "Energy Efficient Design",
+        "Occupational Health & Comfort Features",
+      ],
+
+      connectivity: [
+        "Prime Sarat Bose Road Location",
+        "Excellent Lansdowne Connectivity",
+        "Close to Retail & Business Districts",
+        "Easy Access to Major Roads",
+        "Well Connected to Central Kolkata",
+      ],
+
+      lifestyle: [
+        "Boutique Commercial Development",
+        "Modern Glass Façade",
+        "Premium Corporate Address",
+        "Low Density Office Environment",
+        "High Space Efficiency",
+        "Future-Ready Business Infrastructure",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby Metro Connectivity",
+      school: "Close to educational institutions",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–16%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Premium commercial appreciation potential",
+    },
+
+    propertyDetails:
+      "The Dominion by PS Group is a boutique commercial office and retail development located on Sarat Bose Road in Lansdowne, Kolkata. Designed to meet modern business needs, the project combines intelligent architecture, enhanced space efficiency, and premium business infrastructure. Featuring a stunning glass façade, naturally lit workspaces, and a prime central location, The Dominion offers boutique offices, display units, and retail spaces for businesses seeking visibility, connectivity, and a distinguished corporate identity.",
+
+    specifications: {
+      towers: "1 Tower",
+      configuration: "G+7",
+      units: "26 Offices, Display & Retail Outlets",
+      architecture: "Glass Façade Commercial Building",
+      officeType: "Boutique Offices",
+      retail: "Retail & Display Units",
+    },
+
+    features: [
+      "Boutique Office Spaces",
+      "Retail & Display Units",
+      "Premium Glass Façade",
+      "Natural Light Focused Design",
+      "Prime Lansdowne Address",
+      "Energy Efficient Infrastructure",
+      "Business-Centric Planning",
+      "Modern Commercial Development",
+    ],
+
+    pricing: [
+      {
+        size: "Office & Display Units",
+        price: "₹1.80 Cr onwards",
+      },
+      {
+        size: "Retail Spaces",
+        price: "Price on Request",
+      },
+    ],
+
+    rera: "WBRERA/P/KOL/2023/000090",
+
+    tag: "Commercial",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.251924625551!2d88.35035447507647!3d22.532233779520492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277ca9e36bafb%3A0x324897aa562658cf!2sThe%20Dominion!5e0!3m2!1sen!2sin!4v1779090575105!5m2!1sen!2sin",
+
+    plans: {
+      site: dom02,
+      master: dom01,
+      unit: [dom03, dom04, dom05, dom06, dom07],
+    },
+  },
+
+  {
+    id: "37",
+    slug: "the-reserve",
+    name: "The Reserve",
+    tagline: "A billionaire’s paradise in the heart of Ballygunge.",
+    developer: "PS Group",
+    city: "Kolkata",
+    location: "Ballygunge Circular Road, AJC Crossing",
+    priceLabel: "Price on Request",
+    priceMin: 0,
+    bhk: [4, 5, 6],
+    sizeRange: "1905 sq.ft. onwards",
+    possession: "Ready To Move",
+    configuration: "30/34 Storey Luxury Towers · 3 Acres",
+    status: "Ready to Move",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: res1,
+
+    gallery: [
+      res1,
+      res2,
+      res3,
+      res4,
+      res5,
+      res6,
+      res7,
+      res8,
+      res9,
+      res10,
+      res11,
+      res12,
+      res13,
+      res14,
+    ],
+
+    story: [
+      "Wake up to unmatched luxury in one of South Kolkata’s most prestigious addresses.",
+      "Experience bespoke condominiums, duplexes, and pool villas crafted for the extraordinary.",
+      "Live amidst elevated gardens, cascading landscapes, and world-class lifestyle experiences.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Elevated Walkways",
+        "Luxury Club Amenities",
+        "Pool Villas",
+        "Sports & Fitness Facilities",
+        "Wellness Spaces",
+        "Private Leisure Zones",
+        "Landscaped Gardens",
+        "Exotic Cabanas",
+        "Recreation Lounges",
+        "Premium Security Systems",
+      ],
+
+      connectivity: [
+        "Prime Ballygunge Circular Road Address",
+        "Near AJC Crossing",
+        "Excellent South Kolkata Connectivity",
+        "Connected to Premium Lifestyle Zones",
+        "Easy Access to Business Districts",
+      ],
+
+      lifestyle: [
+        "3 Acre Luxury Development",
+        "1 Acre of Landscaping",
+        "30/34 Storey High-Rise Towers",
+        "Bespoke Duplexes & Pool Villas",
+        "Ultra Luxury Condominium Living",
+        "Premium South Kolkata Neighborhood",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearby South Kolkata Metro Connectivity",
+      school: "Close to reputed schools & institutions",
+      hospital: "Nearby premium healthcare facilities",
+    },
+
+    investment: {
+      roi: "18–25%",
+      demand: "Ultra Luxury",
+      growth: "Strong",
+      appreciation: "High appreciation potential in Ballygunge",
+    },
+
+    propertyDetails:
+      "The Reserve by PS Group is one of Kolkata’s most luxurious residential developments located on Ballygunge Circular Road near AJC Crossing. Spread across 3 acres with over an acre dedicated to elevated landscapes, gardens, exotic cabanas, and cascading leisure spaces, the project offers bespoke condominiums, duplexes, and pool villas crafted for elite living. Featuring premium sports, wellness, recreation, and lifestyle amenities, The Reserve delivers an ultra-luxury living experience in one of South Kolkata’s most prestigious neighborhoods.",
+
+    specifications: {
+      landArea: "3 Acres",
+      landscaping: "1 Acre Elevated Landscaping",
+      towers: "30/34 Storey High-Rise Towers",
+      apartmentTypes: "Luxury Condominiums, Duplexes & Pool Villas",
+      locationAdvantage: "Ballygunge Circular Road",
+      lifestyle: "Ultra Luxury Residential Development",
+    },
+
+    features: [
+      "Luxury Condominiums",
+      "Exclusive Duplexes",
+      "Private Pool Villas",
+      "Elevated Landscaped Gardens",
+      "Exotic Cabanas",
       "Wellness & Recreation Zones",
-      "Modern Fitness Spaces",
-      "Children’s Activity Areas",
-      "Elegant Entrance Lobby",
-      "Security & Smart Living Features",
-    ],
-
-    connectivity: [
-      "Prime New Alipore Location",
-      "5 mins from MR Bangur Hospital",
-      "5 mins from Tollygunge Golf Club",
-      "10 mins from South City Mall",
-      "15 mins from Jadavpur University",
-    ],
-
-    lifestyle: [
       "Premium South Kolkata Address",
-      "Luxury 3 & 4 BHK Homes",
-      "Serene Water-Inspired Living",
-      "Excellent Urban Connectivity",
-      "Modern Community Living",
-      "Future-Ready Development",
+      "High-Rise Skyline Living",
+      "Luxury Lifestyle Amenities",
     ],
+
+    pricing: [
+      {
+        size: "4 BHK",
+        price: "Price on Request",
+      },
+      {
+        size: "Terrace/Pool Villaments",
+        price: "Price on Request",
+      },
+    ],
+
+    rera: "HIRA/P/KOL/2018/000013",
+
+    tag: "Ultra Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.0283996584335!2d88.35525287507674!3d22.540608879514533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027718ad0b4e83%3A0x78b2fd0cd912ceb!2sThe%20Reserve!5e0!3m2!1sen!2sin!4v1779091832972!5m2!1sen!2sin",
+
+    plans: {
+      site: res01,
+      master: res01,
+      unit: [res02, res03, res04],
+    },
   },
 
-  nearby: {
-    metro: "Nearby Tollygunge Metro Connectivity",
-    school: "Jadavpur University & reputed institutions nearby",
-    hospital: "MR Bangur Hospital (5 mins)",
-  },
-
-  investment: {
-    roi: "14–20%",
-    demand: "High",
-    growth: "Strong",
-    appreciation: "Premium South Kolkata appreciation potential",
-  },
-
-  propertyDetails:
-    "Godrej Blue by Godrej Properties is a premium luxury residential development located on BL Saha Road in New Alipore, Kolkata. Offering elegant 3 & 4 BHK residences, the project combines serene waterfront-inspired living with exceptional urban connectivity. Strategically positioned close to South City Mall, Tollygunge Golf Club, healthcare institutions, and educational hubs, Godrej Blue delivers a modern lifestyle experience with thoughtfully designed homes, premium amenities, landscaped spaces, and the trusted legacy of Godrej Properties.",
-
-  specifications: {
+  {
+    id: "38",
+    slug: "godrej-zen-estate",
+    name: "Godrej Zen Estate",
+    tagline: "Experience The Essence Of Bali.",
     developer: "Godrej Properties",
+    city: "Kolkata",
+    location: "Off Diamond Harbour Road, Kolkata",
+    priceLabel: "₹45 L onwards",
+    priceMin: 45,
+    bhk: [0],
+    sizeRange: "Plots",
+    possession: "June 2027",
+    configuration: "Balinese-Themed Plotted Development",
+    status: "Under Construction",
+    intent: ["Plots", "Invest", "Residential"],
+    cover: zen1,
+
+    gallery: [
+      zen1,
+      zen2,
+      zen3,
+      zen4,
+      zen5,
+      zen6,
+      zen7,
+      zen8,
+      zen9,
+      zen10,
+    ],
+
+    story: [
+      "Discover a serene Balinese-inspired lifestyle surrounded by lush greenery.",
+      "Build your dream home in a peaceful sanctuary designed around nature and elegance.",
+      "Experience tranquil plotted living crafted with harmony, culture, and timeless beauty.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Balinese Landscape Design",
+        "Meditation Spaces",
+        "Nature Inspired Pathways",
+        "Landscaped Greens",
+        "Wellness Zones",
+        "Open Leisure Areas",
+        "Community Spaces",
+        "Secure Gated Development",
+      ],
+
+      connectivity: [
+        "Prime Off-Diamond Harbour Road Location",
+        "Excellent Kolkata Connectivity",
+        "Easy Access to Major Roads",
+        "Connected to Urban Infrastructure",
+        "Close to Lifestyle Destinations",
+      ],
+
+      lifestyle: [
+        "Balinese-Themed Community",
+        "Nature-Centric Living",
+        "Luxury Plotted Development",
+        "Peaceful Residential Environment",
+        "Elegant Architectural Inspiration",
+        "Future Ready Investment Destination",
+      ],
+    },
+
+    nearby: {
+      metro: "Connected via major Kolkata transport routes",
+      school: "Nearby reputed schools & educational institutions",
+      hospital: "Nearby healthcare & lifestyle facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Developing",
+      appreciation: "Strong plotted development appreciation potential",
+    },
+
+    propertyDetails:
+      "Godrej Zen Estate by Godrej Properties is a premium Balinese-themed plotted residential development located off Diamond Harbour Road, Kolkata. Inspired by the serene beauty and cultural richness of Bali, the project blends lush landscapes, elegant design, and tranquil open spaces to create a harmonious living experience. Designed as a peaceful sanctuary connected deeply with nature, Godrej Zen Estate offers luxury plotted living with modern infrastructure, secure community planning, and future-ready investment potential.",
+
+    specifications: {
+      developmentType: "Plotted Residential Development",
+      theme: "Balinese Inspired",
+      possession: "June 2027",
+      propertyType: "Plots",
+      infrastructure: "Premium Gated Community",
+      developerLegacy: "Godrej Properties",
+    },
+
+    features: [
+      "Balinese-Themed Architecture",
+      "Luxury Residential Plots",
+      "Nature Inspired Living",
+      "Landscaped Green Zones",
+      "Peaceful Wellness Spaces",
+      "Secure Gated Community",
+      "Premium Infrastructure",
+      "Future Ready Investment",
+    ],
+
+    pricing: [
+      {
+        size: "Residential Plots",
+        price: "₹45 L onwards",
+      },
+    ],
+
+    rera: {
+      phase1: "WBRERA/P/SOU/2025/002609",
+      phase2: "WBRERA/P/SOU/2025/002728",
+      phase3: "WBRERA/P/SOU/2025/002990",
+      phase4: "WBRERA/P/SOU/2025/002991",
+    },
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2195.4177916903686!2d88.27102383495495!3d22.268976277679215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0267e2e853b9f9%3A0xdbe316ae12eb71f8!2sGodrej%20Zen%20Estate%2C%20Off%20Diamond%20Harbour%20Road%2C%20Kolkata!5e0!3m2!1sen!2sin!4v1779093401559!5m2!1sen!2sin",
+
+    plans: {
+      site: zen01,
+      master: zen01,
+    },
+  },
+
+  {
+    id: "39",
+    slug: "godrej-blue",
+    name: "Godrej Blue",
+    tagline: "The calm waters are calling you home to a serene view.",
+    developer: "Godrej Properties",
+    city: "Kolkata",
+    location: "BL Saha Road, New Alipore, Kolkata",
+    priceLabel: "₹2.49 Cr onwards",
+    priceMin: 249,
+    bhk: [3, 4],
+    sizeRange: "Premium Spacious Residences",
     possession: "September 2029",
-    residenceType: "3 & 4 BHK Luxury Apartments",
-    location: "BL Saha Road, New Alipore",
-    projectType: "Residential Development",
-    connectivity: "South Kolkata Lifestyle Hub",
-  },
+    configuration: "Luxury Residential Development",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: blue0,
 
-  features: [
-    "Luxury Apartments",
-    "Premium South Kolkata Address",
-    "Waterfront Inspired Living",
-    "Modern Lifestyle Amenities",
-    "Landscaped Open Spaces",
-    "Smart Community Living",
-    "Excellent Urban Connectivity",
-    "Trusted Godrej Legacy",
-  ],
+    gallery: [
+      blue1,
+      blue0,
+      blue2,
+      blue3,
+      blue4,
+      blue5,
+    ],
 
-  pricing: [
-    {
-      size: "3 BHK",
-      price: "₹2.49 Cr onwards",
+    story: [
+      "Wake up to calming waterfront-inspired views in the heart of South Kolkata.",
+      "Experience luxury living crafted around serenity, connectivity, and elegance.",
+      "Live moments away from premium lifestyle hubs, golf greens, healthcare, and education.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Luxury Clubhouse",
+        "Landscaped Open Spaces",
+        "Premium Lifestyle Amenities",
+        "Wellness & Recreation Zones",
+        "Modern Fitness Spaces",
+        "Children’s Activity Areas",
+        "Elegant Entrance Lobby",
+        "Security & Smart Living Features",
+      ],
+
+      connectivity: [
+        "Prime New Alipore Location",
+        "5 mins from MR Bangur Hospital",
+        "5 mins from Tollygunge Golf Club",
+        "10 mins from South City Mall",
+        "15 mins from Jadavpur University",
+      ],
+
+      lifestyle: [
+        "Premium South Kolkata Address",
+        "Luxury 3 & 4 BHK Homes",
+        "Serene Water-Inspired Living",
+        "Excellent Urban Connectivity",
+        "Modern Community Living",
+        "Future-Ready Development",
+      ],
     },
-    {
-      size: "4 BHK",
-      price: "Price On Request",
+
+    nearby: {
+      metro: "Nearby Tollygunge Metro Connectivity",
+      school: "Jadavpur University & reputed institutions nearby",
+      hospital: "MR Bangur Hospital (5 mins)",
     },
-  ],
 
-  rera: "WBRERA/P/KOL/2024/002211",
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Premium South Kolkata appreciation potential",
+    },
 
-  tag: "Luxury",
+    propertyDetails:
+      "Godrej Blue by Godrej Properties is a premium luxury residential development located on BL Saha Road in New Alipore, Kolkata. Offering elegant 3 & 4 BHK residences, the project combines serene waterfront-inspired living with exceptional urban connectivity. Strategically positioned close to South City Mall, Tollygunge Golf Club, healthcare institutions, and educational hubs, Godrej Blue delivers a modern lifestyle experience with thoughtfully designed homes, premium amenities, landscaped spaces, and the trusted legacy of Godrej Properties.",
 
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.0601583648477!2d88.33490207507549!3d22.501925979542108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027100214854a7%3A0xda1dac1b888a90fb!2sGodrej%20Blue%2C%20Kolkata!5e0!3m2!1sen!2sin!4v1779095053517!5m2!1sen!2sin",
-    
-  plans: {
-    site: blue01,
-    master: blue01,
-  },
-},
+    specifications: {
+      developer: "Godrej Properties",
+      possession: "September 2029",
+      residenceType: "3 & 4 BHK Luxury Apartments",
+      location: "BL Saha Road, New Alipore",
+      projectType: "Residential Development",
+      connectivity: "South Kolkata Lifestyle Hub",
+    },
 
-{
-  id: "40",
-  slug: "elevate-at-godrej-se7en",
-  name: "Elevate at Godrej Se7en",
-  tagline: "Elevate your lifestyle with comfort, luxury, and connection.",
-  developer: "Godrej Properties",
-  city: "Kolkata",
-  location: "Joka, Near Pailan, Diamond Harbour Road",
-  priceLabel: "₹60 L onwards",
-  priceMin: 60,
-  bhk: [2, 3],
-  sizeRange: "2 & 3 BHK Apartments",
-  possession: "December 2028",
-  configuration: "Premium Residential Development",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: sev1,
-
-  gallery: [
-    sev1,
-    sev2,
-    sev3,
-    sev4,
-    sev5,
-    sev6,
-    sev7,
-    sev8,
-    sev9,
-    sev0,
-    sev10,
-    sev11,
-    sev12,
-    sev13,
-    sev14,
-    sev15,
-    sev16,
-  ],
-
-  story: [
-    "Wake up to thoughtfully designed homes crafted for comfort and elegance.",
-    "Experience elevated living through rooftop, clubhouse, and landscaped amenities.",
-    "Live seamlessly connected to metro, healthcare, lifestyle, and daily essentials.",
-  ],
-
-  highlights: {
-    amenities: [
-      "10+ Rooftop Amenities",
-      "20+ Clubhouse Amenities",
-      "5+ Landscape Amenities",
-      "Lifestyle Clubhouse",
-      "Landscaped Leisure Spaces",
-      "Family Recreation Zones",
-      "Children’s Activity Areas",
-      "Wellness & Relaxation Spaces",
+    features: [
+      "Luxury Apartments",
+      "Premium South Kolkata Address",
+      "Waterfront Inspired Living",
+      "Modern Lifestyle Amenities",
+      "Landscaped Open Spaces",
+      "Smart Community Living",
+      "Excellent Urban Connectivity",
+      "Trusted Godrej Legacy",
     ],
 
-    connectivity: [
-      "1.6 km from Joka Metro",
-      "2.2 km from ESI Hospital",
-      "3.3 km from Trendz Mall",
-      "Excellent Diamond Harbour Road Connectivity",
-      "Easy Access to South Kolkata",
+    pricing: [
+      {
+        size: "3 BHK",
+        price: "₹2.49 Cr onwards",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
     ],
 
-    lifestyle: [
-      "Premium Lifestyle Development",
-      "Modern Clubhouse Experiences",
-      "Elegant Interior Design",
-      "Thoughtfully Planned Open Spaces",
-      "Future Ready Residential Community",
-      "Comfort-Centric Living",
-    ],
+    rera: "WBRERA/P/KOL/2024/002211",
+
+    tag: "Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.0601583648477!2d88.33490207507549!3d22.501925979542108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027100214854a7%3A0xda1dac1b888a90fb!2sGodrej%20Blue%2C%20Kolkata!5e0!3m2!1sen!2sin!4v1779095053517!5m2!1sen!2sin",
+
+    plans: {
+      site: blue01,
+      master: blue01,
+    },
   },
 
-  nearby: {
-    metro: "Joka Metro (1.6 km)",
-    school: "Nearby educational institutions",
-    hospital: "ESI Hospital (2.2 km)",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Developing Corridor",
-    appreciation: "Strong future appreciation potential in Joka",
-  },
-
-  propertyDetails:
-    "Elevate at Godrej Se7en by Godrej Properties is a premium residential development located in Joka, Kolkata, near Pailan on Diamond Harbour Road. Offering thoughtfully designed 2 & 3 BHK homes, the project blends elegant interiors, elevated lifestyle experiences, and modern amenities across rooftop, clubhouse, and landscaped zones. Strategically connected to Joka Metro, healthcare facilities, and lifestyle destinations, Elevate at Godrej Se7en creates a future-ready living environment focused on comfort, convenience, and contemporary family life.",
-
-  specifications: {
-    propertyType: "Residential Apartments",
-    apartmentTypes: "2 & 3 BHK",
-    rooftopAmenities: "10+ Amenities",
-    clubhouseAmenities: "20+ Amenities",
-    landscapeAmenities: "5+ Amenities",
+  {
+    id: "40",
+    slug: "elevate-at-godrej-se7en",
+    name: "Elevate at Godrej Se7en",
+    tagline: "Elevate your lifestyle with comfort, luxury, and connection.",
+    developer: "Godrej Properties",
+    city: "Kolkata",
+    location: "Joka, Near Pailan, Diamond Harbour Road",
+    priceLabel: "₹60 L onwards",
+    priceMin: 60,
+    bhk: [2, 3],
+    sizeRange: "2 & 3 BHK Apartments",
     possession: "December 2028",
+    configuration: "Premium Residential Development",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: sev1,
+
+    gallery: [
+      sev1,
+      sev2,
+      sev3,
+      sev4,
+      sev5,
+      sev6,
+      sev7,
+      sev8,
+      sev9,
+      sev0,
+      sev10,
+      sev11,
+      sev12,
+      sev13,
+      sev14,
+      sev15,
+      sev16,
+    ],
+
+    story: [
+      "Wake up to thoughtfully designed homes crafted for comfort and elegance.",
+      "Experience elevated living through rooftop, clubhouse, and landscaped amenities.",
+      "Live seamlessly connected to metro, healthcare, lifestyle, and daily essentials.",
+    ],
+
+    highlights: {
+      amenities: [
+        "10+ Rooftop Amenities",
+        "20+ Clubhouse Amenities",
+        "5+ Landscape Amenities",
+        "Lifestyle Clubhouse",
+        "Landscaped Leisure Spaces",
+        "Family Recreation Zones",
+        "Children’s Activity Areas",
+        "Wellness & Relaxation Spaces",
+      ],
+
+      connectivity: [
+        "1.6 km from Joka Metro",
+        "2.2 km from ESI Hospital",
+        "3.3 km from Trendz Mall",
+        "Excellent Diamond Harbour Road Connectivity",
+        "Easy Access to South Kolkata",
+      ],
+
+      lifestyle: [
+        "Premium Lifestyle Development",
+        "Modern Clubhouse Experiences",
+        "Elegant Interior Design",
+        "Thoughtfully Planned Open Spaces",
+        "Future Ready Residential Community",
+        "Comfort-Centric Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Joka Metro (1.6 km)",
+      school: "Nearby educational institutions",
+      hospital: "ESI Hospital (2.2 km)",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Developing Corridor",
+      appreciation: "Strong future appreciation potential in Joka",
+    },
+
+    propertyDetails:
+      "Elevate at Godrej Se7en by Godrej Properties is a premium residential development located in Joka, Kolkata, near Pailan on Diamond Harbour Road. Offering thoughtfully designed 2 & 3 BHK homes, the project blends elegant interiors, elevated lifestyle experiences, and modern amenities across rooftop, clubhouse, and landscaped zones. Strategically connected to Joka Metro, healthcare facilities, and lifestyle destinations, Elevate at Godrej Se7en creates a future-ready living environment focused on comfort, convenience, and contemporary family life.",
+
+    specifications: {
+      propertyType: "Residential Apartments",
+      apartmentTypes: "2 & 3 BHK",
+      rooftopAmenities: "10+ Amenities",
+      clubhouseAmenities: "20+ Amenities",
+      landscapeAmenities: "5+ Amenities",
+      possession: "December 2028",
+    },
+
+    features: [
+      "Modern Lifestyle Clubhouse",
+      "Rooftop Amenities",
+      "Landscaped Open Spaces",
+      "Elegant Interior Design",
+      "Excellent Metro Connectivity",
+      "Premium Residential Community",
+      "Family-Friendly Amenities",
+      "Future-Ready Living",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK",
+        price: "₹60 L onwards",
+      },
+      {
+        size: "3 BHK",
+        price: "₹93 L onwards",
+      },
+    ],
+
+    rera: "WBRERA/P/SOU/2024/001051",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.683077102381!2d88.28514077507367!3d22.440951279585793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bc2441c77a7%3A0x534139d42c4249c1!2sGodrej%20Seven%2C%20Joka%20Tower%20E!5e0!3m2!1sen!2sin!4v1779096010973!5m2!1sen!2sin",
+
+    plans: {
+      master: sev01,
+      site: sev01,
+    },
   },
 
-  features: [
-    "Modern Lifestyle Clubhouse",
-    "Rooftop Amenities",
-    "Landscaped Open Spaces",
-    "Elegant Interior Design",
-    "Excellent Metro Connectivity",
-    "Premium Residential Community",
-    "Family-Friendly Amenities",
-    "Future-Ready Living",
-  ],
+  {
+    id: "41",
+    slug: "orchard-at-godrej-se7en",
+    name: "Orchard at Godrej Se7en",
+    tagline: "Closer to nature. Closer to a beautiful life.",
+    developer: "Godrej Properties",
+    city: "Kolkata",
+    location: "Joka, Kolkata",
+    priceLabel: "₹53 L onwards",
+    priceMin: 53,
+    bhk: [2, 3],
+    sizeRange: "850 – 1350 sq.ft.",
+    possession: "December 2027",
+    configuration: "Integrated Residential Township",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: gsev1,
 
-  pricing: [
-    {
-      size: "2 BHK",
-      price: "₹60 L onwards",
+    gallery: [
+      gsev1,
+      gsev2,
+      gsev3,
+      gsev4,
+      gsev5,
+      gsev6,
+      gsev7,
+    ],
+
+    story: [
+      "Wake up surrounded by greenery, peace, and open skies.",
+      "Experience a lifestyle where nature and modern living coexist beautifully.",
+      "Live in a thoughtfully crafted township designed for comfort, wellness, and serenity.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Landscaped Gardens",
+        "Clubhouse",
+        "Swimming Pool",
+        "Fitness Spaces",
+        "Children’s Play Areas",
+        "Community Zones",
+        "Nature Inspired Living",
+        "Lifestyle Amenities",
+      ],
+
+      connectivity: [
+        "Prime Joka Location",
+        "Excellent South Kolkata Connectivity",
+        "Connected to Major Road Networks",
+        "Easy Access to Daily Conveniences",
+        "Growing Residential Corridor",
+      ],
+
+      lifestyle: [
+        "Nature-Centric Township",
+        "Peaceful Green Environment",
+        "Modern Residential Infrastructure",
+        "Integrated Community Living",
+        "Thoughtfully Planned Homes",
+        "Future Growth Potential",
+      ],
     },
-    {
-      size: "3 BHK",
-      price: "₹93 L onwards",
+
+    nearby: {
+      metro: "Nearby Joka Metro Connectivity",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Nearby healthcare facilities",
     },
-  ],
 
-  rera: "WBRERA/P/SOU/2024/001051",
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Developing",
+      appreciation: "Strong appreciation potential in Joka corridor",
+    },
 
-  tag: "Featured",
+    propertyDetails:
+      "Orchard at Godrej Se7en by Godrej Properties is a premium residential development located in Joka, Kolkata. Designed around nature-inspired living, the project offers thoughtfully planned 2 & 3 BHK residences surrounded by greenery, landscaped spaces, and lifestyle amenities. Combining peace, comfort, and urban convenience, Orchard at Godrej Se7en creates a serene residential ecosystem with modern infrastructure and seamless connectivity to South Kolkata’s emerging growth corridor.",
 
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.683077102381!2d88.28514077507367!3d22.440951279585793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bc2441c77a7%3A0x534139d42c4249c1!2sGodrej%20Seven%2C%20Joka%20Tower%20E!5e0!3m2!1sen!2sin!4v1779096010973!5m2!1sen!2sin",
+    specifications: {
+      developer: "Godrej Properties",
+      possession: "December 2027",
+      typology: "2 & 3 BHK Apartments",
+      projectType: "Residential Township",
+      location: "Joka, Kolkata",
+      status: "Under Construction",
+    },
 
-  plans: {
-    master: sev01,
-    site: sev01,
+    features: [
+      "Nature Inspired Living",
+      "Integrated Township",
+      "Modern Clubhouse",
+      "Landscaped Green Zones",
+      "Swimming Pool",
+      "Family-Centric Amenities",
+      "Wellness Lifestyle",
+      "Excellent Connectivity",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK",
+        price: "₹53 L onwards",
+      },
+      {
+        size: "3 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    rera: "WBRERA/P/SOU/2023/000015",
+
+    tag: "Nature Living",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.47955041073615!2d88.28907357216914!3d22.44133764773937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027b4a167ab99b%3A0x48190294ad026c2e!2sGodrej%20Seven%20%2C%20Tower%20B!5e0!3m2!1sen!2sin!4v1779096507918!5m2!1sen!2sin",
+
+    plans: {
+      site: gsev01,
+      master: gsev01,
+      unit: [gsev02, gsev03,]
+    },
   },
-},
 
-{
-  id: "41",
-  slug: "orchard-at-godrej-se7en",
-  name: "Orchard at Godrej Se7en",
-  tagline: "Closer to nature. Closer to a beautiful life.",
-  developer: "Godrej Properties",
-  city: "Kolkata",
-  location: "Joka, Kolkata",
-  priceLabel: "₹53 L onwards",
-  priceMin: 53,
-  bhk: [2, 3],
-  sizeRange: "850 – 1350 sq.ft.",
-  possession: "December 2027",
-  configuration: "Integrated Residential Township",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: gsev1,
+  {
+    id: "42",
+    slug: "joyville-western-heights",
+    name: "Joyville Western Heights",
+    tagline: "Live the park life.",
+    developer: "Shapoorji Pallonji",
+    city: "Howrah",
+    location: "Near Santragachi, Salap Junction, NH6",
+    priceLabel: "₹49.99 L onwards",
+    priceMin: 49.99,
+    bhk: [2, 3],
+    sizeRange: "918 – 1144 sq.ft.",
+    possession: "Ongoing Phased Development",
+    configuration: "30 Acres · Up to 20 Floors",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: jwh1,
 
-  gallery: [
-    gsev1,
-    gsev2,
-    gsev3,
-    gsev4,
-    gsev5,
-    gsev6,
-    gsev7,
-  ],
+    gallery: [
+      jwh1,
+      jwh2,
+      jwh3,
+      jwh4,
+      jwh5,
+      jwh6,
+      jwh7,
+      jwh8,
+      jwh9,
+      jwh10,
+      jwh11,
+      jwh12,
+      jwh13,
+      jwh14,
+      jwh15,
+      jwh16,
+      jwh17,
+      jwh18,
+      jwh19,
+      jwh20,
+      jwh21,
+      jwh22,
+      jwh23,
+      jwh24,
+      jwh25,
+    ],
 
-  story: [
-    "Wake up surrounded by greenery, peace, and open skies.",
-    "Experience a lifestyle where nature and modern living coexist beautifully.",
-    "Live in a thoughtfully crafted township designed for comfort, wellness, and serenity.",
-  ],
+    story: [
+      "Own your first dream home just 30 minutes from Park Street.",
+      "Experience vibrant community living with parks, open spaces, and modern amenities.",
+      "Live in a future-ready township designed around comfort, convenience, and connection.",
+    ],
 
-  highlights: {
-    amenities: [
+    highlights: {
+      amenities: [
+        "22,000 sq.ft Clubhouse",
+        "Swimming Pool",
+        "Gymnasium",
+        "Games Room",
+        "Guest Room",
+        "Lawn Tennis Court",
+        "Kids' Play Area",
+        "Kids' Room",
+        "Banquet Hall",
+        "Pre-function Area",
+        "Yoga & Meditation Zone",
+        "Retail Outlets",
+      ],
+
+      connectivity: [
+        "10 mins from Santragachi Station",
+        "30 mins from Park Street",
+        "Easy Access to NH2 & NH6",
+        "Connected via Grand Trunk Road",
+        "Close to Howrah Station",
+        "Near Santragachi Bus Terminus",
+      ],
+
+      lifestyle: [
+        "30 Acre Gated Community",
+        "75% Open Space",
+        "25+ Lifestyle Amenities",
+        "Community Living Experience",
+        "Future Growth Corridor",
+        "Family-Centric Environment",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to Kolkata transit hubs",
+      school: "Podar International School nearby",
+      hospital: "Nearby healthcare & emergency facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Developing",
+      appreciation: "Strong growth potential near Santragachi corridor",
+    },
+
+    propertyDetails:
+      "Joyville Western Heights by Shapoorji Pallonji Real Estate is a large-scale gated residential township located near Santragachi in Howrah. Spread across 30 acres with over 75% open spaces, the project offers thoughtfully designed 2 & 3 BHK apartments with modern lifestyle amenities, landscaped greens, and vibrant community spaces. Strategically positioned near NH6 and Santragachi Junction, the development combines excellent connectivity, future infrastructure growth, and family-oriented living backed by Shapoorji Pallonji’s legacy of trust and quality.",
+
+    specifications: {
+      landArea: "30 Acres",
+      openSpace: "75%",
+      towers: "High-Rise Towers up to 20 Floors",
+      clubhouse: "22,000 sq.ft.",
+      amenities: "25+ Amenities",
+      developmentType: "Gated Community Township",
+    },
+
+    features: [
+      "Large Gated Community",
+      "Swimming Pool",
+      "Clubhouse",
+      "Retail Spaces",
+      "Yoga & Meditation Zone",
+      "Sports Amenities",
+      "Kids-Centric Spaces",
+      "Landscaped Open Areas",
+      "Future Growth Location",
+      "Excellent Highway Connectivity",
+    ],
+
+    pricing: [
+      {
+        size: "918 sq.ft. 2 BHK",
+        price: "₹49.99 L onwards",
+      },
+      {
+        size: "1144 sq.ft. 3 BHK",
+        price: "₹64.99 L onwards",
+      },
+    ],
+
+    rera: {
+      parksideAB: "WBRERA/P/HOW/2024/001275",
+      westernHeightsAB: "WBRERA/P/HOW/2021/001190",
+      summit: "HIRA/P/HOW/2018/000164",
+      pinnacle: "HIRA/P/HOW/2018/000165",
+      crest: "HIRA/P/HOW/2018/000281",
+    },
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.055585643062!2d88.28487057507903!3d22.61439937946191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f88277b2f1446b%3A0xe4544d204d509102!2sJoyville%20Howrah%2FWestern%20Heights%20-%20Shapoorji%20Pallonji%20Real%20Estate!5e0!3m2!1sen!2sin!4v1779099429423!5m2!1sen!2sin",
+
+    plans: {
+      master: jwh01,
+      site: jwh01,
+      unit: [jwh02, jwh03, jwh04, jwh05,],
+    },
+
+    view360: "https://www.joyvillehomes.com/JoyvilleHowrah360View/",
+  },
+
+  {
+    id: "43",
+    slug: "eden-devprayag",
+    name: "Eden Devprayag",
+    tagline: "An Address that Rewrites the Riverfront.",
+    developer: "Eden Realty",
+    city: "Kolkata",
+    location: "Lower Foreshore Road, Shalimar, Howrah",
+    priceLabel: "On Request",
+    priceMin: 0,
+    bhk: [2, 3, 4],
+    sizeRange: "Luxury Riverfront Apartments",
+    possession: "Under Development",
+    configuration: "9 Acres · 5 Stately Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Riverfront", "Residential"],
+    cover: devp1,
+
+    gallery: [
+      devp1,
+      devp2,
+      devp3,
+      devp4,
+      devp5,
+      devp6,
+      devp7,
+      devp8,
+      devp9,
+      devp10,
+      devp11,
+      devp12,
+      devp13,
+      devp14,
+      devp15,
+      devp16,
+      devp17,
+      devp18,
+      devp19,
+      devp20,
+      devp21,
+      devp22,
+      devp23,
+      devp24,
+      devp25,
+      devp26,
+      devp27,
+      devp28,
+      devp29,
+      devp30,
+    ],
+
+    story: [
+      "Wake up to uninterrupted Ganga views flowing on three sides.",
+      "Experience river-crafted living inspired by timeless flowing architecture.",
+      "Live minutes away from Kolkata’s cultural heart while surrounded by nature and serenity.",
+    ],
+
+    highlights: {
+      amenities: [
+        "75,000 sq.ft Podium & Terrace Club",
+        "Infinity Pool with Ganga View",
+        "Private Club",
+        "Banquet Hall",
+        "AV Room",
+        "Badminton Court",
+        "Amphitheatre",
+        "Forest Seclusion Pods",
+        "Juice Bar",
+        "Kids Play Area",
+      ],
+
+      connectivity: [
+        "15 mins from Park Street",
+        "18 mins from Quest Mall",
+        "11 mins from Victoria Memorial",
+        "3 mins from IIEST (BE College)",
+        "3 mins from Narayana Superspeciality Hospital",
+        "5 mins from Botanical Garden",
+      ],
+
+      lifestyle: [
+        "9 Acre Riverfront Development",
+        "270° Uninterrupted Ganga Views",
+        "South-Flowing Ganga Presence",
+        "1.85 Lakh sq.ft Landscaped Podium",
+        "Sunrise & Sunset from Same Balcony",
+        "Double & Quad Height Terrace Experiences",
+        "Banaras Inspired Ganga Ghat",
+        "Lush Green Low AQI Environment",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to Central Kolkata",
+      school: "IIEST (BE College) nearby",
+      hospital: "Narayana Superspeciality Hospital nearby",
+    },
+
+    investment: {
+      roi: "15–22%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Premium riverfront appreciation potential",
+    },
+
+    propertyDetails:
+      "Eden Devprayag by Eden Realty is an ultra-premium riverfront residential development located on Lower Foreshore Road, Shalimar, Howrah. Spread across 9 acres with five stately towers, the project is uniquely enveloped by the Ganga on three sides, offering uninterrupted 270-degree river views and a serene luxury lifestyle. Inspired by the timeless rhythm of the river and Banaras ghats, the development features expansive landscaped podiums, world-class clubs, infinity pools, wellness zones, and thoughtfully crafted residences designed to celebrate riverfront living while staying closely connected to Kolkata’s prime cultural and business destinations.",
+
+    specifications: {
+      landArea: "9 Acres",
+      towers: "5 Stately Towers",
+      podium: "1.85 Lakh sq.ft Landscaped Podium",
+      club: "75,000 sq.ft Podium & Terrace Club",
+      riverViews: "270° Ganga Views",
+      architecture: "River Inspired Design Language",
+    },
+
+    features: [
+      "Riverfront Luxury Apartments",
+      "Infinity Pool Facing Ganga",
+      "Banaras Inspired Ghat",
+      "Private Club",
+      "Forest Seclusion Pods",
+      "Sunrise & Sunset Views",
+      "Double & Quad Height Terraces",
+      "Landscaped Green Zones",
+      "Premium River Crafted Living",
+      "Low AQI Natural Environment",
+    ],
+
+    rera: "WBRERA/P/HOW/2025/003782",
+
+    tag: "Riverfront Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.6943867795844!2d88.30942267507712!3d22.55311827950563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279005e1457c1%3A0x86b39a34518f093d!2sEden%20DEVPRAYAG!5e0!3m2!1sen!2sin!4v1779101938794!5m2!1sen!2sin",
+
+    plans: {
+      site: devp01,
+      master: devp17,
+    },
+  },
+
+  {
+    id: "44",
+    slug: "solaris-joka",
+    name: "Solaris Joka",
+    tagline: "Ultra Luxury 4 & 5 BHK Living.",
+    developer: "Eden Realty",
+    city: "Kolkata",
+    location: "Diamond Harbour Road, Joka, South 24 Parganas",
+    priceLabel: "₹24 L onwards",
+    priceMin: 24,
+    bhk: [1, 2, 2.5, 3, 4, 5],
+    sizeRange: "400 – 1600+ sq.ft.",
+    possession: "Ongoing Development",
+    configuration: "4.12 Acres · 965 Apartments · 5 Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: solj0,
+
+    gallery: [
+      solj1,
+      solj2,
+      solj3,
+      solj4,
+      solj5,
+      solj6,
+      solj7,
+      solj8,
+      solj9,
+      solj10,
+      solj11,
+    ],
+
+    story: [
+      "Live minutes away from Joka Metro and IIM Calcutta.",
+      "Experience efficient three-side-open homes with luxury lifestyle amenities.",
+      "Own a future-ready address built for connectivity, convenience, and family living.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Swimming Pool",
+        "Multi Gym",
+        "Games Room",
+        "Children’s Play Area",
+        "Badminton Court",
+        "Cricket Pitch",
+        "Community Space",
+        "Landscaped Central Lawn",
+        "Virtual Tour Experience",
+        "Modern Lifestyle Amenities",
+      ],
+
+      connectivity: [
+        "8 mins from Joka Metro Station",
+        "5 mins from IIM Calcutta",
+        "1 min from Swaminarayan Temple",
+        "5 mins from Bharat Sevashram Hospital",
+        "15 mins from DPS Joka",
+        "30 mins from South City",
+      ],
+
+      lifestyle: [
+        "4.12 Acre Development",
+        "Three-Side Open Apartments",
+        "Affordable Luxury Living",
+        "Low Maintenance Homes",
+        "Excellent DH Road Connectivity",
+        "Family-Friendly Community",
+        "Metro Connected Lifestyle",
+      ],
+    },
+
+    nearby: {
+      metro: "Joka Metro Station (8 mins)",
+      school: "DPS Joka nearby",
+      hospital: "Bharat Sevashram Sangha Hospital nearby",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Developing",
+      appreciation: "Strong appreciation potential along Joka corridor",
+    },
+
+    propertyDetails:
+      "Solaris Joka by Eden Realty is a modern residential development strategically located on Diamond Harbour Road near Joka Metro Station and IIM Calcutta. Spread across 4.12 acres with 965 apartments, the project offers intelligently planned 1, 2, 2.5, 3, 4 & 5 BHK residences featuring efficient three-side-open layouts and lifestyle-focused amenities. Designed for aspirational urban families, Solaris Joka blends affordability, luxury, metro connectivity, educational proximity, and premium recreational experiences into one future-ready residential ecosystem.",
+
+    specifications: {
+      landArea: "4.12 Acres",
+      apartments: "965 Apartments",
+      towers: "5 Towers",
+      layout: "1BHK to 5BHK",
+      connectivity: "Metro & DH Road Access",
+      developmentType: "Residential Community",
+    },
+
+    features: [
+      "Three-Side Open Flats",
+      "Metro Connected Living",
+      "Affordable Luxury Homes",
+      "Swimming Pool",
+      "Sports Amenities",
+      "Landscaped Community Spaces",
+      "Low Maintenance Living",
+      "Family-Centric Development",
+      "Excellent Educational Connectivity",
+      "Modern Lifestyle Infrastructure",
+    ],
+
+    pricing: [
+      {
+        size: "400 sq.ft.",
+        price: "Price On Request",
+      },
+      {
+        size: "700 – 900 sq.ft.",
+        price: "Price On Request",
+      },
+      {
+        size: "900 – 1200 sq.ft.",
+        price: "Price On Request",
+      },
+      {
+        size: "1200 – 1600+ sq.ft.",
+        price: "Price On Request",
+      },
+    ],
+
+    rera: {
+      phase1: "HIRA/P/SOU/2019/000432",
+      phase2: "WBRERA/P/SOU/2023/000037",
+    },
+
+    tag: "Metro Connected",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.2552631122667!2d88.28326037507296!3d22.419416179601136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0265183bdc25bf%3A0x4f9e9ad5b642fe5!2sSolaris%20Joka!5e0!3m2!1sen!2sin!4v1779103114789!5m2!1sen!2sin",
+
+    plans: {
+      site: solj02,
+      unit: [solj03, solj04, solj05, solj06, solj07, solj08],
+    },
+  },
+
+  {
+    id: "45",
+    slug: "solaris-shalimar",
+    name: "Solaris Shalimar",
+    tagline: "The Pinnacle of Mid-Segment Luxury Living.",
+    developer: "Eden Realty",
+    city: "Kolkata",
+    location: "39/1 Shalimar Road, Howrah",
+    priceLabel: "₹39 L onwards",
+    priceMin: 39,
+    bhk: [2, 2.5, 3],
+    sizeRange: "630 – 1400+ sq.ft.",
+    possession: "Phased Under Construction",
+    configuration: "4.48 Acres · 1703 Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: solsh1,
+
+    gallery: [
+      solsh1,
+      solsh2,
+      solsh3,
+      solsh4,
+      solsh5,
+      solsh6,
+      solsh7,
+      solsh8,
+      solsh9,
+      solsh10,
+      solsh11,
+      solsh12,
+      solsh13,
+      solsh14,
+      solsh15,
+      solsh16,
+      solsh17,
+      solsh18,
+      solsh19,
+      solsh20,
+      solsh21,
+      solsh22,
+    ],
+
+    story: [
+      "Experience affordable luxury crafted around greenery, wellness, and modern living.",
+      "Wake up to open spaces, rooftop sky gardens, and lifestyle amenities for every generation.",
+      "Live seamlessly connected to Kolkata while enjoying the tranquility of Shalimar.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Rooftop Skywalk Garden",
+        "Yoga & Meditation Lawn",
+        "Indoor Gymnasium",
+        "Banquet Hall",
+        "Badminton Court",
+        "Indoor Games Room",
+        "Kids Play Area",
+        "Toddlers Play Area",
+        "Alfresco Café & Jacuzzi",
+        "Board Games Corner",
+      ],
+
+      connectivity: [
+        "3 mins from IIEST (BE College)",
+        "3 mins from Narayana Superspeciality Hospital",
+        "5 mins from Botanical Garden",
+        "11 mins from Victoria Memorial",
+        "15 mins from Park Street",
+        "18 mins from Quest Mall",
+      ],
+
+      lifestyle: [
+        "4.48 Acre Development",
+        "1703 Residential Apartments",
+        "50+ Lifestyle Amenities",
+        "3 Side Open Flats",
+        "Huge Open Spaces",
+        "100% Space Utilisation",
+        "Mid-Segment Luxury Living",
+        "Excellent Urban Connectivity",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to Central Kolkata",
+      school: "IIEST (BE College) nearby",
+      hospital: "Narayana Superspeciality Hospital nearby",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong mid-segment housing appreciation potential",
+    },
+
+    propertyDetails:
+      "Solaris Shalimar by Eden Realty is a large-scale mid-segment luxury residential development located at Shalimar, Howrah. Spread across 4.48 acres with 1703 apartments, the project blends affordability, modern luxury, and excellent connectivity into one vibrant community. Featuring over 50 premium amenities including rooftop sky gardens, wellness zones, sports facilities, landscaped open spaces, and family-focused recreational areas, Solaris Shalimar offers thoughtfully designed 2, 2.5 & 3 BHK homes close to Kolkata’s prime business, healthcare, and cultural destinations.",
+
+    specifications: {
+      landArea: "4.48 Acres",
+      apartments: "1703 Apartments",
+      amenities: "50+ Lifestyle Amenities",
+      apartmentTypes: "2 / 2.5 / 3 BHK",
+      openLayout: "3 Side Open Flats",
+      developmentType: "Mid-Segment Luxury Residential",
+    },
+
+    features: [
+      "Budget Friendly Luxury Homes",
+      "Rooftop Skywalk Garden",
+      "3 Side Open Apartments",
+      "Modern Lifestyle Amenities",
+      "Huge Open Spaces",
+      "Wellness & Fitness Zones",
+      "Kids & Family Focused Design",
+      "Excellent Kolkata Connectivity",
+      "Award Winning Residential Project",
+      "Strong Developer Reputation",
+    ],
+
+    awards: [
+      "ET Real Estate Awards 2025 - Best Ongoing Mid-Segment Residential Project (East)",
+      "15th Realty+ Conclave Awards 2023 - Affordable Housing Project of the Year",
+      "CREDAI Howrah-Hooghly Realty Awards 2023 - Best Ongoing Residential Project",
+      "CREDAI Bengal Realty Awards 2024 - Ongoing Mid-Segment Housing Project",
+    ],
+
+    pricing: [
+      {
+        size: "630 sq.ft. | 2B1T",
+        price: "Price On Request",
+      },
+      {
+        size: "850+ sq.ft. | 2B2T",
+        price: "Price On Request",
+      },
+      {
+        size: "1050+ sq.ft. | 2.5B2T",
+        price: "Price On Request",
+      },
+      {
+        size: "1200 – 1400+ sq.ft. | 3B2T / 3B3T",
+        price: "Price On Request",
+      },
+    ],
+
+    rera: {
+      phase1: "WBRERA/P/HOW/2023/000016",
+      phase2: "WBRERA/P/HOW/2024/001163",
+      phase3: "WBRERA/P/HOW/2024/001164",
+    },
+
+    tag: "Award Winning",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.6705761766757!2d88.30912177507717!3d22.554009779504955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279e926e963ed%3A0x6c73cd49d688a9a5!2sSolaris%20Shalimar!5e0!3m2!1sen!2sin!4v1779103844284!5m2!1sen!2sin",
+
+    plans: {
+      site: solsh01,
+      unit: [solsh02, solsh03, solsh04, solsh05, solsh06, solsh07, solsh08, solsh09, solsh010, solsh011,],
+    },
+  },
+
+  {
+    id: "46",
+    slug: "solaris-city-serampore",
+    name: "Solaris City Serampore",
+    tagline: "A Sanctuary Where Nature Meets Urban Refinement.",
+    developer: "Eden Realty",
+    city: "Kolkata",
+    location: "29, Kanailal Goswami Sarani, Serampore, Hooghly",
+    priceLabel: "₹15 L onwards",
+    priceMin: 15,
+    bhk: [1, 2, 3],
+    sizeRange: "400 – 1200+ sq.ft.",
+    possession: "Ongoing Phased Development",
+    configuration: "8.88 Acres · 1558 Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Affordable", "Residential", "Invest"],
+    cover: solcs2,
+
+    gallery: [
+      solcs2,
+      solcs3,
+      solcs4,
+      solcs5,
+      solcs6,
+      solcs7,
+      solcs8,
+      solcs9,
+      solcs10,
+      solcs11,
+      solcs12,
+      solcs13,
+      solcs14,
+      solcs15,
+    ],
+
+    story: [
+      "Wake up amidst greenery, lakeside landscapes, and peaceful open spaces.",
+      "Experience affordable modern living with premium lifestyle amenities.",
+      "Live seamlessly connected to Kolkata while enjoying nature-inspired serenity.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Swimming Pool",
+        "Multipurpose Gym",
+        "Games Room",
+        "Meditation Lawn",
+        "Jogging Track",
+        "Kids Play Area",
+        "Jacuzzi",
+        "Community Space",
+        "Central Garden",
+        "Lakeside Promenade",
+      ],
+
+      connectivity: [
+        "4 mins from Rishra Railway Station",
+        "25 mins from Dakshineswar Metro",
+        "25 mins from Howrah Station",
+        "40 mins from Airport",
+        "45 mins from Park Street",
+        "Excellent GT Road Connectivity",
+      ],
+
+      lifestyle: [
+        "8.88 Acre Township",
+        "1558 Apartments",
+        "Huge Open Spaces",
+        "3 Side Open Flats",
+        "Green Living Environment",
+        "Lakeside Living Experience",
+        "Low Maintenance Community",
+        "Budget-Friendly Homes",
+      ],
+    },
+
+    nearby: {
+      metro: "Dakshineswar Metro (25 mins)",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Walsh Hospital & Blood Bank nearby",
+    },
+
+    investment: {
+      roi: "10–16%",
+      demand: "High",
+      growth: "Steady",
+      appreciation: "Strong affordable housing demand in Hooghly",
+    },
+
+    propertyDetails:
+      "Solaris City Serampore by Eden Realty is a large-scale master-planned residential township located in Serampore, Hooghly. Spread across 8.88 acres with 1558 thoughtfully designed apartments, the project blends affordable urban living with greenery, open spaces, and modern lifestyle amenities. Offering 1, 2, and 3 BHK residences with lakeside views, landscaped gardens, wellness zones, and excellent connectivity to Kolkata, Solaris City Serampore creates a refined yet practical living experience for modern families.",
+
+    specifications: {
+      landArea: "8.88 Acres",
+      apartments: "1558 Flats",
+      apartmentTypes: "1, 2 & 3 BHK",
+      connectivity: "Rail, Metro & Road Access",
+      livingConcept: "Green & Lakeside Living",
+      developmentType: "Integrated Residential Township",
+    },
+
+    features: [
+      "Affordable Housing",
+      "Lakeside Living",
+      "3 Side Open Flats",
+      "Large Open Spaces",
+      "Swimming Pool",
+      "Jogging Track",
+      "Modern Club Amenities",
+      "Green Community Planning",
+      "Low Maintenance Homes",
+      "Excellent Connectivity",
+    ],
+
+    pricing: [
+      {
+        size: "400 sq.ft. | 1B1T",
+        price: "Price On Request",
+      },
+      {
+        size: "600 – 850 sq.ft. | 2BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "900 – 1200+ sq.ft. | 3BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    awards: [
+      "Pradhan Mantri Awas Yojana Awards 2025",
+      "CREDAI Howrah-Hooghly Realty Awards 2022",
+      "Realty+ Excellence Awards (East) 2020",
+      "ET Now Real Estate Awards (East) 2019",
+      "CREDAI Bengal Realty Awards 2024",
+    ],
+
+    rera: {
+      phase1: "HIRA/P/HOO/2018/000157",
+      phase2: "HIRA/P/HOO/2018/000207",
+    },
+
+    tag: "Affordable Township",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.7615694623637!2d88.34190127508283!3d22.737101879374947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b27efde9117%3A0xa94b6bcd80be25e3!2sSolaris%20City%20Serampore!5e0!3m2!1sen!2sin!4v1779105698718!5m2!1sen!2sin",
+
+    plans: {
+      site: solcs01,
+      unit: [solcs02, solcs03, solcs04, solcs05, solcs06, solcs07, solcs08, solcs09],
+
+    },
+  },
+
+  {
+    id: "47",
+    slug: "the-quartet",
+    name: "The Quartet",
+    tagline: "High Thinking. High Living.",
+    developer: "Sureka Group",
+    city: "Kolkata",
+    location: "381, Anwar Shah Road, Beside South City Mall",
+    priceLabel: "2.32 Cr Onwards",
+    priceMin: 2.32,
+    bhk: [3, 4],
+    sizeRange: "Luxury Spacious Apartments",
+    possession: "Under Construction",
+    configuration: "33 Exclusive Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential"],
+    cover: qua1,
+
+    gallery: [
+      qua1,
+      qua2,
+      qua3,
+      qua4,
+      qua5,
+      qua6,
+      qua7,
+      qua8,
+      qua9,
+      qua10,
+    ],
+
+    story: [
+      "Wake up beside South City Mall in one of South Kolkata’s most exclusive addresses.",
+      "Experience expansive luxury living crafted for achievers and like-minded communities.",
+      "Live surrounded by greenery, skyline lounges, and premium lifestyle amenities.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Swimming Pool",
+        "Sky Lounge",
+        "AC Community Hall",
+        "AC Games Room",
+        "AC Gymnasium",
+        "Open Air Theatre",
+        "Kids’ Play Zone",
+        "Outdoor Gym",
+        "Senior Citizen Zone",
+        "Adda Zone",
+      ],
+
+      connectivity: [
+        "Beside South City Mall",
+        "3 mins from South City International School",
+        "5 mins from Jadavpur University",
+        "11 mins from Tollygunge Metro",
+        "Prime Prince Anwar Shah Road Connectivity",
+      ],
+
+      lifestyle: [
+        "33 Exclusive Apartments",
+        "3-Side Open Residences",
+        "Vaastu Compliant Homes",
+        "Rooftop Lifestyle Spaces",
+        "Premium Niche Community",
+        "Green Peripheral Landscaping",
+        "South Kolkata Luxury Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Tollygunge Metro (2.4 km)",
+      school: "South City International School",
+      hospital: "EEDF Hospital",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Premium South Kolkata appreciation potential",
+    },
+
+    propertyDetails:
+      "The Quartet by Sureka Group is an ultra-exclusive luxury residential development located beside South City Mall on Anwar Shah Road, Kolkata. Featuring only 33 premium apartments, the project is designed for achievers seeking exclusivity, spacious living, and a like-minded community. With premium amenities including a rooftop sky lounge, swimming pool, landscaped open spaces, and wellness zones, The Quartet blends luxury, convenience, and high-quality construction in one of South Kolkata’s most prestigious neighborhoods.",
+
+    specifications: {
+      apartments: "33 Exclusive Apartments",
+      structure: "Earthquake Resistant RCC Frame",
+      compliance: "Vaastu Compliant",
+      parking: "Covered Parking",
+      security: "CCTV Security System",
+      sustainability: "Solar Panels",
+    },
+
+    features: [
+      "Exclusive Boutique Residences",
+      "3-Side Open Apartments",
+      "Sky Lounge",
+      "Swimming Pool",
+      "Open Air Theatre",
+      "Rooftop Amenities",
+      "Premium South Kolkata Address",
+      "Vaastu Compliant Homes",
+      "Earthquake Resistant Structure",
+      "Luxury Community Living",
+    ],
+
+    rera: "WBRERA/P/KOL/2025/002975",
+
+    tag: "Boutique Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.1026058597677!2d88.36054017507549!3d22.500333179543283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027113e7fff5d9%3A0x814f0bca68a48abb!2sThe%20Quartet!5e0!3m2!1sen!2sin!4v1779169309920!5m2!1sen!2sin",
+
+    plans: {
+      site: qua01,
+      master: qua02,
+      unit: [qua03, qua04],
+    },
+  },
+
+  {
+    id: "48",
+    slug: "sunrise-meadows",
+    name: "Sunrise Meadows",
+    tagline: "Your Perfect Date With Nature.",
+    developer: "Sureka Group",
+    city: "Kolkata",
+    location: "Kona Expressway, Unsani, Khejurtala, Howrah",
+    priceLabel: "₹49.75 L onwards",
+    priceMin: 49.75,
+    bhk: [2, 3],
+    sizeRange: "685 – 911 sq.ft.",
+    possession: "Under Construction",
+    configuration: "4 Towers · G+19 & G+20",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Nature", "Invest"],
+    cover: sunm1,
+
+    gallery: [
+      sunm1,
+      sunm2,
+      sunm3,
+      sunm4,
+      sunm5,
+      sunm6,
+      sunm7,
+      sunm8,
+      sunm9,
+      sunm10,
+      sunm11,
+      sunm12,
+      sunm13,
+      sunm14,
+      sunm15,
+      sunm16,
+      sunm17,
+      sunm18,
+      sunm19,
+      sunm20,
+      sunm21,
+      sunm22,
+      sunm23,
+      sunm24,
+      sunm25,
+      sunm26,
+      sunm27,
+    ],
+
+    story: [
+      "Wake up to greenery, open skies, and peaceful natural landscapes.",
+      "Experience nature-inspired living crafted around wellness and relaxation.",
+      "Live seamlessly connected to Kolkata while enjoying a tranquil lifestyle away from the chaos.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Club Chlorophyll",
+        "Swimming Pool with Kids Pool",
+        "AC Gym",
+        "AC Banquet Hall",
+        "Indoor Games Room",
+        "Open Air Theatre",
+        "Jogging Track",
+        "Outdoor Exercise Zone",
+        "Badminton Court",
+        "Multipurpose Court",
+        "Natural Waterbody with Fishing Deck",
+        "Hammock Garden",
+        "Aroma Garden",
+        "Paw Park",
+        "Senior Citizen Adda Zone",
+      ],
+
+      connectivity: [
+        "25 mins from Park Street",
+        "17 mins from Salkia Chowrasta",
+        "3.5 km from Santragachi Railway Station",
+        "14 km from Esplanade",
+        "26.3 km from Airport",
+        "Excellent Kona Expressway Connectivity",
+      ],
+
+      lifestyle: [
+        "80% Open Space",
+        "Nature-Centric Living",
+        "Landscaped Gardens",
+        "Peaceful Green Environment",
+        "Family-Centric Amenities",
+        "Wellness & Relaxation Zones",
+        "Modern Club Lifestyle",
+        "Urban Detox Living Experience",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity via Kona Expressway corridor",
+      school: "Julien Day School, St. Mark School & South Breeze nearby",
+      hospital: "Woodlands, ILS Hospital & South Howrah State General Hospital nearby",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Growing",
+      appreciation: "Strong appreciation potential in Howrah corridor",
+    },
+
+    propertyDetails:
+      "Sunrise Meadows by Sureka Group is a nature-inspired residential development located on Kona Expressway, Howrah. Featuring four elegant G+19 and G+20 towers with 80% open spaces, the project blends modern luxury with serene green living. Offering thoughtfully designed 2 & 3 BHK apartments, Sunrise Meadows is crafted around wellness, recreation, and community living with premium amenities like Club Chlorophyll, landscaped gardens, natural waterbodies, outdoor wellness zones, and family-centric recreational spaces. Strategically connected to central Kolkata, the project creates a peaceful urban retreat close to the city.",
+
+    specifications: {
+      towers: "4 Towers",
+      configuration: "G+19 & G+20",
+      openSpace: "80%",
+      club: "Club Chlorophyll",
+      apartmentTypes: "2 & 3 BHK Apartments",
+      structure: "RCC Framed Structure",
+    },
+
+    features: [
+      "Nature-Centric Living",
+      "80% Open Space",
+      "Natural Waterbody",
+      "Fishing Deck",
+      "Swimming Pool",
+      "Club Chlorophyll",
+      "Jogging Track",
+      "Outdoor Wellness Zones",
+      "Landscaped Gardens",
+      "Family Recreation Areas",
+      "Modern Club Amenities",
+      "Pet Friendly Spaces",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK (685 – 709 sq.ft.)",
+        price: "₹49.75 L onwards",
+      },
+      {
+        size: "3 BHK (802 – 911 sq.ft.)",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      education: [
+        "Julien Day School - 4.7 km",
+        "St. Mark School - 4.2 km",
+        "South Breeze School - 7 km",
+        "Kidzee - 4.2 km",
+        "St. Teresa School - 4.5 km",
+      ],
+
+      transport: [
+        "Santragachi Railway Station - 3.5 km",
+        "Howrah Station - 13.2 km",
+        "Airport - 26.3 km",
+        "Esplanade - 14 km",
+      ],
+
+      healthcare: [
+        "South Howrah State General Hospital - 9.9 km",
+        "Woodlands Multispeciality Hospital - 12.9 km",
+        "Howrah Lions Hospital - 11.5 km",
+        "ILS Hospital - 12.9 km",
+      ],
+
+      entertainment: [
+        "Lakeland Country Club - 2.1 km",
+        "Avani Riverside Mall - 8.7 km",
+        "Botanical Garden - 8.2 km",
+        "Santragachi Lake - 5.2 km",
+        "Park Street - 13.1 km",
+      ],
+    },
+
+    rera: "WBRERA/P/HOW/2023/000096",
+
+    tag: "Nature Living",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.5330533007254!2d88.25795067507848!3d22.596561279474688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02796b4ab0f5bb%3A0x9ca567e43b146cac!2sSunrise%20Meadows!5e0!3m2!1sen!2sin!4v1779180661535!5m2!1sen!2sin",
+
+    plans: {
+      site: sunm02,
+      master: sunm01,
+      unit: [sunm03, sunm04],
+    },
+  },
+
+  {
+    id: "49",
+    slug: "sunrise-aura",
+    name: "Sunrise Aura",
+    tagline: "A home that feels like your own little slice of heaven.",
+    developer: "Sureka Group",
+    city: "Kolkata",
+    location: "Southern Bypass, Dakshin Gobindopur",
+    priceLabel: "₹49.90 L Onwards",
+    priceMin: 49.90,
+    bhk: [2, 3],
+    sizeRange: "677 – 964 sq.ft.",
+    possession: "Multiple Phases",
+    configuration: "8 Towers · G+18 & G+20",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: suna1,
+
+    gallery: [
+      suna0,
+      suna1,
+      suna2,
+      suna3,
+      suna4,
+      suna5,
+      suna6,
+      suna7,
+      suna8,
+      suna9,
+      suna10,
+      suna11,
+      suna12,
+    ],
+
+    story: [
+      "Wake up surrounded by open skies, waterfront serenity, and lush landscapes.",
+      "Experience elevated living crafted by the co-developer of Urbana & South City.",
+      "Live amidst 80% open spaces designed for peace, recreation, and modern comfort.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Swimming Pool",
+        "Club House",
+        "Gymnasium",
+        "Meditation Zone",
+        "Jogging Path",
+        "Mini Cricket Practice Area",
+        "Badminton Court",
+        "Roller Skating Area",
+        "Children’s Play Zone",
+        "Amphitheatre",
+      ],
+
+      connectivity: [
+        "Prime Southern Bypass Location",
+        "Easy Access to South Kolkata",
+        "Close to Fortis Hospital",
+        "Excellent Urban Connectivity",
+        "Developed by Renowned Developers",
+      ],
+
+      lifestyle: [
+        "8.04 Acre Development",
+        "80% Open Landscape Area",
+        "1.4 Acre Elevated Podium",
+        "Waterfront Living Experience",
+        "Tropical Flower Gardens",
+        "Modern Community Lifestyle",
+        "Multiple Recreational Zones",
+      ],
+    },
+
+    nearby: {
+      metro: "Connected to major South Kolkata transit corridors",
+      school: "Nearby reputed schools & institutions",
+      hospital: "Close to Fortis Hospital & healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Developing",
+      appreciation: "Strong Southern Bypass growth potential",
+    },
+
+    propertyDetails:
+      "Sunrise Aura by Sureka Group is a premium residential development located on Southern Bypass, Kolkata. Spread across 8.04 acres with nearly 80% open landscaped spaces, the project offers thoughtfully designed 2 & 3 BHK apartments across 8 towers in multiple phases. Featuring waterfront-inspired living, elevated podium landscapes, and a wide range of lifestyle amenities, Sunrise Aura combines serenity, greenery, and urban luxury. Developed by the co-developer of Urbana & South City, the project is crafted to deliver modern family living amidst nature and open-air experiences.",
+
+    specifications: {
+      landArea: "8.04 Acres",
+      towers: "8 Towers",
+      phases: "Multiple Phases",
+      openSpace: "80%",
+      podium: "1.4 Acre Elevated Podium",
+      configuration: "G+18 & G+20 Towers",
+    },
+
+    features: [
+      "Waterfront Inspired Living",
+      "80% Open Landscapes",
+      "Elevated Podium",
+      "Swimming Pool",
+      "Clubhouse Lifestyle",
+      "Meditation & Wellness Zones",
+      "Children’s Play Areas",
+      "Sports Amenities",
+      "Modern Community Spaces",
+      "Tropical Landscaped Gardens",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK · 677 sq.ft.",
+        price: "₹42 L onwards",
+      },
+      {
+        size: "3 BHK · 820 sq.ft.",
+        price: "₹52 L onwards",
+      },
+      {
+        size: "3 BHK · 964 sq.ft.",
+        price: "₹62 L onwards",
+      },
+    ],
+
+    rera: {
+      phase1: "WBRERA/P/SOU/2023/000067",
+      phase2: "WBRERA/P/SOU/2025/002616",
+    },
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.9791675258557!2d88.41464977507215!3d22.392142779620595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026dd3391d397b%3A0x151995c87c18a940!2sSunrise%20Aura!5e0!3m2!1sen!2sin!4v1779170326293!5m2!1sen!2sin",
+
+    plans: {
+      site: [suna02, suna00],
+      master: suna01,
+      unit: [suna03, suna04, suna05, suna06, suna07, suna08, suna09, suna010],
+    },
+  },
+
+  {
+    id: "50",
+    slug: "south-city-retreat",
+    name: "South City Retreat",
+    tagline: "Retreat To The Natural Way Of Life.",
+    developer: "Sureka Group",
+    city: "Kolkata",
+    location: "Basanti Highway, Bairampur, South 24 Parganas",
+    priceLabel: "₹2 Cr onwards",
+    priceMin: 200,
+    bhk: [3, 4, 5],
+    sizeRange: "Luxury Villas",
+    possession: "Under Development",
+    configuration: "Limited Edition Luxury Villas",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Villa", "Resort", "Residential"],
+    cover: scr1,
+
+    gallery: [
+      scr1,
+      scr2,
+      scr3,
+      scr4,
+      scr5,
+      scr6,
+      scr7,
+      scr8,
+      scr9,
+      scr10,
+      scr11,
+      scr12,
+      scr13,
+      scr14,
+      scr15,
+      scr16,
+      scr17,
+      scr18,
+      scr19,
+      scr20,
+      scr21,
+      scr22,
+      scr23,
+      scr24,
+      scr25,
+      scr26,
+      scr27,
+      scr28,
+      scr29,
+      scr30,
+      scr31,
+      scr32,
+      scr33,
+      scr34,
+      scr35,
+      scr36,
+      scr37,
+      scr38,
+      scr39,
+      scr40,
+    ],
+
+    story: [
+      "Wake up surrounded by greenery, serenity, and timeless luxury.",
+      "Experience nature-inspired villa living crafted around vastu principles.",
+      "Live beside Storii by ITC Hotels with resort and spa experiences woven into everyday life.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Luxury Resort & Spa",
+        "Resort with Accommodation Facilities",
+        "World-Class Spa",
+        "Treatment Rooms",
+        "Couples' Treatment Rooms",
+        "Sauna & Steam Rooms",
+        "Swimming Pool",
+        "Jacuzzi",
+        "Gymnasium",
+        "Yoga / Aerobics Area",
+        "Multi-cuisine Restaurant",
+        "Club Lounge",
+        "Indoor Games Room",
+        "Table Tennis",
+        "Air Hockey",
+        "Carom",
+        "Pool Table",
+        "Chess Lounge",
+        "Banquet Hall",
+        "Lawn Bowling",
+        "Croquet",
+        "Multi-purpose Court",
+        "Outdoor Sitting Area",
+        "F&B Zone",
+        "Jogging Track",
+        "Cycling Track",
+        "Children’s Play Area",
+        "Golf Cart Transportation",
+        "Landscape Maintenance Team",
+        "Villa Landscape Maintenance",
+        "Pedestrian Walkways",
+        "State-of-the-art Landscaping",
+      ],
+
+      connectivity: [
+        "25 mins from Science City",
+        "40 mins from South Kolkata",
+        "40 mins from Central Kolkata",
+        "Easy Basanti Highway Access",
+        "Connected to IT & Business Hubs",
+        "Accessible from Airport & Major City Corridors",
+      ],
+
+      lifestyle: [
+        "Limited Edition Villas",
+        "Vastu Inspired Architecture",
+        "Nature-Centric Community",
+        "Integrated Resort Lifestyle",
+        "Luxury Spa Experiences",
+        "State-of-the-Art Landscaping",
+        "Resort Lifestyle Experience",
+        "Luxury Wellness Living",
+        "Peaceful Green Environment",
+        "Private Villa Community",
+        "Hospitality Driven Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Connected via major city corridors",
+      school: "Nearby educational institutions",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong luxury villa appreciation potential",
+    },
+
+    propertyDetails:
+      "South City Retreat is a premium luxury villa development located on Basanti Highway near Kolkata. Designed around the philosophy of reconnecting with nature, the project offers limited edition luxury villas inspired by traditional vastu principles while integrating modern luxury, wellness, and resort-style experiences. Featuring an integrated luxury resort, world-class spa facilities, landscaped open spaces, and hospitality-driven amenities, the development creates a serene retreat-like environment while maintaining seamless connectivity to Kolkata. Residents enjoy an exclusive lifestyle enriched with wellness, recreation, green landscapes, and premium hospitality experiences beside Storii by ITC Hotels.",
+
+    specifications: {
+      villaTypes: "Small, Medium & Large Villas",
+      locationAdvantage: "25 mins from Science City",
+      lifestyle: "Integrated Resort Style Villa Living",
+      architecture: "Vastu Inspired Design",
+      environment: "Nature Focused Development",
+      hospitality: "Adjacent to Storii by ITC Hotels",
+    },
+
+    features: [
+      "Luxury Villas",
+      "Integrated Resort Living",
+      "World-Class Spa",
+      "Swimming Pool & Jacuzzi",
+      "Golf Cart Mobility",
+      "Nature Inspired Living",
+      "Resort & Wellness Lifestyle",
+      "Vastu Compliant Design",
+      "Low Density Development",
+      "Private Green Landscapes",
+      "Luxury Hospitality Access",
+      "Premium Villa Community",
+    ],
+
+    pricing: [
+      {
+        size: "Small Villa",
+        price: "₹2 Cr onwards",
+      },
+      {
+        size: "Medium Villa",
+        price: "On Request",
+      },
+      {
+        size: "Large Villa",
+        price: "Premium Pricing",
+      },
+    ],
+
+    rera: "WBRERA/P/SOU/2024/001334",
+
+    tag: "Luxury Resort Villas",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.045828227731!2d88.5475602750755!3d22.502463679541734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020c1ba5219391%3A0xb82aa84bcb3af05!2sSouth%20City%20Retreat!5e0!3m2!1sen!2sin!4v1779175113553!5m2!1sen!2sin",
+
+    plans: {
+      site: scr02,
+      master: scr01,
+      unit: [scr03, scr04, scr05, scr06, scr07, scr08,],
+
+    },
+  },
+
+  {
+    id: "51",
+    slug: "urbana",
+    name: "Urbana",
+    tagline: "The Tallest Towers in Kolkata.",
+    developer: "Sureka Group",
+    city: "Kolkata",
+    location: "Anandapur, EM Bypass, South Kolkata",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [3, 4, 5],
+    sizeRange: "Luxury Apartments",
+    possession: "Agreement in Process",
+    configuration: "33 Acres · 10 Landmark Towers",
+    status: "Under Development",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: urbana00,
+
+    gallery: [
+      urbana0,
+      urbana00,
+      urbana1,
+      urbana2,
+      urbana3,
+      urbana4,
+      urbana5,
+      urbana6,
+      urbana7,
+      urbana8,
+      urbana9,
+      urbana10,
+      urbana11,
+      urbana12,
+      urbana13,
+      urbana14,
+      urbana15,
+      urbana16,
+      urbana17,
+      urbana18,
+      urbana19,
+      urbana20,
+      urbana21,
+      urbana22,
+      urbana23,
+      urbana24,
+      urbana25,
+      urbana26,
+      urbana27,
+      urbana28,
+      urbana29,
+      urbana30,
+      urbana31,
+      urbana32,
+      urbana33,
+      urbana34,
+      urbana35,
+      urbana36,
+      urbana37,
+      urbana38,
+      urbana39,
+      urbana40,
+    ],
+
+    story: [
+      "Wake up above Kolkata’s skyline surrounded by lush greenery and open skies.",
+      "Experience landmark luxury living in the tallest towers of Kolkata.",
+      "Live in a globally designed community crafted around nature, elegance, and togetherness.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Club Urbana",
+        "East India’s Largest Residential Club",
+        "Luxury Wellness Facilities",
+        "Fine Dining Spaces",
+        "Family Recreation Zones",
+        "Premium Lifestyle Amenities",
+        "Landscaped Green Lawns",
+        "Community Celebration Spaces",
+        "Luxury Indoor & Outdoor Activities",
+      ],
+
+      connectivity: [
+        "0.8 km from Ruby Crossing",
+        "4.2 km from Science City",
+        "4.8 km from Gariahat",
+        "7.8 km from Park Circus",
+        "10 km from Salt Lake Sector V",
+        "18 km from Airport",
+        "Excellent EM Bypass Connectivity",
+        "Easy Access to New Town & Rajarhat",
+      ],
+
+      lifestyle: [
+        "33 Acre Integrated Township",
+        "Tallest Towers in Kolkata",
+        "900+ Happy Families",
+        "3 New Landmark Towers",
+        "Hundreds of Trees Across Campus",
+        "Nature-Centric Luxury Living",
+        "Luxury Skyline Views",
+        "Community-Centric Lifestyle",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity via EM Bypass corridor",
+      school: "DPS, Heritage School & Calcutta International School nearby",
+      hospital: "Ruby Hospital, Fortis, Genesis, Peerless & AMRI nearby",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "Very High",
+      growth: "Strong",
+      appreciation: "Premium appreciation potential in South Kolkata",
+    },
+
+    propertyDetails:
+      "Urbana New Towers is a landmark luxury residential development in South Kolkata, developed by Bengal NRI Complex Limited — a joint enterprise involving the Government of West Bengal along with leading business groups including Shrachi, Emami, Sureka, MKJ, JB, and Nahata Groups. Spread across 33 acres with lush greenery and iconic skyscrapers, Urbana redefines luxury living with globally designed residences, expansive landscapes, and East India’s largest residential club. Already home to over 900 families, the addition of three new towers elevates the project further into one of Kolkata’s most prestigious luxury addresses.",
+
+    specifications: {
+      landArea: "33 Acres",
+      towers: "10 Landmark Towers",
+      newTowers: "3 New Towers",
+      families: "900+ Families",
+      clubSize: "1 Lakh sq.ft Club Urbana",
+      architects: "Stephen Coates (Singapore)",
+      structuralConsultant: "Predrag Eror (Dubai)",
+      greenery: "Hundreds of Trees Across Campus",
+    },
+
+    features: [
+      "Tallest Towers in Kolkata",
+      "Luxury High-Rise Residences",
+      "East India’s Largest Residential Club",
+      "Globally Designed Architecture",
+      "Nature-Centric Living",
+      "Landscaped Green Lawns",
+      "Luxury Skyline Views",
+      "Integrated Township",
+      "Premium Community Living",
+      "Large Open Green Spaces",
+      "Luxury Club Amenities",
+      "Close-Knit Residential Community",
+      "Skyline Views",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "5 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Salt Lake Sector V - 10 km",
+        "Park Street & Camac Street - 9.9 km",
+        "New Town - 15.6 km",
+        "Esplanade & Dalhousie - 11 km",
+        "New Alipore - 9 Km",
+        "Salt Lake - 9.5 Km",
+        "Netaji Subhas Chandra Bose International Airport - 19.3 Km",
+        "Howrah Railway Station - 17.8 Km",
+        "Shyambazar 5 Point - 14.0 Km",
+        "Garia - 6.0 Km",
+        "Rajarhat Chowmatha - 24.6 Km",
+        "Barrackpore - 37.0 Km",
+      ],
+
+      healthcare: [
+        "Ruby Hospital",
+        "Fortis Medical Centre",
+        "RT Cardiac Institute",
+        "Genesis Hospital",
+        "Peerless Hospital",
+      ],
+
+      education: [
+        "Heritage School",
+        "Delhi Public School",
+        "Calcutta International School",
+        "South City International School",
+        "Calcutta Public School",
+        "Indus Valley World School",
+        "Garden High School",
+        "Bodhi Bhavans Collegiate School",
+      ],
+
+      entertainment: [
+        "ITC Sonar",
+        "South City Mall",
+        "Acropolis Mall",
+        "Gariahat Market",
+        "Metropolis",
+      ],
+    },
+
+
+    rera: "WBRERA/P/SOU/2023/000045",
+
+    tag: "Luxury Landmark",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.909871661692!2d88.41035747507574!3d22.507564479538058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02732264ccec1f%3A0x723ce1c5a9552c2c!2sUrbana!5e0!3m2!1sen!2sin!4v1779178396779!5m2!1sen!2sin",
+
+    plans: {
+      site: urbana01,
+      master: urbana01,
+      unit: [urbana02, urbana03, urbana04],
+    },
+  },
+
+  {
+    id: "52",
+    slug: "amara",
+    name: "Amara",
+    tagline: "Open, to experience the Great Indoors.",
+    developer: "Vinayak Group",
+    city: "Kolkata",
+    location: "New Town Action Area 2",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [3, 4],
+    sizeRange: "995 – 1516 sq.ft. Carpet Area",
+    possession: "July 2029",
+    configuration: "2 Acres · Twin Towers · G+24 & G+23",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: amara1,
+
+    gallery: [
+      amara1,
+      amara2,
+      amara3,
+      amara4,
+      amara5,
+      amara6,
+      amara7,
+      amara8,
+      amara9,
+      amara10,
+      amara11,
+      amara12,
+      amara13,
+      amara14,
+    ],
+
+    story: [
+      "Wake up to open skies, fresh air, and three-side open residences.",
+      "Experience modern luxury living with double-height sky gardens in every home.",
+      "Live surrounded by nature, wellness, and premium lifestyle experiences in New Town.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Swimming Pool",
+        "Sky Gardens",
+        "Double Height Entrance Lobby",
+        "Triple Height Podium Event Plaza",
+        "Yoga & Meditation Room",
+        "Party Lawn",
+        "Clubhouse",
+        "Gymnasium",
+        "Library & Co-working Space",
+        "Karaoke & Indoor Games Room",
+        "Kids Play Area",
+        "Guest Rooms",
+        "Community Hall",
+        "Café Spaces",
+      ],
+
+      connectivity: [
+        "Close to Rabindra Tirtha Metro Station",
+        "Near Shapoorji Bus Stand",
+        "Near Balaka Bus Terminus",
+        "11 km from Kolkata Airport",
+        "450 m from Centrus Mall",
+        "Easy New Town & Rajarhat Connectivity",
+      ],
+
+      lifestyle: [
+        "82% Open-to-Sky Space",
+        "Vaastu-Compliant Homes",
+        "IGBC Gold Pre-Certified",
+        "Three-Side Open Apartments",
+        "Double Height Sky Garden in Every Unit",
+        "Luxury High-Rise Living",
+        "Integrated Residential Complex",
+        "Contemporary Global Architecture",
+      ],
+    },
+
+    nearby: {
+      metro: "Rabindra Tirtha Metro Station nearby",
+      school: "SPK Jain School & Amity University nearby",
+      hospital: "PKG Hospital nearby",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in New Town",
+    },
+
+    propertyDetails:
+      "Vinayak Amara by Vinayak Group is a premium luxury residential development located in New Town Action Area 2, Kolkata. Spread across approximately 2 acres with twin high-rise towers, the project offers thoughtfully designed 3 & 4 BHK residences featuring double-height sky gardens, Vaastu-compliant layouts, and three-side open planning. Designed around modern wellness and nature-inspired living, Vinayak Amara combines expansive open spaces, premium clubhouse experiences, landscaped green zones, and advanced construction technology to create a refined urban lifestyle destination in one of Kolkata’s fastest-growing luxury corridors.",
+
+    specifications: {
+      landArea: "2 Acres Approx",
+      towers: "2 Towers",
+      towerConfiguration: "Tower 1 - G+24, Tower 2 - G+23",
+      apartments: "186 Units",
+      openSpace: "82% Open-to-Sky Space",
+      certification: "IGBC Gold Pre-Certified",
+    },
+
+    features: [
+      "Double Height Sky Gardens",
+      "Three-Side Open Homes",
+      "Vaastu-Compliant Apartments",
+      "Luxury Clubhouse",
+      "Triple Height Podium Plaza",
+      "Nature-Centric Living",
+      "Modern South Korean Technology",
+      "Skyline High-Rise Living",
+      "Integrated Residential Development",
+      "Premium Lifestyle Amenities",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      education: [
+        "SPK Jain School - 2.4 km",
+        "Amity University - 2.6 km",
+      ],
+
+      healthcare: [
+        "PKG Hospital - 2.1 km",
+      ],
+
+      connectivity: [
+        "Rabindra Tirtha Metro Station",
+        "Shapoorji Bus Stand",
+        "Balaka Bus Terminus",
+        "NH 12 - 11 km",
+        "Kolkata Airport - 11 km",
+        "Durganagar Station - 13 km",
+      ],
+
+      entertainment: [
+        "Centrus Mall - 450 m",
+        "Eco Park & New Town Social Infrastructure",
+      ],
+    },
+
+    rera: "WBRERA/P/NOR/2024/001720",
+
+    tag: "Luxury High-Rise",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.038044348282!2d88.49357817507793!3d22.57768037948808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b79df5e05df%3A0xe2a51296e12db2ad!2sVinayak%20Amara!5e0!3m2!1sen!2sin!4v1779775277511!5m2!1sen!2sin",
+
+    plans: {
+      site: [amara01, amara02,],
+      unit: [amara03, amara04,],
+    },
+  },
+
+  {
+    id: "53",
+    slug: "21-acres",
+    name: "21 Acres",
+    tagline: "Designed for Ease of Living.",
+    developer: "Vinayak Group",
+    city: "Kolkata",
+    location: "Off Newtown Action Area III",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [2, 3],
+    sizeRange: "595 – 973 sq.ft. Carpet Area",
+    possession: "31.03.2032",
+    configuration: "21 Acres · 5 Towers · G+21",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest"],
+    cover: v21ac1,
+
+    gallery: [
+      v21ac1,
+      v21ac2,
+      v21ac3,
+      v21ac4,
+      v21ac5,
+      v21ac6,
+      v21ac7,
+      v21ac8,
+    ],
+
+    story: [
+      "Wake up surrounded by expansive greenery and nature-inspired open spaces.",
+      "Experience a lifestyle designed around wellness, recreation, and everyday comfort.",
+      "Live in a thoughtfully planned community centered around a magnificent 3-acre central park.",
+    ],
+
+    highlights: {
+      amenities: [
+        "3 Acre Central Park",
+        "Infinity Pool",
+        "Open-Air Futsal Ground",
+        "Athletic Track",
+        "Lawn Tennis Court",
+        "Cricket Play Arena",
+        "Pet Park",
+        "Forest Trail",
+        "Jogging Track",
+        "Cycling Track",
+        "Podium Garden",
+        "Outdoor Activity Zones",
+      ],
+
+      connectivity: [
+        "1 Minute from Infosys, ITC Infotech & Wipro",
+        "2 Minutes from Hatisala Bus Stand",
+        "10 Minutes from Unitech Infospace",
+        "12 Minutes from Biswa Bangla Gate",
+        "12 Minutes from Tata Medical Centre",
+        "15 Minutes from DPS New Town & Axis Mall",
+        "30 Minutes from Airport",
+        "Shuttle Bus Service to Nearest Metro",
+      ],
+
+      lifestyle: [
+        "21 Acre Integrated Community",
+        "750+ Premium Homes",
+        "Nature Inspired Living",
+        "Double Height Sky Terraces",
+        "Open & Well Ventilated Apartments",
+        "Sustainable Living Features",
+        "Outdoor Wellness Spaces",
+        "Family-Centric Community Design",
+      ],
+    },
+
+    nearby: {
+      metro: "Nearest Metro via Shuttle Service",
+      school: "DPS New Town & nearby educational institutions",
+      hospital: "Tata Medical Centre & nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "13–19%",
+      demand: "High",
+      growth: "Rapidly Growing",
+      appreciation: "Strong appreciation potential in Newtown Action Area III",
+    },
+
+    propertyDetails:
+      "Vinayak 21 Acres by Vinayak Group is a large integrated residential community located off Newtown Action Area III, Kolkata. Spread across 21 acres with over 750 homes in 5 G+21 towers, the development is centered around a first-of-its-kind 3-acre central park designed to create a nature-inspired lifestyle experience. The project offers thoughtfully planned 2 & 3 BHK residences with spacious layouts, double-height sky terraces, excellent ventilation, and sustainable living features. Designed around recreation, wellness, and open-air living, Vinayak 21 Acres combines landscaped greens, sports zones, lifestyle amenities, and excellent connectivity to Newtown’s IT hubs, educational institutions, healthcare facilities, and metro infrastructure.",
+
+    specifications: {
+      landArea: "21 Acres",
+      towers: "5 Towers",
+      floors: "G+21",
+      homes: "750+ Homes",
+      centralPark: "3 Acre Central Park",
+      unitSizes: "595 – 973 sq.ft Carpet Area",
+      completionDate: "31.03.2032",
+    },
+
+    features: [
+      "3 Acre Central Park",
+      "Infinity Pool",
+      "Double Height Sky Terraces",
+      "Open & Ventilated Homes",
+      "Forest Trail",
+      "Cycling & Jogging Tracks",
+      "Sports Arenas",
+      "Pet Park",
+      "Nature Inspired Community",
+      "Sustainable Infrastructure",
+      "Outdoor Lifestyle Amenities",
+      "Integrated Residential Development",
+    ],
+
+    pricing: [
+      {
+        size: "2BHK 2T · 595 sq.ft.",
+        price: "Price On Request",
+      },
+      {
+        size: "3BHK 2T · 698 – 783 sq.ft.",
+        price: "Price On Request",
+      },
+      {
+        size: "3BHK 3T · 823 – 973 sq.ft.",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Infosys - 1 Minute",
+        "ITC Infotech - 1 Minute",
+        "Wipro - 1 Minute",
+        "Unitech Infospace - 10 Minutes",
+        "Newtown Business Districts Nearby",
+      ],
+
+      healthcare: [
+        "Tata Medical Centre - 12 Minutes",
+        "Nearby Newtown Healthcare Facilities",
+      ],
+
+      education: [
+        "DPS New Town - 15 Minutes",
+        "Nearby Schools & Educational Institutions",
+      ],
+
+      entertainment: [
+        "Axis Mall - 15 Minutes",
+        "Biswa Bangla Gate - 12 Minutes",
+        "Newtown Lifestyle & Entertainment Hubs",
+      ],
+    },
+
+    rera: "WBRERA/P/SOU/2026/004275",
+
+    tag: "Integrated Community",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.8460739584893!2d88.52987222507696!3d22.54743812950961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b0042e86643%3A0x9b80b16de5baca87!2sVinayak%2021%20Acres!5e0!3m2!1sen!2sin!4v1779776525295!5m2!1sen!2sin",
+
+    plans: {
+      master: v21ac01,
+      site: v21ac02,
+      unit: [v21ac03, v21ac04, v21ac05],
+    },
+  },
+
+  {
+    id: "54",
+    slug: "new-kolkata-prayag",
+    name: "New Kolkata - Prayag",
+    tagline: "Seamless living in a thoughtfully designed masterplan.",
+    developer: "Alcove Realty",
+    city: "Kolkata",
+    location: "Serampore, Hooghly",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [1, 2, 3, 4],
+    sizeRange: "540 – 1040 sq.ft.",
+    possession: "Ready To Move",
+    configuration: "15 Towers · G+17/G+22",
+    status: "Ready to Move",
+    intent: ["Buy", "Residential", "Affordable", "Invest"],
+    cover: newk5,
+
+    gallery: [
+      newk1,
+      newk2,
+      newk3,
+      newk4,
+      newk5,
+      newk6,
+      newk7,
+      newk8,
+      newk9,
+      newk10,
+
+    ],
+
+    story: [
+      "Wake up to serene Ganga views and open green landscapes.",
+      "Experience thoughtfully designed homes crafted for comfort, ventilation, and affordability.",
+      "Live in a vibrant township with modern amenities, landscaped greens, and seamless connectivity.",
+    ],
+
+    highlights: {
+      amenities: [
+        "65+ Lifestyle Amenities",
+        "Clubhouse",
+        "Garden & Ghat",
+        "Landscaped Green Zones",
+        "Community Spaces",
+        "Indoor Recreation Areas",
+        "Outdoor Leisure Facilities",
+        "Family Activity Zones",
+        "Modern Lobby Areas",
+      ],
+
+      connectivity: [
+        "350 m from Mahesh Temple",
+        "1.85 km from Serampore College",
+        "2.5 km from Serampore Railway Station",
+        "3.1 km from Serampore Hospital",
+        "Excellent Serampore Connectivity",
+        "Easy Access to Kolkata",
+        "Connected to Major Road Networks",
+        "Integrated Township Infrastructure",
+      ],
+
+      lifestyle: [
+        "15 Residential Towers",
+        "27 Floors Across Towers",
+        "Ganga View Apartments",
+        "Cross Ventilated Homes",
+        "Affordable Luxury Living",
+        "Masterplanned Community",
+        "Open Green Environment",
+        "Modern Urban Lifestyle",
+      ],
+    },
+
+    nearby: {
+      metro: "Well connected via road and rail networks",
+      school: "Nearby reputed educational institutions",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "10–16%",
+      demand: "High",
+      growth: "Steady",
+      appreciation: "Strong residential growth potential in Serampore",
+    },
+
+    propertyDetails:
+      "New Kolkata - Prayag by Alcove Realty is a thoughtfully masterplanned residential community in Serampore designed around affordability, greenery, and modern urban comfort. Featuring 15 towers with G+17 and G+22 configurations, the project offers 1, 2, 3 & 4 BHK homes with Ganga-facing views, cross ventilation, and efficient layouts. Designed by Padma Bhushan awardee architect Hafeez Contractor, the development combines landscaped open spaces, modern amenities, and family-centric planning to create a balanced lifestyle close to nature and city connectivity.",
+
+    specifications: {
+      towers: "15 Towers",
+      floors: "Up to 27 Floors",
+      flatTypes: "1/2/3/4 BHK",
+      carpetArea: "309 – 645 sq.ft.",
+      builtupArea: "405 – 780 sq.ft.",
+      superBuiltupArea: "540 – 1040 sq.ft.",
+      architect: "Hafeez Contractor",
+    },
+
+    features: [
+      "Ganga View Apartments",
+      "Cross Ventilated Homes",
+      "Affordable Modern Living",
+      "65+ Amenities",
       "Landscaped Gardens",
       "Clubhouse",
+      "Thoughtfully Designed Masterplan",
+      "Family-Centric Community",
+      "Modern Elevation Towers",
+      "Ready To Move Apartments",
+    ],
+
+    pricing: [
+      {
+        size: "1 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "2 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "3 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      connectivity: [
+        "Excellent road connectivity",
+        "Connected to Serampore & Kolkata",
+        "Integrated township infrastructure",
+      ],
+
+      education: [
+        "Nearby schools & colleges",
+        "Educational institutions within easy reach",
+      ],
+
+      healthcare: [
+        "Nearby hospitals & healthcare facilities",
+      ],
+
+      lifestyle: [
+        "Retail & community spaces nearby",
+        "Modern township environment",
+        "Landscaped green surroundings",
+      ],
+    },
+
+    rera: "Ready To Move Project",
+
+    tag: "Affordable Township",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.7621588861193!2d88.35402567508282!3d22.737079979374922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b1d8d11144b%3A0x436932be30b5b9c2!2sNew%20Kolkata%20Sangam!5e0!3m2!1sen!2sin!4v1779780906442!5m2!1sen!2sin",
+
+    plans: {
+      master: newk01,
+      site: newk01,
+      unit: [newk02, newk03, newk04, newk05],
+    },
+  },
+
+  {
+    id: "55",
+    slug: "emami-aamod",
+    name: "Emami Aamod",
+    tagline: "Where luxury flows around serenity and joy.",
+    developer: "Emami Realty",
+    city: "Kolkata",
+    location: "James Long Sarani, Near New Alipore",
+    priceLabel: "₹3.30 Cr onwards",
+    priceMin: 330,
+    bhk: [3, 4],
+    sizeRange: "Luxury Apartments with Servant Room",
+    possession: "Under Development",
+    configuration: "4 Acres · 4 Luxury Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: aamod1,
+
+    gallery: [
+      aamod1,
+      aamod2,
+      aamod3,
+      aamod4,
+      aamod5,
+      aamod6,
+      aamod7,
+      aamod8,
+    ],
+
+    story: [
+      "Wake up beside a serene musical fountain lake surrounded by landscaped greens.",
+      "Experience multi-storied luxury living crafted around elegance, leisure, and tranquility.",
+      "Live moments away from New Alipore while enjoying resort-inspired luxury amenities.",
+    ],
+
+    highlights: {
+      amenities: [
+        "180° Infinity Edge Pool",
+        "Musical Fountain Lake",
+        "Premium Clubhouse",
+        "Lake Facing Bar Lounge",
+        "Banquet Hall",
+        "Steam & Spa",
+        "Yoga & Wellness Spaces",
+        "Pickleball Court",
+        "Squash Court",
+        "Gymnasium",
+        "Basketball Court",
+        "Cricket Net",
+      ],
+
+      connectivity: [
+        "Adjacent to New Alipore",
+        "Prime James Long Sarani Location",
+        "Excellent South Kolkata Connectivity",
+        "Easy Access to Business & Lifestyle Hubs",
+        "Well Connected to Major Road Networks",
+      ],
+
+      lifestyle: [
+        "4 Acre Luxury Development",
+        "1 Acre Lake with Musical Fountain",
+        "4 Premium Towers",
+        "Lake Facing Residences",
+        "Luxury Terrace Experiences",
+        "Beach Style Seating Zones",
+        "Landscaped Green Decks",
+        "High-Rise Premium Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to South Kolkata transport corridors",
+      school: "Nearby reputed educational institutions",
+      hospital: "Nearby premium healthcare facilities",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "Very High",
+      growth: "Strong",
+      appreciation: "Premium appreciation potential in New Alipore",
+    },
+
+    propertyDetails:
+      "Emami Aamod by Emami Realty is an ultra-luxury residential development located on James Long Sarani beside New Alipore, Kolkata. Spread across 4 acres with four magnificent towers, the project offers spacious 3 & 4 BHK residences with servant rooms, designed around a stunning 1-acre lake with a musical fountain. Combining architectural grandeur, landscaped surroundings, infinity-edge leisure experiences, and premium clubhouse amenities, Emami Aamod creates a sophisticated lifestyle destination where luxury, serenity, and modern comfort coexist seamlessly.",
+
+    specifications: {
+      landArea: "4 Acres",
+      towers: "4 Luxury Towers",
+      lakeArea: "1 Acre Musical Fountain Lake",
+      apartmentType: "3 & 4 BHK with Servant Room",
+      architecture: "Multi-Storied Premium Towers",
+      clubhouse: "Premium Lifestyle Clubhouse",
+    },
+
+    features: [
+      "Infinity Edge Pool",
+      "Lake Facing Bar Lounge",
+      "Luxury Clubhouse",
+      "Musical Fountain Lake",
+      "Landscape Gardens",
+      "Terrace Lifestyle Amenities",
+      "Sports & Wellness Zones",
+      "Premium High-Rise Living",
+      "Resort Inspired Spaces",
+      "Luxury South Kolkata Address",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK",
+        price: "₹3.30 Cr onwards",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "New Alipore",
+        "Taratala",
+        "Park Street",
+        "Camac Street",
+        "Salt Lake Sector V",
+      ],
+
+      healthcare: [
+        "BM Birla Hospital",
+        "Woodlands Hospital",
+        "AMRI Hospital",
+        "Belle Vue Clinic",
+      ],
+
+      education: [
+        "Nearby reputed schools & colleges",
+        "South Kolkata educational institutions",
+      ],
+
+      entertainment: [
+        "South City Mall",
+        "Quest Mall",
+        "Alipore Lifestyle Zones",
+        "Premium Dining & Retail Hubs",
+      ],
+    },
+
+    rera: "Under Registration Process",
+
+    tag: "Lakefront Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3685.8557714276117!2d88.3225673!3d22.5095939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bf2b20c73ab%3A0xfde2ce63103f85a0!2sEmami%20Aamod!5e0!3m2!1sen!2sin!4v1779791542589!5m2!1sen!2sin",
+
+    plans: {
+      master: aamod01,
+      site: [aamod02, aamod06, aamod011, aamod014],
+      unit: [aamod03, aamod04, aamod05, aamod07, aamod08, aamod09, aamod010, aamod012, aamod013, aamod015, aamod016,],
+    },
+  },
+
+  {
+    id: "56",
+    slug: "emami-aastha",
+    name: "Emami Aastha",
+    tagline: "An Urban Forest Crafted for Timeless Bungalow Living.",
+    developer: "Emami Realty",
+    city: "Kolkata",
+    location: "Joka, Kolkata - 700104",
+    priceLabel: "₹3.25 Cr onwards",
+    priceMin: 325,
+    bhk: [3, 4, 5],
+    sizeRange: "Premium Bungalows",
+    possession: "5 Years from Agreement",
+    configuration: "Premium Bungalow Township",
+    status: "Under Development",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: aastha1,
+
+    gallery: [
+      aastha1,
+      aastha2,
+      aastha3,
+      aastha4,
+      aastha5,
+      aastha6,
+      aastha7,
+      aastha8,
+      aastha9,
+      aastha10,
+      aastha11,
+      aastha12,
+    ],
+
+    story: [
+      "Wake up to birdsong, waterbodies, and lush green landscapes.",
+      "Experience luxury bungalow living inside an urban forest ecosystem.",
+      "Live surrounded by nature trails, gardens, and serene open spaces crafted for holistic well-being.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Floating Café",
+        "Cycling Track",
+        "Yoga Deck",
+        "Cricket Turf",
+        "Walking & Jogging Track",
+        "Amphitheatre",
+        "Skating Rink",
+        "Outdoor Gym",
+        "Lake with Pedal Boat",
+        "Barbeque Setup",
+        "Festival Stage",
+        "Pet Relief Area",
+        "Viewing Deck",
+        "Stargazing Deck",
+      ],
+
+      connectivity: [
+        "Prime Joka Connectivity",
+        "Excellent South Kolkata Access",
+        "Connected to Major Road Networks",
+        "Easy Access to Educational Institutions",
+        "Close to Healthcare & Lifestyle Destinations",
+      ],
+
+      lifestyle: [
+        "Urban Forest Township",
+        "Nature-Centric Living",
+        "Mini Forest Parks",
+        "Multiple Waterbodies",
+        "Bird Feeding Zones",
+        "Large Landscaped Gardens",
+        "Luxury Independent Bungalows",
+        "Eco Park Inspired Environment",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity via Joka corridor",
+      school: "Nearby reputed educational institutions",
+      hospital: "Nearby hospitals & healthcare centers",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Premium appreciation potential in Joka",
+    },
+
+    propertyDetails:
+      "Emami Aastha by Emami Realty is a premium bungalow township in Joka, Kolkata, conceptualized as an urban forest designed around biodiversity, greenery, and luxury living. Featuring landscaped mini forests, multiple waterbodies, ecological open spaces, and nature-inspired infrastructure, the development creates a serene environment that blends luxury with sustainability. The township offers spacious independent bungalows with premium specifications, landscaped lawns, plunge pools, and curated lifestyle amenities designed to foster a deep connection between residents and nature.",
+
+    specifications: {
+      plotSizes: "2.01 Cottah & 4.21 Cottah",
+      bungalowSizes: "4.6 Cottah – 12 Cottah",
+      townshipType: "Premium Bungalow Township",
+      landscape: "Urban Forest Design",
+      waterbodies: "Multiple Lakes & Water Features",
+      infrastructure: "Nature-Centric Township Planning",
+    },
+
+    features: [
+      "Luxury Independent Bungalows",
+      "Urban Forest Living",
+      "Floating Café",
+      "Cycling & Jogging Tracks",
+      "Lake with Pedal Boat",
+      "Multiple Waterbodies",
+      "Outdoor Sports Facilities",
+      "Large Landscaped Gardens",
+      "Nature Trails",
+      "Premium Green Township",
+      "Pet Friendly Zones",
+      "Stargazing Deck",
+      "Private Front Lawns",
+    ],
+
+    pricing: [
+      {
+        size: "Premium Bungalows",
+        price: "₹3.25 Cr onwards",
+      },
+    ],
+
+    locationAdvantages: {
+      connectivity: [
+        "Well connected to South Kolkata",
+        "Excellent Joka corridor access",
+        "Easy access to major transport routes",
+      ],
+
+      healthcare: [
+        "Nearby hospitals & healthcare centers",
+      ],
+
+      education: [
+        "Nearby reputed schools & institutions",
+      ],
+
+      lifestyle: [
+        "Green township environment",
+        "Nature inspired community spaces",
+        "Integrated recreational ecosystem",
+      ],
+    },
+
+    rera: "WBRERA Registered",
+
+    tag: "Luxury Bungalow Township",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.3546691621905!2d88.27241957507287!3d22.41567287960375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0264d5eaaaaaab%3A0x13b7265aa148a63c!2sEmami%20Aastha!5e0!3m2!1sen!2sin!4v1779796350480!5m2!1sen!2sin",
+
+    plans: {
+      master: [aastha01, aastha02,],
+      unit: [aastha03, aastha04, aastha05, aastha06, aastha07, aastha08,],
+    },
+  },
+
+  {
+    id: "57",
+    slug: "emami-business-bay",
+    name: "Emami Business Bay",
+    tagline: "A Premium Commercial Address in the Heart of Sector V.",
+    developer: "Emami Realty",
+    city: "Kolkata",
+    location: "Sector V, Salt Lake, Kolkata - 700091",
+    priceLabel: "₹1.20 Cr onwards",
+    priceMin: 120,
+    bhk: [0],
+    sizeRange: "Modular Office Spaces",
+    possession: "5 Years from Date of Agreement",
+    configuration: "1 Acre · G+22 Commercial Tower",
+    status: "Under Construction",
+    intent: ["Commercial", "Office", "Invest"],
+    cover: ebb1,
+
+    gallery: [
+      ebb1,
+      ebb2,
+      ebb3,
+      ebb4,
+      ebb5,
+      ebb6,
+      ebb7,
+      ebb8,
+    ],
+
+    story: [
+      "Build your business in Kolkata’s prime IT and commercial district.",
+      "Experience future-ready office spaces designed for productivity and growth.",
+      "Work in a landmark commercial tower blending business, retail, and lifestyle seamlessly.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Terrace Cricket Turf",
+        "Soccer Turf",
+        "Open Air Gym",
+        "Jogging Track",
+        "Café & Seating Areas",
+        "Retail Spaces",
+        "Glass Elevators",
+        "Landscape Terraces",
+        "Conference Facilities",
+        "Concierge Services",
+      ],
+
+      connectivity: [
+        "Prime Sector V Location",
+        "Excellent Salt Lake Connectivity",
+        "Close to Major IT Parks",
+        "Easy Access to EM Bypass",
+        "Well Connected to Airport & CBD",
+        "Strategically Located in IT Business District",
+      ],
+
+      lifestyle: [
+        "22 Floor Commercial Tower",
+        "Modular Office Spaces",
+        "Scalable Office Options",
+        "Retail & Commercial Integration",
+        "Landscape Terrace Offices",
+        "Vastu Compliant Workspaces",
+        "Premium Corporate Address",
+        "Modern Architectural Elevation",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent Sector V Metro Connectivity",
+      school: "Nearby educational institutions",
+      hospital: "Nearby healthcare facilities",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "Very High",
+      growth: "Rapidly Expanding",
+      appreciation: "Strong commercial appreciation in Sector V",
+    },
+
+    propertyDetails:
+      "Emami Business Bay by Emami Realty is a premium commercial development located in the heart of Sector V, Salt Lake — Kolkata’s leading IT and business district. Spread across 1 acre, the project features a landmark 22-floor tower offering modular office spaces, scalable corporate environments, retail zones, conference facilities, and landscaped terrace workspaces. Designed with modern architectural aesthetics and built with internationally acclaimed consultants, the development combines business efficiency, lifestyle amenities, and seamless connectivity to create a future-ready corporate ecosystem.",
+
+    specifications: {
+      landArea: "1 Acre",
+      floors: "22 Floors",
+      parking: "2 Basements + 4 Podiums",
+      officeUnits: "180 Office Units",
+      retailUnits: "7 Retail Units",
+      restaurants: "2 Restaurants",
+      parkingCapacity: "205 Parking Spaces",
+    },
+
+    features: [
+      "Premium Commercial Tower",
+      "Modular Office Spaces",
+      "Retail & Office Integration",
+      "Landscape Terrace Offices",
+      "Vastu Compliant Offices",
+      "100% Power Backup",
+      "Wi-Fi Connectivity",
+      "Glass Elevators",
+      "Modern Corporate Infrastructure",
+      "Conference & Concierge Facilities",
+      "Heat Insulated Architectural Facade",
+      "Scalable Office Spaces",
+    ],
+
+    pricing: [
+      {
+        size: "Small Modular Offices",
+        price: "₹1.20 Cr onwards",
+      },
+      {
+        size: "Scalable Office Spaces",
+        price: "Price On Request",
+      },
+      {
+        size: "Retail Spaces",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Sector V IT Hub",
+        "Salt Lake Business District",
+        "EM Bypass Connectivity",
+        "Easy Access to New Town",
+        "Connected to Kolkata CBD",
+      ],
+
+      healthcare: [
+        "Nearby healthcare facilities",
+        "Well connected to major hospitals",
+      ],
+
+      education: [
+        "Nearby educational institutions",
+        "Close to training & IT centers",
+      ],
+
+      entertainment: [
+        "Retail & Café Spaces",
+        "Nearby shopping & lifestyle hubs",
+        "Corporate leisure infrastructure",
+      ],
+    },
+
+    architects: [
+      "SPA – Sanjay Puri Architects",
+      "Moshe Safdie",
+      "L&T",
+      "Meinhardt Singapore",
+      "SRSS Singapore",
+      "Green Architects Thailand",
+      "Kapadia Associates",
+      "MODARCH",
+    ],
+
+    rera: "Commercial Project",
+
+    tag: "Premium Commercial",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.2224655724253!2d88.43270989999999!3d22.570781399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02757cfb68fa2f%3A0x7944ec0bb06d83b2!2sEmami%20Business%20Bay!5e0!3m2!1sen!2sin!4v1779797493651!5m2!1sen!2sin",
+
+    plans: {
+      site: ebb02,
+      unit: [ebb01, ebb03, ebb04,],
+    },
+  },
+
+  {
+    id: "58",
+    slug: "dtc-downtown",
+    name: "DTC Downtown",
+    tagline: "Modern living crafted around connectivity, comfort, and lifestyle.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Rajarhat Main Road, Rajarhat",
+    priceLabel: "₹55 L onwards",
+    priceMin: 55,
+    bhk: [2, 3, 4],
+    sizeRange: "Premium Apartments",
+    possession: "Under Development",
+    configuration: "10 Acres · 6 Towers · B+G+29",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Luxury", "Invest"],
+    cover: dtcdown1,
+
+    gallery: [
+      dtcdown0,
+      dtcdown1,
+      dtcdown2,
+      dtcdown3,
+      dtcdown4,
+      dtcdown5,
+      dtcdown6,
+      dtcdown7,
+      dtcdown8,
+      dtcdown9,
+      dtcdown10,
+      dtcdown11,
+      dtcdown12,
+      dtcdown13,
+      dtcdown14,
+      dtcdown15,
+    ],
+
+    story: [
+      "Wake up in a vibrant township connected to the heart of New Town and Rajarhat.",
+      "Experience spacious modern residences surrounded by lifestyle amenities and open landscapes.",
+      "Live in a premium community designed for comfort, convenience, and future-ready urban living.",
+    ],
+
+    highlights: {
+      amenities: [
+        "110,000 sq.ft Largest Clubhouse",
+        "100,000 sq.ft Largest Podium",
+        "Swimming Pool",
+        "Gymnasium",
+        "Banquet Hall",
+        "Bowling Arcade",
+        "Mini Theatre",
+        "Lifestyle Recreation Zones",
+        "Premium Community Spaces",
+        "30+ World Class Amenities",
+        "6 Lane Expressway, Rajarhat",
+      ],
+
+      connectivity: [
+        "18 mins from DPS Megacity",
+        "21 mins from Narayana School",
+        "16 mins from Derozio College",
+        "30 mins from Techno India",
+        "30 mins from Airport",
+        "23 mins from Eco Park",
+        "19 mins from City Centre 2",
+        "9 mins from Apex Hospital",
+        "12 mins from Lotus Hospital",
+        "28 mins from Tata Cancer Hospital",
+      ],
+
+      lifestyle: [
+        "72% Open To Sky",
+        "80 ft. Wide Grand Entrance",
+        "10 Acre Development",
+        "1300+ Premium Homes",
+        "High-Rise Skyline Towers",
+        "Modern Urban Township",
+        "Large Open Landscapes",
+        "Premium Podium Living",
+        "Integrated Lifestyle Ecosystem",
+        "Luxury Community Experience",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to New Town & Sector V",
+      school: "DPS Megacity & Narayana School nearby",
+      hospital: "Apex Hospital, Lotus Hospital & Tata Cancer nearby",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in Rajarhat corridor",
+    },
+
+    propertyDetails:
+      "DTC Downtown is a premium residential township located on Rajarhat Main Road, Kolkata, offering thoughtfully designed 2, 3 & 4 BHK apartments with modern architecture, spacious layouts, and landscaped open spaces. Spread across 10 acres with six high-rise towers and over 1300 premium homes, the development features one of the city’s largest clubhouses and podium spaces. Strategically connected to New Town, Salt Lake, and Sector V, DTC Downtown combines urban convenience, lifestyle amenities, and future-ready infrastructure to create a complete residential ecosystem in Rajarhat.",
+
+    specifications: {
+      landArea: "10 Acres",
+      towers: "6 Towers",
+      floors: "B+G+29",
+      homes: "1300+ Premium Homes",
+      clubhouse: "110,000 sq.ft.",
+      podium: "100,000 sq.ft.",
+    },
+
+    features: [
+      "Premium High-Rise Apartments",
+      "Largest Clubhouse",
+      "Largest Podium",
       "Swimming Pool",
-      "Fitness Spaces",
-      "Children’s Play Areas",
-      "Community Zones",
-      "Nature Inspired Living",
+      "Mini Theatre",
+      "Bowling Arcade",
+      "Landscaped Open Spaces",
+      "Integrated Township",
+      "Luxury Lifestyle Amenities",
+      "Excellent Rajarhat Connectivity",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK",
+        price: "₹55 L onwards",
+      },
+      {
+        size: "3 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      education: [
+        "DPS Megacity - 18 mins",
+        "Narayana School - 21 mins",
+        "Derozio College - 16 mins",
+        "Techno India - 30 mins",
+      ],
+
+      healthcare: [
+        "Apex Hospital - 9 mins",
+        "Lotus Hospital - 12 mins",
+        "Tata Cancer Hospital - 28 mins",
+      ],
+
+      landmarks: [
+        "Airport - 30 mins",
+        "Eco Park - 23 mins",
+        "City Centre 2 - 19 mins",
+        "Sector V IT Hub nearby",
+      ],
+    },
+
+    rera: "WBRERA/P/NOR/2026/004195",
+
+    tag: "Featured",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.6917790521434!2d88.5216866750795!3d22.62798217945237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a08ee20fec0b%3A0xf664a9bf8ac82886!2sDTC%20Downtown%20Rajarhat!5e0!3m2!1sen!2sin!4v1779863624336!5m2!1sen!2sin",
+
+    plans: {
+      unit: [dtcdown02, dtcdown03, dtcdown04],
+    },
+  },
+
+  {
+    id: "59",
+    slug: "dtc-still-waters",
+    name: "DTC Still Waters",
+    tagline: "A home that lets you feel like yourself again.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "New Town, Rajarhat",
+    priceLabel: "₹90 L onwards",
+    priceMin: 90,
+    bhk: [3, 4],
+    sizeRange: "Luxury Apartments",
+    possession: "Under Development",
+    configuration: "5.1 Acres · 452 Residences",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: dtcsw0,
+
+    gallery: [
+      dtcsw10,
+      dtcsw0,
+      dtcsw2,
+      dtcsw3,
+      dtcsw4,
+      dtcsw5,
+      dtcsw6,
+      dtcsw7,
+      dtcsw8,
+      dtcsw9,
+      dtcsw11,
+      dtcsw12,
+    ],
+
+    story: [
+      "Wake up beside serene waters and lush landscaped open spaces.",
+      "Experience thoughtfully designed homes crafted around balance, privacy, and luxury.",
+      "Live moments away from Kolkata’s IT hubs, Eco Park, and the airport.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Infinity Edge Swimming Pool",
+        "Premium Clubhouse",
+        "Yoga Deck",
+        "Outdoor Gym",
+        "Jogging & Cycling Tracks",
+        "Meditation Zones",
+        "Banquet Hall",
+        "Senior Citizens’ Lounge",
+        "Kids’ Crèche",
+        "Guest Suites",
+        "Indoor Games Area",
+        "Sports Courts",
+        "Pet Zone",
+        "Fruit Garden",
+        "Amphitheatre",
+        "Multi-Level Parking",
+      ],
+
+      connectivity: [
+        "9 mins from Rajarhat Apex Hospital",
+        "12 mins from Lotus Hospital",
+        "12 mins from Delhi Public School Megacity",
+        "12 mins from Rajarhat Crossing",
+        "19 mins from City Centre 2",
+        "20 mins from Tata Consultancy Services",
+        "23 mins from Eco Park",
+        "Excellent New Town Connectivity",
+      ],
+
+      lifestyle: [
+        "5.1 Acre Premium Development",
+        "70% Open Space",
+        "5 Bigha Natural Lily Pond",
+        "452 Thoughtfully Designed Homes",
+        "18 Activity Zones",
+        "Nature-Centric Urban Living",
+        "Waterfront Lifestyle Experience",
+        "Luxury Community Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to New Town Metro corridor",
+      school: "Delhi Public School Megacity nearby",
+      hospital: "Rajarhat Apex Hospital & Lotus Hospital nearby",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in New Town",
+    },
+
+    propertyDetails:
+      "DTC Still Waters is an ultra-premium residential development located in New Town, Kolkata, designed around space, openness, and tranquil waterfront living. Spread across 5.1 acres with 70% open space and a stunning 5 bigha natural lily pond at its heart, the project offers luxurious 3 & 4 BHK residences with expansive layouts, natural ventilation, and panoramic views. Featuring 18 activity zones, landscaped greens, premium clubhouse facilities, wellness spaces, and seamless access to Kolkata’s IT hubs, educational institutions, healthcare, and lifestyle destinations, DTC Still Waters creates a refined lifestyle experience rooted in nature and elegance.",
+
+    specifications: {
+      landArea: "5.1 Acres",
+      residences: "452 Luxury Homes",
+      openSpace: "70%",
+      waterBody: "5 Bigha Natural Lily Pond",
+      activityZones: "18 Lifestyle Zones",
+      apartmentTypes: "3 & 4 BHK",
+    },
+
+    features: [
+      "Waterfront Luxury Living",
+      "Infinity Edge Swimming Pool",
+      "Premium Clubhouse",
+      "Yoga & Meditation Zones",
+      "Pet Friendly Community",
+      "Fruit Garden",
+      "Large Open Green Spaces",
+      "Luxury High-Rise Residences",
+      "Natural Ventilation",
+      "Thoughtfully Planned Community",
+      "Multi-Level Parking",
+      "Nature-Centric Urban Lifestyle",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK",
+        price: "₹90 L onwards",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Tata Consultancy Services - 20 mins",
+        "Sector V IT Hub - Nearby",
+        "Infosys Campus - Nearby",
+        "Eco Park - 23 mins",
+        "City Centre 2 - 19 mins",
+        "Airport Connectivity - Easy Access",
+      ],
+
+      healthcare: [
+        "Rajarhat Apex Hospital - 9 mins",
+        "Lotus Hospital - 12 mins",
+      ],
+
+      education: [
+        "Delhi Public School Megacity - 12 mins",
+        "Nearby Universities & Educational Institutions",
+      ],
+
+      entertainment: [
+        "Eco Park",
+        "City Centre 2",
+        "Shopping & Lifestyle Destinations Nearby",
+      ],
+    },
+
+    rera: "WBRERA/P/SOU/2025/003379",
+
+    tag: "Waterfront Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.0808323802044!2d88.51915757507663!3d22.538644579515946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b9ed10e2221%3A0xa96fd43111c85ce5!2sDTC%20Still%20Waters!5e0!3m2!1sen!2sin!4v1779865129374!5m2!1sen!2sin",
+
+    plans: {
+      site: dtcsw01,
+      master: dtcsw01,
+      unit: [dtcsw02, dtcsw03, dtcsw04, dtcsw05,],
+    },
+  },
+
+  {
+    id: "60",
+    slug: "capital-city-crest",
+    name: "Capital City Crest",
+    tagline: "The Crown Jewel of Rajarhat’s Skyline.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Rajarhat, Kolkata",
+    priceLabel: "₹75 L onwards",
+    priceMin: 75,
+    bhk: [3, 4, 5],
+    sizeRange: "Super Premium Apartments",
+    possession: "Under Construction",
+    configuration: "Twin G+24 Towers",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: ccc1,
+
+    gallery: [
+      ccc2,
+      ccc3,
+      ccc4,
+      ccc5,
+    ],
+
+    story: [
+      "Wake up in super premium homes rising above Rajarhat’s skyline.",
+      "Experience luxury living crafted around wellness, greenery, and leisure.",
+      "Live in spacious residences designed for elegance, comfort, and future-ready urban lifestyles.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Infinity Swimming Pool",
+        "Clubhouse",
+        "Outdoor Gym",
+        "Yoga Center",
+        "Kids Play Area",
+        "Natural Pond",
+        "Outdoor Games Area",
+        "Walking Lawn",
+        "24×7 Security Services",
+        "Landscaped Green Spaces",
+      ],
+
+      connectivity: [
+        "19 mins from Rajarhat Crossing",
+        "19 mins from City Centre II",
+        "23 mins from Eco Park",
+        "20 mins from Ecospace Business Park",
+        "20 mins from Tata Consultancy Services",
+        "9 mins from Rajarhat Apex Hospital",
+        "12 mins from Lotus Hospital",
+        "18 mins from DPS Megacity",
+      ],
+
+      lifestyle: [
+        "Twin G+24 Luxury Towers",
+        "Super Premium Architecture",
+        "Nature Integrated Living",
+        "Wellness Focused Amenities",
+        "Modern Urban Lifestyle",
+        "Luxury Skyline Views",
+        "Secure Residential Community",
+        "Family-Centric Design",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent Rajarhat & New Town connectivity",
+      school: "DPS Megacity, Derozio Memorial College nearby",
+      hospital: "Rajarhat Apex Hospital & Lotus Hospital nearby",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in Rajarhat",
+    },
+
+    propertyDetails:
+      "Capital City Crest by DTC Group is a super premium residential development in Rajarhat, Kolkata, designed to redefine modern skyline living. Rising as elegant twin G+24 towers, the project offers spacious 3, 4 & 5 BHK luxury residences crafted with premium architecture, wellness-focused amenities, landscaped open spaces, and secure community living. Featuring an infinity pool, yoga zones, outdoor leisure facilities, natural green landscapes, and excellent connectivity to Rajarhat, New Town, educational institutions, business parks, and healthcare facilities, Capital City Crest creates a balanced lifestyle experience for discerning urban homeowners.",
+
+    specifications: {
+      towers: "Twin Towers",
+      height: "G+24",
+      apartmentTypes: "3/4/5 BHK",
+      architecture: "Super Premium Design",
+      security: "24×7 Security Services",
+      lifestyle: "Luxury Wellness Living",
+    },
+
+    features: [
+      "Luxury High-Rise Residences",
+      "Infinity Pool",
+      "Outdoor Gym",
+      "Yoga Center",
+      "Natural Pond",
+      "Premium Clubhouse",
+      "Walking Lawn",
+      "Secure Community Living",
+      "Modern Architecture",
+      "Landscaped Green Spaces",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK",
+        price: "₹75 L onwards",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "5 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Ecospace Business Park - 20 mins",
+        "Tata Consultancy Services - 20 mins",
+        "Rajarhat Commercial Zone nearby",
+      ],
+
+      healthcare: [
+        "Rajarhat Apex Hospital - 9 mins",
+        "Lotus Hospital - 12 mins",
+        "Tata Cancer Hospital - 28 mins",
+      ],
+
+      education: [
+        "DPS Megacity - 18 mins",
+        "Derozio Memorial College - 16 mins",
+        "Techno India College - 30 mins",
+      ],
+
+      entertainment: [
+        "Eco Park - 23 mins",
+        "City Centre II - 19 mins",
+        "Rajarhat Lifestyle Zones nearby",
+      ],
+    },
+
+    rera: "WBRERA/P/NOR/2025/003217",
+
+    tag: "Super Premium",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.691012801119!2d88.52087027507942!3d22.62801077945226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a13c6bf7e089%3A0xcfbfca0a139f04fe!2sDTC%20Capital%20City%20Rajarhat!5e0!3m2!1sen!2sin!4v1779867500133!5m2!1sen!2sin",
+
+    plans: {
+      site: ccc01,
+      master: ccc01,
+      unit: [ccc02, ccc03,]
+    },
+  },
+
+  {
+    id: "61",
+    slug: "dtc-good-earth",
+    name: "DTC Good Earth",
+    tagline: "Just Right for Perfect Life.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Off Badu Road, Madhyamgram",
+    priceLabel: "₹45 L onwards",
+    priceMin: 45,
+    bhk: [2, 3],
+    sizeRange: "2 & 3 BHK Apartments",
+    possession: "Under Construction",
+    configuration: "5 Lakh sq.ft · 465 Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Affordable", "Invest"],
+    cover: dtcge1,
+
+    gallery: [
+      dtcge1,
+      dtcge2,
+      dtcge3,
+      dtcge4,
+      dtcge5,
+      dtcge6,
+      dtcge7,
+      dtcge8,
+      dtcge9,
+      dtcge10,
+      dtcge11,
+      dtcge12,
+      dtcge13,
+    ],
+
+    story: [
+      "Wake up surrounded by greenery, waterbodies, and peaceful open spaces.",
+      "Experience a balanced lifestyle crafted around comfort, wellness, and sustainability.",
+      "Live minutes away from Madhyamgram’s key transport hubs, schools, hospitals, and markets.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Infinity Pool",
+        "Natural Pond",
+        "Clubhouse",
+        "Yoga Zone",
+        "Outdoor Gym",
+        "Kid’s Play Area",
+        "Amphitheatre",
+        "Stepped Garden",
+        "Reflexology Path",
+        "Terrace Garden",
+        "Commercial Plaza",
+        "Leisure Lawns",
+      ],
+
+      connectivity: [
+        "800 m from Local Market",
+        "2 km from Madhyamgram Station",
+        "3 km from Heartland Hospital",
+        "4 km from Julien Day School",
+        "4 km from Narayana Hospital",
+        "4 km from Star Mall",
+        "6 km from New Barrackpore Station",
+        "7 km from Orchid International School",
+        "7 km from Barasat Railway Station",
+        "9.4 km from Kolkata Airport",
+        "Just 3 mins from Madhyamgram Chowmatha",
+      ],
+
+      lifestyle: [
+        "5 Lakh sq.ft Development",
+        "465 Modern Apartments",
+        "Eco-Friendly Living",
+        "Rainwater Harvesting",
+        "Waste Recycling Systems",
+        "24×7 Smart Security",
+        "Smart Home Ready Apartments",
+        "Green Open Spaces",
+        "Nature Inspired Community Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming New Barrackpore Metro nearby",
+      school: "Julien Day School & Orchid International School nearby",
+      hospital: "Narayana Hospital & Heartland Hospital nearby",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Growing",
+      appreciation: "Strong appreciation potential in Madhyamgram",
+    },
+
+    propertyDetails:
+      "DTC Good Earth is a thoughtfully designed residential community located off Badu Road in Madhyamgram, Kolkata. Spread across 5 lakh sq.ft with 465 modern 2 & 3 BHK apartments, the project combines greenery, wellness, and urban convenience into a balanced lifestyle experience. Featuring lush landscaped zones, natural waterbodies, infinity pools, sustainable infrastructure, and smart security systems, Good Earth is crafted to create a serene environment where families can thrive while staying closely connected to the city’s transport, education, healthcare, and entertainment hubs.",
+
+    specifications: {
+      developmentArea: "5 Lakh sq.ft",
+      apartments: "465 Apartments",
+      apartmentTypes: "2 & 3 BHK",
+      sustainability: "Rainwater Harvesting & Waste Recycling",
+      security: "24×7 Smart Security",
+      smartHomes: "Smart Home Ready",
+    },
+
+    features: [
+      "Infinity Pool",
+      "Natural Pond",
+      "Stepped Garden",
+      "Reflexology Path",
+      "Terrace Garden",
+      "Smart Home Ready Apartments",
+      "Eco-Friendly Infrastructure",
+      "Yoga & Wellness Zones",
+      "Nature-Centric Community",
+      "Commercial Plaza",
+      "Modern Clubhouse",
+      "24×7 Security",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK",
+        price: "₹45 Lakh onwards",
+      },
+      {
+        size: "3 BHK",
+        price: "₹55 Lakh onwards",
+      },
+    ],
+
+    locationAdvantages: {
+      connectivity: [
+        "Madhyamgram Station - 2 km",
+        "New Barrackpore Station - 6 km",
+        "Barasat Railway Station - 7 km",
+        "Kolkata Airport - 9.4 km",
+        "Madhyamgram Chowmatha - 3 mins",
+      ],
+
+      healthcare: [
+        "Heartland Hospital - 3 km",
+        "Narayana Hospital - 4 km",
+      ],
+
+      education: [
+        "Julien Day School - 4 km",
+        "Orchid International School - 7 km",
+      ],
+
+      lifestyle: [
+        "Star Mall - 4 km",
+        "Local Market - 800 m",
+      ],
+    },
+
+    rera: {
+      phase1: "WBRERA/P/NOR/2025/003792",
+      phase2: "WBRERA/P/NOR/2025/003194",
+    },
+
+    tag: "Nature Living",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.9860108736884!2d88.47506097508142!3d22.69156467940717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f8d195affcb%3A0x43db6b54410b4541!2sDTC%20Good%20Earth!5e0!3m2!1sen!2sin!4v1779868666481!5m2!1sen!2sin",
+
+    plans: {
+      site: dtcge02,
+      unit: [dtcge03, dtcge04, dtcge05, dtcge06, dtcge07, dtcge08, dtcge09,],
+    },
+  },
+
+  {
+    id: "62",
+    slug: "dtc-palm-grove",
+    name: "DTC Palm Grove",
+    tagline: "Your Date With Life.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Joka, South Kolkata",
+    priceLabel: "₹1.15 Cr onwards",
+    priceMin: 115,
+    bhk: [3, 4],
+    sizeRange: "Premium Villas",
+    possession: "New Launch",
+    configuration: "Boutique Villa Community",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Villa", "Residential"],
+    cover: dtcpg1,
+
+    gallery: [
+      dtcpg1,
+      dtcpg2,
+      dtcpg3,
+      dtcpg4,
+      dtcpg5,
+      dtcpg6,
+      dtcpg7,
+      dtcpg8,
+      dtcpg9,
+      dtcpg10,
+      dtcpg11,
+    ],
+
+    story: [
+      "Wake up to lush greenery, private lawns, and peaceful villa living.",
+      "Experience boutique luxury crafted around romance, serenity, and everyday joy.",
+      "Live seamlessly connected to Kolkata while enjoying a tranquil retreat in Joka.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Exclusive Clubhouse",
+        "Swimming Pool",
+        "Gymnasium",
+        "Banquet Hall",
+        "Lounge Café",
+        "AV Room",
+        "Amphitheatre",
+        "Kids Play Area",
+        "Cycling Path",
+        "Jogging Track",
+        "Reflexology Court",
+        "Landscaped Gardens",
+        "Activity Lawn",
+        "Indoor Games Area",
+        "Wall Climbing Space",
+      ],
+
+      connectivity: [
+        "5 mins from Joka Metro",
+        "9 mins from Behala Chowrasta",
+        "12 mins from Taratala More",
+        "14 mins from Tollygunge Metro",
+        "14 mins from New Alipore",
+        "17 mins from Taj Bengal",
+        "22 mins from BBD Bag",
+        "25 mins from Howrah",
+        "43 mins from Airport",
+        "Excellent DH Road Connectivity",
+      ],
+
+      lifestyle: [
+        "Premium 3 & 4 BHK Villas",
+        "Private Lawns & Terraces",
+        "Gated Community",
+        "24×7 Security",
+        "Nature-Centric Living",
+        "Boutique Villa Township",
+        "Low Density Luxury Community",
+        "Indoor-Outdoor Lifestyle Design",
+      ],
+    },
+
+    nearby: {
+      metro: "Joka Metro Station within 5 mins",
+      school: "Top schools nearby in Behala & Joka",
+      hospital: "Leading hospitals within easy reach",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in Joka corridor",
+    },
+
+    propertyDetails:
+      "DTC Palm Grove by DTC Group is a premium boutique villa community located in Joka, South Kolkata. Featuring thoughtfully designed 3 & 4 BHK villas with private lawns and terraces, the development blends modern architecture with lush landscaped surroundings to create a serene and luxurious residential experience. Strategically located just minutes from Joka Metro, Palm Grove offers seamless connectivity while delivering a nature-inspired lifestyle through exclusive amenities including a clubhouse, swimming pool, wellness zones, amphitheatre, café lounge, and family recreation spaces.",
+
+    specifications: {
+      villaTypes: "3 & 4 BHK Villas",
+      projectType: "Boutique Villa Community",
+      security: "24×7 Gated Security",
+      architecture: "Modern Villa Design",
+      landscape: "Lush Green Landscapes",
+      lifestyle: "Private Lawns & Terraces",
+    },
+
+    features: [
+      "Premium Villas",
+      "Private Lawns",
+      "Private Terraces",
+      "Exclusive Clubhouse",
+      "Swimming Pool",
+      "Landscaped Gardens",
+      "Boutique Community Living",
+      "Nature Inspired Lifestyle",
+      "Indoor & Outdoor Recreation",
+      "Excellent Metro Connectivity",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK Villa",
+        price: "₹1.15 Cr onwards",
+      },
+      {
+        size: "4 BHK Villa",
+        price: "₹1.23 Cr onwards",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "BBD Bag - 22 mins",
+        "Taratala - 12 mins",
+        "New Alipore - 14 mins",
+        "Tollygunge - 14 mins",
+      ],
+
+      healthcare: [
+        "Nearby reputed hospitals",
+        "Healthcare facilities within easy reach",
+      ],
+
+      education: [
+        "Nearby schools & educational institutions",
+        "Excellent South Kolkata educational connectivity",
+      ],
+
+      entertainment: [
+        "Taj Bengal - 17 mins",
+        "Shopping & lifestyle destinations nearby",
+        "Daily conveniences within easy reach",
+      ],
+    },
+
+    rera: "WBRERA/P/SOU/2025/002551",
+
+    tag: "Luxury Villas",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.945846619465!2d88.29009477507336!3d22.431063979592686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027b84372eca4f%3A0x16e9d8a8dd5a13df!2sDTC%20Palm%20Grove!5e0!3m2!1sen!2sin!4v1779870807384!5m2!1sen!2sin",
+
+    plans: {
+      site: dtcpg02,
+    },
+  },
+
+  {
+    id: "63",
+    slug: "dtc-skyler",
+    name: "DTC Skyler",
+    tagline: "Rule The Sky.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Joka, South Kolkata",
+    priceLabel: "₹95 L onwards",
+    priceMin: 95,
+    bhk: [3, 4],
+    sizeRange: "Luxury Simplex & Duplex Homes",
+    possession: "New Launch",
+    configuration: "89% Open Space · Luxury High-Rise Living",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Duplex"],
+    cover: skyler1,
+
+    gallery: [
+      skyler0,
+      skyler1,
+      skyler2,
+      skyler3,
+      skyler4,
+      skyler5,
+      skyler6,
+      skyler7,
+      skyler8,
+      skyler9,
+      skyler10,
+      skyler11,
+      skyler12,
+    ],
+
+    story: [
+      "Wake up above the skyline with panoramic rooftop experiences.",
+      "Experience villa-like luxury with the security and convenience of high-rise living.",
+      "Live amidst 89% open spaces crafted around nature, elegance, and elevated lifestyle.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Sky Den Rooftop Retreat",
+        "Glass Pavilion",
+        "Swimming Pool",
+        "AC Gymnasium",
+        "Yoga Lawn",
+        "Jogging Track",
+        "Community Hall",
+        "Amphitheatre",
+        "Indoor Games Room",
+        "Kids Play Area",
+        "Skating Rink",
+        "Multi Purpose Court",
+        "Senior Citizen Area",
+        "Retail Store",
+        "Pharmacy Store",
+        "Seating Cabana",
+      ],
+
+      connectivity: [
+        "3 mins from Joka Metro",
+        "9 mins from Behala Chowrasta",
+        "12 mins from Taratala More",
+        "14 mins from Tollygunge Metro",
+        "14 mins from New Alipore",
+        "17 mins from Taj Bengal",
+        "22 mins from BBD Bag",
+        "25 mins from Howrah",
+        "43 mins from Airport",
+        "Excellent DH Road & James Long Sarani Connectivity",
+      ],
+
+      lifestyle: [
+        "89% Open Space",
+        "Luxury 3 BHK Simplex Homes",
+        "Grand 4 BHK Duplex Residences",
+        "Double Height Living Rooms",
+        "Double Height Grand Lobby",
+        "Rooftop Lifestyle Experiences",
+        "Skyline Views",
+        "Nature-Centric High-Rise Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Joka Metro within 3 mins",
+      school: "Leading schools nearby in Behala & Joka",
+      hospital: "Nearby hospitals & healthcare facilities",
+    },
+
+    investment: {
+      roi: "14–21%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in Joka growth corridor",
+    },
+
+    propertyDetails:
+      "DTC Skyler by DTC Group is an ultra-luxury residential development located near Joka Metro in South Kolkata. Designed around elevated living experiences, the project offers spacious 3 BHK simplex homes and grand 4 BHK duplex residences featuring double-height living rooms, premium finishes, and expansive open spaces. With 89% open green zones, rooftop Sky Den experiences, a stunning Glass Pavilion, and luxury lifestyle amenities, Skyler creates a perfect balance between modern architecture, nature, and high-rise sophistication.",
+
+    specifications: {
+      openSpace: "89%",
+      apartmentTypes: "3 BHK Simplex & 4 BHK Duplex",
+      rooftopFeature: "Sky Den & Glass Pavilion",
+      architecture: "Double Height Luxury Design",
+      security: "24×7 Security & CCTV",
+      construction: "Mivan Construction System",
+    },
+
+    features: [
+      "Luxury Duplex Residences",
+      "Double Height Living Rooms",
+      "Sky Den Rooftop Experience",
+      "Glass Pavilion",
+      "Swimming Pool",
+      "Yoga Lawn",
+      "Indoor & Outdoor Recreation",
+      "Mivan Construction Technology",
+      "Earthquake Resistant Structure",
+      "24×7 CCTV Surveillance",
+      "Large Open Green Spaces",
+      "Metro Connected Living",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK Simplex",
+        price: "₹95 L onwards",
+      },
+      {
+        size: "4 BHK Duplex",
+        price: "₹1.25 Cr onwards",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "BBD Bag - 22 mins",
+        "Taratala - 12 mins",
+        "New Alipore - 14 mins",
+        "Tollygunge - 14 mins",
+      ],
+
+      healthcare: [
+        "Nearby reputed hospitals",
+        "Healthcare facilities within easy reach",
+      ],
+
+      education: [
+        "Nearby schools & educational institutions",
+        "Excellent South Kolkata educational connectivity",
+      ],
+
+      entertainment: [
+        "Taj Bengal - 17 mins",
+        "Shopping & lifestyle destinations nearby",
+        "Metro connected conveniences",
+      ],
+    },
+
+    rera: "WBRERA/P/SOU/2025/002727",
+
+    tag: "Luxury Duplex Living",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.659684488096!2d88.29446857507371!3d22.441831279585088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027b84a7b517c1%3A0xc324d576c40ff039!2sDTC%20Skyler%20in%20Joka!5e0!3m2!1sen!2sin!4v1779954621119!5m2!1sen!2sin",
+
+    plans: {
+      site: skyler01,
+      unit: [skyler02, skyler03, skyler04,],
+    },
+  },
+
+  {
+    id: "64",
+    slug: "dtc-sojon",
+    name: "DTC Sojon",
+    tagline: "Where Neighbours become Family Members.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Joka, South Kolkata",
+    priceLabel: "48 L onwards",
+    priceMin: 0,
+    bhk: [2, 3],
+    sizeRange: "880 – 1460 sq.ft.",
+    possession: "Under Construction",
+    configuration: "22 Acres · 34 Towers · 1100 Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Family", "Invest"],
+    cover: dtcs0,
+
+    gallery: [
+      dtcs1,
+      dtcs2,
+      dtcs3,
+      dtcs4,
+      dtcs5,
+      dtcs6,
+      dtcs7,
+      dtcs8,
+      dtcs9,
+      dtcs10,
+      dtcs11,
+      dtcs12,
+      dtcs13,
+      dtcs14,
+      dtcs15,
+      dtcs16,
+      dtcs17,
+      dtcs18,
+      dtcs19,
+      dtcs20,
+      dtcs21,
+      dtcs22,
+      dtcs23,
+      dtcs24,
+      dtcs25,
+      dtcs26,
+    ],
+
+    story: [
+      "Wake up in a vibrant community where neighbours feel like family.",
+      "Experience expansive podium living with greenery, sports, and social spaces.",
+      "Live seamlessly connected to Kolkata just minutes from Joka Metro.",
+    ],
+
+    highlights: {
+      amenities: [
+        "90,000 sq.ft Green Podium",
+        "35,000 sq.ft Clubhouse",
+        "Outdoor Movie Screen",
+        "Sunken Amphitheatre",
+        "Box Cricket",
+        "Pet Zone",
+        "Fishing Pond",
+        "Basketball Court",
+        "Badminton Court",
+        "Yoga & Fitness Zone",
+        "Barbeque Pavilion",
+        "Kids Play Area",
+        "Senior Citizen Area",
+        "Puja Celebration Lawn",
+      ],
+
+      connectivity: [
+        "250 m from IIM Joka Metro",
+        "1 km from IIM Calcutta",
+        "1 km from Bharat Sevashram Hospital",
+        "100 m from Vivekananda Mission School",
+        "1.2 km from Pailan Bazar",
+        "1.5 km from Kendriya Vidyalaya",
+        "3.5 km from Thakurpukur Bazar",
+        "3.5 km from Swami Narayan Mandir",
+        "5.5 km from Behala Chowrasta",
+        "6.5 km from Narayana Memorial Hospital",
+        "9 km from Majerhat Railway Station",
+        "10 km from Tollygunge Metro",
+      ],
+
+      lifestyle: [
+        "22 Acre Integrated Township",
+        "34 Residential Towers",
+        "1100 Apartments",
+        "3 Side Open Flats",
+        "South Facing Lifestyle Homes",
+        "Landscaped Gardens & Jogging Trails",
+        "Community-Centric Living",
+        "Nature Inspired Urban Lifestyle",
+      ],
+    },
+
+    nearby: {
+      metro: "IIM Joka Metro Station just 250 m away",
+      school: "Vivekananda Mission School & Kendriya Vidyalaya nearby",
+      hospital: "Narayana Memorial & Bharat Sevashram Hospital nearby",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Rapidly Growing",
+      appreciation: "Strong appreciation potential in Joka corridor",
+    },
+
+    propertyDetails:
+      "DTC Sojon by DTC Group is one of the largest lifestyle residential developments in the Joka and Behala region, spread across 22 acres with 34 towers and over 1100 apartments. Designed around the warmth of community living, the project offers spacious 2 & 3 BHK homes with 3-side open south-facing layouts, landscaped greens, and extensive podium-level amenities. Located just minutes from the newly operational Joka Metro, Sojon combines excellent connectivity with a vibrant modern lifestyle centered around recreation, wellness, social interaction, and family living.",
+
+    specifications: {
+      landArea: "22 Acres",
+      towers: "34 Towers",
+      apartments: "1100 Apartments",
+      podium: "90,000 sq.ft Green Podium",
+      clubhouse: "35,000 sq.ft Clubhouse",
+      flatTypes: "2 & 3 BHK Apartments",
+    },
+
+    features: [
+      "3 Side Open Flats",
+      "South Facing Homes",
+      "Integrated Township",
+      "Large Green Podium",
+      "Clubhouse & Sports Facilities",
+      "Outdoor Movie Screen",
+      "Community-Centric Design",
+      "Jogging Trails",
+      "Pet Friendly Spaces",
       "Lifestyle Amenities",
+      "Metro Connectivity",
+      "Family Focused Living",
+    ],
+
+    pricing: [
+      {
+        size: "2 BHK · 880 – 960 sq.ft.",
+        price: "48 Lacs onwards",
+      },
+      {
+        size: "3 BHK · 1130 – 1460 sq.ft.",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Behala Chowrasta - 5.5 km",
+        "Tollygunge - 10 km",
+        "Majerhat - 9 km",
+        "Excellent South Kolkata Connectivity",
+      ],
+
+      healthcare: [
+        "Narayana Memorial Hospital - 6.5 km",
+        "Bharat Sevashram Hospital - 1 km",
+      ],
+
+      education: [
+        "IIM Calcutta - 1 km",
+        "Vivekananda Mission School - 100 m",
+        "Kendriya Vidyalaya - 1.5 km",
+        "Pailan World School - 3.5 km",
+      ],
+
+      entertainment: [
+        "Outdoor Movie & Sports Screen",
+        "Clubhouse & Community Spaces",
+        "Lifestyle & Recreational Amenities",
+      ],
+    },
+
+    rera: "WBRERA/P/SOU/2023/000149",
+
+    tag: "Lifestyle Township",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.682558752767!2d88.29605157507369!3d22.44097077958572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bd7d8b74585%3A0x7305e1706435cada!2sDTC%20Sojon%20in%20Joka!5e0!3m2!1sen!2sin!4v1779956250558!5m2!1sen!2sin",
+
+    view360: "https://digitour.housing.com/projects/DTC_Group/Sojon_3BHK",
+
+    plans: {
+      master: dtcs01,
+      unit: [dtcs02, dtcs03, dtcs04, dtcs05, dtcs06,],
+    },
+  },
+
+  {
+    id: "65",
+    slug: "dtc-capital-city-rajarhat",
+    name: "DTC Capital City Rajarhat",
+    tagline: "The Future of BIG Living is Here.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Rajarhat Main Road, Near Rajarhat Chowmatha",
+    priceLabel: "71 L onwards",
+    priceMin: 0,
+    bhk: [1, 2, 3],
+    sizeRange: "Apartments",
+    possession: "Phase 1 Under Development",
+    configuration: "10 Towers · 1100+ Apartments",
+    status: "Under Construction",
+    intent: ["Buy", "Residential", "Invest", "Township"],
+    cover: dtccr1,
+
+    gallery: [
+      dtccr1,
+      dtccr2,
+      dtccr3,
+      dtccr4,
+      dtccr5,
+      dtccr6,
+      dtccr7,
+      dtccr8,
+      dtccr9,
+      dtccr10,
+      dtccr11,
+      dtccr12,
+    ],
+
+    story: [
+      "Experience BIG living at one of Rajarhat’s largest residential developments.",
+      "Wake up to expansive podium landscapes, modern amenities, and endless possibilities.",
+      "Live in a futuristic community designed around comfort, connectivity, and lifestyle.",
+    ],
+
+    highlights: {
+      amenities: [
+        "70,000 sq.ft Club Atlas",
+        "90,000 sq.ft Central Podium",
+        "Central Lawn",
+        "Jogging Track",
+        "Yoga Area",
+        "Outdoor Gym",
+        "Amphitheatre",
+        "Kids Play Area",
+        "Sunset Pavilion",
+        "The Orchard",
+        "Herb Garden",
+        "Landscaped Open Spaces",
+      ],
+
+      connectivity: [
+        "5 mins from Rajarhat Chowmatha",
+        "Located on Rajarhat Main Road",
+        "Easy Access to New Town",
+        "Close to Business & IT Hubs",
+        "Excellent Airport Connectivity",
+        "Well Connected to Major Arterial Roads",
+      ],
+
+      lifestyle: [
+        "1100+ Apartments",
+        "10 Residential Towers",
+        "Future-Ready Township Living",
+        "80 ft Internal Arterial Road",
+        "Large Community Spaces",
+        "Nature Inspired Landscaping",
+        "Integrated Lifestyle Development",
+        "Premium Family Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Upcoming Metro Connectivity in Rajarhat-New Town Corridor",
+      school: "Nearby reputed schools & educational institutions",
+      hospital: "Leading healthcare facilities within easy reach",
+    },
+
+    investment: {
+      roi: "14–20%",
+      demand: "High",
+      growth: "Rapidly Rising",
+      appreciation: "Strong appreciation potential in Rajarhat corridor",
+    },
+
+    propertyDetails:
+      "DTC Capital City Rajarhat is one of the largest residential developments on Rajarhat Main Road, Kolkata. Designed around the concept of BIG Living, the project features approximately 1100 apartments across 10 towers in Phase 1, offering thoughtfully planned 1, 2, and 3 BHK homes. With a massive 90,000 sq.ft central podium, an 80-foot internal arterial road, and the iconic 70,000 sq.ft Club Atlas spread over 2 acres, the development delivers a futuristic township lifestyle. Located just minutes from Rajarhat Chowmatha, Capital City combines scale, connectivity, and modern urban living in one landmark destination.",
+
+    specifications: {
+      towers: "10 Towers",
+      units: "1100+ Apartments",
+      clubhouse: "70,000 sq.ft Club Atlas",
+      podium: "90,000 sq.ft Central Podium",
+      internalRoad: "80 ft Arterial Road",
+      phase: "Phase 1 Development",
+    },
+
+    features: [
+      "Large Integrated Township",
+      "1, 2 & 3 BHK Apartments",
+      "Club Atlas",
+      "Massive Central Podium",
+      "Outdoor Lifestyle Amenities",
+      "Landscaped Open Spaces",
+      "Future-Ready Infrastructure",
+      "Family-Centric Community",
+      "Nature & Wellness Zones",
+      "Premium Residential Development",
+    ],
+
+    pricing: [
+      {
+        size: "1 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "2 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "3 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Rajarhat Chowmatha - 5 mins",
+        "New Town Business District",
+        "Salt Lake Sector V",
+        "IT & Commercial Hubs Nearby",
+      ],
+
+      healthcare: [
+        "Leading Hospitals Nearby",
+        "Healthcare Facilities Within Easy Reach",
+      ],
+
+      education: [
+        "Reputed Schools Nearby",
+        "Educational Institutions Across Rajarhat & New Town",
+      ],
+
+      entertainment: [
+        "Shopping Destinations Nearby",
+        "Lifestyle & Recreational Facilities",
+        "Restaurants & Leisure Zones",
+      ],
+    },
+
+    rera: "WBRERA/P/NOR/2023/000136",
+
+    tag: "Mega Township",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.691012801119!2d88.52087027507942!3d22.62801077945226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a13c6bf7e089%3A0xcfbfca0a139f04fe!2sDTC%20Capital%20City%20Rajarhat!5e0!3m2!1sen!2sin!4v1780041082999!5m2!1sen!2sin",
+
+    view360: "https://digitour.housing.com/projects/DTC_Group/Capital_City_3BHK",
+  },
+
+  {
+    id: "66",
+    slug: "dtc-the-residence",
+    name: "DTC The Residence",
+    tagline: "A New Dimension to High-End Living.",
+    developer: "DTC Group",
+    city: "Kolkata",
+    location: "Ballygunge, South Kolkata",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [4],
+    sizeRange: "Luxury Duplex Residences",
+    possession: "Ready To Move",
+    configuration: "4 Exclusive Duplexes",
+    status: "Ready to Move",
+    intent: ["Buy", "Luxury", "Residential", "Duplex"],
+    cover: dtcr1,
+
+    gallery: [
+      dtcr1,
+      dtcr2,
+      dtcr3,
+      dtcr4,
+    ],
+
+    story: [
+      "Wake up amidst lush greenery and tranquil waters in the heart of Ballygunge.",
+      "Experience the privacy of an exclusive duplex residence crafted for refined living.",
+      "Live every day like a holiday surrounded by serenity, luxury, and timeless elegance.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Swimming Pool",
+        "Individual Landscape Garden",
+        "Individual Rooftop Terrace Garden",
+        "Scenic Seating Areas",
+        "Natural Pond with Wooden Deck",
+        "Independent Car Parking",
+        "Maid Room in Every Duplex",
+        "Separate Staff Quarters",
+        "Vastu Compliant Residences",
+        "Private Green Spaces",
+      ],
+
+      connectivity: [
+        "Prime Ballygunge Location",
+        "Excellent South Kolkata Connectivity",
+        "Easy Access to Park Street",
+        "Close to Business Districts",
+        "Well Connected to EM Bypass",
+        "Nearby Premium Lifestyle Destinations",
+      ],
+
+      lifestyle: [
+        "Only 4 Exclusive Duplex Residences",
+        "Ultra Low Density Development",
+        "Luxury Boutique Living",
+        "Private Rooftop Gardens",
+        "Waterbody Facing Environment",
+        "Nature Inspired Architecture",
+        "Premium Family Living",
+        "Resort Style Lifestyle",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent Ballygunge & South Kolkata connectivity",
+      school: "Leading schools and educational institutions nearby",
+      hospital: "Premium healthcare facilities within easy reach",
+    },
+
+    investment: {
+      roi: "14–18%",
+      demand: "Very High",
+      growth: "Strong",
+      appreciation: "Premium Ballygunge luxury appreciation potential",
+    },
+
+    propertyDetails:
+      "DTC The Residence by DTC Group is an ultra-exclusive luxury residential development located in Ballygunge, one of Kolkata’s most prestigious addresses. Designed around elegance, privacy, and serenity, the project features only four beautifully crafted duplex residences surrounded by landscaped greenery and a tranquil waterbody. Every residence comes with private gardens, rooftop terraces, staff quarters, and premium lifestyle amenities, creating a boutique luxury living experience where residents can enjoy resort-like comfort in the heart of the city.",
+
+    specifications: {
+      residences: "4 Exclusive Duplexes",
+      projectType: "Luxury Boutique Development",
+      gardens: "Private Landscape Gardens",
+      terraces: "Individual Rooftop Terrace Gardens",
+      waterbody: "Natural Pond with Wooden Deck",
+      parking: "Independent Car Parking",
+    },
+
+    features: [
+      "Luxury Duplex Residences",
+      "Private Rooftop Gardens",
+      "Private Landscape Gardens",
+      "Natural Waterbody",
+      "Wooden Deck",
+      "Swimming Pool",
+      "Vastu Compliant Homes",
+      "Separate Staff Quarters",
+      "Ultra Low Density Living",
+      "Prime Ballygunge Address",
+    ],
+
+    pricing: [
+      {
+        size: "Luxury Duplex Residence",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "Park Street",
+        "Camac Street",
+        "EM Bypass",
+        "Central Business District",
+      ],
+
+      healthcare: [
+        "Premium Hospitals Nearby",
+        "Advanced Healthcare Facilities",
+      ],
+
+      education: [
+        "Leading Schools Nearby",
+        "Prestigious Educational Institutions",
+      ],
+
+      entertainment: [
+        "South Kolkata Lifestyle Hubs",
+        "Fine Dining Destinations",
+        "Luxury Retail & Shopping",
+        "Premium Recreation Zones",
+      ],
+    },
+
+    rera: "RERA Registered",
+
+    tag: "Ultra Luxury Duplex",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.503768555173!2d88.35917897507619!3d22.52279407952724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027729f2e92b49%3A0xb863ec70ef9c3843!2s18-36%2C%2018-36%2C%20Garcha%20Rd%2C%20Dover%20Terrace%2C%20Ballygunge%2C%20Kolkata%2C%20West%20Bengal%20700029!5e0!3m2!1sen!2sin!4v1780042104694!5m2!1sen!2sin",
+
+  },
+
+  {
+    id: "67",
+    slug: "aahana",
+    name: "Primarc Aahana",
+    tagline: "Live the Uncrowded Life.",
+    developer: "Primarc",
+    city: "Kolkata",
+    location: "Salil Chowdhury Sarani, Kasba",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [4, 4.5, 5, 5.5],
+    sizeRange: "2500 sq.ft. onwards",
+    possession: "2031",
+    configuration: "G+16 · 1 Tower · 30 Homes",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Residential", "Invest"],
+    cover: aahana1,
+
+    gallery: [
+      aahana1,
+      aahana2,
+      aahana3,
+      aahana4,
+      aahana5,
+      aahana6,
+      aahana7,
+      aahana8,
+      aahana9,
+      aahana10,
+      aahana11,
+      aahana12,
+      aahana13,
+      aahana14,
+      aahana15,
+      aahana16,
+      aahana17,
+      aahana18,
+      aahana19,
+      aahana20,
+      aahana21,
+      aahana22,
+    ],
+
+    story: [
+      "Wake up to expansive spaces in one of Kolkata’s most exclusive boutique residences.",
+      "Experience privacy, elegance, and luxury with only 30 residences in the entire tower.",
+      "Live seamlessly connected to EM Bypass, Ballygunge, and the city's prime destinations.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Boutique Luxury Living",
+        "Premium Rooftop Experiences",
+        "Private Lifestyle Spaces",
+        "High-Speed Elevators",
+        "Advanced Security Systems",
+        "Luxury Common Areas",
+        "24×7 DG Backup",
+        "Exclusive Resident Community",
+      ],
+
+      connectivity: [
+        "Prime Kasba Location",
+        "Easy Access to EM Bypass",
+        "Close to Ballygunge",
+        "Connected to South Kolkata",
+        "Near Major Business Districts",
+        "Excellent Urban Connectivity",
+      ],
+
+      lifestyle: [
+        "Only 30 Luxury Homes",
+        "Single Tower Development",
+        "Large Format Apartments",
+        "Boutique Residential Address",
+        "Low Density Living",
+        "Premium Urban Lifestyle",
+        "Private & Exclusive Community",
+        "Luxury Family Residences",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to Ballygunge & EM Bypass corridor",
+      school: "Leading schools in South Kolkata nearby",
+      hospital: "Major hospitals along EM Bypass within easy reach",
+    },
+
+    investment: {
+      roi: "15–22%",
+      demand: "Very High",
+      growth: "Strong",
+      appreciation: "Premium boutique luxury appreciation potential",
+    },
+
+    propertyDetails:
+      "Primarc Aahana is an ultra-exclusive boutique residential development in Kasba, Kolkata, offering just 30 luxury residences within a single G+16 tower. Designed for discerning homeowners who value privacy, space, and refined living, the project features expansive 4 BHK, 4.5 BHK, and duplex residences with premium specifications and luxury finishes. Strategically located near EM Bypass and Ballygunge, Aahana combines exceptional connectivity with a low-density residential environment, creating a rare lifestyle opportunity in the heart of South Kolkata.",
+
+    specifications: {
+      towers: "1 Tower",
+      floors: "G+16",
+      homes: "30 Luxury Homes",
+      apartmentSize: "2500 sq.ft. onwards",
+      possession: "2031",
+      powerBackup: "24×7 DG Backup",
+      projectType: "Boutique Luxury Residential",
+    },
+
+    features: [
+      "Boutique Luxury Development",
+      "Only 30 Exclusive Residences",
+      "Large Format Apartments",
+      "Duplex Residences",
+      "24×7 DG Backup",
+      "Premium Specifications",
+      "High-Speed Elevators",
+      "Advanced Security Systems",
+      "Low Density Living",
+      "Prime Kasba Address",
+      "Luxury Urban Lifestyle",
+      "Excellent Connectivity",
+    ],
+
+    pricing: [
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "4.5 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "Duplex",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      businessDistricts: [
+        "EM Bypass",
+        "Ballygunge",
+        "Park Circus",
+        "Salt Lake Sector V",
+        "New Town",
+        "Central Business District",
+      ],
+
+      healthcare: [
+        "Ruby Hospital",
+        "Fortis Hospital",
+        "AMRI Hospital",
+        "Peerless Hospital",
+      ],
+
+      education: [
+        "South Point School",
+        "Modern High School",
+        "Delhi Public School",
+        "Leading South Kolkata Institutions",
+      ],
+
+      entertainment: [
+        "Acropolis Mall",
+        "Quest Mall",
+        "South City Mall",
+        "Gariahat Shopping District",
+      ],
+    },
+
+    rera: "WBRERA/P/KOL/2026/004104",
+
+    tag: "Boutique Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18...",
+
+  },
+
+  {
+    id: "68",
+    slug: "ramdulari",
+    name: "The Ramdulari",
+    tagline: "Iconic. Stately. Spacious.",
+    developer: "Primarc",
+    city: "Kolkata",
+    location: "South Kolkata",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [4, 5],
+    sizeRange: "Approx. 6500 sq.ft.",
+    possession: "Under Development",
+    configuration: "24 Floors · 24 Exclusive Residences",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Ultra Luxury", "Residential"],
+    cover: ramdulari1,
+
+    gallery: [
+      ramdulari1,
+      ramdulari2,
+      ramdulari3,
+      ramdulari4,
+    ],
+
+    story: [
+      "Live within a reimagined heritage landmark inspired by Kolkata’s aristocratic past.",
+      "Experience one entire floor dedicated exclusively to your residence.",
+      "Wake up to expansive terraces, abundant sunlight, and uninterrupted privacy.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Double Height Reception Lobby",
+        "Residents Club",
+        "Swimming Pool with Deck",
+        "Gymnasium",
+        "Yoga & Meditation Room",
+        "Indoor Games Lounge",
+        "Multipurpose Hall with Lawn",
+        "Community Greens",
+        "Multipurpose Deck",
+        "Kids Zone",
+        "Landscaped Terrace Lounge",
+        "Provision for Spa & Steam Room",
+        "Outdoor Café Provision",
+      ],
+
+      connectivity: [
+        "Prime South Kolkata Address",
+        "Close to Premium Lifestyle Destinations",
+        "Excellent Connectivity Across South Kolkata",
+        "Easy Access to Business Districts",
+        "Connected to Educational & Healthcare Hubs",
+      ],
+
+      lifestyle: [
+        "24 Exclusive Residences",
+        "One Apartment Per Floor",
+        "4-Sides Open Layout",
+        "Customisable 4 & 5 BHK Homes",
+        "Private Terraces on Two Sides",
+        "Maximum Natural Light & Ventilation",
+        "Heritage Inspired Architecture",
+        "Ultra-Low Density Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent South Kolkata Metro Connectivity",
+      school: "Nearby leading schools & educational institutions",
+      hospital: "Close to reputed healthcare facilities",
+    },
+
+    investment: {
+      roi: "15–22%",
+      demand: "Ultra High",
+      growth: "Strong",
+      appreciation: "Exceptional appreciation potential in South Kolkata luxury segment",
+    },
+
+    propertyDetails:
+      "Ramdulari is an ultra-luxury residential development inspired by one of Kolkata’s most iconic heritage estates. Originally built in the late 1800s by aristocratic Bengali zamindars, later remodeled by the British and owned by the Nawabs of Bengal, the historic property is now being reimagined into a landmark luxury address. Featuring only 24 exclusive residences of approximately 6500 sq.ft. each, the project offers customisable 4 & 5 BHK homes with one residence per floor, expansive terraces, four-side openness, abundant natural light, and world-class amenities. Designed around privacy, heritage, and contemporary luxury, Ramdulari represents one of South Kolkata’s most exclusive residential opportunities.",
+
+    specifications: {
+      residences: "24 Exclusive Residences",
+      apartmentSize: "Approx. 6500 sq.ft.",
+      layout: "One Apartment Per Floor",
+      bedrooms: "Customisable 4/5 BHK",
+      terraces: "Open Terraces on Two Sides",
+      openness: "4-Sides Open Design",
+      heritage: "Restored Heritage Legacy",
+    },
+
+    features: [
+      "Ultra Luxury Residences",
+      "One Residence Per Floor",
+      "Customisable Floor Plans",
+      "Private Terraces",
+      "Multiple Balconies",
+      "Heritage Inspired Architecture",
+      "Maximum Sunlight & Ventilation",
+      "Residents Club",
+      "Swimming Pool",
+      "Landscaped Greens",
+      "Yoga & Wellness Facilities",
+      "Ultra Low Density Living",
+    ],
+
+    pricing: [
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "5 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      lifestyle: [
+        "Prestigious South Kolkata Address",
+        "Heritage Neighbourhood",
+        "Premium Residential Catchment",
+        "Close to Luxury Lifestyle Destinations",
+      ],
+
+      healthcare: [
+        "Nearby Multi-Speciality Hospitals",
+        "Premium Healthcare Facilities",
+      ],
+
+      education: [
+        "Leading Schools & Educational Institutions Nearby",
+      ],
+
+      businessDistricts: [
+        "Excellent Access to Central & South Kolkata",
+        "Connected to Major Commercial Districts",
+      ],
+    },
+
+    rera: "WBRERA/P/KOL/2023/000042",
+
+    tag: "Heritage Ultra Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.223291052861!2d88.3689997281785!3d22.533306795521945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277c398e4cafb%3A0x8cc3f78c745a4583!2sThe%20Ramdulari!5e0!3m2!1sen!2sin!4v1780046347126!5m2!1sen!2sin",
+
+  },
+
+  {
+    id: "69",
+    slug: "aadvika",
+    name: "Aadvika",
+    tagline: "True Luxury Is Here.",
+    developer: "Primarc",
+    city: "Kolkata",
+    location: "Foreshore Road, Shibpur, Howrah",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [3, 4, 5],
+    sizeRange: "Luxury Riverfront Residences",
+    possession: "2030",
+    configuration: "3 Towers · 182 Exclusive Residences",
+    status: "Under Construction",
+    intent: ["Buy", "Luxury", "Riverfront", "Residential", "Invest"],
+    cover: aadvika1,
+
+    gallery: [
+      aadvika1,
+      aadvika2,
+      aadvika3,
+      aadvika4,
+      aadvika5,
+      aadvika6,
+      aadvika7,
+      aadvika8,
+      aadvika9,
+      aadvika10,
+      aadvika11,
+      aadvika12,
+      aadvika13,
+      aadvika14,
+      aadvika15,
+      aadvika16,
+      aadvika17,
+      aadvika18,
+      aadvika19,
+      aadvika20,
+      aadvika21,
+      aadvika22,
+      aadvika23,
+      aadvika24,
+      aadvika25,
+      aadvika26,
+      aadvika27,
+      aadvika28,
+    ],
+
+    story: [
+      "Wake up to uninterrupted views of the majestic Ganga from almost every room.",
+      "Experience exclusive luxury with only 182 residences across three elegant towers.",
+      "Live where sunlight, fresh air, and breathtaking riverfront views become part of everyday life.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Luxury Riverfront Living",
+        "Three-Side Open Apartments",
+        "Premium Lifestyle Facilities",
+        "Exclusive Low-Density Community",
+        "Landscaped Open Spaces",
+        "Modern Recreational Amenities",
+        "High-Speed Elevators",
+        "Advanced Security Systems",
+      ],
+
+      connectivity: [
+        "Prime Foreshore Road Location",
+        "Excellent Howrah Connectivity",
+        "Easy Access to Central Kolkata",
+        "Connected to Major Transport Corridors",
+        "Close to Business & Lifestyle Destinations",
+      ],
+
+      lifestyle: [
+        "182 Exclusive Residences",
+        "3 Elegant Towers",
+        "Three-Side Open Homes",
+        "Panoramic Ganga Views",
+        "Luxury Riverfront Lifestyle",
+        "Low Density Development",
+        "Natural Light & Cross Ventilation",
+        "Premium Family Living",
+      ],
+    },
+
+    nearby: {
+      metro: "Excellent connectivity to Kolkata Metro network",
+      school: "Leading educational institutions nearby",
+      hospital: "Premium healthcare facilities nearby",
+    },
+
+    investment: {
+      roi: "15–22%",
+      demand: "Very High",
+      growth: "Strong",
+      appreciation: "Premium riverfront appreciation potential",
+    },
+
+    propertyDetails:
+      "Aadvika by Primarc Group is an ultra-luxury riverfront residential development located on Foreshore Road, Shibpur, Howrah. Designed as an exclusive low-density community, the project features only 182 residences across three elegant towers. Every apartment opens on three sides, allowing abundant natural light, cross ventilation, and spectacular views of the Ganga. Combining architectural excellence, premium specifications, and a rare riverfront setting, Aadvika offers a lifestyle reserved for a privileged few seeking privacy, exclusivity, and timeless luxury.",
+
+    specifications: {
+      towers: "3 Towers",
+      residences: "182 Apartments",
+      foundation: "RCC Foundation on Cast-in-Situ RCC Bored Piles",
+      structure: "RCC Superstructure",
+      apartmentDesign: "Three-Side Open Residences",
+      views: "Panoramic Ganga Views",
+    },
+
+    features: [
+      "Riverfront Luxury Residences",
+      "Three-Side Open Apartments",
+      "Ganga Facing Homes",
+      "Low Density Development",
+      "Cross Ventilation",
+      "Premium Specifications",
+      "High-Speed Elevators",
+      "Advanced Fire Safety Systems",
+      "24×7 Security",
+      "Luxury Lifestyle Community",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "4 BHK",
+        price: "Price On Request",
+      },
+      {
+        size: "5 BHK",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      connectivity: [
+        "Foreshore Road Riverfront Location",
+        "Excellent Access to Howrah",
+        "Seamless Connectivity to Kolkata",
+        "Close to Major Business Districts",
+      ],
+
+      healthcare: [
+        "Leading Hospitals Nearby",
+        "Advanced Healthcare Facilities Within Reach",
+      ],
+
+      education: [
+        "Prestigious Schools Nearby",
+        "Educational Institutions Within Easy Access",
+      ],
+
+      lifestyle: [
+        "Riverfront Promenade",
+        "Premium Lifestyle Destinations Nearby",
+        "Retail & Entertainment Access",
+      ],
+    },
+
+    rera: "WBRERA/P/HOW/2025/003467",
+
+    tag: "Riverfront Luxury",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3743928328495!2d88.3245124750775!3d22.565096479497097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277db759c690b%3A0xf719e38b66c7477f!2sPrimarc%20Aadvika!5e0!3m2!1sen!2sin!4v1780048006860!5m2!1sen!2sin",
+
+  },
+
+  {
+    id: "70",
+    slug: "southern-vista",
+    name: "Southern Vista",
+    tagline: "Your Own Garden Homes.",
+    developer: "Primarc",
+    city: "Kolkata",
+    location: "Chandpur Badehugli, Southern Bypass, Malancha",
+    priceLabel: "Price On Request",
+    priceMin: 0,
+    bhk: [3, 4, 4.5],
+    sizeRange: "1408 – 2000 sq.ft.",
+    possession: "October 2025",
+    configuration: "138 Villas · G+1 & G+2",
+    status: "Under Construction",
+    intent: ["Buy", "Villa", "Residential", "Luxury"],
+    cover: psv1,
+
+    gallery: [
+      psv1,
+      psv2,
+      psv3,
+      psv4,
+      psv5,
+      psv6,
+      psv7,
+      psv8,
+      psv9,
+      psv10,
+      psv11,
+      psv12,
+      psv13,
+      psv14,
+      psv15,
+      psv16,
+      psv17,
+      psv18,
+    ],
+
+    story: [
+      "Wake up to your own private garden surrounded by greenery and tranquility.",
+      "Experience villa living designed for families seeking space, privacy, and comfort.",
+      "Live close to nature while staying connected to the heart of Kolkata.",
+    ],
+
+    highlights: {
+      amenities: [
+        "Private Garden Villas",
+        "Landscaped Open Spaces",
+        "Community Amenities",
+        "Secure Gated Development",
+        "Modern Lifestyle Facilities",
+        "Wide Internal Roads",
+        "Green Living Environment",
+        "Family Recreation Zones",
+      ],
+
+      connectivity: [
+        "Prime Southern Bypass Location",
+        "Excellent Road Connectivity",
+        "Easy Access to South Kolkata",
+        "Connected to Major Transport Corridors",
+        "Well Connected to City Centers",
+      ],
+
+      lifestyle: [
+        "5.6 Acre Development",
+        "60% Open Space",
+        "138 Exclusive Villas",
+        "Low Density Community",
+        "Nature-Centric Living",
+        "Private Garden Homes",
+        "Luxury Villa Lifestyle",
+        "Peaceful Residential Environment",
+      ],
+    },
+
+    nearby: {
+      metro: "Future metro connectivity through South Kolkata corridor",
+      school: "Educational institutions nearby",
+      hospital: "Healthcare facilities within easy reach",
+    },
+
+    investment: {
+      roi: "12–18%",
+      demand: "High",
+      growth: "Strong",
+      appreciation: "Growing villa demand along Southern Bypass",
+    },
+
+    propertyDetails:
+      "Garden Homes is an exclusive villa community located at Chandpur Badehugli on Southern Bypass, Kolkata. Developed jointly by Rajat Group, Primarc Group, and Riya Group, the project spans 5.6 acres with 60% open space and features only 138 premium villas. Offering spacious 3, 4 and 4 BHK + Study configurations, Garden Homes combines the privacy of independent living with the comfort of a gated community. Thoughtfully designed amidst lush greenery, the project delivers a tranquil lifestyle while maintaining excellent connectivity to South Kolkata and the city's major destinations.",
+
+    specifications: {
+      landArea: "5.6 Acres",
+      openSpace: "60%",
+      villas: "138 Villas",
+      configuration: "G+1 & G+2",
+      sizes: "1408 – 2000 sq.ft.",
+      airConditioning:
+        "Provision for Split AC in Living, Dining, Family Room & Bedrooms",
+    },
+
+    features: [
+      "Premium Villa Community",
+      "Private Garden Homes",
+      "Low Density Development",
+      "60% Open Space",
+      "Independent Villa Living",
+      "Landscaped Green Environment",
+      "Large Family Homes",
+      "Gated Community",
+      "Modern Specifications",
+      "Southern Bypass Connectivity",
+    ],
+
+    pricing: [
+      {
+        size: "3 BHK Villa",
+        price: "Price On Request",
+      },
+      {
+        size: "4 BHK Villa",
+        price: "Price On Request",
+      },
+      {
+        size: "4 BHK + Study Villa",
+        price: "Price On Request",
+      },
+    ],
+
+    locationAdvantages: {
+      connectivity: [
+        "Southern Bypass Location",
+        "Excellent South Kolkata Connectivity",
+        "Easy Access to Major Road Networks",
+        "Connected to Emerging Residential Corridors",
+      ],
+
+      healthcare: [
+        "Nearby Hospitals & Healthcare Facilities",
+        "Medical Services Within Easy Reach",
+      ],
+
+      education: [
+        "Schools & Educational Institutions Nearby",
+        "Family-Friendly Residential Location",
+      ],
+
+      lifestyle: [
+        "Green Residential Neighborhood",
+        "Low Density Villa Community",
+        "Nature-Focused Living Environment",
+      ],
+    },
+
+    rera: "HIRA/P/SOU/2020/001079",
+
+    tag: "Luxury Villas",
+
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14755.424918990768!2d88.41402594303194!3d22.396776732178957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026de03a4fd011%3A0x32ef21943a2440fc!2sSouthern%20Vista!5e0!3m2!1sen!2sin!4v1780051880638!5m2!1sen!2sin",
+
+    plans: {
+      site: psv02,
+      master: psv01,
+      unit: [psv03, psv04, psv05, psv06,],
+    },
+  },
+
+  {
+  id: "71",
+  slug: "mayfair-smart-city-santorini",
+  name: "Mayfair Smart City - Santorini",
+  tagline: "Affordable Smart Living, Designed for Tomorrow.",
+  developer: "Mayfair Group",
+  city: "Kolkata",
+  location: "Habibpur, Nepalganj, Raghabpur, South Kolkata",
+  priceLabel: "₹28.18 L onwards",
+  priceMin: 28.18,
+  bhk: [2, 3],
+  sizeRange: "740 – 1095 sq.ft.",
+  possession: "36 Months from Commencement",
+  configuration: "12 Towers · G+4",
+  status: "Under Construction",
+  intent: ["Buy", "Residential", "Affordable", "Invest"],
+  cover: mfsc1,
+
+  gallery: [
+    mfsc1,
+    mfsc2,
+    mfsc3,
+    mfsc4,
+    mfsc5,
+    mfsc6,
+    mfsc7,
+    mfsc8,
+    mfsc9,
+  ],
+
+  story: [
+    "Own a smart home designed for modern, connected living.",
+    "Experience affordable comfort surrounded by greenery, wellness zones, and future-ready infrastructure.",
+    "Live in a sustainable township where technology, convenience, and community come together.",
+  ],
+
+  highlights: {
+    amenities: [
+      "Greek Theme Swimming Pool",
+      "Club Rivanah",
+      "Community Hall",
+      "Indoor Games Room",
+      "Gymnasium",
+      "Yoga & Meditation Deck",
+      "Steam Room",
+      "Jogging Track",
+      "Open Air Theatre",
+      "Chess Court",
+      "Bonfire Deck",
+      "Kids Climbing Wall",
+      "Party Lawn",
+      "Reflexology Path",
+      "Natural Water Body",
+      "Senior Citizen Zone",
     ],
 
     connectivity: [
-      "Prime Joka Location",
-      "Excellent South Kolkata Connectivity",
-      "Connected to Major Road Networks",
-      "Easy Access to Daily Conveniences",
-      "Growing Residential Corridor",
+      "850 m from Advance Medicare Nursing Home",
+      "1 km from St. Stephen's School",
+      "8.5 km from Saroj Gupta Cancer Hospital",
+      "10.5 km from Tollygunge Metro",
+      "13.6 km from Swaminarayan Temple",
+      "14 km from South City Mall",
+      "Auto & Bus Connectivity Available",
+      "Shuttle Service to Tollygunge Metro",
+      "Easy Access to Nepalganj Haat & Kabardanga Bazar",
     ],
 
     lifestyle: [
-      "Nature-Centric Township",
-      "Peaceful Green Environment",
-      "Modern Residential Infrastructure",
-      "Integrated Community Living",
-      "Thoughtfully Planned Homes",
-      "Future Growth Potential",
+      "18.49 Acre Smart Township",
+      "Smart Home Ready Infrastructure",
+      "Solar Powered Common Areas",
+      "EV Charging Stations",
+      "AI Enabled Security",
+      "Home Automation Ready",
+      "Pedestrian Friendly Community",
+      "Sustainable Urban Living",
     ],
   },
 
   nearby: {
-    metro: "Nearby Joka Metro Connectivity",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Nearby healthcare facilities",
+    metro: "Tollygunge Metro (10.5 km) via Shuttle Service",
+    school: "St. Stephen's School (1 km)",
+    hospital: "Advance Medicare Nursing Home (850 m)",
   },
 
   investment: {
     roi: "12–18%",
     demand: "High",
-    growth: "Rapidly Developing",
-    appreciation: "Strong appreciation potential in Joka corridor",
+    growth: "Strong",
+    appreciation: "High growth potential in South Kolkata expansion corridor",
   },
 
   propertyDetails:
-    "Orchard at Godrej Se7en by Godrej Properties is a premium residential development located in Joka, Kolkata. Designed around nature-inspired living, the project offers thoughtfully planned 2 & 3 BHK residences surrounded by greenery, landscaped spaces, and lifestyle amenities. Combining peace, comfort, and urban convenience, Orchard at Godrej Se7en creates a serene residential ecosystem with modern infrastructure and seamless connectivity to South Kolkata’s emerging growth corridor.",
+    "Mayfair Smart City – Santorini is a future-ready residential township by Mayfair Group located at Habibpur, Nepalganj, South Kolkata. Spread across 18.49 acres, the project offers affordable 2 & 3 BHK smart homes with modern infrastructure, AI-powered security, EV charging stations, solar-powered common areas, and app-enabled community features. Designed around sustainability, connectivity, and wellness, the township integrates landscaped green spaces, recreational amenities, smart mobility solutions, and premium lifestyle facilities to create a modern residential ecosystem for families and investors.",
 
   specifications: {
-    developer: "Godrej Properties",
-    possession: "December 2027",
-    typology: "2 & 3 BHK Apartments",
-    projectType: "Residential Township",
-    location: "Joka, Kolkata",
-    status: "Under Construction",
+    landArea: "18.49 Acres",
+    towers: "12 Towers",
+    configuration: "G+4",
+    apartmentSizes: "740 – 1095 sq.ft.",
+    possession: "36 Months from Commencement",
+    smartFeatures: "Home Automation Ready",
+    security: "AI Enabled CCTV & RFID Access",
   },
 
   features: [
-    "Nature Inspired Living",
-    "Integrated Township",
-    "Modern Clubhouse",
-    "Landscaped Green Zones",
-    "Swimming Pool",
-    "Family-Centric Amenities",
-    "Wellness Lifestyle",
-    "Excellent Connectivity",
+    "Smart Township",
+    "Home Automation Ready",
+    "EV Charging Stations",
+    "Solar Powered Infrastructure",
+    "AI Enabled Security",
+    "RFID & Biometric Entry",
+    "Greek Theme Swimming Pool",
+    "Club Rivanah",
+    "Jogging & Wellness Zones",
+    "Smart Mobility Services",
+    "Shuttle to Metro",
+    "Pedestrian Friendly Design",
+    "Sustainable Community Living",
   ],
 
   pricing: [
     {
       size: "2 BHK",
-      price: "₹53 L onwards",
+      price: "₹28.18 L – ₹32.44 L",
     },
     {
       size: "3 BHK",
-      price: "Price On Request",
-    },
-  ],
-
-  rera: "WBRERA/P/SOU/2023/000015",
-
-  tag: "Nature Living",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.47955041073615!2d88.28907357216914!3d22.44133764773937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027b4a167ab99b%3A0x48190294ad026c2e!2sGodrej%20Seven%20%2C%20Tower%20B!5e0!3m2!1sen!2sin!4v1779096507918!5m2!1sen!2sin",
-
-  plans: {
-    site: gsev01,
-    master: gsev01,
-    unit: [gsev02, gsev03,]
-  },
-},
-
-{
-  id: "42",
-  slug: "joyville-western-heights",
-  name: "Joyville Western Heights",
-  tagline: "Live the park life.",
-  developer: "Shapoorji Pallonji",
-  city: "Howrah",
-  location: "Near Santragachi, Salap Junction, NH6",
-  priceLabel: "₹49.99 L onwards",
-  priceMin: 49.99,
-  bhk: [2, 3],
-  sizeRange: "918 – 1144 sq.ft.",
-  possession: "Ongoing Phased Development",
-  configuration: "30 Acres · Up to 20 Floors",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: jwh1,
-
-  gallery: [
-    jwh1,
-    jwh2,
-    jwh3,
-    jwh4,
-    jwh5,
-    jwh6,
-    jwh7,
-    jwh8,
-    jwh9,
-    jwh10,
-    jwh11,
-    jwh12,
-    jwh13,
-    jwh14,
-    jwh15,
-    jwh16,
-    jwh17,
-    jwh18,
-    jwh19,
-    jwh20,
-    jwh21,
-    jwh22,
-    jwh23,
-    jwh24,
-    jwh25,
-  ],
-
-  story: [
-    "Own your first dream home just 30 minutes from Park Street.",
-    "Experience vibrant community living with parks, open spaces, and modern amenities.",
-    "Live in a future-ready township designed around comfort, convenience, and connection.",
-  ],
-
-  highlights: {
-    amenities: [
-      "22,000 sq.ft Clubhouse",
-      "Swimming Pool",
-      "Gymnasium",
-      "Games Room",
-      "Guest Room",
-      "Lawn Tennis Court",
-      "Kids' Play Area",
-      "Kids' Room",
-      "Banquet Hall",
-      "Pre-function Area",
-      "Yoga & Meditation Zone",
-      "Retail Outlets",
-    ],
-
-    connectivity: [
-      "10 mins from Santragachi Station",
-      "30 mins from Park Street",
-      "Easy Access to NH2 & NH6",
-      "Connected via Grand Trunk Road",
-      "Close to Howrah Station",
-      "Near Santragachi Bus Terminus",
-    ],
-
-    lifestyle: [
-      "30 Acre Gated Community",
-      "75% Open Space",
-      "25+ Lifestyle Amenities",
-      "Community Living Experience",
-      "Future Growth Corridor",
-      "Family-Centric Environment",
-    ],
-  },
-
-  nearby: {
-    metro: "Excellent connectivity to Kolkata transit hubs",
-    school: "Podar International School nearby",
-    hospital: "Nearby healthcare & emergency facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Developing",
-    appreciation: "Strong growth potential near Santragachi corridor",
-  },
-
-  propertyDetails:
-    "Joyville Western Heights by Shapoorji Pallonji Real Estate is a large-scale gated residential township located near Santragachi in Howrah. Spread across 30 acres with over 75% open spaces, the project offers thoughtfully designed 2 & 3 BHK apartments with modern lifestyle amenities, landscaped greens, and vibrant community spaces. Strategically positioned near NH6 and Santragachi Junction, the development combines excellent connectivity, future infrastructure growth, and family-oriented living backed by Shapoorji Pallonji’s legacy of trust and quality.",
-
-  specifications: {
-    landArea: "30 Acres",
-    openSpace: "75%",
-    towers: "High-Rise Towers up to 20 Floors",
-    clubhouse: "22,000 sq.ft.",
-    amenities: "25+ Amenities",
-    developmentType: "Gated Community Township",
-  },
-
-  features: [
-    "Large Gated Community",
-    "Swimming Pool",
-    "Clubhouse",
-    "Retail Spaces",
-    "Yoga & Meditation Zone",
-    "Sports Amenities",
-    "Kids-Centric Spaces",
-    "Landscaped Open Areas",
-    "Future Growth Location",
-    "Excellent Highway Connectivity",
-  ],
-
-  pricing: [
-    {
-      size: "918 sq.ft. 2 BHK",
-      price: "₹49.99 L onwards",
+      price: "₹36.19 L – ₹43.85 L",
     },
     {
-      size: "1144 sq.ft. 3 BHK",
-      price: "₹64.99 L onwards",
-    },
-  ],
-
-  rera: {
-    parksideAB: "WBRERA/P/HOW/2024/001275",
-    westernHeightsAB: "WBRERA/P/HOW/2021/001190",
-    summit: "HIRA/P/HOW/2018/000164",
-    pinnacle: "HIRA/P/HOW/2018/000165",
-    crest: "HIRA/P/HOW/2018/000281",
-  },
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.055585643062!2d88.28487057507903!3d22.61439937946191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f88277b2f1446b%3A0xe4544d204d509102!2sJoyville%20Howrah%2FWestern%20Heights%20-%20Shapoorji%20Pallonji%20Real%20Estate!5e0!3m2!1sen!2sin!4v1779099429423!5m2!1sen!2sin",
-
-  plans: {
-    master: jwh01,
-    site: jwh01,
-    unit: [jwh02, jwh03, jwh04, jwh05,],
-  },
-
-  view360: "https://www.joyvillehomes.com/JoyvilleHowrah360View/",
-},
-
-{
-  id: "43",
-  slug: "eden-devprayag",
-  name: "Eden Devprayag",
-  tagline: "An Address that Rewrites the Riverfront.",
-  developer: "Eden Realty",
-  city: "Kolkata",
-  location: "Lower Foreshore Road, Shalimar, Howrah",
-  priceLabel: "On Request",
-  priceMin: 0,
-  bhk: [2, 3, 4],
-  sizeRange: "Luxury Riverfront Apartments",
-  possession: "Under Development",
-  configuration: "9 Acres · 5 Stately Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Riverfront", "Residential"],
-  cover: devp1,
-
-  gallery: [
-    devp1,
-    devp2,
-    devp3,
-    devp4,
-    devp5,
-    devp6,
-    devp7,
-    devp8,
-    devp9,
-    devp10,
-    devp11,
-    devp12,
-    devp13,
-    devp14,
-    devp15,
-    devp16,
-    devp17,
-    devp18,
-    devp19,
-    devp20,
-    devp21,
-    devp22,
-    devp23,
-    devp24,
-    devp25,
-    devp26,
-    devp27,
-    devp28,
-    devp29,
-    devp30,
-  ],
-
-  story: [
-    "Wake up to uninterrupted Ganga views flowing on three sides.",
-    "Experience river-crafted living inspired by timeless flowing architecture.",
-    "Live minutes away from Kolkata’s cultural heart while surrounded by nature and serenity.",
-  ],
-
-  highlights: {
-    amenities: [
-      "75,000 sq.ft Podium & Terrace Club",
-      "Infinity Pool with Ganga View",
-      "Private Club",
-      "Banquet Hall",
-      "AV Room",
-      "Badminton Court",
-      "Amphitheatre",
-      "Forest Seclusion Pods",
-      "Juice Bar",
-      "Kids Play Area",
-    ],
-
-    connectivity: [
-      "15 mins from Park Street",
-      "18 mins from Quest Mall",
-      "11 mins from Victoria Memorial",
-      "3 mins from IIEST (BE College)",
-      "3 mins from Narayana Superspeciality Hospital",
-      "5 mins from Botanical Garden",
-    ],
-
-    lifestyle: [
-      "9 Acre Riverfront Development",
-      "270° Uninterrupted Ganga Views",
-      "South-Flowing Ganga Presence",
-      "1.85 Lakh sq.ft Landscaped Podium",
-      "Sunrise & Sunset from Same Balcony",
-      "Double & Quad Height Terrace Experiences",
-      "Banaras Inspired Ganga Ghat",
-      "Lush Green Low AQI Environment",
-    ],
-  },
-
-  nearby: {
-    metro: "Excellent connectivity to Central Kolkata",
-    school: "IIEST (BE College) nearby",
-    hospital: "Narayana Superspeciality Hospital nearby",
-  },
-
-  investment: {
-    roi: "15–22%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Premium riverfront appreciation potential",
-  },
-
-  propertyDetails:
-    "Eden Devprayag by Eden Realty is an ultra-premium riverfront residential development located on Lower Foreshore Road, Shalimar, Howrah. Spread across 9 acres with five stately towers, the project is uniquely enveloped by the Ganga on three sides, offering uninterrupted 270-degree river views and a serene luxury lifestyle. Inspired by the timeless rhythm of the river and Banaras ghats, the development features expansive landscaped podiums, world-class clubs, infinity pools, wellness zones, and thoughtfully crafted residences designed to celebrate riverfront living while staying closely connected to Kolkata’s prime cultural and business destinations.",
-
-  specifications: {
-    landArea: "9 Acres",
-    towers: "5 Stately Towers",
-    podium: "1.85 Lakh sq.ft Landscaped Podium",
-    club: "75,000 sq.ft Podium & Terrace Club",
-    riverViews: "270° Ganga Views",
-    architecture: "River Inspired Design Language",
-  },
-
-  features: [
-    "Riverfront Luxury Apartments",
-    "Infinity Pool Facing Ganga",
-    "Banaras Inspired Ghat",
-    "Private Club",
-    "Forest Seclusion Pods",
-    "Sunrise & Sunset Views",
-    "Double & Quad Height Terraces",
-    "Landscaped Green Zones",
-    "Premium River Crafted Living",
-    "Low AQI Natural Environment",
-  ],
-
-  rera: "WBRERA/P/HOW/2025/003782",
-
-  tag: "Riverfront Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.6943867795844!2d88.30942267507712!3d22.55311827950563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279005e1457c1%3A0x86b39a34518f093d!2sEden%20DEVPRAYAG!5e0!3m2!1sen!2sin!4v1779101938794!5m2!1sen!2sin",
-
-  plans: {
-    site: devp01,
-    master: devp17,
-  },
-},
-
-{
-  id: "44",
-  slug: "solaris-joka",
-  name: "Solaris Joka",
-  tagline: "Ultra Luxury 4 & 5 BHK Living.",
-  developer: "Eden Realty",
-  city: "Kolkata",
-  location: "Diamond Harbour Road, Joka, South 24 Parganas",
-  priceLabel: "₹24 L onwards",
-  priceMin: 24,
-  bhk: [1, 2, 2.5, 3, 4, 5],
-  sizeRange: "400 – 1600+ sq.ft.",
-  possession: "Ongoing Development",
-  configuration: "4.12 Acres · 965 Apartments · 5 Towers",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: solj0,
-
-  gallery: [
-    solj1,
-    solj2,
-    solj3,
-    solj4,
-    solj5,
-    solj6,
-    solj7,
-    solj8,
-    solj9,
-    solj10,
-    solj11,
-  ],
-
-  story: [
-    "Live minutes away from Joka Metro and IIM Calcutta.",
-    "Experience efficient three-side-open homes with luxury lifestyle amenities.",
-    "Own a future-ready address built for connectivity, convenience, and family living.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Swimming Pool",
-      "Multi Gym",
-      "Games Room",
-      "Children’s Play Area",
-      "Badminton Court",
-      "Cricket Pitch",
-      "Community Space",
-      "Landscaped Central Lawn",
-      "Virtual Tour Experience",
-      "Modern Lifestyle Amenities",
-    ],
-
-    connectivity: [
-      "8 mins from Joka Metro Station",
-      "5 mins from IIM Calcutta",
-      "1 min from Swaminarayan Temple",
-      "5 mins from Bharat Sevashram Hospital",
-      "15 mins from DPS Joka",
-      "30 mins from South City",
-    ],
-
-    lifestyle: [
-      "4.12 Acre Development",
-      "Three-Side Open Apartments",
-      "Affordable Luxury Living",
-      "Low Maintenance Homes",
-      "Excellent DH Road Connectivity",
-      "Family-Friendly Community",
-      "Metro Connected Lifestyle",
-    ],
-  },
-
-  nearby: {
-    metro: "Joka Metro Station (8 mins)",
-    school: "DPS Joka nearby",
-    hospital: "Bharat Sevashram Sangha Hospital nearby",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Developing",
-    appreciation: "Strong appreciation potential along Joka corridor",
-  },
-
-  propertyDetails:
-    "Solaris Joka by Eden Realty is a modern residential development strategically located on Diamond Harbour Road near Joka Metro Station and IIM Calcutta. Spread across 4.12 acres with 965 apartments, the project offers intelligently planned 1, 2, 2.5, 3, 4 & 5 BHK residences featuring efficient three-side-open layouts and lifestyle-focused amenities. Designed for aspirational urban families, Solaris Joka blends affordability, luxury, metro connectivity, educational proximity, and premium recreational experiences into one future-ready residential ecosystem.",
-
-  specifications: {
-    landArea: "4.12 Acres",
-    apartments: "965 Apartments",
-    towers: "5 Towers",
-    layout: "1BHK to 5BHK",
-    connectivity: "Metro & DH Road Access",
-    developmentType: "Residential Community",
-  },
-
-  features: [
-    "Three-Side Open Flats",
-    "Metro Connected Living",
-    "Affordable Luxury Homes",
-    "Swimming Pool",
-    "Sports Amenities",
-    "Landscaped Community Spaces",
-    "Low Maintenance Living",
-    "Family-Centric Development",
-    "Excellent Educational Connectivity",
-    "Modern Lifestyle Infrastructure",
-  ],
-
-  pricing: [
-    {
-      size: "400 sq.ft.",
-      price: "Price On Request",
+      size: "2 BHK + Parking",
+      price: "₹31.13 L – ₹36.64 L",
     },
     {
-      size: "700 – 900 sq.ft.",
-      price: "Price On Request",
-    },
-    {
-      size: "900 – 1200 sq.ft.",
-      price: "Price On Request",
-    },
-    {
-      size: "1200 – 1600+ sq.ft.",
-      price: "Price On Request",
-    },
-  ],
-
-  rera: {
-    phase1: "HIRA/P/SOU/2019/000432",
-    phase2: "WBRERA/P/SOU/2023/000037",
-  },
-
-  tag: "Metro Connected",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.2552631122667!2d88.28326037507296!3d22.419416179601136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0265183bdc25bf%3A0x4f9e9ad5b642fe5!2sSolaris%20Joka!5e0!3m2!1sen!2sin!4v1779103114789!5m2!1sen!2sin",
-
-  plans: {
-    site: solj02,
-    unit: [solj03, solj04, solj05, solj06, solj07, solj08],
-  },
-},
-
-{
-  id: "45",
-  slug: "solaris-shalimar",
-  name: "Solaris Shalimar",
-  tagline: "The Pinnacle of Mid-Segment Luxury Living.",
-  developer: "Eden Realty",
-  city: "Kolkata",
-  location: "39/1 Shalimar Road, Howrah",
-  priceLabel: "₹39 L onwards",
-  priceMin: 39,
-  bhk: [2, 2.5, 3],
-  sizeRange: "630 – 1400+ sq.ft.",
-  possession: "Phased Under Construction",
-  configuration: "4.48 Acres · 1703 Apartments",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: solsh1,
-
-  gallery: [
-    solsh1,
-    solsh2,
-    solsh3,
-    solsh4,
-    solsh5,
-    solsh6,
-    solsh7,
-    solsh8,
-    solsh9,
-    solsh10,
-    solsh11,
-    solsh12,
-    solsh13,
-    solsh14,
-    solsh15,
-    solsh16,
-    solsh17,
-    solsh18,
-    solsh19,
-    solsh20,
-    solsh21,
-    solsh22,
-  ],
-
-  story: [
-    "Experience affordable luxury crafted around greenery, wellness, and modern living.",
-    "Wake up to open spaces, rooftop sky gardens, and lifestyle amenities for every generation.",
-    "Live seamlessly connected to Kolkata while enjoying the tranquility of Shalimar.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Rooftop Skywalk Garden",
-      "Yoga & Meditation Lawn",
-      "Indoor Gymnasium",
-      "Banquet Hall",
-      "Badminton Court",
-      "Indoor Games Room",
-      "Kids Play Area",
-      "Toddlers Play Area",
-      "Alfresco Café & Jacuzzi",
-      "Board Games Corner",
-    ],
-
-    connectivity: [
-      "3 mins from IIEST (BE College)",
-      "3 mins from Narayana Superspeciality Hospital",
-      "5 mins from Botanical Garden",
-      "11 mins from Victoria Memorial",
-      "15 mins from Park Street",
-      "18 mins from Quest Mall",
-    ],
-
-    lifestyle: [
-      "4.48 Acre Development",
-      "1703 Residential Apartments",
-      "50+ Lifestyle Amenities",
-      "3 Side Open Flats",
-      "Huge Open Spaces",
-      "100% Space Utilisation",
-      "Mid-Segment Luxury Living",
-      "Excellent Urban Connectivity",
-    ],
-  },
-
-  nearby: {
-    metro: "Excellent connectivity to Central Kolkata",
-    school: "IIEST (BE College) nearby",
-    hospital: "Narayana Superspeciality Hospital nearby",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong mid-segment housing appreciation potential",
-  },
-
-  propertyDetails:
-    "Solaris Shalimar by Eden Realty is a large-scale mid-segment luxury residential development located at Shalimar, Howrah. Spread across 4.48 acres with 1703 apartments, the project blends affordability, modern luxury, and excellent connectivity into one vibrant community. Featuring over 50 premium amenities including rooftop sky gardens, wellness zones, sports facilities, landscaped open spaces, and family-focused recreational areas, Solaris Shalimar offers thoughtfully designed 2, 2.5 & 3 BHK homes close to Kolkata’s prime business, healthcare, and cultural destinations.",
-
-  specifications: {
-    landArea: "4.48 Acres",
-    apartments: "1703 Apartments",
-    amenities: "50+ Lifestyle Amenities",
-    apartmentTypes: "2 / 2.5 / 3 BHK",
-    openLayout: "3 Side Open Flats",
-    developmentType: "Mid-Segment Luxury Residential",
-  },
-
-  features: [
-    "Budget Friendly Luxury Homes",
-    "Rooftop Skywalk Garden",
-    "3 Side Open Apartments",
-    "Modern Lifestyle Amenities",
-    "Huge Open Spaces",
-    "Wellness & Fitness Zones",
-    "Kids & Family Focused Design",
-    "Excellent Kolkata Connectivity",
-    "Award Winning Residential Project",
-    "Strong Developer Reputation",
-  ],
-
-  awards: [
-    "ET Real Estate Awards 2025 - Best Ongoing Mid-Segment Residential Project (East)",
-    "15th Realty+ Conclave Awards 2023 - Affordable Housing Project of the Year",
-    "CREDAI Howrah-Hooghly Realty Awards 2023 - Best Ongoing Residential Project",
-    "CREDAI Bengal Realty Awards 2024 - Ongoing Mid-Segment Housing Project",
-  ],
-
-  pricing: [
-    {
-      size: "630 sq.ft. | 2B1T",
-      price: "Price On Request",
-    },
-    {
-      size: "850+ sq.ft. | 2B2T",
-      price: "Price On Request",
-    },
-    {
-      size: "1050+ sq.ft. | 2.5B2T",
-      price: "Price On Request",
-    },
-    {
-      size: "1200 – 1400+ sq.ft. | 3B2T / 3B3T",
-      price: "Price On Request",
-    },
-  ],
-
-  rera: {
-    phase1: "WBRERA/P/HOW/2023/000016",
-    phase2: "WBRERA/P/HOW/2024/001163",
-    phase3: "WBRERA/P/HOW/2024/001164",
-  },
-
-  tag: "Award Winning",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.6705761766757!2d88.30912177507717!3d22.554009779504955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279e926e963ed%3A0x6c73cd49d688a9a5!2sSolaris%20Shalimar!5e0!3m2!1sen!2sin!4v1779103844284!5m2!1sen!2sin",
-
-  plans: {
-    site: solsh01,
-    unit: [solsh02, solsh03, solsh04, solsh05, solsh06, solsh07, solsh08, solsh09, solsh010, solsh011,],
-  },
-},
-
-{
-  id: "46",
-  slug: "solaris-city-serampore",
-  name: "Solaris City Serampore",
-  tagline: "A Sanctuary Where Nature Meets Urban Refinement.",
-  developer: "Eden Realty",
-  city: "Kolkata",
-  location: "29, Kanailal Goswami Sarani, Serampore, Hooghly",
-  priceLabel: "₹15 L onwards",
-  priceMin: 15,
-  bhk: [1, 2, 3],
-  sizeRange: "400 – 1200+ sq.ft.",
-  possession: "Ongoing Phased Development",
-  configuration: "8.88 Acres · 1558 Apartments",
-  status: "Under Construction",
-  intent: ["Buy", "Affordable", "Residential", "Invest"],
-  cover: solcs2,
-
-  gallery: [
-    solcs2,
-    solcs3,
-    solcs4,
-    solcs5,
-    solcs6,
-    solcs7,
-    solcs8,
-    solcs9,
-    solcs10,
-    solcs11,
-    solcs12,
-    solcs13,
-    solcs14,
-    solcs15,
-  ],
-
-  story: [
-    "Wake up amidst greenery, lakeside landscapes, and peaceful open spaces.",
-    "Experience affordable modern living with premium lifestyle amenities.",
-    "Live seamlessly connected to Kolkata while enjoying nature-inspired serenity.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Swimming Pool",
-      "Multipurpose Gym",
-      "Games Room",
-      "Meditation Lawn",
-      "Jogging Track",
-      "Kids Play Area",
-      "Jacuzzi",
-      "Community Space",
-      "Central Garden",
-      "Lakeside Promenade",
-    ],
-
-    connectivity: [
-      "4 mins from Rishra Railway Station",
-      "25 mins from Dakshineswar Metro",
-      "25 mins from Howrah Station",
-      "40 mins from Airport",
-      "45 mins from Park Street",
-      "Excellent GT Road Connectivity",
-    ],
-
-    lifestyle: [
-      "8.88 Acre Township",
-      "1558 Apartments",
-      "Huge Open Spaces",
-      "3 Side Open Flats",
-      "Green Living Environment",
-      "Lakeside Living Experience",
-      "Low Maintenance Community",
-      "Budget-Friendly Homes",
-    ],
-  },
-
-  nearby: {
-    metro: "Dakshineswar Metro (25 mins)",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Walsh Hospital & Blood Bank nearby",
-  },
-
-  investment: {
-    roi: "10–16%",
-    demand: "High",
-    growth: "Steady",
-    appreciation: "Strong affordable housing demand in Hooghly",
-  },
-
-  propertyDetails:
-    "Solaris City Serampore by Eden Realty is a large-scale master-planned residential township located in Serampore, Hooghly. Spread across 8.88 acres with 1558 thoughtfully designed apartments, the project blends affordable urban living with greenery, open spaces, and modern lifestyle amenities. Offering 1, 2, and 3 BHK residences with lakeside views, landscaped gardens, wellness zones, and excellent connectivity to Kolkata, Solaris City Serampore creates a refined yet practical living experience for modern families.",
-
-  specifications: {
-    landArea: "8.88 Acres",
-    apartments: "1558 Flats",
-    apartmentTypes: "1, 2 & 3 BHK",
-    connectivity: "Rail, Metro & Road Access",
-    livingConcept: "Green & Lakeside Living",
-    developmentType: "Integrated Residential Township",
-  },
-
-  features: [
-    "Affordable Housing",
-    "Lakeside Living",
-    "3 Side Open Flats",
-    "Large Open Spaces",
-    "Swimming Pool",
-    "Jogging Track",
-    "Modern Club Amenities",
-    "Green Community Planning",
-    "Low Maintenance Homes",
-    "Excellent Connectivity",
-  ],
-
-  pricing: [
-    {
-      size: "400 sq.ft. | 1B1T",
-      price: "Price On Request",
-    },
-    {
-      size: "600 – 850 sq.ft. | 2BHK",
-      price: "Price On Request",
-    },
-    {
-      size: "900 – 1200+ sq.ft. | 3BHK",
-      price: "Price On Request",
-    },
-  ],
-
-  awards: [
-    "Pradhan Mantri Awas Yojana Awards 2025",
-    "CREDAI Howrah-Hooghly Realty Awards 2022",
-    "Realty+ Excellence Awards (East) 2020",
-    "ET Now Real Estate Awards (East) 2019",
-    "CREDAI Bengal Realty Awards 2024",
-  ],
-
-  rera: {
-    phase1: "HIRA/P/HOO/2018/000157",
-    phase2: "HIRA/P/HOO/2018/000207",
-  },
-
-  tag: "Affordable Township",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.7615694623637!2d88.34190127508283!3d22.737101879374947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b27efde9117%3A0xa94b6bcd80be25e3!2sSolaris%20City%20Serampore!5e0!3m2!1sen!2sin!4v1779105698718!5m2!1sen!2sin",
-
-  plans: {
-    site: solcs01,
-    unit: [solcs02, solcs03, solcs04, solcs05, solcs06, solcs07, solcs08, solcs09],
-
-  },
-},
-
-{
-  id: "47",
-  slug: "the-quartet",
-  name: "The Quartet",
-  tagline: "High Thinking. High Living.",
-  developer: "Sureka Group",
-  city: "Kolkata",
-  location: "381, Anwar Shah Road, Beside South City Mall",
-  priceLabel: "2.32 Cr Onwards",
-  priceMin: 2.32,
-  bhk: [3, 4],
-  sizeRange: "Luxury Spacious Apartments",
-  possession: "Under Construction",
-  configuration: "33 Exclusive Apartments",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Residential"],
-  cover: qua1,
-
-  gallery: [
-    qua1,
-    qua2,
-    qua3,
-    qua4,
-    qua5,
-    qua6,
-    qua7,
-    qua8,
-    qua9,
-    qua10,
-  ],
-
-  story: [
-    "Wake up beside South City Mall in one of South Kolkata’s most exclusive addresses.",
-    "Experience expansive luxury living crafted for achievers and like-minded communities.",
-    "Live surrounded by greenery, skyline lounges, and premium lifestyle amenities.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Swimming Pool",
-      "Sky Lounge",
-      "AC Community Hall",
-      "AC Games Room",
-      "AC Gymnasium",
-      "Open Air Theatre",
-      "Kids’ Play Zone",
-      "Outdoor Gym",
-      "Senior Citizen Zone",
-      "Adda Zone",
-    ],
-
-    connectivity: [
-      "Beside South City Mall",
-      "3 mins from South City International School",
-      "5 mins from Jadavpur University",
-      "11 mins from Tollygunge Metro",
-      "Prime Prince Anwar Shah Road Connectivity",
-    ],
-
-    lifestyle: [
-      "33 Exclusive Apartments",
-      "3-Side Open Residences",
-      "Vaastu Compliant Homes",
-      "Rooftop Lifestyle Spaces",
-      "Premium Niche Community",
-      "Green Peripheral Landscaping",
-      "South Kolkata Luxury Living",
-    ],
-  },
-
-  nearby: {
-    metro: "Tollygunge Metro (2.4 km)",
-    school: "South City International School",
-    hospital: "EEDF Hospital",
-  },
-
-  investment: {
-    roi: "14–20%",
-    demand: "High",
-    growth: "Strong",
-    appreciation: "Premium South Kolkata appreciation potential",
-  },
-
-  propertyDetails:
-    "The Quartet by Sureka Group is an ultra-exclusive luxury residential development located beside South City Mall on Anwar Shah Road, Kolkata. Featuring only 33 premium apartments, the project is designed for achievers seeking exclusivity, spacious living, and a like-minded community. With premium amenities including a rooftop sky lounge, swimming pool, landscaped open spaces, and wellness zones, The Quartet blends luxury, convenience, and high-quality construction in one of South Kolkata’s most prestigious neighborhoods.",
-
-  specifications: {
-    apartments: "33 Exclusive Apartments",
-    structure: "Earthquake Resistant RCC Frame",
-    compliance: "Vaastu Compliant",
-    parking: "Covered Parking",
-    security: "CCTV Security System",
-    sustainability: "Solar Panels",
-  },
-
-  features: [
-    "Exclusive Boutique Residences",
-    "3-Side Open Apartments",
-    "Sky Lounge",
-    "Swimming Pool",
-    "Open Air Theatre",
-    "Rooftop Amenities",
-    "Premium South Kolkata Address",
-    "Vaastu Compliant Homes",
-    "Earthquake Resistant Structure",
-    "Luxury Community Living",
-  ],
-
-  rera: "WBRERA/P/KOL/2025/002975",
-
-  tag: "Boutique Luxury",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.1026058597677!2d88.36054017507549!3d22.500333179543283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027113e7fff5d9%3A0x814f0bca68a48abb!2sThe%20Quartet!5e0!3m2!1sen!2sin!4v1779169309920!5m2!1sen!2sin",
-
-  plans: {
-    site: qua01,
-    master: qua02,
-    unit: [qua03, qua04],
-  },
-},
-
-{
-  id: "48",
-  slug: "sunrise-meadows",
-  name: "Sunrise Meadows",
-  tagline: "Your Perfect Date With Nature.",
-  developer: "Sureka Group",
-  city: "Kolkata",
-  location: "Kona Expressway, Unsani, Khejurtala, Howrah",
-  priceLabel: "₹49.75 L onwards",
-  priceMin: 49.75,
-  bhk: [2, 3],
-  sizeRange: "685 – 911 sq.ft.",
-  possession: "Under Construction",
-  configuration: "4 Towers · G+19 & G+20",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Nature", "Invest"],
-  cover: sunm1,
-
-  gallery: [
-    sunm1,
-    sunm2,
-    sunm3,
-    sunm4,
-    sunm5,
-    sunm6,
-    sunm7,
-    sunm8,
-    sunm9,
-    sunm10,
-    sunm11,
-    sunm12,
-    sunm13,
-    sunm14,
-    sunm15,
-    sunm16,
-    sunm17,
-    sunm18,
-    sunm19,
-    sunm20,
-    sunm21,
-    sunm22,
-    sunm23,
-    sunm24,
-    sunm25,
-    sunm26,
-    sunm27,
-  ],
-
-  story: [
-    "Wake up to greenery, open skies, and peaceful natural landscapes.",
-    "Experience nature-inspired living crafted around wellness and relaxation.",
-    "Live seamlessly connected to Kolkata while enjoying a tranquil lifestyle away from the chaos.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Club Chlorophyll",
-      "Swimming Pool with Kids Pool",
-      "AC Gym",
-      "AC Banquet Hall",
-      "Indoor Games Room",
-      "Open Air Theatre",
-      "Jogging Track",
-      "Outdoor Exercise Zone",
-      "Badminton Court",
-      "Multipurpose Court",
-      "Natural Waterbody with Fishing Deck",
-      "Hammock Garden",
-      "Aroma Garden",
-      "Paw Park",
-      "Senior Citizen Adda Zone",
-    ],
-
-    connectivity: [
-      "25 mins from Park Street",
-      "17 mins from Salkia Chowrasta",
-      "3.5 km from Santragachi Railway Station",
-      "14 km from Esplanade",
-      "26.3 km from Airport",
-      "Excellent Kona Expressway Connectivity",
-    ],
-
-    lifestyle: [
-      "80% Open Space",
-      "Nature-Centric Living",
-      "Landscaped Gardens",
-      "Peaceful Green Environment",
-      "Family-Centric Amenities",
-      "Wellness & Relaxation Zones",
-      "Modern Club Lifestyle",
-      "Urban Detox Living Experience",
-    ],
-  },
-
-  nearby: {
-    metro: "Excellent connectivity via Kona Expressway corridor",
-    school: "Julien Day School, St. Mark School & South Breeze nearby",
-    hospital: "Woodlands, ILS Hospital & South Howrah State General Hospital nearby",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Growing",
-    appreciation: "Strong appreciation potential in Howrah corridor",
-  },
-
-  propertyDetails:
-    "Sunrise Meadows by Sureka Group is a nature-inspired residential development located on Kona Expressway, Howrah. Featuring four elegant G+19 and G+20 towers with 80% open spaces, the project blends modern luxury with serene green living. Offering thoughtfully designed 2 & 3 BHK apartments, Sunrise Meadows is crafted around wellness, recreation, and community living with premium amenities like Club Chlorophyll, landscaped gardens, natural waterbodies, outdoor wellness zones, and family-centric recreational spaces. Strategically connected to central Kolkata, the project creates a peaceful urban retreat close to the city.",
-
-  specifications: {
-    towers: "4 Towers",
-    configuration: "G+19 & G+20",
-    openSpace: "80%",
-    club: "Club Chlorophyll",
-    apartmentTypes: "2 & 3 BHK Apartments",
-    structure: "RCC Framed Structure",
-  },
-
-  features: [
-    "Nature-Centric Living",
-    "80% Open Space",
-    "Natural Waterbody",
-    "Fishing Deck",
-    "Swimming Pool",
-    "Club Chlorophyll",
-    "Jogging Track",
-    "Outdoor Wellness Zones",
-    "Landscaped Gardens",
-    "Family Recreation Areas",
-    "Modern Club Amenities",
-    "Pet Friendly Spaces",
-  ],
-
-  pricing: [
-    {
-      size: "2 BHK (685 – 709 sq.ft.)",
-      price: "₹49.75 L onwards",
-    },
-    {
-      size: "3 BHK (802 – 911 sq.ft.)",
-      price: "Price On Request",
+      size: "3 BHK + Parking",
+      price: "₹39.14 L – ₹48.05 L",
     },
   ],
 
   locationAdvantages: {
-    education: [
-      "Julien Day School - 4.7 km",
-      "St. Mark School - 4.2 km",
-      "South Breeze School - 7 km",
-      "Kidzee - 4.2 km",
-      "St. Teresa School - 4.5 km",
-    ],
-
-    transport: [
-      "Santragachi Railway Station - 3.5 km",
-      "Howrah Station - 13.2 km",
-      "Airport - 26.3 km",
-      "Esplanade - 14 km",
-    ],
-
     healthcare: [
-      "South Howrah State General Hospital - 9.9 km",
-      "Woodlands Multispeciality Hospital - 12.9 km",
-      "Howrah Lions Hospital - 11.5 km",
-      "ILS Hospital - 12.9 km",
-    ],
-
-    entertainment: [
-      "Lakeland Country Club - 2.1 km",
-      "Avani Riverside Mall - 8.7 km",
-      "Botanical Garden - 8.2 km",
-      "Santragachi Lake - 5.2 km",
-      "Park Street - 13.1 km",
-    ],
-  },
-
-  rera: "WBRERA/P/HOW/2023/000096",
-
-  tag: "Nature Living",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.5330533007254!2d88.25795067507848!3d22.596561279474688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02796b4ab0f5bb%3A0x9ca567e43b146cac!2sSunrise%20Meadows!5e0!3m2!1sen!2sin!4v1779180661535!5m2!1sen!2sin",
-
-  plans: {
-    site: sunm02,
-    master: sunm01,
-    unit: [sunm03, sunm04],
-  },
-},
-
-{
-  id: "49",
-  slug: "sunrise-aura",
-  name: "Sunrise Aura",
-  tagline: "A home that feels like your own little slice of heaven.",
-  developer: "Sureka Group",
-  city: "Kolkata",
-  location: "Southern Bypass, Dakshin Gobindopur",
-  priceLabel: "₹49.90 L Onwards",
-  priceMin: 49.90,
-  bhk: [2, 3],
-  sizeRange: "677 – 964 sq.ft.",
-  possession: "Multiple Phases",
-  configuration: "8 Towers · G+18 & G+20",
-  status: "Under Construction",
-  intent: ["Buy", "Residential", "Invest"],
-  cover: suna1,
-
-  gallery: [
-    suna0,
-    suna1,
-    suna2,
-    suna3,
-    suna4,
-    suna5,
-    suna6,
-    suna7,
-    suna8,
-    suna9,
-    suna10,
-    suna11,
-    suna12,
-  ],
-
-  story: [
-    "Wake up surrounded by open skies, waterfront serenity, and lush landscapes.",
-    "Experience elevated living crafted by the co-developer of Urbana & South City.",
-    "Live amidst 80% open spaces designed for peace, recreation, and modern comfort.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Swimming Pool",
-      "Club House",
-      "Gymnasium",
-      "Meditation Zone",
-      "Jogging Path",
-      "Mini Cricket Practice Area",
-      "Badminton Court",
-      "Roller Skating Area",
-      "Children’s Play Zone",
-      "Amphitheatre",
-    ],
-
-    connectivity: [
-      "Prime Southern Bypass Location",
-      "Easy Access to South Kolkata",
-      "Close to Fortis Hospital",
-      "Excellent Urban Connectivity",
-      "Developed by Renowned Developers",
-    ],
-
-    lifestyle: [
-      "8.04 Acre Development",
-      "80% Open Landscape Area",
-      "1.4 Acre Elevated Podium",
-      "Waterfront Living Experience",
-      "Tropical Flower Gardens",
-      "Modern Community Lifestyle",
-      "Multiple Recreational Zones",
-    ],
-  },
-
-  nearby: {
-    metro: "Connected to major South Kolkata transit corridors",
-    school: "Nearby reputed schools & institutions",
-    hospital: "Close to Fortis Hospital & healthcare facilities",
-  },
-
-  investment: {
-    roi: "12–18%",
-    demand: "High",
-    growth: "Rapidly Developing",
-    appreciation: "Strong Southern Bypass growth potential",
-  },
-
-  propertyDetails:
-    "Sunrise Aura by Sureka Group is a premium residential development located on Southern Bypass, Kolkata. Spread across 8.04 acres with nearly 80% open landscaped spaces, the project offers thoughtfully designed 2 & 3 BHK apartments across 8 towers in multiple phases. Featuring waterfront-inspired living, elevated podium landscapes, and a wide range of lifestyle amenities, Sunrise Aura combines serenity, greenery, and urban luxury. Developed by the co-developer of Urbana & South City, the project is crafted to deliver modern family living amidst nature and open-air experiences.",
-
-  specifications: {
-    landArea: "8.04 Acres",
-    towers: "8 Towers",
-    phases: "Multiple Phases",
-    openSpace: "80%",
-    podium: "1.4 Acre Elevated Podium",
-    configuration: "G+18 & G+20 Towers",
-  },
-
-  features: [
-    "Waterfront Inspired Living",
-    "80% Open Landscapes",
-    "Elevated Podium",
-    "Swimming Pool",
-    "Clubhouse Lifestyle",
-    "Meditation & Wellness Zones",
-    "Children’s Play Areas",
-    "Sports Amenities",
-    "Modern Community Spaces",
-    "Tropical Landscaped Gardens",
-  ],
-
-  pricing: [
-    {
-      size: "2 BHK · 677 sq.ft.",
-      price: "₹42 L onwards",
-    },
-    {
-      size: "3 BHK · 820 sq.ft.",
-      price: "₹52 L onwards",
-    },
-    {
-      size: "3 BHK · 964 sq.ft.",
-      price: "₹62 L onwards",
-    },
-  ],
-
-  rera: {
-    phase1: "WBRERA/P/SOU/2023/000067",
-    phase2: "WBRERA/P/SOU/2025/002616",
-  },
-
-  tag: "Featured",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.9791675258557!2d88.41464977507215!3d22.392142779620595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026dd3391d397b%3A0x151995c87c18a940!2sSunrise%20Aura!5e0!3m2!1sen!2sin!4v1779170326293!5m2!1sen!2sin",
-
-  plans: {
-    site: [suna02, suna00],
-    master: suna01,
-    unit: [suna03, suna04, suna05, suna06, suna07, suna08, suna09, suna010],
-  },
-},
-
-{
-  id: "50",
-  slug: "south-city-retreat",
-  name: "South City Retreat",
-  tagline: "Retreat To The Natural Way Of Life.",
-  developer: "Sureka Group",
-  city: "Kolkata",
-  location: "Basanti Highway, Bairampur, South 24 Parganas",
-  priceLabel: "₹2 Cr onwards",
-  priceMin: 200,
-  bhk: [3, 4, 5],
-  sizeRange: "Luxury Villas",
-  possession: "Under Development",
-  configuration: "Limited Edition Luxury Villas",
-  status: "Under Construction",
-  intent: ["Buy", "Luxury", "Villa", "Resort", "Residential"],
-  cover: scr1,
-
-  gallery: [
-    scr1,
-    scr2,
-    scr3,
-    scr4,
-    scr5,
-    scr6,
-    scr7,
-    scr8,
-    scr9,
-    scr10,
-    scr11,
-    scr12,
-    scr13,
-    scr14,
-    scr15,
-    scr16,
-    scr17,
-    scr18,
-    scr19,
-    scr20,
-    scr21,
-    scr22,
-    scr23,
-    scr24,
-    scr25,
-    scr26,
-    scr27,
-    scr28,
-    scr29,
-    scr30,
-    scr31,
-    scr32,
-    scr33,
-    scr34,
-    scr35,
-    scr36,
-    scr37,
-    scr38,
-    scr39,
-    scr40,
-  ],
-
-  story: [
-    "Wake up surrounded by greenery, serenity, and timeless luxury.",
-    "Experience nature-inspired villa living crafted around vastu principles.",
-    "Live beside Storii by ITC Hotels with resort and spa experiences woven into everyday life.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Luxury Resort & Spa",
-    "Resort with Accommodation Facilities",
-    "World-Class Spa",
-    "Treatment Rooms",
-    "Couples' Treatment Rooms",
-    "Sauna & Steam Rooms",
-    "Swimming Pool",
-    "Jacuzzi",
-    "Gymnasium",
-    "Yoga / Aerobics Area",
-    "Multi-cuisine Restaurant",
-    "Club Lounge",
-    "Indoor Games Room",
-    "Table Tennis",
-    "Air Hockey",
-    "Carom",
-    "Pool Table",
-    "Chess Lounge",
-    "Banquet Hall",
-    "Lawn Bowling",
-    "Croquet",
-    "Multi-purpose Court",
-    "Outdoor Sitting Area",
-    "F&B Zone",
-    "Jogging Track",
-    "Cycling Track",
-    "Children’s Play Area",
-    "Golf Cart Transportation",
-    "Landscape Maintenance Team",
-    "Villa Landscape Maintenance",
-    "Pedestrian Walkways",
-    "State-of-the-art Landscaping",
-    ],
-
-    connectivity: [
-      "25 mins from Science City",
-      "40 mins from South Kolkata",
-      "40 mins from Central Kolkata",
-      "Easy Basanti Highway Access",
-      "Connected to IT & Business Hubs",
-      "Accessible from Airport & Major City Corridors",
-    ],
-
-    lifestyle: [
-      "Limited Edition Villas",
-      "Vastu Inspired Architecture",
-      "Nature-Centric Community",
-      "Integrated Resort Lifestyle",
-      "Luxury Spa Experiences",
-      "State-of-the-Art Landscaping",
-      "Resort Lifestyle Experience",
-      "Luxury Wellness Living",
-      "Peaceful Green Environment",
-      "Private Villa Community",
-      "Hospitality Driven Living",
-    ],
-  },
-
-  nearby: {
-    metro: "Connected via major city corridors",
-    school: "Nearby educational institutions",
-    hospital: "Nearby healthcare facilities",
-  },
-
-  investment: {
-    roi: "14–20%",
-    demand: "High",
-    growth: "Rapidly Rising",
-    appreciation: "Strong luxury villa appreciation potential",
-  },
-
-  propertyDetails:
-    "South City Retreat is a premium luxury villa development located on Basanti Highway near Kolkata. Designed around the philosophy of reconnecting with nature, the project offers limited edition luxury villas inspired by traditional vastu principles while integrating modern luxury, wellness, and resort-style experiences. Featuring an integrated luxury resort, world-class spa facilities, landscaped open spaces, and hospitality-driven amenities, the development creates a serene retreat-like environment while maintaining seamless connectivity to Kolkata. Residents enjoy an exclusive lifestyle enriched with wellness, recreation, green landscapes, and premium hospitality experiences beside Storii by ITC Hotels.",
-
-  specifications: {
-    villaTypes: "Small, Medium & Large Villas",
-    locationAdvantage: "25 mins from Science City",
-    lifestyle: "Integrated Resort Style Villa Living",
-    architecture: "Vastu Inspired Design",
-    environment: "Nature Focused Development",
-    hospitality: "Adjacent to Storii by ITC Hotels",
-  },
-
-  features: [
-    "Luxury Villas",
-    "Integrated Resort Living",
-    "World-Class Spa",
-    "Swimming Pool & Jacuzzi",
-    "Golf Cart Mobility",
-    "Nature Inspired Living",
-    "Resort & Wellness Lifestyle",
-    "Vastu Compliant Design",
-    "Low Density Development",
-    "Private Green Landscapes",
-    "Luxury Hospitality Access",
-    "Premium Villa Community",
-  ],
-
-  pricing: [
-    {
-      size: "Small Villa",
-      price: "₹2 Cr onwards",
-    },
-    {
-      size: "Medium Villa",
-      price: "On Request",
-    },
-    {
-      size: "Large Villa",
-      price: "Premium Pricing",
-    },
-  ],
-
-  rera: "WBRERA/P/SOU/2024/001334",
-
-  tag: "Luxury Resort Villas",
-
-  mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.045828227731!2d88.5475602750755!3d22.502463679541734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020c1ba5219391%3A0xb82aa84bcb3af05!2sSouth%20City%20Retreat!5e0!3m2!1sen!2sin!4v1779175113553!5m2!1sen!2sin",
-
-  plans: {
-    site: scr02,
-    master: scr01,
-    unit: [scr03, scr04, scr05, scr06, scr07, scr08,],
-    
-  },
-},
-
-{
-  id: "51",
-  slug: "urbana",
-  name: "Urbana",
-  tagline: "The Tallest Towers in Kolkata.",
-  developer: "Sureka Group",
-  city: "Kolkata",
-  location: "Anandapur, EM Bypass, South Kolkata",
-  priceLabel: "Price On Request",
-  priceMin: 0,
-  bhk: [3, 4, 5],
-  sizeRange: "Luxury Apartments",
-  possession: "Agreement in Process",
-  configuration: "33 Acres · 10 Landmark Towers",
-  status: "Under Development",
-  intent: ["Buy", "Luxury", "Residential", "Invest"],
-  cover: urbana00,
-
-  gallery: [
-    urbana0,
-    urbana00,
-    urbana1,
-    urbana2,
-    urbana3,
-    urbana4,
-    urbana5,
-    urbana6,
-    urbana7,
-    urbana8,
-    urbana9,
-    urbana10,
-    urbana11,
-    urbana12,
-    urbana13,
-    urbana14,
-    urbana15,
-    urbana16,
-    urbana17,
-    urbana18,
-    urbana19,
-    urbana20,
-    urbana21,
-    urbana22,
-    urbana23,
-    urbana24,
-    urbana25,
-    urbana26,
-    urbana27,
-    urbana28,
-    urbana29,
-    urbana30,
-    urbana31,
-    urbana32,
-    urbana33,
-    urbana34,
-    urbana35,
-    urbana36,
-    urbana37,
-    urbana38,
-    urbana39,
-    urbana40,
-  ],
-
-  story: [
-    "Wake up above Kolkata’s skyline surrounded by lush greenery and open skies.",
-    "Experience landmark luxury living in the tallest towers of Kolkata.",
-    "Live in a globally designed community crafted around nature, elegance, and togetherness.",
-  ],
-
-  highlights: {
-    amenities: [
-      "Club Urbana",
-      "East India’s Largest Residential Club",
-      "Luxury Wellness Facilities",
-      "Fine Dining Spaces",
-      "Family Recreation Zones",
-      "Premium Lifestyle Amenities",
-      "Landscaped Green Lawns",
-      "Community Celebration Spaces",
-      "Luxury Indoor & Outdoor Activities",
-    ],
-
-    connectivity: [
-      "0.8 km from Ruby Crossing",
-      "4.2 km from Science City",
-      "4.8 km from Gariahat",
-      "7.8 km from Park Circus",
-      "10 km from Salt Lake Sector V",
-      "18 km from Airport",
-      "Excellent EM Bypass Connectivity",
-      "Easy Access to New Town & Rajarhat",
-    ],
-
-    lifestyle: [
-      "33 Acre Integrated Township",
-      "Tallest Towers in Kolkata",
-      "900+ Happy Families",
-      "3 New Landmark Towers",
-      "Hundreds of Trees Across Campus",
-      "Nature-Centric Luxury Living",
-      "Luxury Skyline Views",
-      "Community-Centric Lifestyle",
-    ],
-  },
-
-  nearby: {
-    metro: "Excellent connectivity via EM Bypass corridor",
-    school: "DPS, Heritage School & Calcutta International School nearby",
-    hospital: "Ruby Hospital, Fortis, Genesis, Peerless & AMRI nearby",
-  },
-
-  investment: {
-    roi: "14–20%",
-    demand: "Very High",
-    growth: "Strong",
-    appreciation: "Premium appreciation potential in South Kolkata",
-  },
-
-  propertyDetails:
-    "Urbana New Towers is a landmark luxury residential development in South Kolkata, developed by Bengal NRI Complex Limited — a joint enterprise involving the Government of West Bengal along with leading business groups including Shrachi, Emami, Sureka, MKJ, JB, and Nahata Groups. Spread across 33 acres with lush greenery and iconic skyscrapers, Urbana redefines luxury living with globally designed residences, expansive landscapes, and East India’s largest residential club. Already home to over 900 families, the addition of three new towers elevates the project further into one of Kolkata’s most prestigious luxury addresses.",
-
-  specifications: {
-    landArea: "33 Acres",
-    towers: "10 Landmark Towers",
-    newTowers: "3 New Towers",
-    families: "900+ Families",
-    clubSize: "1 Lakh sq.ft Club Urbana",
-    architects: "Stephen Coates (Singapore)",
-    structuralConsultant: "Predrag Eror (Dubai)",
-    greenery: "Hundreds of Trees Across Campus",
-  },
-
-  features: [
-    "Tallest Towers in Kolkata",
-    "Luxury High-Rise Residences",
-    "East India’s Largest Residential Club",
-    "Globally Designed Architecture",
-    "Nature-Centric Living",
-    "Landscaped Green Lawns",
-    "Luxury Skyline Views",
-    "Integrated Township",
-    "Premium Community Living",
-    "Large Open Green Spaces",
-    "Luxury Club Amenities",
-    "Close-Knit Residential Community",
-    "Skyline Views",
-  ],
-
-  pricing: [
-    {
-      size: "3 BHK",
-      price: "Price On Request",
-    },
-    {
-      size: "4 BHK",
-      price: "Price On Request",
-    },
-    {
-      size: "5 BHK",
-      price: "Price On Request",
-    },
-  ],
-
-  locationAdvantages: {
-    businessDistricts: [
-      "Salt Lake Sector V - 10 km",
-      "Park Street & Camac Street - 9.9 km",
-      "New Town - 15.6 km",
-      "Esplanade & Dalhousie - 11 km",
-      "New Alipore - 9 Km",
-      "Salt Lake - 9.5 Km",
-      "Netaji Subhas Chandra Bose International Airport - 19.3 Km",
-      "Howrah Railway Station - 17.8 Km",
-      "Shyambazar 5 Point - 14.0 Km",
-      "Garia - 6.0 Km",
-      "Rajarhat Chowmatha - 24.6 Km",
-      "Barrackpore - 37.0 Km",
-    ],
-
-    healthcare: [
-      "Ruby Hospital",
-      "Fortis Medical Centre",
-      "RT Cardiac Institute",
-      "Genesis Hospital",
-      "Peerless Hospital",
+      "Advance Medicare Nursing Home - 850 m",
+      "Saroj Gupta Cancer Hospital - 8.5 km",
     ],
 
     education: [
-      "Heritage School",
-      "Delhi Public School",
-      "Calcutta International School",
-      "South City International School",
-      "Calcutta Public School",
-      "Indus Valley World School",
-      "Garden High School",
-      "Bodhi Bhavans Collegiate School",
+      "St. Stephen's School - 1 km",
     ],
 
-    entertainment: [
-      "ITC Sonar",
-      "South City Mall",
-      "Acropolis Mall",
-      "Gariahat Market",
-      "Metropolis",
+    connectivity: [
+      "Tollygunge Metro - 10.5 km",
+      "South City Mall - 14 km",
+      "Swaminarayan Temple - 13.6 km",
+      "Auto & Bus Connectivity Available",
+      "Metro Shuttle Service",
+    ],
+
+    lifestyle: [
+      "Nepalganj Haat Nearby",
+      "Kabardanga Bazar Nearby",
+      "Growing Residential Corridor",
     ],
   },
 
+  specificationsPricing: {
+    baseRate: "₹3,480 – ₹4,005 per sq.ft.",
+    clubMembership: "₹125 per sq.ft.",
+    dependentParking: "₹2.95 L",
+    independentParking: "₹4.20 L",
+    floorEscalation: "Not Applicable",
+  },
 
-  rera: "WBRERA/P/SOU/2023/000045",
+  rera: "WBRERA/P/SOU/2024/002110",
 
-  tag: "Luxury Landmark",
+  tag: "Affordable Smart Township",
 
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.909871661692!2d88.41035747507574!3d22.507564479538058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02732264ccec1f%3A0x723ce1c5a9552c2c!2sUrbana!5e0!3m2!1sen!2sin!4v1779178396779!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.6103518046552!2d88.35083399999999!3d22.406042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026f003c254079%3A0xdc03b3b1c295bfb!2sMayfair%20Smart%20City!5e0!3m2!1sen!2sin!4v1780299309143!5m2!1sen!2sin",
 
   plans: {
-    site: urbana01,
-    master: urbana01,
-    unit: [urbana02, urbana03, urbana04],
+    site: mfsc01,
+    unit: [mfsc02, mfsc03],
   },
 },
-
-
 
 
 ];

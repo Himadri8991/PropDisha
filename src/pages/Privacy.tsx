@@ -3,6 +3,7 @@ import { Shield, CheckCircle, Lock, Eye, FileText, ArrowRight } from "lucide-rea
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const sections = [
   {
@@ -35,9 +36,16 @@ const sections = [
   },
 ];
 
-const Privacy = () => (
-  <div className="min-h-screen bg-background">
-    <Navbar />
+const Privacy = () => {
+  useSEO({
+    title: "Privacy Policy | PropDisha",
+    description: "Learn how PropDisha Private Limited collects, uses, and safeguards your personal data, WhatsApp communications, and preferences in absolute compliance with DPDP act regulations.",
+    keywords: "privacy policy propdisha, data privacy real estate, DPDP act compliance, secure real estate"
+  });
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Navbar />
 
     {/* Hero */}
     <section className="relative pt-44 pb-24 overflow-hidden">
@@ -154,5 +162,6 @@ const Privacy = () => (
     <Footer />
   </div>
 );
+}
 
 export default Privacy;

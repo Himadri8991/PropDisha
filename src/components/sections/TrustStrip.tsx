@@ -10,6 +10,12 @@ import godrejLogo from "@/assets/logos/godrej.svg";
 import shapoorjiLogo from "@/assets/logos/shapoorji.svg";
 import edenLogo from "@/assets/logos/eden.webp";
 import surekaLogo from "@/assets/logos/sureka group.png";
+import vinayakLogo from "@/assets/logos/vinayak logo.webp";
+import alcoveLogo from "@/assets/logos/alcove logo.png";
+import emamiLogo from "@/assets/logos/emami logo.png";
+import dtcLogo from "@/assets/logos/DTC logo.png";
+import primarcLogo from "@/assets/logos/primarc logo.svg";
+import mayfairLogo from "@/assets/logos/mayfair logo.png";
 
 const stats = [
   { label: "Capital Deployed", value: 500, prefix: "₹", suffix: "Cr+", icon: TrendingUp },
@@ -25,6 +31,12 @@ const developers = [
   { name: "Shapoorji Pallonji", logo: shapoorjiLogo, keyName: "Shapoorji Pallonji" },
   { name: "Eden Realty", logo: edenLogo, keyName: "Eden Realty" },
   { name: "Sureka Group", logo: surekaLogo, keyName: "Sureka Group" },
+  { name: "Vinayak Group", logo: vinayakLogo, keyName: "Vinayak Group" },
+  { name: "Alcove Realty", logo: alcoveLogo, keyName: "Alcove Realty" },
+  { name: "Emami Realty", logo: emamiLogo, keyName: "Emami Realty" },
+  { name: "DTC Group", logo: dtcLogo, keyName: "DTC Group" },
+  { name: "Primarc", logo: primarcLogo, keyName: "Primarc" },
+  { name: "Mayfair Group", logo: mayfairLogo, keyName: "Mayfair Group" },
 ];
 
 function useCounter(target: number, duration = 2000, enabled = true) {

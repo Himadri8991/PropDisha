@@ -27,10 +27,21 @@ import Footer from "@/components/sections/Footer";
 import { getProperty, properties } from "@/data/properties";
 import { toast } from "sonner";
 import EnquiryModal from "@/components/EnquiryModal";
+import { useSEO } from "@/hooks/useSEO";
 
 const PropertyDetail = () => {
   const { slug } = useParams();
   const property = slug ? getProperty(slug) : undefined;
+
+  // Dynamic SEO Integration
+  useSEO({
+    title: property 
+      ? `${property.name} by ${property.developers ? property.developers.join(" & ") : property.developer || "PropDisha Collection"} | PropDisha` 
+      : "Luxury Address Collection | PropDisha",
+    description: property?.propertyDetails || "Discover certified and verified luxury residency options presented by PropDisha.",
+    keywords: property ? `${property.name}, ${property.developer || ""}, luxury property ${property.city}, ${property.location} flat, PropDisha verified` : undefined,
+    ogImage: property?.gallery?.[0]
+  });
 
   const [slide, setSlide] = useState(0);
   const [planTab, setPlanTab] = useState<"master" | "unit" | "site">("master");
@@ -74,7 +85,17 @@ const PropertyDetail = () => {
     );
   }
 
-  const others = properties.filter((p) => p.developer === property.developer && p.id !== property.id).slice(0, 3);
+  const currentDevs = property.developers 
+    ? property.developers.map(d => d.trim().toLowerCase()) 
+    : [property.developer?.trim().toLowerCase()].filter(Boolean) as string[];
+    
+  const others = properties.filter((p) => {
+    if (p.id === property.id) return false;
+    const pDevs = p.developers 
+      ? p.developers.map(d => d.trim().toLowerCase()) 
+      : [p.developer?.trim().toLowerCase()].filter(Boolean) as string[];
+    return pDevs.some(d => currentDevs.includes(d));
+  }).slice(0, 3);
 
   return (
     <div className="min-h-screen bg-background selection:bg-gold/30 selection:text-white">
@@ -129,7 +150,7 @@ const PropertyDetail = () => {
                     {property.status}
                   </span>
                   <span className="px-4 py-1.5 rounded-full glass text-[10px] tracking-[0.3em] uppercase text-foreground/50">
-                    {property.developer}
+                    {property.developers ? property.developers.map(d => d.trim()).join(" & ") : property.developer}
                   </span>
                 </motion.div>
                 
@@ -471,7 +492,7 @@ const PropertyDetail = () => {
             <h2 className="text-4xl md:text-5xl font-display mb-12">Drawn with <span className="italic">intent.</span></h2>
             
             <div className="flex justify-center gap-3">
-              {(["master", "unit", "site"] as const).map((t) => (
+              {(["master", "site", "unit"] as const).map((t) => (
                 <button
                   key={t}
                   onClick={() => { setPlanTab(t); setActiveSubPlanIndex(0); }}
@@ -610,6 +631,126 @@ const PropertyDetail = () => {
         </div>
       </section>
 
+      {/* 7.5 PRICING & CONFIGURATION SECTION */}
+      {((property.pricing && property.pricing.length > 0) || property.specificationsPricing) && (
+        <section className="py-32 bg-navy-soft/10 relative overflow-hidden border-t border-white/5">
+          <div className="absolute top-0 left-1/4 w-[400px] h-[400px] bg-gold/5 blur-[120px] rounded-full pointer-events-none" />
+          <div className="container-luxe">
+            <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-8">
+              <div className="max-w-xl">
+                <motion.p
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="text-gold text-[10px] tracking-[0.4em] uppercase mb-6"
+                >
+                  Acquisition Details
+                </motion.p>
+                <motion.h2
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.1 }}
+                  className="text-4xl md:text-5xl font-display"
+                >
+                  Pricing & <span className="italic text-gradient-gold">Configurations.</span>
+                </motion.h2>
+              </div>
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3 }}
+                className="text-foreground/40 max-w-sm text-right font-light text-sm"
+              >
+                Granular pricing breakdown and bespoke configurations mapped for complete financial transparency.
+              </motion.p>
+            </div>
+
+            <div className="grid lg:grid-cols-12 gap-8 items-start">
+              {/* Left Column: Standard Configurations & Pricing */}
+              {property.pricing && property.pricing.length > 0 && (
+                <div className={`${property.specificationsPricing ? "lg:col-span-7" : "lg:col-span-12"} space-y-6 w-full`}>
+                  <h4 className="text-[10px] tracking-[0.3em] uppercase text-gold font-bold mb-4">Apartment Configurations</h4>
+                  <div className="grid sm:grid-cols-2 gap-6">
+                    {property.pricing.map((item, idx) => (
+                      <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: idx * 0.1 }}
+                        viewport={{ once: true }}
+                        key={item.size + idx}
+                        className="glass p-8 rounded-3xl border-white/5 hover:border-gold/30 transition-all duration-500 group"
+                      >
+                        <div className="flex items-center justify-between mb-4">
+                          <span className="px-3 py-1 rounded-md bg-gold/10 text-gold text-[10px] tracking-wider uppercase font-bold">
+                            {item.size}
+                          </span>
+                          <IndianRupee className="w-4 h-4 text-gold/40 group-hover:text-gold transition-colors" />
+                        </div>
+                        <p className="text-[10px] tracking-[0.2em] uppercase text-foreground/30 font-bold mb-1">Estimated Value</p>
+                        <p className="font-display text-2xl group-hover:text-gradient-gold transition-all duration-300">{item.price}</p>
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Right Column: Detailed Specifications Pricing */}
+              {property.specificationsPricing && (
+                <div className={`${property.pricing && property.pricing.length > 0 ? "lg:col-span-5" : "lg:col-span-12"} w-full`}>
+                  <h4 className="text-[10px] tracking-[0.3em] uppercase text-gold font-bold mb-4">Financial Breakdown</h4>
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.98 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    className="glass-strong p-8 rounded-[2rem] border-gold/10 flex flex-col gap-6"
+                  >
+                    <div className="border-b border-white/5 pb-4">
+                      <p className="text-[10px] tracking-[0.3em] uppercase text-gold font-semibold mb-2">Base Acquisition Rate</p>
+                      <p className="font-display text-3xl text-gradient-gold">{property.specificationsPricing.baseRate || "Price On Request"}</p>
+                    </div>
+
+                    <div className="space-y-4">
+                      {property.specificationsPricing.clubMembership && (
+                        <div className="flex justify-between items-center py-2 border-b border-white/5 last:border-0">
+                          <span className="text-xs text-foreground/60 font-light">Club Membership</span>
+                          <span className="text-sm font-semibold text-foreground">{property.specificationsPricing.clubMembership}</span>
+                        </div>
+                      )}
+                      {property.specificationsPricing.dependentParking && (
+                        <div className="flex justify-between items-center py-2 border-b border-white/5 last:border-0">
+                          <span className="text-xs text-foreground/60 font-light">Dependent Parking</span>
+                          <span className="text-sm font-semibold text-foreground">{property.specificationsPricing.dependentParking}</span>
+                        </div>
+                      )}
+                      {property.specificationsPricing.independentParking && (
+                        <div className="flex justify-between items-center py-2 border-b border-white/5 last:border-0">
+                          <span className="text-xs text-foreground/60 font-light">Independent Parking</span>
+                          <span className="text-sm font-semibold text-foreground">{property.specificationsPricing.independentParking}</span>
+                        </div>
+                      )}
+                      {property.specificationsPricing.floorEscalation && (
+                        <div className="flex justify-between items-center py-2 border-b border-white/5 last:border-0">
+                          <span className="text-xs text-foreground/60 font-light">Floor Escalation Charge</span>
+                          <span className="text-sm font-semibold text-foreground">{property.specificationsPricing.floorEscalation}</span>
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="mt-4 p-4 rounded-xl bg-gold/5 border border-gold/10 text-center">
+                      <p className="text-[9px] tracking-[0.15em] uppercase text-gold/80 leading-normal font-bold">
+                        * All rates are subject to local taxes and regulatory updates. Confidential walkthrough scheduled upon request.
+                      </p>
+                    </div>
+                  </motion.div>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* 8. LOCATION INTELLIGENCE */}
       <section className="py-32 bg-navy-soft/20">
         <div className="container-luxe grid lg:grid-cols-2 gap-24 items-center">
@@ -639,7 +780,7 @@ const PropertyDetail = () => {
               
               {(() => {
                 const landmarks = property.landmarks || property.highlights?.connectivity?.map(c => {
-                  const match = c.match(/^(\d+(?:\.\d+)?\s*(?:min|mins|km))\s*(?:from|to)\s*(.*)/i);
+                  const match = c.match(/^(\d+(?:\.\d+)?\s*(?:min|mins|km|m|minutes|minute))\s*(?:from|to)\s*(.*)/i);
                   if (match) {
                     return { name: match[2], time: match[1] };
                   }
@@ -712,9 +853,9 @@ const PropertyDetail = () => {
                 
                 let title = key.replace(/([A-Z])/g, ' $1').trim();
                 let IconComponent = Sparkles;
-                if (key.toLowerCase().includes("business") || key.toLowerCase().includes("transit")) {
+                if (key.toLowerCase().includes("business") || key.toLowerCase().includes("transit") || key.toLowerCase().includes("connectivity")) {
                   IconComponent = Train;
-                  title = "Business & Transit";
+                  title = "Connectivity & Transit";
                 } else if (key.toLowerCase().includes("health")) {
                   IconComponent = Stethoscope;
                   title = "Healthcare";
@@ -789,11 +930,15 @@ const PropertyDetail = () => {
               <div>
                 <div className="flex items-center gap-6 mb-10">
                   <div className="w-20 h-20 rounded-[1.5rem] bg-gradient-to-br from-gold-soft to-gold-deep grid place-items-center text-navy-deep font-display text-4xl shadow-2xl">
-                    {property.developer.charAt(0)}
+                    {property.developers ? property.developers.map(d => d.trim().charAt(0)).join("+") : property.developer?.charAt(0)}
                   </div>
                   <div>
-                    <p className="text-[10px] tracking-[0.4em] uppercase text-gold font-bold mb-1">Developer Signature</p>
-                    <h3 className="text-4xl font-display">{property.developer}</h3>
+                    <p className="text-[10px] tracking-[0.4em] uppercase text-gold font-bold mb-1">
+                      {property.developers ? "Developers Signature" : "Developer Signature"}
+                    </p>
+                    <h3 className="text-4xl font-display">
+                      {property.developers ? property.developers.map(d => d.trim()).join(" & ") : property.developer}
+                    </h3>
                   </div>
                 </div>
                 
