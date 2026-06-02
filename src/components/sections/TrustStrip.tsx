@@ -10,7 +10,7 @@ import godrejLogo from "@/assets/logos/godrej.svg";
 import shapoorjiLogo from "@/assets/logos/shapoorji.svg";
 import edenLogo from "@/assets/logos/eden.webp";
 import surekaLogo from "@/assets/logos/sureka group.png";
-import vinayakLogo from "@/assets/logos/vinayak logo.webp";
+import vinayakLogo from "@/assets/logos/Vinayak logo.webp";
 import alcoveLogo from "@/assets/logos/alcove logo.png";
 import emamiLogo from "@/assets/logos/emami logo.png";
 import dtcLogo from "@/assets/logos/DTC logo.png";
