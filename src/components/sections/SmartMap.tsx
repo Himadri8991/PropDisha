@@ -555,7 +555,7 @@ const SmartMap = () => {
                             <img
                               src={activeProperty.cover}
                               alt={activeProperty.name}
-                              className="w-full h-full object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-110"
+                              className="w-full h-full object-cover transition-transform duration-[1600ms] ease-out group-hover:scale-110"
                             />
                             {/* Rich Dark vignette filter */}
                             <div className="absolute inset-0 bg-gradient-to-t from-[#090a0e] via-[#090a0e]/30 to-transparent animate-fade-in" />
