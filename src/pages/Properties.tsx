@@ -18,7 +18,7 @@ const intents: ("All" | Intent)[] = [
 ];
 const bhkOptions = ["Any", "1", "2", "3", "4+"] as const;
 const statusOptions = ["All", "Ready to Move", "Under Construction", "New Launch", "Under Development"] as const;
-const developerOptions = ["All", "Srijan", "PS Group", "Godrej Properties", "Shapoorji Pallonji", "Eden Realty", "Sureka Group", "Vinayak Group", "Alcove Realty", "Emami Realty", "DTC Group", "Primarc", "Mayfair Group",] as const;
+const developerOptions = ["All", "Srijan", "PS Group", "Godrej Properties", "Shapoorji Pallonji", "Eden Realty", "Sureka Group", "Vinayak Group", "Alcove Realty", "Emami Realty", "DTC Group", "Primarc", "Mayfair Group", "Skyscraper", "Atri Group"] as const;
 
 type SortKey = "relevance" | "price-asc" | "price-desc" | "bhk-asc" | "possession" | "roi";
 const sortOptions: { key: SortKey; label: string }[] = [

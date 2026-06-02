@@ -1300,6 +1300,46 @@ import mfsc01 from "@/assets/mfsc01.jpg";
 import mfsc02 from "@/assets/mfsc02.jpg";
 import mfsc03 from "@/assets/mfsc03.jpg";
 
+import astha0 from "@/assets/astha0.jpg";
+import astha1 from "@/assets/astha1.jpg";
+import astha2 from "@/assets/astha2.jpg";
+import astha3 from "@/assets/astha3.jpg";
+import astha4 from "@/assets/astha4.jpg";
+import astha5 from "@/assets/astha5.jpg";
+import astha6 from "@/assets/astha6.jpg";
+import astha7 from "@/assets/astha7.jpg";
+import astha8 from "@/assets/astha8.jpg";
+import astha9 from "@/assets/astha9.jpg";
+import astha10 from "@/assets/astha10.jpg";
+import astha11 from "@/assets/astha11.jpg";
+import astha12 from "@/assets/astha12.jpg";
+import astha13 from "@/assets/astha13.jpg";
+import astha14 from "@/assets/astha14.jpg";
+import astha01 from "@/assets/astha01.jpg";
+
+import atriaqua0 from "@/assets/atriaqua0.jpg";
+import atriaqua1 from "@/assets/atriaqua1.jpg";
+import atriaqua2 from "@/assets/atriaqua2.jpg";
+import atriaqua3 from "@/assets/atriaqua3.jpg";
+import atriaqua4 from "@/assets/atriaqua4.jpg";
+import atriaqua5 from "@/assets/atriaqua5.jpg";
+import atriaqua6 from "@/assets/atriaqua6.jpg";
+import atriaqua7 from "@/assets/atriaqua7.jpg";
+import atriaqua8 from "@/assets/atriaqua8.jpg";
+import atriaqua9 from "@/assets/atriaqua9.jpg";
+import atriaqua10 from "@/assets/atriaqua10.jpg";
+import atriaqua11 from "@/assets/atriaqua11.jpg";
+import atriaqua12 from "@/assets/atriaqua12.jpg";
+import atriaqua13 from "@/assets/atriaqua13.jpg";
+import atriaqua14 from "@/assets/atriaqua14.jpg";
+import atriaqua15 from "@/assets/atriaqua15.jpg";
+import atriaqua01 from "@/assets/atriaqua01.jpg";
+import atriaqua02 from "@/assets/atriaqua02.jpg";
+import atriaqua03 from "@/assets/atriaqua03.jpg";
+import atriaqua04 from "@/assets/atriaqua04.jpg";
+import atriaqua05 from "@/assets/atriaqua05.jpg";
+import atriaqua06 from "@/assets/atriaqua06.jpg";
+import atriaqua07 from "@/assets/atriaqua07.jpg";
 
 
 export type Intent = "Buy" | "Invest" | "Commercial" | "Luxury" | "Residential" | "Senior Living" | "Retail" | "Office Space" | "Industrial" | "Warehousing" | "IT Park" | "Hotel" | "Business" | "Affordable" | "Warehouse" | "Office" | "Plots" | "Riverfront" | "Villa" | "Resort" | "Nature" | "Duplex" | "Family" | "Township" | "Ultra Luxury";
@@ -1309,7 +1349,7 @@ export type Property = {
   slug: string;
   name: string;
   tagline: string;
-  developer?: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group" | "Vinayak Group" | "Alcove Realty" | "Emami Realty" | "DTC Group" | "Primarc" | "Mayfair Group";
+  developer?: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group" | "Vinayak Group" | "Alcove Realty" | "Emami Realty" | "DTC Group" | "Primarc" | "Mayfair Group" | "Skyscraper" | "Atri Group";
   developers?: string[];
   city: "Kolkata" | "Howrah";
   location: string;
@@ -1528,7 +1568,9 @@ export type Property = {
     windows?: string;
     apartmentSizes?: string;
     smartFeatures?: string;
-    
+    skywalk?: string;
+    commencement?: string;
+    completion?: string;
   };
 
   features?: string[];
@@ -1574,6 +1616,16 @@ export type Property = {
     entertainment?: string[];
     [key: string]: string[] | undefined;
   };
+  floorPlans?: {
+    [key: string]: string[];
+  };
+  apartmentVariants?: {
+    readyToMove?: { type: string; price: string }[];
+    underConstruction?: { type: string; price: string }[];
+  };
+  constructionStatus?: string[];
+  developerDetails?: string;
+  marketingPartner?: string;
 };
 
 // Default map link provided for now. You can replace these with actual links later!
@@ -11780,6 +11832,537 @@ export const properties: Property[] = [
     site: mfsc01,
     unit: [mfsc02, mfsc03],
   },
+},
+
+{
+  id: "72",
+  slug: "astha-rajarhat",
+  name: "Astha Rajarhat",
+  tagline: "Where Life Finds Poise.",
+  developer: "Skyscraper",
+  city: "Kolkata",
+  location: "Bishnupur Road, Rajarhat, New Town",
+  priceLabel: "₹35 L onwards",
+  priceMin: 35,
+  bhk: [1, 2, 3],
+  sizeRange: "734 – 1244 sq.ft.",
+  possession: "February 2028",
+  configuration: "4 Towers · G+4",
+  status: "Under Construction",
+  intent: ["Buy", "Residential", "Affordable", "Invest"],
+  cover: astha1,
+
+  gallery: [
+    astha0,
+    astha2,
+    astha3,
+    astha4,
+    astha5,
+    astha6,
+    astha7,
+    astha8,
+    astha1,
+    astha9,
+    astha10,
+    astha11,
+    astha12,
+    astha13,
+    astha14,
+  ],
+
+  story: [
+    "Experience affordable luxury surrounded by greenery and open skies.",
+    "Live in Rajarhat’s first affordable residential project with a 1 km interconnected rooftop skywalk.",
+    "Enjoy Roman Gothic inspired architecture blended with wellness, connectivity, and modern rooftop living.",
+  ],
+
+  highlights: {
+    amenities: [
+      "1 km Rooftop Skywalk",
+      "Swimming Pool",
+      "Fully Equipped Gym",
+      "Yoga Deck",
+      "Jogging Track",
+      "Badminton Court",
+      "Kids Play Area",
+      "Rooftop Lounge",
+      "Multipurpose Hall",
+      "Green Terraces",
+      "Open Air Party Area",
+      "Co-Working Space",
+      "Seating Zones",
+    ],
+
+    connectivity: [
+      "3.5 km from DPS Megacity",
+      "4 km from TCS, Ecospace, Bellevue Hospital & Narayana School",
+      "5 km from Bodhicariya Senior Secondary School & Aliah University",
+      "5.5 km from DLF 2 IT Park, Unitech Infospace, Tata Medical Centre, Disha Eye Hospital, Techno India College",
+      "6 km from Ohio Hospital",
+      "6.3 km from Siksha Tirtha Metro Station",
+      "6.5 km from IIT Kharagpur Rajarhat Campus & Bhagirathi Neotia Hospital",
+      "7 km from Biswa Bangla Convention Centre & St Xavier's University",
+      "12 km from Netaji Subhas Chandra Bose International Airport",
+      
+    ],
+
+    lifestyle: [
+      "Roman Gothic Architecture",
+      "50% Open Space",
+      "219 Apartments",
+      "Two-Side Open Flats",
+      "Multiple Balconies",
+      "Green Rooftop Living",
+      "Community Focused Design",
+      "Affordable Luxury Living",
+    ],
+  },
+
+  nearby: {
+    metro: "Siksha Tirtha Metro Station - 6.3 km",
+    school:
+      "DPS Megacity, Narayana School, Aliah University & St Xavier’s University nearby",
+    hospital:
+      "Bellevue Hospital, Tata Medical Centre & Bhagirathi Neotia nearby",
+  },
+
+  investment: {
+    roi: "12–18%",
+    demand: "High",
+    growth: "Rapid",
+    appreciation:
+      "Strong appreciation potential due to Rajarhat & New Town expansion",
+  },
+
+  propertyDetails:
+    "Astha Rajarhat is a thoughtfully designed affordable luxury residential development located near New Town’s Special Economic Zone and IT hubs in Rajarhat, Kolkata. Developed by Skyscraper Group, the project features Roman Gothic inspired architecture, 50% open green spaces, and a first-of-its-kind 1 km interconnected rooftop skywalk in Rajarhat’s affordable segment. Spread across 5.5 bighas with 219 apartments across four G+4 towers, Astha combines community living, wellness-focused rooftop amenities, seamless connectivity, and nature-centric open spaces to create a modern lifestyle destination for families, professionals, and investors.",
+
+  specifications: {
+    landArea: "5.5 Bigha",
+    towers: "4 Towers",
+    configuration: "G+4",
+    apartments: "219 Apartments",
+    openSpace: "50%",
+    architecture: "Roman Gothic Design",
+    skywalk: "1 km Interconnected Rooftop Skywalk",
+  },
+
+  features: [
+    "1 km Elevated Skywalk",
+    "Roman Gothic Architecture",
+    "Rooftop Lifestyle Amenities",
+    "Green Terraces",
+    "Swimming Pool",
+    "Co-Working Space",
+    "Two-Side Open Apartments",
+    "Multiple Balconies",
+    "Dedicated Shuttle Service",
+    "Community Living Design",
+    "Affordable Luxury Homes",
+    "Wellness Focused Spaces",
+    "Prime Rajarhat Location",
+  ],
+
+  pricing: [
+    {
+      size: "2 BHK",
+      price: "₹35 L onwards",
+    },
+    {
+      size: "3 BHK",
+      price: "₹45 L onwards",
+    },
+  ],
+
+  locationAdvantages: {
+    businessDistricts: [
+      "Ecospace - 4 km",
+      "TCS - 5 km",
+      "Unitech Infospace - 5.5 km",
+      "DLF 2 IT Park - 5.5 km",
+      "Biswa Bangla Convention Centre - 7 km",
+    ],
+
+    healthcare: [
+      "Bellevue Hospital - 4 km",
+      "Tata Medical Centre - 5.5 km",
+      "Disha Eye Hospital - 5.5 km",
+      "Ohio Hospital - 6 km",
+      "Bhagirathi Neotia - 6.5 km",
+    ],
+
+    education: [
+      "DPS Megacity - 3.5 km",
+      "Narayana School - 4.3 km",
+      "Aliah University - 5 km",
+      "Bodhicariya Senior Secondary School - 5 km",
+      "Amity University - 5.5 km",
+      "Techno India - 5.5 km",
+      "IIT Kharagpur Rajarhat Campus - 6.5 km",
+      "St Xavier's University - 7 km",
+      "Junior DPS School within Project",
+    ],
+
+    entertainment: [
+      "Urban Park - 4 km",
+      "Downtown Mall - 7 km",
+      "Axis Mall - 8 km",
+      "Central Mall - 8.5 km",
+      "The Westin - 6 km",
+      "Novotel - 8 km",
+    ],
+  },
+
+  rera: "WBRERA/P/NOR/2023/000108",
+
+  tag: "Affordable Luxury",
+
+  mapEmbedUrl:
+    "https://www.google.com/maps?q=JG24%2BH7X%2C+Bishnupur+Road%2C+Near+Jamalpara%2C+Boroshivtala%2C+Newtown%2C+Kolkata+700135&output=embed",
+
+  plans: {
+    master: astha01,
+  },
+},
+
+{
+  id: "73",
+
+  slug: "atri-aqua",
+
+  name: "Atri Aqua",
+
+  tagline: "Go with the flow of good living.",
+
+  developer: "Atri Group",
+
+  city: "Kolkata",
+
+  location: "316, Dr. B. C. Roy Road, Off Southern Bypass, Kolkata 700151",
+
+  priceLabel: "₹30 L onwards",
+
+  priceMin: 30,
+
+  bhk: [2, 3],
+
+  sizeRange: "676 – 1186 sq.ft.",
+
+  possession: "Tower 3, 4 & 5 - December 2025 onwards",
+
+  configuration: "200 Kattah · 5 Towers",
+
+  status: "Under Construction",
+
+  intent: ["Buy", "Residential", "Affordable", "Invest"],
+
+  cover: atriaqua1,
+
+  gallery: [
+    atriaqua2,
+    atriaqua0,
+    atriaqua1,
+    atriaqua3,
+    atriaqua4,
+    atriaqua5,
+    atriaqua6,
+    atriaqua7,
+    atriaqua8,
+    atriaqua9,
+    atriaqua10,
+    atriaqua11,
+    atriaqua12,
+    atriaqua13,
+    atriaqua14,
+    atriaqua15,
+  ],
+
+  story: [
+    "Live surrounded by natural water bodies, greenery, and tranquil open spaces away from city chaos.",
+    "Experience high-rise affordable luxury living with aquatic-inspired architecture and wellness-driven amenities.",
+    "Enjoy seamless connectivity to Southern Bypass, Garia, metro stations, schools, hospitals, and everyday essentials.",
+  ],
+
+  highlights: {
+    amenities: [
+      "Swimming Pool",
+      "Jogging & Walking Space",
+      "Landscape Garden",
+      "Water Fountain",
+      "Kids Play Area",
+      "Decorated Pond",
+      "Flower & Fruit Trees",
+      "Vegetable Plants",
+      "Badminton Court",
+      "Tennis Court",
+      "Yoga Space",
+      "Outdoor Gym",
+      "Iron Zone",
+      "Laundry Zone",
+      "Work Station",
+      "Library & Painting Space",
+      "Open Air Amphitheatre",
+      "Solar Panel",
+      "Waste Management",
+      "Community Hall",
+      "Reception Lobby",
+      "Indoor Kids Zone",
+      "24x7 Power Backup",
+      "24x7 CCTV Security",
+      "Water Filter Plant",
+      "Senior Citizen Adda Zone",
+      "Golf Cart for Elderly",
+      "Ambulance On Call",
+      "Nurses On Call",
+      "Wheelchair Assistance",
+    ],
+
+    connectivity: [
+      "1.8 km from Southern Bypass",
+      "14 mins from Shahid Khudiram Metro Station",
+      "16 mins from Kavi Nazrul Metro Station",
+      "18 mins from Garia Railway Station",
+      "20 mins from Sonarpur Railway Station",
+      "30 mins from Science City",
+      "45 mins from Park Street via Metro",
+      "50 mins from Dalhousie via Metro",
+      "60 mins from Airport, Howrah & Sealdah",
+      "Excellent access to NSC Bose Road & Boral Main Road",
+      "Dedicated Pick & Drop Service to Metro Station",
+    ],
+
+    lifestyle: [
+      "77% Open Space",
+      "Natural Water Bodies",
+      "Aquatic Themed Lifestyle",
+      "Aquariums in Every Lobby",
+      "High-Rise Community Living",
+      "370 Apartments",
+      "Two-Side Open Flats",
+      "Multiple Balconies",
+      "Wood Finish Tiles in Master Bedrooms",
+      "Green & Wellness Focused Design",
+      "Affordable Luxury Living",
+      "Nature-Centric Community",
+    ],
+  },
+
+  nearby: {
+    metro:
+      "Shahid Khudiram Metro Station & Kavi Nazrul Metro Station nearby",
+
+    school:
+      "DPS Ruby Park, Narendrapur Ramkrishna Mission & BD Memorial School nearby",
+
+    hospital:
+      "Peerless Hospital, Medica Hospital & Hindustan Health Point nearby",
+  },
+
+  investment: {
+    roi: "12–18%",
+
+    demand: "High",
+
+    growth: "Strong",
+
+    appreciation:
+      "Strong appreciation potential due to Southern Bypass expansion and metro connectivity",
+  },
+
+  propertyDetails:
+    "Atri Aqua is a large-scale affordable luxury residential development located on Dr. B. C. Roy Road near Southern Bypass, Kolkata. Developed by the renowned Atri Group, the project spreads across approximately 200 kattahs with 77% open space and natural water bodies. Inspired by aquatic aesthetics, Atri Aqua features themed interiors, lavish aquariums in every lobby, wellness-focused amenities, landscaped green zones, and seamless urban connectivity. Designed as a tranquil escape from city chaos, the project combines affordability, nature, and high-rise living in one integrated community.",
+
+  specifications: {
+    landArea: "200 Kattah (Approx.)",
+
+    towers: "5 Towers",
+
+    floors: "B + G + 11 & G + 11",
+
+    apartments: "370 Flats",
+
+    openSpace: "77%",
+
+    theme: "Aquatic Inspired Design",
+
+    commencement: "July 2022",
+
+    completion:
+      "Tower 3, 4 & 5 - December 2025 onwards",
+  },
+
+  features: [
+    "Aquatic Themed Lifestyle",
+    "Natural Water Bodies",
+    "77% Open Space",
+    "Swimming Pool",
+    "Landscaped Green Spaces",
+    "Jogging Track",
+    "Tennis & Badminton Court",
+    "Yoga & Wellness Areas",
+    "Outdoor Gym",
+    "Community Hall",
+    "Library & Painting Space",
+    "Open Air Amphitheatre",
+    "Kids Play Area",
+    "Senior Citizen Zones",
+    "Dedicated Metro Shuttle Service",
+    "24x7 Security & CCTV",
+    "Power Backup",
+    "Affordable High-Rise Living",
+    "Two-Side Open Flats",
+    "Multiple Balconies",
+  ],
+
+  pricing: [
+    {
+      size: "2 BHK Smart (676 – 694 sq.ft.)",
+
+      price: "₹33.5 Lakhs onwards (with parking)",
+    },
+
+    {
+      size: "2 BHK (829 – 867 sq.ft.)",
+
+      price: "₹44.5 Lakhs – ₹46.5 Lakhs onwards",
+    },
+
+    {
+      size: "3 BHK (1162 – 1186 sq.ft.)",
+
+      price: "₹55 Lakhs – ₹63 Lakhs onwards",
+    },
+  ],
+
+  locationAdvantages: {
+    businessDistricts: [
+      "Science City - 30 mins",
+      "Park Street - 45 mins",
+      "Dalhousie - 50 mins",
+      "Howrah - 60 mins",
+      "Airport - 60 mins",
+      "Excellent Southern Bypass Connectivity",
+    ],
+
+    healthcare: [
+      "Peerless Hospital",
+      "Medica Hospital",
+      "Hindustan Health Point",
+      "Welkin Health Point",
+      "Ramkrishna Mission Hospital",
+      "Subhashgram Health Centre",
+    ],
+
+    education: [
+      "DPS Ruby Park",
+      "Narendrapur Ramkrishna Mission",
+      "BD Memorial School",
+      "Swarnim International School",
+      "Lions Calcutta Vidyamandir",
+    ],
+
+    entertainment: [
+      "SVF Wood Square Mall",
+      "Metropolis Mall",
+      "Inox Highland Park",
+      "Science City",
+      "Bonobithichaya Patuli",
+      "Satyajit Roy Park",
+    ],
+  },
+
+  floorPlans: {
+    smart2BHK: [
+      "676 sq.ft.",
+      "694 sq.ft.",
+      "712 sq.ft.",
+    ],
+
+    standard2BHK: [
+      "829 sq.ft.",
+      "856 sq.ft.",
+      "867 sq.ft.",
+      "874 sq.ft.",
+      "991 sq.ft.",
+    ],
+
+    threeBHK: [
+      "1162 sq.ft.",
+      "1171 sq.ft.",
+      "1186 sq.ft.",
+      "1252 sq.ft.",
+    ],
+  },
+
+  apartmentVariants: {
+    readyToMove: [
+      {
+        type: "3 BHK",
+        price: "₹55 Lakhs onwards with parking",
+      },
+
+      {
+        type: "2 BHK Smart (676 sq.ft.)",
+        price: "₹33.5 Lakhs onwards with parking",
+      },
+
+      {
+        type: "Smart 2 BHK / 1.5 BHK (694 sq.ft.)",
+        price: "₹33.5 Lakhs onwards with parking",
+      },
+
+      {
+        type: "2 BHK (856 sq.ft.)",
+        price: "₹44.5 Lakhs (11th Floor only)",
+      },
+    ],
+
+    underConstruction: [
+      {
+        type: "2 BHK Larger Units",
+        price: "₹46.5 Lakhs onwards with parking",
+      },
+
+      {
+        type: "3 BHK",
+        price: "₹63 Lakhs onwards with parking",
+      },
+    ],
+  },
+
+  constructionStatus: [
+    "Tower 3 - 9th Floor Casting Completed",
+    "Tower 4 - 8th Floor Casting Completed",
+    "Tower 5 - 9th Floor Casting Completed",
+  ],
+
+  developerDetails:
+    "Established in 1982, Atri Group is a renowned Kolkata-based real estate developer known for quality construction, affordability, and timely delivery. The group has developed multiple landmark residential and commercial projects across Kolkata including Park Street, Gariahat, Alipore, Lake Town, CIT Road, and Southern Bypass.",
+
+  marketingPartner:
+    "NK Realtors - One of India’s largest vertically integrated real estate service providers established in 1987.",
+
+  rera: "WBRERA/P/SOU/2023/000673",
+
+  tag: "Affordable Luxury",
+
+  mapEmbedUrl:
+    "https://www.google.com/maps?q=316,+Dr.+B.+C.+Roy+Road,+Kolkata+700151&output=embed",
+
+  plans: {
+    site: atriaqua02,
+
+    master: atriaqua01,
+
+    unit: [
+      atriaqua03,
+      atriaqua04,
+      atriaqua05,
+      atriaqua06,
+      atriaqua07,
+    ],
+  },
+
 },
 
 

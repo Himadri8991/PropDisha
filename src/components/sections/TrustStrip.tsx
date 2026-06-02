@@ -16,6 +16,9 @@ import emamiLogo from "@/assets/logos/emami logo.png";
 import dtcLogo from "@/assets/logos/DTC logo.png";
 import primarcLogo from "@/assets/logos/primarc logo.svg";
 import mayfairLogo from "@/assets/logos/mayfair logo.png";
+import skyscraperLogo from "@/assets/logos/skyscraper logo.svg";
+import atrilogo from "@/assets/logos/atri logo.png";
+
 
 const stats = [
   { label: "Capital Deployed", value: 500, prefix: "₹", suffix: "Cr+", icon: TrendingUp },
@@ -37,6 +40,8 @@ const developers = [
   { name: "DTC Group", logo: dtcLogo, keyName: "DTC Group" },
   { name: "Primarc", logo: primarcLogo, keyName: "Primarc" },
   { name: "Mayfair Group", logo: mayfairLogo, keyName: "Mayfair Group" },
+  { name: "Skyscraper", logo: skyscraperLogo, keyName: "Skyscraper" },
+  { name: "Atri Group", logo: atrilogo, keyName: "Atri Group" },
 ];
 
 function useCounter(target: number, duration = 2000, enabled = true) {

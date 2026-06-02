@@ -579,6 +579,25 @@ const PropertyDetail = () => {
           </motion.div>
           );
           })()}
+
+          {property.floorPlans && (
+            <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+              {Object.entries(property.floorPlans).map(([key, sizes]) => (
+                <div key={key} className="glass p-8 rounded-3xl border-white/5 hover:border-gold/20 transition-all duration-500">
+                  <h4 className="text-[10px] tracking-[0.2em] uppercase text-gold font-bold mb-4">
+                    {key.replace(/([A-Z])/g, ' $1').trim()}
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {sizes.map((size) => (
+                      <span key={size} className="px-3.5 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs text-foreground/75 font-light">
+                        {size}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
@@ -747,6 +766,49 @@ const PropertyDetail = () => {
                 </div>
               )}
             </div>
+
+            {property.apartmentVariants && (
+              <div className="mt-16 border-t border-white/5 pt-12 w-full">
+                <h4 className="text-[10px] tracking-[0.3em] uppercase text-gold font-bold mb-8 text-center">Available Units & Variants</h4>
+                <div className="grid md:grid-cols-2 gap-8">
+                  {/* Ready to Move */}
+                  {property.apartmentVariants.readyToMove && property.apartmentVariants.readyToMove.length > 0 && (
+                    <div className="space-y-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                        <span className="text-xs font-semibold uppercase tracking-wider text-foreground/80">Ready to Move</span>
+                      </div>
+                      <div className="glass-strong rounded-3xl p-6 border-white/5 space-y-4">
+                        {property.apartmentVariants.readyToMove.map((variant, idx) => (
+                          <div key={idx} className="flex justify-between items-center py-2 border-b border-white/5 last:border-0 last:pb-0">
+                            <span className="text-sm font-light text-foreground/80">{variant.type}</span>
+                            <span className="text-sm font-bold text-gold">{variant.price}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Under Construction */}
+                  {property.apartmentVariants.underConstruction && property.apartmentVariants.underConstruction.length > 0 && (
+                    <div className="space-y-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-2 h-2 rounded-full bg-gold animate-pulse" />
+                        <span className="text-xs font-semibold uppercase tracking-wider text-foreground/80">Under Construction</span>
+                      </div>
+                      <div className="glass-strong rounded-3xl p-6 border-white/5 space-y-4">
+                        {property.apartmentVariants.underConstruction.map((variant, idx) => (
+                          <div key={idx} className="flex justify-between items-center py-2 border-b border-white/5 last:border-0 last:pb-0">
+                            <span className="text-sm font-light text-foreground/80">{variant.type}</span>
+                            <span className="text-sm font-bold text-gold">{variant.price}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </section>
       )}
@@ -918,6 +980,45 @@ const PropertyDetail = () => {
         </section>
       )}
 
+      {/* 8.8 CONSTRUCTION UPDATES SECTION */}
+      {property.constructionStatus && property.constructionStatus.length > 0 && (
+        <section className="py-32 bg-navy-deep relative overflow-hidden border-t border-white/5">
+          <div className="absolute top-0 right-1/4 w-[300px] h-[300px] bg-gold/5 blur-[100px] rounded-full pointer-events-none" />
+          <div className="container-luxe max-w-4xl">
+            <div className="text-center mb-20">
+              <p className="text-gold text-[10px] tracking-[0.4em] uppercase mb-6">Live Progress Log</p>
+              <h2 className="text-4xl md:text-5xl font-display">Construction <span className="italic text-gradient-gold">Timeline.</span></h2>
+              <p className="text-foreground/40 font-light text-sm max-w-md mx-auto mt-4">
+                Real-time tracking of engineering milestones, casting phases, and structural benchmarks.
+              </p>
+            </div>
+
+            <div className="relative border-l border-white/10 pl-8 ml-4 space-y-12">
+              {property.constructionStatus.map((statusStr, idx) => (
+                <motion.div
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ delay: idx * 0.1 }}
+                  viewport={{ once: true }}
+                  key={idx}
+                  className="relative group"
+                >
+                  {/* Timeline indicator node */}
+                  <div className="absolute -left-[41px] top-1.5 w-6 h-6 rounded-full bg-navy-deep border-2 border-gold grid place-items-center group-hover:bg-gold transition-colors duration-500 shadow-[0_0_10px_rgba(212,175,55,0.4)]">
+                    <div className="w-1.5 h-1.5 rounded-full bg-gold group-hover:bg-navy-deep transition-colors" />
+                  </div>
+                  
+                  <div className="glass p-8 rounded-3xl border-white/5 hover:border-gold/20 transition-all duration-500">
+                    <p className="text-[10px] tracking-[0.2em] uppercase text-gold font-bold mb-2">Milestone Achieved</p>
+                    <p className="text-lg font-display text-foreground">{statusStr}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* 9. DEVELOPER & TRUST */}
       <section className="py-32">
         <div className="container-luxe">
@@ -942,9 +1043,15 @@ const PropertyDetail = () => {
                   </div>
                 </div>
                 
-                <p className="text-xl text-foreground/50 font-light leading-relaxed mb-12">
-                  Legacy, craftsmanship and precision. Every square foot is a testament to decades of building for India's future. Curated and verified by PropDisha.
+                <p className="text-xl text-foreground/50 font-light leading-relaxed mb-8">
+                  {property.developerDetails || "Legacy, craftsmanship and precision. Every square foot is a testament to decades of building for India's future. Curated and verified by PropDisha."}
                 </p>
+                {property.marketingPartner && (
+                  <div className="mb-8 p-6 rounded-2xl glass border-white/5 text-xs text-foreground/45 leading-relaxed font-light text-left">
+                    <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-bold block mb-1">Authorised Marketing Partner</span>
+                    {property.marketingPartner}
+                  </div>
+                )}
                 
                 <div className="flex flex-wrap gap-4">
                   <div className="glass px-6 py-3 rounded-full flex items-center gap-3">
