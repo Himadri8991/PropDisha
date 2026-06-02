@@ -23,7 +23,7 @@ import atrilogo from "@/assets/logos/atri logo.png";
 const stats = [
   { label: "Capital Deployed", value: 500, prefix: "₹", suffix: "Cr+", icon: TrendingUp },
   { label: "Happy Homeowners", value: 10000, prefix: "", suffix: "+", icon: Users },
-  { label: "Verified Projects", value: 6, prefix: "", suffix: "+", icon: Building },
+  { label: "Verified Projects", value: 70, prefix: "", suffix: "+", icon: Building },
   { label: "RERA Compliant", value: 100, prefix: "", suffix: "%", icon: ShieldCheck },
 ];
 
