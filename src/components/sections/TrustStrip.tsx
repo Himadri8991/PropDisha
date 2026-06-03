@@ -18,6 +18,7 @@ import primarcLogo from "@/assets/logos/primarc logo.svg";
 import mayfairLogo from "@/assets/logos/mayfair logo.png";
 import skyscraperLogo from "@/assets/logos/skyscraper logo.svg";
 import atrilogo from "@/assets/logos/atri logo.png";
+import atkkalimlogo from "@/assets/logos/ATK Kalim Logo.webp";
 
 
 const stats = [
@@ -42,6 +43,7 @@ const developers = [
   { name: "Mayfair Group", logo: mayfairLogo, keyName: "Mayfair Group" },
   { name: "Skyscraper", logo: skyscraperLogo, keyName: "Skyscraper" },
   { name: "Atri Group", logo: atrilogo, keyName: "Atri Group" },
+  { name: "ATK Kalim Group", logo: atkkalimlogo, keyName: "ATK Kalim Group" },
 ];
 
 function useCounter(target: number, duration = 2000, enabled = true) {

@@ -1341,6 +1341,70 @@ import atriaqua05 from "@/assets/atriaqua05.jpg";
 import atriaqua06 from "@/assets/atriaqua06.jpg";
 import atriaqua07 from "@/assets/atriaqua07.jpg";
 
+import v21ac0 from "@/assets/v21ac0.png";
+
+import burjvid1 from "@/assets/burjvid1.mp4";
+import burj0 from "@/assets/burj0.jpg";
+import burj1 from "@/assets/burj1.jpg";
+import burj2 from "@/assets/burj2.jpg";
+import burj3 from "@/assets/burj3.jpg";
+import burj4 from "@/assets/burj4.jpg";
+import burj5 from "@/assets/burj5.jpg";
+import burj6 from "@/assets/burj6.jpg";
+import burj7 from "@/assets/burj7.jpg";
+import burj8 from "@/assets/burj8.jpg";
+import burj9 from "@/assets/burj9.jpg";
+import burj10 from "@/assets/burj10.jpg";
+import burj11 from "@/assets/burj11.jpg";
+import burj12 from "@/assets/burj12.jpg";
+import burj13 from "@/assets/burj13.jpg";
+import burj14 from "@/assets/burj14.jpg";
+import burj15 from "@/assets/burj15.jpg";
+import burj16 from "@/assets/burj16.jpg";
+import burj17 from "@/assets/burj17.jpg";
+import burj18 from "@/assets/burj18.jpg";
+import burj19 from "@/assets/burj19.jpg";
+import burj20 from "@/assets/burj20.jpg";
+import burj21 from "@/assets/burj21.jpg";
+import burj22 from "@/assets/burj22.jpg";
+import burj23 from "@/assets/burj23.jpg";
+import burj24 from "@/assets/burj24.jpg";
+import burj01 from "@/assets/burj01.jpg";
+import burj02 from "@/assets/burj02.jpg";
+import burj03 from "@/assets/burj03.jpg";
+import burj04 from "@/assets/burj04.jpg";
+import burj05 from "@/assets/burj05.jpg";
+import burj06 from "@/assets/burj06.jpg";
+import burj07 from "@/assets/burj07.jpg";
+import burj08 from "@/assets/burj08.jpg";
+import burj09 from "@/assets/burj09.jpg";
+import burj010 from "@/assets/burj010.jpg";
+import burj011 from "@/assets/burj011.jpg";
+import burj012 from "@/assets/burj012.jpg";
+import burj013 from "@/assets/burj013.jpg";
+import burj014 from "@/assets/burj014.jpg";
+import burj015 from "@/assets/burj015.jpg";
+import burj016 from "@/assets/burj016.jpg";
+import burj017 from "@/assets/burj017.jpg";
+import burj018 from "@/assets/burj018.jpg";
+import burj019 from "@/assets/burj019.jpg";
+import burj020 from "@/assets/burj020.jpg";
+import burj021 from "@/assets/burj021.jpg";
+import burj022 from "@/assets/burj022.jpg";
+import burj023 from "@/assets/burj023.jpg";
+import burj024 from "@/assets/burj024.jpg";
+import burj025 from "@/assets/burj025.jpg";
+import burj026 from "@/assets/burj026.jpg";
+import burj027 from "@/assets/burj027.jpg";
+import burj028 from "@/assets/burj028.jpg";
+import burj029 from "@/assets/burj029.jpg";
+import burj030 from "@/assets/burj030.jpg";
+import burj031 from "@/assets/burj031.jpg";
+import burj032 from "@/assets/burj032.jpg";
+import burj033 from "@/assets/burj033.jpg";
+import burj034 from "@/assets/burj034.jpg";
+import burj035 from "@/assets/burj035.jpg";
+
 
 export type Intent = "Buy" | "Invest" | "Commercial" | "Luxury" | "Residential" | "Senior Living" | "Retail" | "Office Space" | "Industrial" | "Warehousing" | "IT Park" | "Hotel" | "Business" | "Affordable" | "Warehouse" | "Office" | "Plots" | "Riverfront" | "Villa" | "Resort" | "Nature" | "Duplex" | "Family" | "Township" | "Ultra Luxury";
 
@@ -1349,7 +1413,7 @@ export type Property = {
   slug: string;
   name: string;
   tagline: string;
-  developer?: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group" | "Vinayak Group" | "Alcove Realty" | "Emami Realty" | "DTC Group" | "Primarc" | "Mayfair Group" | "Skyscraper" | "Atri Group";
+  developer?: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group" | "Vinayak Group" | "Alcove Realty" | "Emami Realty" | "DTC Group" | "Primarc" | "Mayfair Group" | "Skyscraper" | "Atri Group" | "ATK Kalim Group";
   developers?: string[];
   city: "Kolkata" | "Howrah";
   location: string;
@@ -1364,6 +1428,13 @@ export type Property = {
 
   cover: string;
   gallery: string[];
+
+  videos?: {
+  walkthrough?: string;
+  cinematic?: string;
+  drone?: string;
+  youtube?: string;
+  };
 
   story: string[];
 
@@ -1571,6 +1642,8 @@ export type Property = {
     skywalk?: string;
     commencement?: string;
     completion?: string;
+    futureDevelopment?: string;
+    greenCertification?: string;
   };
 
   features?: string[];
@@ -1622,10 +1695,30 @@ export type Property = {
   apartmentVariants?: {
     readyToMove?: { type: string; price: string }[];
     underConstruction?: { type: string; price: string }[];
+    twoBHK?: { type: string; carpet: string; sbua: string }[];
+    threeBHKSmart?: { type: string; carpet: string; sbua: string }[];
+    threeBHKComfort?: { type: string; carpet: string; sbua: string }[];
+    threeBHKLuxury?: { type: string; carpet: string; sbua: string }[];
   };
   constructionStatus?: string[];
   developerDetails?: string;
   marketingPartner?: string;
+  centralParkFeatures?: string[];
+  sustainabilityFeatures?: string[];
+  specificationsDetails?: {
+    structure?: string;
+    wallTechnology?: string;
+    flooring?: string;
+    kitchen?: string;
+    toilets?: string;
+    windows?: string;
+    electrical?: string;
+    security?: string;
+    elevators?: string;
+    lobby?: string;
+    [key: string]: string | undefined;
+  };
+  adsCampaignHighlights?: string[];
 };
 
 // Default map link provided for now. You can replace these with actual links later!
@@ -8613,21 +8706,22 @@ export const properties: Property[] = [
     id: "53",
     slug: "21-acres",
     name: "21 Acres",
-    tagline: "Designed for Ease of Living.",
+    tagline: "More Than You Imagine.",
     developer: "Vinayak Group",
     city: "Kolkata",
-    location: "Off Newtown Action Area III",
-    priceLabel: "Price On Request",
-    priceMin: 0,
+    location: "Adjacent to Newtown Action Area III, Hatishala, Kolkata",
+    priceLabel: "2 BHK from ₹76 Lakhs",
+    priceMin: 76,
     bhk: [2, 3],
-    sizeRange: "595 – 973 sq.ft. Carpet Area",
-    possession: "31.03.2032",
-    configuration: "21 Acres · 5 Towers · G+21",
+    sizeRange: "595 – 879 sq.ft. Carpet Area",
+    possession: "31 March 2032",
+    configuration: "21 Acres · 75% Open to Sky · 5 Towers G+21 · 750+ Homes",
     status: "Under Construction",
-    intent: ["Buy", "Residential", "Invest"],
+    intent: ["Buy", "Residential", "Invest", "Luxury"],
     cover: v21ac1,
 
     gallery: [
+      v21ac0,
       v21ac1,
       v21ac2,
       v21ac3,
@@ -8639,135 +8733,302 @@ export const properties: Property[] = [
     ],
 
     story: [
-      "Wake up surrounded by expansive greenery and nature-inspired open spaces.",
-      "Experience a lifestyle designed around wellness, recreation, and everyday comfort.",
-      "Live in a thoughtfully planned community centered around a magnificent 3-acre central park.",
+      "Wake up surrounded by 75% open-to-sky landscapes designed around nature, wellness, and openness.",
+      "Experience a one-of-a-kind integrated community centered around a magnificent 3-acre Central Park.",
+      "Live in thoughtfully designed homes with sky terraces, cross ventilation, premium recreation zones, and seamless Newtown connectivity.",
     ],
 
     highlights: {
       amenities: [
         "3 Acre Central Park",
-        "Infinity Pool",
-        "Open-Air Futsal Ground",
+        "Infinity Edge Pool",
+        "Dedicated Podium Club for Each Phase",
+        "15,000 sq.ft Clubhouse in Every Podium",
+        "25+ Amenities in Each Podium",
+        "Open-air Futsal Ground",
         "Athletic Track",
+        "Cycling Track",
+        "Jogging Track",
         "Lawn Tennis Court",
         "Cricket Play Arena",
         "Pet Park",
         "Forest Trail",
-        "Jogging Track",
-        "Cycling Track",
-        "Podium Garden",
-        "Outdoor Activity Zones",
-      ],
+        "Pickleball Court",
+        "Mini Basketball Court",
+        "Skating Rink",
+        "Outdoor Fitness Zone",
+        "Adventure Challenge Play Area",
+        "Kids Play Areas",
+        "Barbeque Nook",
+        "Open-air Amphitheatre",
+        "Elevated Cabanas",
+        "Star Gazing Area",
+        "Outdoor Jacuzzi",
+        "Reflexology Walk Area",
+        "Banquet Hall",
+        "Co-working Spaces",
+        "Guest Rooms",
+        "Library Lounge",
+        "Yoga & Meditation Room",
+        "Indoor Games Room",
+        "Steam & Changing Rooms",
+        "Senior Citizens Adda Zone",
+        "Chess Court",
+        "Toddlers Pool",
+        ],
 
       connectivity: [
-        "1 Minute from Infosys, ITC Infotech & Wipro",
-        "2 Minutes from Hatisala Bus Stand",
-        "10 Minutes from Unitech Infospace",
-        "12 Minutes from Biswa Bangla Gate",
-        "12 Minutes from Tata Medical Centre",
-        "15 Minutes from DPS New Town & Axis Mall",
-        "30 Minutes from Airport",
-        "Shuttle Bus Service to Nearest Metro",
+        "1 Minute from InfosysITC Infotech & Wipro",
+        "2 Minutes from ITC Infotech, Wipro & Hatisala Bus Stand",
+        "5 Mins from Army Institute of Management",
+        "7 Mins from UEM Kolkata & St Xavier’s University",
+        "10 Mins from Unitech Infospace",
+        "12 Mins from Biswa Bangla Gate, Tata Medical Centre & Nearest Metro",
+        "15 Mins from DPS Newtown & Axis Mall",
+        "30 Mins from Airport & Science City",
+        "Dedicated Shuttle Service to Metro",
       ],
 
       lifestyle: [
-        "21 Acre Integrated Community",
+        "21 Acre Integrated Township",
+        "75% Open to Sky",
+        "3 Acre Central Park",
         "750+ Premium Homes",
-        "Nature Inspired Living",
+        "Future Expansion with Villas",
+        "Nature Inspired Community",
         "Double Height Sky Terraces",
-        "Open & Well Ventilated Apartments",
-        "Sustainable Living Features",
-        "Outdoor Wellness Spaces",
-        "Family-Centric Community Design",
-      ],
-    },
+        "90% Homes with 3-Side Open Views",
+        "IGBC Platinum Precertified Green Building",
+        "Family-Centric Outdoor Living",
+        "Sports & Wellness Focused Lifestyle",
+        "Pet-Friendly Community",
+        ],
+      },
 
     nearby: {
-      metro: "Nearest Metro via Shuttle Service",
-      school: "DPS New Town & nearby educational institutions",
-      hospital: "Tata Medical Centre & nearby healthcare facilities",
+      metro:
+       "Nearest Metro Station within 12 minutes via dedicated shuttle service",
+
+      school:
+        "Orchids International School, DPS Newtown, Narayana School & The Newtown School nearby",
+
+     hospital:
+        "Tata Medical Centre, Ohio Hospital, Neotia Bhagirathi & Wellcare Nursing Home nearby",
     },
 
     investment: {
-      roi: "13–19%",
-      demand: "High",
-      growth: "Rapidly Growing",
-      appreciation: "Strong appreciation potential in Newtown Action Area III",
+      roi: "14–20%",
+      demand: "Very High",
+      growth: "Rapidly Growing Corridor",
+      appreciation: "Strong appreciation potential due to Newtown expansion, IT growth corridor & upcoming infrastructure",
     },
 
     propertyDetails:
-      "Vinayak 21 Acres by Vinayak Group is a large integrated residential community located off Newtown Action Area III, Kolkata. Spread across 21 acres with over 750 homes in 5 G+21 towers, the development is centered around a first-of-its-kind 3-acre central park designed to create a nature-inspired lifestyle experience. The project offers thoughtfully planned 2 & 3 BHK residences with spacious layouts, double-height sky terraces, excellent ventilation, and sustainable living features. Designed around recreation, wellness, and open-air living, Vinayak 21 Acres combines landscaped greens, sports zones, lifestyle amenities, and excellent connectivity to Newtown’s IT hubs, educational institutions, healthcare facilities, and metro infrastructure.",
+      "Vinayak 21 Acres is a landmark integrated residential township by Vinayak Group located adjacent to Newtown Action Area III, Kolkata. Spread across 21 acres with 75% open-to-sky landscapes, the development is designed around a first-of-its-kind 3-acre Central Park featuring sports zones, themed greens, adventure play areas, wellness spaces, and social gathering zones. The project combines luxury, nature, and community living through premium 2 & 3 BHK residences with double-height sky terraces, cross ventilation, vastu-compliant layouts, and expansive open views. Each residential phase features its own exclusive podium club with infinity pools, lifestyle amenities, co-working spaces, and wellness zones. Positioned near Newtown’s leading IT parks, educational institutions, hospitals, and metro infrastructure, Vinayak 21 Acres is envisioned as a future-ready green community for modern urban families.",
+
 
     specifications: {
       landArea: "21 Acres",
+      openSpace: "75% Open to Sky",
       towers: "5 Towers",
       floors: "G+21",
       homes: "750+ Homes",
+      futureDevelopment: "Proposed 5 Additional Towers, 900+ Homes & 80+ Villas",
       centralPark: "3 Acre Central Park",
-      unitSizes: "595 – 973 sq.ft Carpet Area",
-      completionDate: "31.03.2032",
+      clubhouse: "15,000 sq.ft Dedicated Clubhouse for Each Podium",
+      completionDate: "31 March 2032",
+      greenCertification: "IGBC Precertified Platinum Rated Green Building",
     },
 
     features: [
+      "Infinity Edge Pools",
       "3 Acre Central Park",
-      "Infinity Pool",
       "Double Height Sky Terraces",
-      "Open & Ventilated Homes",
-      "Forest Trail",
-      "Cycling & Jogging Tracks",
-      "Sports Arenas",
+      "90% 3-Side Open Homes",
+      "Cross Ventilated Apartments",
+      "Vastu-Compliant Layouts",
+      "Forest Trails",
       "Pet Park",
-      "Nature Inspired Community",
+      "Sports Infrastructure",
+      "Dedicated Podium Clubs",
+      "Co-working Spaces",
+      "Outdoor Recreation Zones",
       "Sustainable Infrastructure",
-      "Outdoor Lifestyle Amenities",
-      "Integrated Residential Development",
+      "IGBC Platinum Green Building",
+      "Skyline Lifestyle Living",
+      "Family-Centric Community",
+      "Wellness Focused Amenities",
+      "Luxury Landscaped Open Spaces",
     ],
 
     pricing: [
       {
-        size: "2BHK 2T · 595 sq.ft.",
+        size: "2 BHK · 595 – 596 sq.ft Carpet",
+        price: "₹76 Lakhs onwards",
+      },
+      {
+        size: "3 BHK Smart · 703 sq.ft Carpet",
+        price: "₹88 Lakhs onwards",
+      },
+      {
+        size: "3BHK Comfort · 774 – 783 sq.ft Carpet",
         price: "Price On Request",
       },
       {
-        size: "3BHK 2T · 698 – 783 sq.ft.",
-        price: "Price On Request",
-      },
-      {
-        size: "3BHK 3T · 823 – 973 sq.ft.",
+        size: "3BHK Luxury · 826 – 879 sq.ft Carpet",
         price: "Price On Request",
       },
     ],
 
-    locationAdvantages: {
-      businessDistricts: [
-        "Infosys - 1 Minute",
-        "ITC Infotech - 1 Minute",
-        "Wipro - 1 Minute",
-        "Unitech Infospace - 10 Minutes",
-        "Newtown Business Districts Nearby",
-      ],
+    apartmentVariants: {
+    twoBHK: [
+      {
+        type: "2BHK 2T",
 
-      healthcare: [
-        "Tata Medical Centre - 12 Minutes",
-        "Nearby Newtown Healthcare Facilities",
-      ],
+        carpet: "595 – 596 sq.ft",
 
-      education: [
-        "DPS New Town - 15 Minutes",
-        "Nearby Schools & Educational Institutions",
-      ],
+        sbua: "971 sq.ft",
+      },
+    ],
 
-      entertainment: [
-        "Axis Mall - 15 Minutes",
-        "Biswa Bangla Gate - 12 Minutes",
-        "Newtown Lifestyle & Entertainment Hubs",
-      ],
+    threeBHKSmart: [
+      {
+        type: "3BHK 2T Smart",
+
+        carpet: "703 sq.ft",
+
+        sbua: "1136 – 1162 sq.ft",
+      },
+    ],
+
+    threeBHKComfort: [
+      {
+        type: "3BHK 2T Comfort",
+
+        carpet: "774 – 783 sq.ft",
+
+        sbua: "1250 – 1274 sq.ft",
+      },
+    ],
+
+    threeBHKLuxury: [
+      {
+        type: "3BHK 3T Luxury",
+
+        carpet: "826 – 879 sq.ft",
+
+        sbua: "1397 – 1492 sq.ft",
+      },
+    ],
     },
+
+    centralParkFeatures: [
+      "17,000 sq.ft Grand Lawn",
+      "Open-air Amphitheatre",
+      "Fun Stream",
+      "Cascading Waters",
+      "Adventure Challenge Play Area",
+      "Mini Basketball Court",
+      "Pickleball Court",
+      "Badminton Court",
+      "Maze Garden",
+      "Senior Seating Zones",
+      "Barbeque Nook",
+      "Outdoor Fitness Zone",
+      "Knoll Seating",
+      "Skating Rink",
+      "Elevated Cabanas",
+    ],
+
+    sustainabilityFeatures: [
+      "IGBC Platinum Precertified",
+      "Solar Power for Common Areas",
+      "Rain Water Harvesting",
+      "Grey Water Treatment Plant",
+      "Water Efficient Fixtures",
+      "LED Common Area Lighting",
+      "EV Charging Provision",
+      "Low VOC Paints",
+      "Waste Recycling & Management",
+      "High Solar Reflective Roof Tiles",
+    ],
+
+
+    locationAdvantages: {
+    businessDistricts: [
+      "Infosys - 1 Min",
+      "ITC Infotech - 2 Mins",
+      "Wipro - 2 Mins",
+      "Unitech Infospace - 10 Mins",
+      "TCS IT Park - 12 Mins",
+      "Newtown Business Hub Nearby",
+    ],
+
+    healthcare: [
+      "Wellcare Nursing Home",
+      "Tata Medical Centre",
+      "Ohio Hospital",
+      "Neotia Bhagirathi",
+    ],
+
+    education: [
+      "Orchids The International School",
+      "DPS Newtown",
+      "The Newtown School",
+      "Narayana School",
+      "Army Institute of Management",
+      "UEM Kolkata",
+      "St Xavier’s University",
+      "Sister Nivedita University",
+      "Techno International",
+    ],
+
+    entertainment: [
+      "Downtown Mall",
+      "Rosedale Plaza",
+      "Biswa Bangla Gate",
+      "Spencer’s",
+      "Eco Space Circle",
+      "Arts Acre",
+      "Proposed Mall Nearby",
+    ],
+  },
+
+  specificationsDetails: {
+    structure:
+      "RCC framed structure with optimum seismic design as per IS Code",
+
+    wallTechnology:
+      "Exterior concrete walls using Mivan technology",
+
+    flooring:
+      "Premium vitrified tiles in living, dining, bedrooms & balconies",
+
+    kitchen:
+      "Granite countertop with stainless steel sink & branded fittings",
+
+    toilets:
+      "Anti-skid flooring with premium sanitaryware & CP fittings",
+
+    windows:
+      "Aluminium casement windows",
+
+    electrical:
+      "Modular switches with concealed copper wiring",
+
+    security:
+      "Video Door Phone & CCTV Surveillance",
+
+    elevators:
+      "3 High-speed elevators in each tower",
+
+    lobby:
+      "Double-height entrance lobby",
+  },
 
     rera: "WBRERA/P/SOU/2026/004275",
 
-    tag: "Integrated Community",
+    tag: "Integrated Luxury Community",
 
     mapEmbedUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.8460739584893!2d88.52987222507696!3d22.54743812950961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b0042e86643%3A0x9b80b16de5baca87!2sVinayak%2021%20Acres!5e0!3m2!1sen!2sin!4v1779776525295!5m2!1sen!2sin",
@@ -8777,6 +9038,17 @@ export const properties: Property[] = [
       site: v21ac02,
       unit: [v21ac03, v21ac04, v21ac05],
     },
+
+    adsCampaignHighlights: [
+      "Infinity Edge Pools for Every Block",
+      "2 BHK from ₹76 Lakhs",
+      "3 BHK from ₹88 Lakhs",
+      "3 Acre Central Park",
+      "75% Open to Sky",
+      "Vast Gated Community",
+      "Off Newtown Action Area III",
+      "Premium Nature-Inspired Lifestyle",
+    ],
   },
 
   {
@@ -12362,7 +12634,454 @@ export const properties: Property[] = [
       atriaqua07,
     ],
   },
+},
 
+{
+  id: "74",
+
+  slug: "the-burj",
+
+  name: "The Burj",
+
+  tagline: "When The View Becomes Your Address.",
+
+  developer: "ATK Kalim Group",
+
+  city: "Kolkata",
+
+  location:
+    "113/C/4, Matheshwartala Road, Near Axis Bank, Off Park Regency Hotel, Topsia, Kolkata - 700046",
+
+  priceLabel: "Starting from ₹2.80 Cr",
+
+  priceMin: 280,
+
+  bhk: [3, 4],
+
+  sizeRange: "1796 – 2425 sq.ft. Super Built-up Area",
+
+  possession: "2028",
+
+  configuration:
+    "70 Kathas Freehold · 1 Iconic Tower · G+23 Floors · Limited Edition Residences",
+
+  status: "Under Construction",
+
+  intent: ["Buy", "Luxury", "Residential", "Ultra Luxury", "Invest"],
+
+  cover: burj0,
+
+  videos: {
+    walkthrough: burjvid1,
+    cinematic: burjvid1,
+  },
+
+  gallery: [
+    burj1,
+    burj2,
+    burj3,
+    burj4,
+    burj5,
+    burj6,
+    burj7,
+    burj8,
+    burj9,
+    burj10,
+    burj11,
+    burj12,
+    burj13,
+    burj14,
+    burj15,
+    burj16,
+    burj17,
+    burj18,
+    burj19,
+    burj20,
+    burj21,
+    burj22,
+    burj23,
+    burj24,
+  ],
+
+  story: [
+    "Experience a landmark luxury tower where skyline views, floating terraces, and exclusivity redefine urban living.",
+    "Wake up overlooking the Maa Flyover and Mirania Lake while staying connected to every prime destination in Kolkata.",
+    "Discover a rare collection of limited edition 3 & 4 BHK residences crafted for those who seek privacy, prestige, and panoramic city living.",
+  ],
+
+  highlights: {
+    amenities: [
+      "15th Floor Floating Terrace Clubhouse",
+      "Infinity Rooftop Swimming Pool",
+      "Double Height Banquet Hall",
+      "Premium Gymnasium",
+      "Indoor Games Room",
+      "Library & Reading Lounge",
+      "Community Hall",
+      "Badminton Court",
+      "Kids Play Area",
+      "Landscaped Open Terrace",
+      "Skyline Lounge Spaces",
+      "Grand Entrance Lobby",
+      "Floating Terrace Viewing Deck",
+      "Premium Rooftop Experiences",
+      "Luxury Recreational Zones",
+    ],
+
+    connectivity: [
+      "Walking Distance from EM Bypass",
+      "350 m from Topsia Crossing",
+      "1 km from Science City",
+      "2.8 km from Park Circus 7 Point",
+      "3.6 km from Park Street",
+      "3.9 km from Sealdah Station",
+      "5 km from Salt Lake & Major IT Zones",
+      "10.6 km from Howrah Station",
+      "16 km from Airport",
+      "Excellent Central Kolkata Connectivity",
+    ],
+
+    lifestyle: [
+      "Single Tower Ultra Luxury Development",
+      "Limited Edition Residences",
+      "3-Side Open Apartments",
+      "Overlooking Mirania Lake & Maa Flyover",
+      "Strong Road Presence near Science City",
+      "Luxury Skyline Living",
+      "Private High-Rise Lifestyle",
+      "Premium Rooftop Leisure",
+      "Central Kolkata Elite Address",
+      "70% Open Space Concept",
+    ],
+  },
+
+  nearby: {
+    metro:
+      "Park Street Metro, Rabindra Sadan Metro & Kalighat Metro well connected nearby",
+
+    school:
+      "Don Bosco School, Calcutta International School, Modern High School, Heritage School & Calcutta Boys School nearby",
+
+    hospital:
+      "Fortis, Apollo Gleneagles, Manipal, Desun, Bellevue & Chittaranjan Hospitals nearby",
+  },
+
+  investment: {
+    roi: "15–22%",
+
+    demand: "Ultra High",
+
+    growth: "Prime Luxury Corridor Growth",
+
+    appreciation:
+      "Strong appreciation potential due to EM Bypass luxury corridor, commercial connectivity, and limited inventory positioning",
+  },
+
+  propertyDetails:
+    "The Burj by ATK Kalim Group is an ultra-luxury single-tower residential development strategically located near EM Bypass in Topsia, Kolkata. Designed as a limited-edition landmark address, the project rises across G+23 floors on approximately 70 kathas of freehold land and features spacious 3 & 4 BHK residences with expansive layouts, panoramic skyline views, and 3-side open planning. The centerpiece of the project is its iconic 15th-floor floating terrace clubhouse featuring an infinity rooftop swimming pool, banquet spaces, wellness amenities, and elevated recreational experiences. Overlooking Mirania Lake and Maa Flyover, The Burj blends exclusivity, connectivity, and architectural sophistication while offering seamless access to Kolkata’s leading business districts, luxury hotels, educational institutions, hospitals, shopping hubs, and entertainment destinations. Crafted for elite urban lifestyles, the project combines privacy, prestige, and premium living in one of the city's fastest-growing luxury zones.",
+
+  specifications: {
+    landArea: "70 Kathas (Freehold)",
+
+    towers: "1 Exclusive Tower",
+
+    residences: "Limited Edition Residences",
+
+    floors: "G+23 Floors",
+
+    openSpace: "70% Open Space",
+
+    rooftopAmenities:
+      "15th Floor Floating Terrace Clubhouse",
+
+    swimmingPool:
+      "Infinity Rooftop Swimming Pool",
+
+    apartmentSizes:
+      "1796 – 2425 sq.ft. SBU",
+
+    apartmentDesign:
+      "3-Side Open Spacious Apartments",
+
+    locationAdvantage:
+      "Walking Distance from EM Bypass",
+
+    views:
+      "Views of Maa Flyover & Mirania Lake",
+
+    completion:
+      "2028",
+  },
+
+  features: [
+    "Ultra Luxury Single Tower",
+    "Limited Edition Residences",
+    "Infinity Rooftop Pool",
+    "Floating Terrace Clubhouse",
+    "3-Side Open Apartments",
+    "Double Height Banquet Hall",
+    "Premium Skyline Views",
+    "Mirania Lake Facing",
+    "Grand Entrance Experience",
+    "Indoor Games Room",
+    "Reading Lounge & Library",
+    "Landscaped Terrace Areas",
+    "Badminton Court",
+    "Premium Fitness Zone",
+    "24x7 Security",
+    "100% Power Backup",
+    "Intercom & CCTV Facility",
+    "Modern Fire Fighting System",
+    "24 Hours Water Supply",
+    "Luxury Urban Lifestyle",
+  ],
+
+  pricing: [
+    {
+      size: "3 BHK + 3T · 1796 sq.ft.",
+      price: "₹2.87 Cr onwards",
+    },
+
+    {
+      size: "3 BHK + 3T · 1816 sq.ft.",
+      price: "₹2.90 Cr onwards",
+    },
+
+    {
+      size: "3 BHK + 3T · 1874 sq.ft.",
+      price: "Price On Request",
+    },
+
+    {
+      size: "3 BHK + 3T · 2007 sq.ft.",
+      price: "Price On Request",
+    },
+
+    {
+      size: "4 BHK + 3T/4T · 2425 sq.ft.",
+      price: "₹3.85 Cr onwards",
+    },
+  ],
+
+  apartmentVariants: {
+    threeBHKSmart: [
+      {
+        type: "3 BHK + 3T",
+        carpet: "1094 – 1163 sq.ft.",
+        sbua: "1796 – 2007 sq.ft.",
+      },
+    ],
+
+    threeBHKLuxury: [
+      {
+        type: "4 BHK + 3T / 4T",
+        carpet: "1405 – 1462 sq.ft.",
+        sbua: "2425 sq.ft.",
+      },
+    ],
+  },
+
+  specificationsPricing: {
+    baseRate: "₹14,000 / sq.ft.",
+
+    floorEscalation:
+      "₹50 / sq.ft. from 5th Floor onwards",
+
+    dependentParking:
+      "₹13 Lakhs Single Parking",
+
+    independentParking:
+      "₹26 Lakhs for 1 Set Parking",
+
+    maintenance:
+      "₹3 / sq.ft. advance maintenance for 2 years",
+
+    plcTypeA: "No PLC",
+
+    plcTypeB: "₹150 / sq.ft.",
+
+    plcTypeCD: "₹300 / sq.ft.",
+  },
+
+  locationAdvantages: {
+    businessDistricts: [
+      "Topsia Crossing - 350 m",
+      "Science City Crossing - 1.2 km",
+      "AJC Bose Road - 2.8 km",
+      "Park Circus 7 Point - 2.8 km",
+      "Park Street - 3.6 km",
+      "Chingrighata Crossing - 3.9 km",
+      "Sealdah Station - 3.9 km",
+      "Howrah Station - 10.6 km",
+      "Airport - 16 km",
+    ],
+
+    healthcare: [
+      "Chittaranjan Hospital - 2.8 km",
+      "Belle Vue - 4.2 km",
+      "Fortis Hospital - 4.5 km",
+      "Manipal Hospitals - 5 km",
+      "Desun Hospital - 5.2 km",
+      "Apollo Gleneagles - 5.5 km",
+      "Columbia Asia - 5.6 km",
+    ],
+
+    education: [
+      "Don Bosco School - 2.6 km",
+      "Modern High School - 3.4 km",
+      "Calcutta International School - 4.3 km",
+      "Calcutta Boys School - 4.6 km",
+      "Heritage School - 6.2 km",
+      "MB Girls High School - 6.2 km",
+      "St Xavier’s College Nearby",
+    ],
+
+    entertainment: [
+      "Science City - 1 km",
+      "Silver Arcade - 2 km",
+      "Quest Mall - 3.1 km",
+      "Forum Mall - 5.1 km",
+      "Mani Square - 5.6 km",
+      "Carnival Cinemas - 5.7 km",
+      "Acropolis Mall - 5.8 km",
+      "Nicco Park - 5.7 km",
+      "Victoria Memorial - 5.3 km",
+      "Prinsep Ghat - 8.5 km",
+    ],
+
+    hospitality: [
+      "ITC Royal Bengal - 1.7 km",
+      "JW Marriott - 2.1 km",
+      "Raj Kutir - 4.5 km",
+      "Vivanta - 4.9 km",
+      "Hyatt Regency - 5 km",
+    ],
+
+    restaurants: [
+      "Beijing - 450 m",
+      "The Grid - 500 m",
+      "Big Boss - 550 m",
+      "Mainland China - 2 km",
+      "Mocambo - 3.6 km",
+      "Bar B Que - 3.6 km",
+      "Kwality - 3.7 km",
+    ],
+
+    banquetHalls: [
+      "Ojas - 500 m",
+      "Calcutta Boating & Hotel Resorts - 700 m",
+      "PC Chandra Garden - 1.3 km",
+    ],
+  },
+
+  specificationsDetails: {
+    structure:
+      "RCC framed structure with engineered foundation system",
+
+    flooring:
+      "Premium luxury flooring in living, dining & bedrooms",
+
+    kitchen:
+      "Premium kitchen layout with modern utility planning",
+
+    toilets:
+      "Branded sanitaryware & premium CP fittings",
+
+    windows:
+      "Large windows designed for panoramic skyline views & ventilation",
+
+    electrical:
+      "Concealed copper wiring with modular switches",
+
+    security:
+      "24x7 security with CCTV surveillance & intercom facility",
+
+    elevators:
+      "High-speed elevators",
+
+    lobby:
+      "Grand luxury entrance lobby with premium finishes",
+
+    fireSafety:
+      "Modern fire protection & firefighting systems as per norms",
+  },
+
+  constructionStatus: [
+    "Under Construction",
+    "Possession Expected by 2028",
+    "Premium High-Rise Tower Development",
+  ],
+
+  developerDetails:
+    "ATK Kalim Group is known for creating premium residential developments focused on exclusivity, luxury architecture, urban connectivity, and elevated lifestyle experiences.",
+
+  marketingPartner: "NKlusive",
+
+  architects: [
+    "ATK Kalim Group Design Team",
+  ],
+
+  adsCampaignHighlights: [
+    "When The View Becomes Your Address",
+    "Luxury Living Redefined",
+    "Starting from ₹2.80 Cr",
+    "Limited Units Left",
+    "Infinity Rooftop Pool",
+    "15th Floor Floating Terrace",
+    "Walking Distance from EM Bypass",
+    "Overlooking Mirania Lake",
+    "Ultra Luxury G+23 Tower",
+    "Prime Topsia Address",
+    "3 & 4 BHK Spacious Apartments",
+    "Single Tower Luxury Living",
+  ],
+
+  rera: "WBRERA/P/KOL/2024/002172",
+
+  tag: "Limited Edition Ultra Luxury Tower",
+
+  mapEmbedUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.781983254623!2d88.39808477507702!3d22.549840179507614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277c7d0f66f6d%3A0x6d4fdcfe7a5b84fa!2sTopsia%2C%20Kolkata!5e0!3m2!1sen!2sin!4v1779789554000!5m2!1sen!2sin",
+
+  plans: {
+    master: burj01,
+    unit: [
+      burj02,
+      burj03,
+      burj04,
+      burj05,
+      burj06,
+      burj07,
+      burj08,
+      burj09,
+      burj010,
+      burj011,
+      burj012,
+      burj013,
+      burj014,
+      burj015,
+      burj016,
+      burj017,
+      burj018,
+      burj019,
+      burj020,
+      burj021,
+      burj022,
+      burj023,
+      burj024,
+      burj025,
+      burj026,
+      burj027,
+      burj028,
+      burj029,
+      burj030,
+      burj031,
+      burj032,
+      burj033,
+      burj034,
+      burj035
+    ],
+  },
 },
 
 

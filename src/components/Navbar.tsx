@@ -103,6 +103,8 @@ const Navbar = () => {
 
             {/* Actions */}
             <div className="flex items-center gap-4">
+
+{/*               
               {isAuthenticated ? (
                 <div className="hidden sm:flex items-center gap-3">
                   <Link to="/dashboard" className="text-xs tracking-widest uppercase text-gold hover:text-gold-soft transition-colors flex items-center gap-2">
@@ -116,7 +118,7 @@ const Navbar = () => {
                 <Link to="/login" className="hidden sm:flex items-center gap-2 text-xs tracking-widest uppercase text-foreground/50 hover:text-foreground transition-colors">
                   <User className="w-3.5 h-3.5" /> Sign In
                 </Link>
-              )}
+              )} */}
               <a href="https://wa.me/919331511222?text=Hello PropDisha, I need expert advice on luxury properties."
                 target="_blank" rel="noopener noreferrer"
                 className="hidden lg:flex items-center gap-2 btn-gold !px-6 !py-2.5 text-xs tracking-widest uppercase">
@@ -179,6 +181,8 @@ const Navbar = () => {
 
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}
                 className="flex flex-col gap-3 w-full max-w-xs mt-4">
+
+{/* 
                 {isAuthenticated ? (
                   <Link to="/dashboard" onClick={() => setIsOpen(false)}
                     className="btn-gold w-full text-center flex items-center justify-center gap-2">
@@ -190,6 +194,8 @@ const Navbar = () => {
                     <User className="w-4 h-4" /> Sign In
                   </Link>
                 )}
+                 */}
+
                 <a href="https://wa.me/919331511222" target="_blank" rel="noopener noreferrer"
                   className="btn-gold w-full text-center flex items-center justify-center gap-2">
                   <Phone className="w-4 h-4" />Talk to Expert
