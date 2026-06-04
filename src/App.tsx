@@ -15,6 +15,7 @@ import Terms from "./pages/Terms.tsx";
 import Help from "./pages/Help.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Login from "./pages/Login.tsx";
+import ThankYou from "./pages/ThankYou.tsx";
 import DashboardLayout from "./pages/dashboard/DashboardLayout.tsx";
 import AdminDashboard from "./pages/dashboard/AdminDashboard.tsx";
 import AdminUsers from "./pages/dashboard/AdminUsers.tsx";
@@ -44,6 +45,7 @@ const App = () => (
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/help" element={<Help />} />
+            <Route path="/thank-you" element={<ThankYou />} />
             
             {/* Auth Routes */}
             <Route path="/login" element={<Login />} />

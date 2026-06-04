@@ -13041,7 +13041,7 @@ export const properties: Property[] = [
   tag: "Limited Edition Ultra Luxury Tower",
 
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.781983254623!2d88.39808477507702!3d22.549840179507614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277c7d0f66f6d%3A0x6d4fdcfe7a5b84fa!2sTopsia%2C%20Kolkata!5e0!3m2!1sen!2sin!4v1779789554000!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.9973479723362!2d88.38839970000001!3d22.541772099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a9e29fe993%3A0xa00e1f4f4325aee9!2sThe%20Burj!5e0!3m2!1sen!2sin!4v1780484547437!5m2!1sen!2sin",
 
   plans: {
     master: burj01,

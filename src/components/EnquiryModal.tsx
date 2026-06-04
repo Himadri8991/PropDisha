@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, Home, ShieldCheck, Building2, HelpCircle, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import { useNavigate } from "react-router-dom";
 import { submitLead } from "@/lib/mock-api";
 
 interface EnquiryModalProps {
@@ -31,6 +32,7 @@ export default function EnquiryModal({
   const [selectedIntent, setSelectedIntent] = useState<string>(defaultIntent);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const navigate = useNavigate();
 
   // Form State
   const [formData, setFormData] = useState({
@@ -94,9 +96,11 @@ export default function EnquiryModal({
       setTimeout(() => {
         setIsSuccess(false);
         onClose();
+        // Redirect to premium thank you page passing state for personalization
+        navigate("/thank-you", { state: { propertyName, name: formData.name } });
         // Reset form
         setFormData({ name: "", email: "", phone: "", message: "" });
-      }, 2000);
+      }, 1500);
     } catch (error: any) {
       setIsSubmitting(false);
       toast.error(error.message || "Failed to submit enquiry.");
