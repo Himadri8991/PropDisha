@@ -55,12 +55,17 @@ const Hero = () => {
   const opacity = useTransform(scrollY, [0, 350], [1, 0]);
 
   const suggestions = searchQuery.length > 0
-    ? properties.filter((p) =>
-        p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        p.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        p.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        p.developer.toLowerCase().includes(searchQuery.toLowerCase())
-      ).slice(0, 4)
+    ? properties.filter((p) => {
+        const query = searchQuery.toLowerCase();
+        const matchesName = p.name.toLowerCase().includes(query);
+        const matchesLocation = p.location.toLowerCase().includes(query);
+        const matchesCity = p.city.toLowerCase().includes(query);
+        const pDevs = p.developers 
+          ? p.developers.map(d => d.toLowerCase().trim()) 
+          : [p.developer?.toLowerCase().trim()].filter(Boolean);
+        const matchesDeveloper = pDevs.some(d => d.includes(query));
+        return matchesName || matchesLocation || matchesCity || matchesDeveloper;
+      }).slice(0, 4)
     : [];
 
   const handleSearch = (e?: React.FormEvent) => {
