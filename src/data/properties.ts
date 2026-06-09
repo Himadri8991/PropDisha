@@ -1405,6 +1405,132 @@ import burj033 from "@/assets/burj033.jpg";
 import burj034 from "@/assets/burj034.jpg";
 import burj035 from "@/assets/burj035.jpg";
 
+import trayam1 from "@/assets/trayam1.webp";
+import trayam2 from "@/assets/trayam2.webp";
+import trayam3 from "@/assets/trayam3.webp";
+import trayam4 from "@/assets/trayam4.webp";
+import trayam5 from "@/assets/trayam5.webp";
+import trayam6 from "@/assets/trayam6.webp";
+import trayam7 from "@/assets/trayam7.webp";
+import trayam8 from "@/assets/trayam8.webp";
+import trayam9 from "@/assets/trayam9.webp";
+import trayam10 from "@/assets/trayam10.webp";
+import trayam11 from "@/assets/trayam11.webp";
+import trayam12 from "@/assets/trayam12.webp";
+import trayam13 from "@/assets/trayam13.webp";
+import trayam14 from "@/assets/trayam14.webp";
+import trayam15 from "@/assets/trayam15.webp";
+import trayam16 from "@/assets/trayam16.webp";
+import trayam17 from "@/assets/trayam17.webp";
+import trayam18 from "@/assets/trayam18.webp";
+import trayam19 from "@/assets/trayam19.webp";
+import trayam20 from "@/assets/trayam20.webp";
+import trayam01 from "@/assets/trayam01.webp";
+import trayam02 from "@/assets/trayam02.webp";
+import trayam03 from "@/assets/trayam03.webp";
+import trayam04 from "@/assets/trayam04.webp";
+import trayam05 from "@/assets/trayam05.webp";
+import trayam06 from "@/assets/trayam06.webp";
+
+import autc1 from "@/assets/autc1.webp";
+import autc2 from "@/assets/autc2.webp";
+import autc3 from "@/assets/autc3.webp";
+import autc4 from "@/assets/autc4.webp";
+import autc5 from "@/assets/autc5.webp";
+import autc6 from "@/assets/autc6.webp";
+import autc7 from "@/assets/autc7.webp";
+import autc8 from "@/assets/autc8.webp";
+import autc9 from "@/assets/autc9.webp";
+import autc10 from "@/assets/autc10.webp";
+import autc11 from "@/assets/autc11.webp";
+import autc01 from "@/assets/autc01.webp";
+import autc02 from "@/assets/autc02.webp";
+import autc03 from "@/assets/autc03.webp";
+import autc04 from "@/assets/autc04.webp";
+import autc05 from "@/assets/autc05.webp";
+import autc06 from "@/assets/autc06.webp";
+import autc07 from "@/assets/autc07.webp";
+import autc08 from "@/assets/autc08.webp";
+import autc09 from "@/assets/autc09.webp";
+import autc010 from "@/assets/autc010.webp";
+import autc011 from "@/assets/autc011.webp";
+import autc012 from "@/assets/autc012.webp";
+import autc013 from "@/assets/autc013.webp";
+import autc014 from "@/assets/autc014.webp";
+import autc015 from "@/assets/autc015.webp";
+import autc016 from "@/assets/autc016.webp";
+import autc017 from "@/assets/autc017.webp";
+import autc018 from "@/assets/autc018.webp";
+import autc019 from "@/assets/autc019.webp";
+
+import utalikalvid from "@/assets/utalikalvid.mp4";
+import utalikal01 from "@/assets/utalikal01.webp";
+import utalikal02 from "@/assets/utalikal02.webp";
+import utalikal03 from "@/assets/utalikal03.webp";
+import utalikal04 from "@/assets/utalikal04.webp";
+import utalikal05 from "@/assets/utalikal05.webp";
+import utalikal06 from "@/assets/utalikal06.webp";
+import utalikal07 from "@/assets/utalikal07.webp";
+import utalikal08 from "@/assets/utalikal08.webp";
+import utalikal09 from "@/assets/utalikal09.webp";
+import utalikal010 from "@/assets/utalikal010.webp";
+import utalikal011 from "@/assets/utalikal011.webp";
+import utalikal012 from "@/assets/utalikal012.webp";
+import utalikal013 from "@/assets/utalikal013.webp";
+import utalikal014 from "@/assets/utalikal014.webp";
+import utalikal015 from "@/assets/utalikal015.webp";
+import utalikal1 from "@/assets/utalikal1.webp";
+import utalikal2 from "@/assets/utalikal2.webp";
+import utalikal3 from "@/assets/utalikal3.webp";
+import utalikal4 from "@/assets/utalikal4.webp";
+import utalikal5 from "@/assets/utalikal5.webp";
+import utalikal6 from "@/assets/utalikal6.webp";
+import utalikal7 from "@/assets/utalikal7.png";
+import utalikal8 from "@/assets/utalikal8.webp";
+import utalikal9 from "@/assets/utalikal9.webp";
+import utalikal10 from "@/assets/utalikal10.webp";
+import utalikal11 from "@/assets/utalikal11.webp";
+import utalikal12 from "@/assets/utalikal12.webp";
+import utalikal13 from "@/assets/utalikal13.webp";
+import utalikal14 from "@/assets/utalikal14.webp";
+import utalikal15 from "@/assets/utalikal15.webp";
+import utalikal16 from "@/assets/utalikal16.webp";
+import utalikal17 from "@/assets/utalikal17.webp";
+import utalikal18 from "@/assets/utalikal18.webp";
+import utalikal19 from "@/assets/utalikal19.webp";
+import utalikal20 from "@/assets/utalikal20.webp";
+
+import udyattvid from "@/assets/udyattvid.mp4";
+import udyatt01 from "@/assets/udyatt01.jpg";
+import udyatt02 from "@/assets/udyatt02.jpg";
+import udyatt03 from "@/assets/udyatt03.jpg";
+import udyatt04 from "@/assets/udyatt04.jpg";
+import udyatt05 from "@/assets/udyatt05.jpg";
+import udyatt06 from "@/assets/udyatt06.jpg";
+import udyatt07 from "@/assets/udyatt07.jpg";
+import udyatt08 from "@/assets/udyatt08.jpg";
+import udyatt0 from "@/assets/udyatt0.webp";
+import udyatt1 from "@/assets/udyatt1.webp";
+import udyatt2 from "@/assets/udyatt2.jpg";
+import udyatt3 from "@/assets/udyatt3.webp";
+import udyatt4 from "@/assets/udyatt4.webp";
+import udyatt5 from "@/assets/udyatt5.webp";
+import udyatt6 from "@/assets/udyatt6.webp";
+import udyatt7 from "@/assets/udyatt7.webp";
+import udyatt8 from "@/assets/udyatt8.webp";
+import udyatt9 from "@/assets/udyatt9.webp";
+import udyatt10 from "@/assets/udyatt10.webp";
+import udyatt11 from "@/assets/udyatt11.webp";
+import udyatt12 from "@/assets/udyatt12.webp";
+import udyatt13 from "@/assets/udyatt13.webp";
+import udyatt14 from "@/assets/udyatt14.webp";
+import udyatt15 from "@/assets/udyatt15.webp";
+import udyatt16 from "@/assets/udyatt16.webp";
+import udyatt17 from "@/assets/udyatt17.webp";
+import udyatt18 from "@/assets/udyatt18.webp";
+import udyatt19 from "@/assets/udyatt19.webp";
+
+
 
 export type Intent = "Buy" | "Invest" | "Commercial" | "Luxury" | "Residential" | "Senior Living" | "Retail" | "Office Space" | "Industrial" | "Warehousing" | "IT Park" | "Hotel" | "Business" | "Affordable" | "Warehouse" | "Office" | "Plots" | "Riverfront" | "Villa" | "Resort" | "Nature" | "Duplex" | "Family" | "Township" | "Ultra Luxury";
 
@@ -1413,7 +1539,7 @@ export type Property = {
   slug: string;
   name: string;
   tagline: string;
-  developer?: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group" | "Vinayak Group" | "Alcove Realty" | "Emami Realty" | "DTC Group" | "Primarc" | "Mayfair Group" | "Skyscraper" | "Atri Group" | "ATK Kalim Group";
+  developer?: "Srijan" | "PS Group" | "Godrej Properties" | "Shapoorji Pallonji" | "Eden Realty" | "Sureka Group" | "Vinayak Group" | "Alcove Realty" | "Emami Realty" | "DTC Group" | "Primarc" | "Mayfair Group" | "Skyscraper" | "Atri Group" | "ATK Kalim Group" | "Peerless" | "Ambuja Neotia Realty";
   developers?: string[];
   city: "Kolkata" | "Howrah";
   location: string;
@@ -13083,6 +13209,1416 @@ export const properties: Property[] = [
     ],
   },
 },
+
+{
+  id: "75",
+
+  slug: "trayam-peerless",
+
+  name: "Trayam",
+
+  tagline: "Live Above Ordinary Living.",
+
+  developer: "Peerless",
+
+  city: "Kolkata",
+
+  location:
+    "New Town Action Area 1, Near DLF Galleria & Tata Medical Centre, Kolkata",
+
+  priceLabel: "3 BHK from ₹2.45 Cr onwards",
+
+  priceMin: 245,
+
+  bhk: [3, 4],
+
+  sizeRange: "1537 – 2309 sq.ft. SBU",
+
+  possession: "3rd Quarter 2029",
+
+  configuration:
+    "28 Floors · Residential + Retail + Offices · 71 Residences · AC Apartments",
+
+  status: "Under Construction",
+
+  intent: [
+    "Buy",
+    "Luxury",
+    "Residential",
+    "Ultra Luxury",
+    "Invest",
+    "Family",
+    "Business",
+  ],
+
+  cover: trayam1,
+
+  gallery: [
+    trayam2,
+    trayam3,
+    trayam4,
+    trayam5,
+    trayam6,
+    trayam7,
+    trayam8,
+    trayam9,
+    trayam10,
+    trayam11,
+    trayam12,
+    trayam13,
+    trayam14,
+    trayam15,
+    trayam16,
+    trayam17,
+    trayam18,
+    trayam19,
+    trayam20,
+  ],
+
+  story: [
+    "Live in a rare low-density vertical community crafted for only 71 families in the heart of New Town.",
+    "Experience elevated living where residences begin above commercial levels, creating better skyline views, privacy, ventilation, and exclusivity.",
+    "Enjoy a thoughtfully designed mixed-use ecosystem combining luxury residences, premium retail, offices, lifestyle zones, and rooftop leisure experiences within one iconic address.",
+  ],
+
+  highlights: {
+    amenities: [
+      "Swimming Pool with Cabanas",
+      "Pool Deck",
+      "Poolside Pavilion",
+      "Dining Deck",
+      "Green Lawn",
+      "Indoor Play Area",
+      "Kids Play Area",
+      "Library",
+      "Party Hall",
+      "Gymnasium & Fitness Centre",
+      "Sauna",
+      "Covered Walkway",
+      "Jogging Track",
+      "Sky Deck",
+      "Poetry Plaza",
+      "Sunken Plaza",
+      "Cine Plaza",
+      "Gaming & Entertainment Zone",
+      "Wellness Centre",
+      "Shopping Arcade",
+      "Food Court",
+      "Multicuisine Restaurant",
+      "Night Club",
+      "Banquet",
+    ],
+
+    connectivity: [
+      "100 m from DLF Galleria",
+      "300 m from Tata Medical Centre",
+      "800 m from Axis Mall, Novotel & Upcoming Metro",
+      "900 m from Newtown Bus Terminal",
+      "1.5 km from DLF IT Park",
+      "2.5 km from DPS Newtown & Presidency University",
+      "3.7 km from TCS Gitanjali Park",
+      "5 km from EcoSpace & Eco Park",
+      "11.6 km from Airport",
+    ],
+
+    lifestyle: [
+      "Low Density Luxury Living",
+      "Only 71 Residences",
+      "Mixed-use Vertical Development",
+      "Homes Begin Above Podium",
+      "Elevated Skyline Living",
+      "Retail + Offices + Residences",
+      "High Carpet Efficiency Layouts",
+      "Optimized Lift Planning",
+      "Air Conditioned Apartments",
+      "Premium Lifestyle Ecosystem",
+      "Integrated Urban Living",
+      "Future Ready Maintenance Model",
+      "Work-Live-Leisure Concept",
+      "Exclusive High Rise Community",
+    ],
+  },
+
+  nearby: {
+    metro:
+      "Upcoming Metro Station within 800 metres",
+
+    school:
+      "DPS Newtown, Newtown School, Presidency University & St Xavier’s University nearby",
+
+    hospital:
+      "Tata Medical Centre & Neotia Bhagirathi nearby",
+  },
+
+  investment: {
+    roi: "14–20%",
+
+    demand: "Ultra High",
+
+    growth:
+      "Strong Newtown Mixed-Use Development Growth",
+
+    appreciation:
+      "High appreciation potential due to premium Action Area 1 positioning, mixed-use development concept, and limited inventory",
+  },
+
+  propertyDetails:
+    "Trayam by Peerless is a landmark mixed-use luxury development located in New Town Action Area 1, Kolkata. Designed as a city within a city, the project combines premium residences, retail destinations, office spaces, and lifestyle amenities inside one integrated urban ecosystem. With only 71 residences in the tower, Trayam offers a rare low-density luxury experience where homes begin above the commercial podium, creating elevated views, enhanced privacy, improved ventilation, and a premium skyline lifestyle. The project features spacious 3 & 4 BHK fully air-conditioned residences, rooftop leisure experiences, landscaped lifestyle zones, swimming pools with cabanas, wellness amenities, retail arcade, entertainment zones, and business infrastructure. Positioned near DLF Galleria, Tata Medical Centre, IT hubs, educational institutions, and upcoming metro infrastructure, Trayam delivers an exclusive blend of convenience, prestige, connectivity, and future-ready urban living.",
+
+  awards: [
+    "IGBC Gold Pre-Certification",
+  ],
+
+  specifications: {
+    developmentType:
+      "Mixed-use Residential + Retail + Office Development",
+
+    towers: "Integrated Premium Tower",
+
+    residences: "71 Residences",
+
+    floors: "28 Floors",
+
+    apartmentTypes: "3 BHK & 4 BHK",
+
+    apartmentSizes: "1537 – 2309 sq.ft. SBU",
+
+    carpetArea:
+      "846 – 1263 sq.ft.",
+
+    openLayout:
+      "Elevated Residential Floors Above Podium",
+
+    clubhouse:
+      "Premium Lifestyle Club Facilities",
+
+    swimmingPool:
+      "Open-to-Sky Swimming Pool with Cabanas",
+
+    retail:
+      "Shopping Arcade + Food Court + Entertainment",
+
+    officeType:
+      "Premium Office Spaces",
+
+    smartFeatures:
+      "Access Control + CCTV + Video Door Phone",
+
+    greenCertification:
+      "IGBC Gold Pre-Certified",
+
+    possession:
+      "Q3 2029",
+  },
+
+  features: [
+    "Only 71 Residences",
+    "Low Density Living",
+    "Mixed-use Development",
+    "Residential + Retail + Offices",
+    "Elevated Residential Floors",
+    "Fully Air Conditioned Apartments",
+    "Swimming Pool with Cabanas",
+    "Sky Deck",
+    "Shopping Arcade",
+    "Food Court",
+    "Gaming Zone",
+    "Poetry Plaza",
+    "Sunken Plaza",
+    "Library",
+    "Party Hall",
+    "Gymnasium",
+    "Sauna",
+    "Covered Walkway",
+    "EV Charging Point",
+    "DG Backup",
+    "CCTV Surveillance",
+    "Video Door Phone",
+    "Premium Lobby Design",
+    "High-Speed Lifts",
+    "Banquet Facilities",
+    "Retail Atrium",
+    "Business Ecosystem Living",
+  ],
+
+  pricing: [
+    {
+      size: "3 BHK · 1537 sq.ft.",
+      price: "₹2.45 Cr onwards",
+    },
+
+    {
+      size: "3 BHK · 1556 sq.ft.",
+      price: "Price On Request",
+    },
+
+    {
+      size: "3 BHK · 1669 sq.ft.",
+      price: "Price On Request",
+    },
+
+    {
+      size: "4 BHK · 2217 sq.ft.",
+      price: "Price On Request",
+    },
+
+    {
+      size: "4 BHK · 2309 sq.ft.",
+      price: "Price On Request",
+    },
+  ],
+
+  locationAdvantages: {
+    businessDistricts: [
+      "DLF IT Park - 1.5 km",
+      "EcoSpace - 4.5 km",
+      "TCS Gitanjali Park - 3.7 km",
+      "Syntheshis Business Park - 3.8 km",
+    ],
+
+    healthcare: [
+      "Tata Medical Centre - 300 m",
+      "Neotia Bhagirathi - 700 m",
+    ],
+
+    education: [
+      "DPS Newtown - 2.2 km",
+      "Newtown School - 2.7 km",
+      "Presidency University - 2.7 km",
+      "St Xavier’s University - 3.8 km",
+    ],
+
+    entertainment: [
+      "DLF Galleria - 100 m",
+      "Axis Mall - 800 m",
+      "City Centre 2 - 8.2 km",
+      "Eco Park - 5.2 km",
+    ],
+
+    hospitality: [
+      "Novotel - 700 m",
+    ],
+  },
+
+  sustainabilityFeatures: [
+    "IGBC Gold Pre-Certification",
+    "EV Charging Point",
+    "DG Backup",
+    "Efficient Maintenance Ecosystem",
+    "Energy Efficient Mixed-use Planning",
+  ],
+
+  specificationsDetails: {
+    structure:
+      "Earthquake resistant RCC structure using SMRF system with RCC shear walls",
+
+    foundation:
+      "Fortified pile foundation with diaphragm wall & RCC raft",
+
+    flooring:
+      "Italian marble in living/dining & engineered wooden flooring in master bedroom",
+
+    kitchen:
+      "Granite countertop with branded CP fittings & SS sink",
+
+    toilets:
+      "Premium sanitaryware with anti-skid vitrified flooring",
+
+    windows:
+      "Powder coated aluminium windows",
+
+    electrical:
+      "Modular switches with concealed wiring and AC points",
+
+    security:
+      "CCTV surveillance, access control & video door phone",
+
+    elevators:
+      "4 passenger lifts + 2 service lifts",
+
+    lobby:
+      "Luxury marble and veneer finished lobby spaces",
+
+    airConditioning:
+      "Fully air conditioned apartments",
+  },
+
+  architects: [
+    "M/s Subir Kumar Basu",
+    "HB Design Co. Ltd. Thailand",
+  ],
+
+  developerDetails:
+    "The Peerless General Finance & Investment Co. Ltd. (PGFI) is the flagship company of the Peerless Group with over nine decades of legacy in India’s financial sector. Trayam marks PGFI’s first independent real estate development venture after successfully delivering multiple landmark residential and commercial projects through Bengal Peerless Housing Development Company Ltd.",
+
+  marketingPartner: "Peerless",
+
+  adsCampaignHighlights: [
+    "Only 71 Residences",
+    "Homes Begin Above Podium",
+    "3 BHK from ₹2.45 Cr",
+    "Live Above Ordinary Living",
+    "Mixed-use Vertical Luxury",
+    "Swimming Pool with Cabanas",
+    "Sky Deck Lifestyle",
+    "Premium Newtown Address",
+    "Retail + Offices + Residences",
+    "Elevated Skyline Living",
+  ],
+
+  rera: {
+    phase1: "WBRERA/P/NOR/2025/002806",
+    phase2: "WBRERA/P/NOR/2025/002815",
+  },
+
+  tag: "Low Density Mixed-Use Luxury Tower",
+
+  mapEmbedUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8979635873848!2d88.4606304!3d22.5829193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02756d5922cedf%3A0x8fb83b9d36d2d648!2sPeerless%20Trayam!5e0!3m2!1sen!2sin!4v1780986951704!5m2!1sen!2sin",
+
+  plans: {
+    unit: [
+      trayam01,
+      trayam02,
+      trayam03,
+      trayam04,
+      trayam05,
+      trayam06,
+    ],
+  },
+},
+
+
+{
+  id: "76",
+
+  slug: "utalika-town-centre",
+
+  name: "Utalika Town Centre",
+
+  tagline: "Elevate Your Business Presence.",
+
+  developer: "Ambuja Neotia Realty",
+
+  city: "Kolkata",
+
+  location:
+    "405, Barakhola, Mukundapur, EM Bypass, Kolkata 700099",
+
+  priceLabel: "Office Spaces from ₹92 Lakhs",
+
+  priceMin: 92,
+
+  bhk: [],
+
+  sizeRange: "645 sq.ft. onwards",
+
+  possession: "2028",
+
+  configuration:
+    "Commercial Office & Retail Development · 46 Units · 1.05 Acres",
+
+  status: "Under Construction",
+
+  intent: [
+    "Commercial",
+    "Office Space",
+    "Retail",
+    "Business",
+    "Invest",
+  ],
+
+  cover: autc1,
+
+  gallery: [
+    autc1,
+    autc2,
+    autc3,
+    autc4,
+    autc5,
+    autc6,
+    autc7,
+    autc8,
+    autc9,
+    autc10,
+    autc11,
+  ],
+
+  story: [
+    "A modern commercial destination designed for next-generation businesses, entrepreneurs, and premium retail brands in the rapidly growing EM Bypass corridor.",
+    "Strategically positioned in Mukundapur with seamless access to healthcare hubs, educational institutions, and key residential catchments.",
+    "Thoughtfully designed office and retail spaces offering flexibility, modern infrastructure, premium arrival experiences, and future-ready commercial opportunities.",
+  ],
+
+  highlights: {
+    amenities: [
+      "Air-conditioned Reception Area",
+      "Provision for HVAC",
+      "Dedicated Toilet Provision",
+      "Modern Commercial Lobby",
+      "Retail Frontage",
+      "Visitor Waiting Areas",
+      "Professional Business Environment",
+      "Wide Internal Circulation",
+      "High-Speed Elevators",
+      "Power Backup",
+      "24x7 Security",
+      "CCTV Surveillance",
+      "Fire Safety Systems",
+      "Dedicated Parking",
+      "Business-Friendly Infrastructure",
+    ],
+
+    connectivity: [
+      "Strategically Located off EM Bypass",
+      "Easy Access to Mukundapur Crossing",
+      "Close to Ruby Hospital Area",
+      "Well Connected to South Kolkata",
+      "Excellent Public Transport Connectivity",
+      "Near Residential Catchment Zones",
+      "Connected to IT & Business Corridors",
+    ],
+
+    lifestyle: [
+      "Premium Commercial Address",
+      "Modern Retail + Office Ecosystem",
+      "Professional Work Environment",
+      "Future-Ready Business Infrastructure",
+      "Flexible Workspace Planning",
+      "High Visibility Commercial Presence",
+      "Strategic Urban Connectivity",
+      "Ideal for Retail & Corporate Offices",
+    ],
+  },
+
+  nearby: {
+    metro:
+      "Upcoming Metro Connectivity via EM Bypass Corridor",
+
+    school:
+      "Delhi Public School, South Point, Calcutta International School nearby",
+
+    hospital:
+      "Ruby Hospital, Medica Superspecialty & Peerless Hospital nearby",
+  },
+
+  investment: {
+    roi: "12–18%",
+
+    demand: "High",
+
+    growth:
+      "Rapidly Expanding Commercial Belt along EM Bypass",
+
+    appreciation:
+      "Strong appreciation potential due to premium Mukundapur location and growing business ecosystem",
+  },
+
+  propertyDetails:
+    "Utalika Town Centre by Ambuja Neotia Realty is a premium commercial development located strategically at Mukundapur near EM Bypass, Kolkata. Designed to cater to evolving business requirements, the project offers flexible office and retail spaces with modern infrastructure, premium arrival experiences, and future-ready commercial amenities. Spread across 1.05 acres with only 46 exclusive commercial units, Utalika Town Centre creates a focused business ecosystem ideal for entrepreneurs, startups, retail brands, clinics, consultancies, and corporate offices. The development combines accessibility, visibility, and sophisticated planning to deliver a high-potential commercial destination in one of Kolkata’s fastest-growing corridors.",
+
+  specifications: {
+    landArea: "1.05 Acres",
+
+    units: "46 Units",
+
+    officeSize: "645 sq.ft onwards",
+
+    developmentType:
+      "Commercial Office + Retail Development",
+
+    projectType:
+      "Premium Commercial Hub",
+
+    retail:
+      "Retail & Office Spaces",
+
+    airConditioning:
+      "Provision for HVAC",
+
+    security:
+      "24x7 CCTV & Security Systems",
+
+    accessibility:
+      "Strategic EM Bypass Connectivity",
+
+    possession:
+      "2028",
+  },
+
+  features: [
+    "Flexible Commercial Units",
+    "Retail Spaces",
+    "Office Spaces",
+    "Air-conditioned Reception",
+    "HVAC Provision",
+    "Dedicated Toilet Provision",
+    "Premium Lobby Experience",
+    "Business-Friendly Design",
+    "High-Speed Elevators",
+    "Power Backup",
+    "Fire Safety Systems",
+    "Modern Infrastructure",
+    "Commercial Visibility",
+    "Strategic Mukundapur Location",
+    "Professional Workspace Ecosystem",
+    "Investment-Oriented Commercial Asset",
+  ],
+
+  pricing: [
+    {
+      size: "645 sq.ft",
+      price: "₹92 Lakhs onwards",
+    },
+  ],
+
+  sustainabilityFeatures: [
+    "Efficient Space Planning",
+    "Energy Efficient Infrastructure",
+    "Modern HVAC Ready Design",
+    "Integrated Fire & Safety Systems",
+  ],
+
+  locationAdvantages: {
+    businessDistricts: [
+      "EM Bypass Commercial Corridor",
+      "Ruby Business District",
+      "Southern Business Hub",
+    ],
+
+    healthcare: [
+      "Ruby Hospital",
+      "Medica Superspecialty Hospital",
+      "Peerless Hospital",
+    ],
+
+    education: [
+      "South Point School",
+      "Delhi Public School",
+      "Calcutta International School",
+    ],
+
+    entertainment: [
+      "Acropolis Mall",
+      "Avishikta Crossing",
+      "South City Mall",
+    ],
+  },
+
+  specificationsDetails: {
+    structure:
+      "Modern RCC framed commercial structure",
+
+    flooring:
+      "Premium commercial-grade flooring",
+
+    electrical:
+      "Concealed wiring with commercial load support",
+
+    security:
+      "CCTV surveillance & access-controlled entry",
+
+    elevators:
+      "High-speed commercial elevators",
+
+    lobby:
+      "Air-conditioned reception & lobby areas",
+  },
+
+  architects: [
+    "Kapil Bhalla",
+  ],
+
+  developerDetails:
+    "Ambuja Neotia Realty is one of Eastern India’s most respected real estate developers, known for delivering landmark residential, hospitality, healthcare, and commercial developments across Kolkata and Eastern India. The group is recognized for architectural innovation, premium lifestyle developments, and integrated urban infrastructure.",
+
+  marketingPartner:
+    "Ambuja Neotia Realty",
+
+  adsCampaignHighlights: [
+    "Commercial Spaces from ₹92 Lakhs",
+    "Strategic EM Bypass Location",
+    "Retail + Office Ecosystem",
+    "Modern Business Infrastructure",
+    "Mukundapur Commercial Address",
+    "Future-Ready Workspace Design",
+    "Premium Commercial Investment",
+    "Retail Spaces in Mukundapur",
+    "Only 46 Exclusive Units",
+    "Office Spaces from ₹92 Lakhs",
+    "Future Commercial Investment",
+  ],
+
+  rera: "WBRERA/P/KOL/2024/001666",
+
+  tag: "Premium Commercial Hub",
+
+  mapEmbedUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.2880265219937!2d88.40352999999999!3d22.493374199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02715fbc215a31%3A0xace62af0fdcffcd6!2sUtalika!5e0!3m2!1sen!2sin!4v1780990808008!5m2!1sen!2sin",
+
+  plans: {
+    master: autc01,
+
+    unit: [
+      autc02,
+      autc03,
+      autc04,
+      autc05,
+      autc06,
+      autc07,
+      autc08,
+      autc09,
+      autc010,
+      autc011,
+      autc012,
+      autc013,
+      autc014,
+      autc015,
+      autc016,
+      autc017,
+      autc018,
+      autc019,
+    ],
+  },
+},
+
+{
+  id: "77",
+
+  slug: "utalika-luxury",
+
+  name: "Utalika Luxury",
+
+  tagline: "Luxury Living Around Nature.",
+
+  developer: "Ambuja Neotia Realty",
+
+  city: "Kolkata",
+
+  location:
+    "405 Barakhola, Mukundapur, EM Bypass, Kolkata 700099",
+
+  priceLabel: "3 BHK from ₹2.46 Cr onwards",
+
+  priceMin: 246,
+
+  bhk: [2, 3, 4],
+
+  sizeRange: "Luxury Residences, Duplexes & Penthouses",
+
+  possession: "2028",
+
+  configuration:
+    "20 Acre Township · 66% Open Space · 2.6 Acre Natural Waterbody · Premium Luxury Towers",
+
+  status: "Under Construction",
+
+  intent: [
+    "Buy",
+    "Luxury",
+    "Ultra Luxury",
+    "Residential",
+    "Invest",
+    "Family",
+    "Nature",
+    "Duplex",
+    "Township",
+  ],
+
+    videos: {
+    walkthrough: utalikalvid,
+    cinematic: utalikalvid,
+  },
+
+  cover: utalikal1,
+
+  gallery: [
+    utalikal1,
+    utalikal2,
+    utalikal3,
+    utalikal4,
+    utalikal5,
+    utalikal6,
+    utalikal7,
+    utalikal8,
+    utalikal9,
+    utalikal10,
+    utalikal11,
+    utalikal12,
+    utalikal13,
+    utalikal14,
+    utalikal15,
+    utalikal16,
+    utalikal17,
+    utalikal18,
+    utalikal19,
+    utalikal20,
+  ],
+
+  story: [
+    "Wake up beside a magnificent 2.6 acre natural waterbody surrounded by landscaped open greens and elevated luxury living.",
+    "Experience premium urban living at Mukundapur where architecture, wellness, recreation, and nature coexist inside a thoughtfully planned 20-acre township.",
+    "Live in expansive luxury residences designed with panoramic lake views, modern lifestyle amenities, rooftop experiences, and seamless EM Bypass connectivity.",
+  ],
+
+  highlights: {
+    amenities: [
+      "Luxury Clubhouse",
+      "Gymnasium",
+      "Private Theatre",
+      "Squash Court",
+      "Music Room",
+      "Indoor Games Room",
+      "Pool Tables",
+      "Air Hockey & Carrom Room",
+      "Chess Room",
+      "Art & Crafts Room",
+      "Board Room",
+      "Classroom",
+      "Dart & Foosball Room",
+      "Multipurpose Hall",
+      "Pre-function Area",
+      "Palm Room",
+      "Royal Pavilion",
+      "Gym on Podium",
+      "Yoga Terrace",
+      "Open Air Pre-function Area",
+      "Jacuzzi on Terrace",
+      "Rose Room",
+      "Pop-up Kitchen",
+      "Outdoor Seating Zones",
+      "Lake Facing Balconies",
+      "Landscaped Gardens",
+      "Skyline Terraces",
+      "Wellness Spaces",
+    ],
+
+    connectivity: [
+      "Located directly off EM Bypass",
+      "Excellent Mukundapur connectivity",
+      "Near Ruby Hospital Area",
+      "Close to major South Kolkata hospitals",
+      "Quick access to Garia, Ballygunge & Salt Lake",
+      "Excellent connectivity to Airport via Bypass",
+      "Close to major educational institutions",
+      "Connected to shopping & lifestyle hubs",
+    ],
+
+    lifestyle: [
+      "20 Acre Premium Township",
+      "66% Open to Sky",
+      "2.6 Acre Natural Waterbody",
+      "Luxury Lakefront Living",
+      "Low Density Premium Community",
+      "Luxury Residences & Penthouses",
+      "Nature Integrated Living",
+      "Panoramic Waterbody Views",
+      "Wellness-Focused Lifestyle",
+      "Terrace Experiences",
+      "Architectural Luxury Design",
+      "Urban Resort Style Community",
+      "Luxury Family Living",
+      "Integrated Lifestyle Township",
+    ],
+  },
+
+  nearby: {
+    metro:
+      "Excellent connectivity via EM Bypass corridor",
+
+    school:
+      "Top schools and educational institutions nearby Mukundapur & South Kolkata",
+
+    hospital:
+      "Ruby General Hospital, Medica Superspecialty & major healthcare hubs nearby",
+  },
+
+  investment: {
+    roi: "12–18%",
+
+    demand: "Ultra High",
+
+    growth:
+      "Strong South Kolkata luxury residential growth corridor",
+
+    appreciation:
+      "Excellent appreciation potential due to EM Bypass luxury demand, lakefront positioning, and township-scale development",
+  },
+
+  propertyDetails:
+    "Utalika Luxury by Ambuja Neotia Realty is a landmark luxury township located off EM Bypass at Mukundapur, Kolkata. Spread across approximately 20.184 acres with 66% open-to-sky landscapes and centered around a stunning 2.6 acre natural waterbody, the project delivers a rare urban resort-style living experience in South Kolkata. The development includes luxury residences, duplexes, penthouses, landscaped open spaces, rooftop wellness zones, and premium lifestyle amenities designed around nature, openness, and exclusivity. Utalika Luxury combines architectural excellence by renowned architect Kapil Bhalla with elevated lifestyle experiences including private theatre, squash court, yoga terraces, luxury clubhouse, lake-facing balconies, and wellness-focused recreational spaces. Strategically positioned along EM Bypass with excellent access to healthcare, education, business districts, and entertainment zones, Utalika Luxury represents one of Kolkata’s most premium lakefront residential communities.",
+
+  awards: [
+    "Premium Luxury Township Development",
+  ],
+
+  specifications: {
+    landArea: "20.184 Acres",
+
+    openSpace: "66% Open to Sky",
+
+    waterbody: "2.6 Acre Natural Waterbody",
+
+    residences:
+      "Luxury Apartments, Duplexes & Penthouses",
+
+    apartmentTypes:
+      "2 BHK, 3 BHK, 4 BHK, Duplex & Penthouse",
+
+    towers:
+      "Premium High Rise Towers",
+
+    architecture:
+      "Designed by Architect Kapil Bhalla",
+
+    clubhouse:
+      "Luxury Lifestyle Club Facilities",
+
+    landscape:
+      "Extensive Open Landscapes & Lakefront Greens",
+
+    terraces:
+      "Luxury Rooftop & Terrace Experiences",
+
+    possession:
+      "2028",
+
+    developmentType:
+      "Luxury Residential Township",
+  },
+
+  features: [
+    "2.6 Acre Natural Waterbody",
+    "66% Open Green Space",
+    "Luxury Lakefront Community",
+    "Private Theatre",
+    "Squash Court",
+    "Yoga Terrace",
+    "Luxury Clubhouse",
+    "Jacuzzi on Terrace",
+    "Lake Facing Apartments",
+    "Panoramic Balconies",
+    "Luxury Podium Spaces",
+    "Architect Designed Community",
+    "Multipurpose Hall",
+    "Music Room",
+    "Palm Room",
+    "Royal Pavilion",
+    "Skyline Terrace Amenities",
+    "Nature Integrated Design",
+    "Urban Resort Lifestyle",
+    "Premium Family Living",
+  ],
+
+  pricing: [
+    {
+      size: "3 BHK",
+      price: "₹2.46 Cr onwards",
+    },
+
+    {
+      size: "Luxury 4 BHK",
+      price: "Price On Request",
+    },
+
+    {
+      size: "Duplex Residences",
+      price: "Price On Request",
+    },
+
+    {
+      size: "Penthouse Residences",
+      price: "Price On Request",
+    },
+  ],
+
+  apartmentVariants: {
+    threeBHKLuxury: [
+      {
+        type: "Luxury 3 BHK",
+
+        carpet: "On Request",
+
+        sbua: "Premium Luxury Configuration",
+      },
+    ],
+
+    underConstruction: [
+      {
+        type: "Luxury Residences",
+        price: "₹2.46 Cr onwards",
+      },
+    ],
+  },
+
+  centralParkFeatures: [
+    "2.6 Acre Natural Lake",
+    "Landscaped Open Greens",
+    "Yoga Terrace",
+    "Open Air Lounge Spaces",
+    "Lakefront Walkways",
+    "Skyline Viewing Areas",
+    "Luxury Seating Zones",
+    "Nature Integrated Recreation",
+  ],
+
+  sustainabilityFeatures: [
+    "Large Open Green Areas",
+    "Natural Waterbody Preservation",
+    "Landscape Driven Planning",
+    "Natural Ventilation Planning",
+    "Wellness Focused Open Spaces",
+  ],
+
+  locationAdvantages: {
+    businessDistricts: [
+      "EM Bypass Business Corridor",
+      "Salt Lake Sector V Connectivity",
+      "South Kolkata Business Access",
+    ],
+
+    healthcare: [
+      "Ruby General Hospital",
+      "Medica Superspecialty Hospital",
+      "Peerless Hospital",
+      "AMRI Mukundapur",
+    ],
+
+    education: [
+      "Leading South Kolkata Schools",
+      "Educational Institutions Nearby",
+      "International Schools via EM Bypass",
+    ],
+
+    entertainment: [
+      "South City Mall",
+      "Acropolis Mall",
+      "Quest Mall Connectivity",
+      "Lifestyle & Dining Destinations Nearby",
+    ],
+  },
+
+  specificationsDetails: {
+    structure:
+      "Earthquake resistant RCC framed structure",
+
+    flooring:
+      "Premium luxury flooring across living & bedroom areas",
+
+    kitchen:
+      "Modern modular kitchen provisions with premium fittings",
+
+    toilets:
+      "Designer sanitaryware & premium fittings",
+
+    windows:
+      "Large panoramic windows & balcony openings",
+
+    electrical:
+      "Concealed copper wiring with modular switches",
+
+    security:
+      "24x7 security surveillance & access control",
+
+    elevators:
+      "High-speed branded elevators",
+
+    lobby:
+      "Premium designer entrance lobbies",
+  },
+
+  architects: [
+    "Kapil Bhalla",
+  ],
+
+  developerDetails:
+    "Ambuja Neotia Realty is one of Eastern India’s leading real estate developers known for delivering landmark residential, commercial, hospitality, healthcare, and mixed-use developments. With a legacy of premium lifestyle communities across Kolkata and Eastern India, the group is recognized for innovation, architecture, urban planning, and luxury living experiences.",
+
+  marketingPartner: "Ambuja Neotia Realty",
+
+  adsCampaignHighlights: [
+    "20 Acre Luxury Township",
+    "2.6 Acre Natural Waterbody",
+    "66% Open to Sky",
+    "3 BHK from ₹2.46 Cr",
+    "Luxury Lakefront Living",
+    "Designed by Kapil Bhalla",
+    "Premium Mukundapur Address",
+    "Urban Resort Lifestyle",
+    "Luxury Rooftop Amenities",
+    "Nature Inspired Community",
+  ],
+
+  rera: "WBRERA/P/KOL/2024/001094",
+
+  tag: "Luxury Lakefront Township",
+
+  mapEmbedUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.2722016297357!2d88.402886!3d22.493968199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02715fbc215a31%3A0xace62af0fdcffcd6!2sUtalika!5e0!3m2!1sen!2sin!4v1781003763567!5m2!1sen!2sin",
+
+  plans: {
+    master: utalikal01,
+
+    unit: [
+      utalikal02,
+      utalikal03,
+      utalikal04,
+      utalikal05,
+      utalikal06,
+      utalikal07,
+      utalikal08,
+      utalikal09,
+      utalikal010,
+      utalikal011,
+      utalikal012,
+      utalikal013,
+      utalikal014,
+      utalikal015,
+    ],
+  },
+
+  constructionStatus: [
+    "Tower Panchami - 7th Floor Casting Completion",
+  ],
+},
+
+{
+  id: "78",
+
+  slug: "udyatt-ambuja-neotia",
+
+  name: "Udyatt",
+
+  tagline: "A Vertical Neighbourhood Above The Noise.",
+
+  developer: "Ambuja Neotia Realty",
+
+  city: "Kolkata",
+
+  location:
+    "Off EM Bypass, Tangra, Kolkata, West Bengal 700015",
+
+  priceLabel: "3 BHK from ₹4.05 Cr onwards",
+
+  priceMin: 405,
+
+  bhk: [3, 4],
+
+  sizeRange: "Luxury 3 & 4 BHK Residences",
+
+  possession: "2030",
+
+  configuration:
+    "2.59 Acres · 94 Residences · Luxury High-Rise Living",
+
+  status: "Under Construction",
+
+  intent: [
+    "Buy",
+    "Luxury",
+    "Ultra Luxury",
+    "Residential",
+    "Invest",
+    "Family",
+  ],
+
+    videos: {
+    walkthrough: udyattvid,
+    cinematic: udyattvid,
+  },
+
+  cover: udyatt2,
+
+  gallery: [
+    udyatt0,
+    udyatt1,
+    udyatt2,
+    udyatt3,
+    udyatt4,
+    udyatt5,
+    udyatt6,
+    udyatt7,
+    udyatt8,
+    udyatt9,
+    udyatt10,
+    udyatt11,
+    udyatt12,
+    udyatt13,
+    udyatt14,
+    udyatt15,
+    udyatt16,
+    udyatt17,
+    udyatt18,
+    udyatt19,
+  ],
+
+  story: [
+    "Rising gently above EM Bypass, Udyatt introduces a refined vertical neighbourhood crafted around openness, balance, and serenity.",
+    "Designed for only 94 residences, the project blends panoramic skyline views, calm living spaces, and thoughtfully integrated lifestyle zones.",
+    "Experience elevated luxury with expansive community terraces, panoramic knife-edge pools, landscaped social spaces, and architecture inspired by timeless urban sophistication.",
+  ],
+
+  highlights: {
+    amenities: [
+      "Club Nova",
+      "Community Wing Terrace",
+      "Lakeside Deck",
+      "Party Lawn",
+      "Pet Park",
+      "Pickleball Court",
+      "Banquet Hall",
+      "Gymnasium",
+      "Indoor Games Room",
+      "Panoramic Knife-edge Swimming Pool",
+      "Sky Deck by Swimming Pool",
+      "Adda Terrace",
+      "Activity Terrace",
+      "Amphitheatre",
+      "Landscaped Party Lawns",
+      "Residence Drop-off",
+      "Club Drop-off",
+      "Prefunction Area",
+      "Waiting Lounge",
+      "Kitchen & Catering Space",
+      "Open Leisure Decks",
+      "Community Social Spaces",
+      "Luxury Wellness Zones",
+    ],
+
+    connectivity: [
+      "Direct Access to EM Bypass",
+      "Close to Tangra & Park Circus",
+      "Easy connectivity to Salt Lake & CBD",
+      "Nearby IT & Business Districts",
+      "Excellent airport connectivity",
+      "Connected to Central Kolkata",
+      "Premium educational institutions nearby",
+      "Healthcare & hospitality hubs nearby",
+    ],
+
+    lifestyle: [
+      "Vertical Neighbourhood Concept",
+      "Only 94 Exclusive Residences",
+      "Low Density Luxury Living",
+      "Panoramic Skyline Views",
+      "Elevated Urban Serenity",
+      "Community-Centric Design",
+      "Nature Integrated Open Spaces",
+      "Luxury Social Terraces",
+      "Premium Wellness Lifestyle",
+      "Balanced Modern Living",
+      "Architect-Led Design Philosophy",
+      "Refined Urban Luxury Experience",
+    ],
+  },
+
+  nearby: {
+    metro:
+      "Excellent access to upcoming metro and city transit corridors",
+
+    school:
+      "Premium schools and educational institutions nearby EM Bypass & Central Kolkata",
+
+    hospital:
+      "Quick connectivity to leading hospitals including AMRI, Ruby & Fortis",
+  },
+
+  investment: {
+    roi: "15–22%",
+
+    demand: "Ultra High",
+
+    growth:
+      "Prime EM Bypass Luxury Growth Corridor",
+
+    appreciation:
+      "Strong appreciation potential driven by limited inventory, luxury positioning, and strategic EM Bypass location",
+  },
+
+  propertyDetails:
+    "Udyatt by Ambuja Neotia is an ultra-luxury residential development located off EM Bypass in Kolkata. Crafted as a vertical neighbourhood, the project redefines urban living through openness, panoramic city views, landscaped social spaces, and low-density luxury planning. Spread across 2.59 acres with only 94 residences, Udyatt creates an atmosphere of calm sophistication above the city. The development features premium 3 & 4 BHK residences, panoramic knife-edge swimming pools, sky decks, landscaped terraces, banquet spaces, wellness zones, pet-friendly amenities, and community-focused leisure experiences. Designed by Vastu Shilpa Consultants, the architecture balances luxury, openness, and timeless urban elegance while offering seamless connectivity to Kolkata’s major business districts, lifestyle destinations, healthcare institutions, and transport corridors.",
+
+  awards: [
+    "Architectural Design by Vastu Shilpa Consultants",
+  ],
+
+  specifications: {
+    landArea: "2.59 Acres",
+
+    residences: "94 Residences",
+
+    apartmentTypes: "3 BHK & 4 BHK",
+
+    developmentType:
+      "Ultra Luxury Residential Development",
+
+    architecture:
+      "Designed by Vastu Shilpa Consultants",
+
+    clubhouse:
+      "Club Nova Lifestyle Club",
+
+    swimmingPool:
+      "Panoramic Knife-edge Swimming Pool",
+
+    rooftopAmenities:
+      "Sky Deck & Activity Terraces",
+
+    landscapeAmenities:
+      "Lakeside Deck, Party Lawn & Open Terraces",
+
+    livingConcept:
+      "Vertical Neighbourhood Living",
+
+    possession:
+      "2030",
+  },
+
+  features: [
+    "Only 94 Residences",
+    "Low Density Planning",
+    "Panoramic Knife-edge Pool",
+    "Sky Deck Lifestyle",
+    "Club Nova",
+    "Amphitheatre",
+    "Activity Terrace",
+    "Adda Terrace",
+    "Community Wing Terrace",
+    "Landscaped Party Lawn",
+    "Pet Park",
+    "Pickleball Court",
+    "Banquet Hall",
+    "Luxury Drop-off Zones",
+    "Lakeside Leisure Deck",
+    "Indoor Games Room",
+    "Urban Wellness Spaces",
+    "Architect-Led Luxury Design",
+    "Premium Skyline Views",
+    "Exclusive Vertical Community",
+  ],
+
+  pricing: [
+    {
+      size: "3 BHK Luxury Residences",
+      price: "₹4.05 Cr onwards",
+    },
+
+    {
+      size: "4 BHK Luxury Residences",
+      price: "Price On Request",
+    },
+  ],
+
+  locationAdvantages: {
+    businessDistricts: [
+      "EM Bypass Business Corridor",
+      "Salt Lake Sector V Connectivity",
+      "Park Circus Business Zone",
+      "Central Kolkata Access",
+    ],
+
+    healthcare: [
+      "AMRI Hospital",
+      "Ruby Hospital",
+      "Fortis Hospital",
+    ],
+
+    education: [
+      "Leading schools near EM Bypass",
+      "Premium educational institutions nearby",
+    ],
+
+    entertainment: [
+      "Quest Mall",
+      "Park Circus Lifestyle District",
+      "Tangra Dining District",
+      "Premium hospitality destinations nearby",
+    ],
+  },
+
+  sustainabilityFeatures: [
+    "Landscape Integrated Planning",
+    "Low Density Community Design",
+    "Natural Ventilation Focus",
+    "Open Space Oriented Development",
+    "Community Wellness Planning",
+  ],
+
+  specificationsDetails: {
+    structure:
+      "Premium RCC framed structure with advanced seismic design standards",
+
+    flooring:
+      "Luxury flooring finishes across living, dining & bedroom spaces",
+
+    kitchen:
+      "Modern designer kitchen with premium fittings",
+
+    toilets:
+      "Luxury sanitaryware & branded CP fittings",
+
+    windows:
+      "Large panoramic windows for natural light & ventilation",
+
+    electrical:
+      "Premium modular electrical systems",
+
+    security:
+      "Advanced surveillance & controlled access systems",
+
+    elevators:
+      "High-speed luxury elevators",
+
+    lobby:
+      "Premium designer entrance lobby",
+  },
+
+  architects: [
+    "Vastu Shilpa Consultants",
+  ],
+
+  developerDetails:
+    "Ambuja Neotia is one of Eastern India’s most respected real estate developers known for creating landmark residential, hospitality, commercial, and mixed-use developments. The group is recognized for architectural excellence, premium lifestyle experiences, and city-shaping urban developments across Kolkata and Eastern India.",
+
+  marketingPartner: "Ambuja Neotia",
+
+  adsCampaignHighlights: [
+    "Only 94 Residences",
+    "Luxury Off EM Bypass",
+    "3 BHK from ₹4.05 Cr",
+    "Vertical Neighbourhood Living",
+    "Panoramic Knife-edge Pool",
+    "Sky Deck Lifestyle",
+    "Designed by Vastu Shilpa Consultants",
+    "Low Density Urban Luxury",
+    "Elevated Skyline Living",
+    "Ultra Luxury Kolkata Address",
+  ],
+
+  rera: "WBRERA/P/KOL/2026/003902",
+
+  tag: "Ultra Luxury Vertical Neighbourhood",
+
+  mapEmbedUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.521693066467!2d88.3928888!3d22.559583399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02778b994348fd%3A0x420a5a0ceb982ff9!2sUdyatt!5e0!3m2!1sen!2sin!4v1781005964247!5m2!1sen!2sin",
+
+  plans: {
+    unit: [
+      udyatt01,
+      udyatt02,
+      udyatt03,
+      udyatt04,
+      udyatt05,
+      udyatt06,
+      udyatt07,
+      udyatt08,
+    ],
+  },
+},
+
+
+
+
 
 
 ];

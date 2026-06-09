@@ -19,6 +19,8 @@ import mayfairLogo from "@/assets/logos/mayfair logo.png";
 import skyscraperLogo from "@/assets/logos/skyscraper logo.svg";
 import atrilogo from "@/assets/logos/atri logo.png";
 import atkkalimlogo from "@/assets/logos/ATK Kalim Logo.webp";
+import peerlessLogo from "@/assets/logos/peerless logo.png";
+import ambujaLogo from "@/assets/logos/Ambuja logo.svg";
 
 
 const stats = [
@@ -44,6 +46,8 @@ const developers = [
   { name: "Skyscraper", logo: skyscraperLogo, keyName: "Skyscraper" },
   { name: "Atri Group", logo: atrilogo, keyName: "Atri Group" },
   { name: "ATK Kalim Group", logo: atkkalimlogo, keyName: "ATK Kalim Group" },
+  { name: "Peerless", logo: peerlessLogo, keyName: "Peerless" },
+  { name: "Ambuja Neotia Realty", logo: ambujaLogo, keyName: "Ambuja Neotia Realty" },
 ];
 
 function useCounter(target: number, duration = 2000, enabled = true) {

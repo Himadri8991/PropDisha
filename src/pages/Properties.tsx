@@ -18,7 +18,7 @@ const intents: ("All" | Intent)[] = [
 ];
 const bhkOptions = ["Any", "1", "2", "3", "4+"] as const;
 const statusOptions = ["All", "Ready to Move", "Under Construction", "New Launch", "Under Development"] as const;
-const developerOptions = ["All", "Srijan", "PS Group", "Godrej Properties", "Shapoorji Pallonji", "Eden Realty", "Sureka Group", "Vinayak Group", "Alcove Realty", "Emami Realty", "DTC Group", "Primarc", "Mayfair Group", "Skyscraper", "Atri Group", "ATK Kalim Group"] as const;
+const developerOptions = ["All", "Srijan", "PS Group", "Godrej Properties", "Shapoorji Pallonji", "Eden Realty", "Sureka Group", "Vinayak Group", "Alcove Realty", "Emami Realty", "DTC Group", "Primarc", "Mayfair Group", "Skyscraper", "Atri Group", "ATK Kalim Group", "Peerless", "Ambuja Neotia Realty"] as const;
 
 type SortKey = "relevance" | "price-asc" | "price-desc" | "bhk-asc" | "possession" | "roi";
 const sortOptions: { key: SortKey; label: string }[] = [
@@ -284,7 +284,7 @@ const Properties = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 pt-5 border-t border-white/5">
                       <FilterGroup label="City" value={city} setValue={setCity as any} options={cities as any} />
                       <FilterGroup label="Purpose" value={intent} setValue={setIntent as any} options={intents as any} />
-                      <FilterGroup label="Layout" value={bhk} setValue={setBhk as any} options={bhkOptions as any} />
+                      <FilterGroup label="Layout(BHK)" value={bhk} setValue={setBhk as any} options={bhkOptions as any} />
                       <FilterGroup label="Status" value={status} setValue={setStatus as any} options={statusOptions as any} />
                       {/* Budget slider */}
                       <div className="flex flex-col gap-3 sm:col-span-2 lg:col-span-1">
