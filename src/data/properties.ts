@@ -14327,7 +14327,7 @@ export const properties: Property[] = [
     cinematic: udyattvid,
   },
 
-  cover: udyatt2,
+  cover: udyatt1,
 
   gallery: [
     udyatt0,
