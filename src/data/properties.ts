@@ -21,6 +21,18 @@ import pg5 from "@/assets/PG5.jpg";
 import pg6 from "@/assets/PG6.jpg";
 import pg7 from "@/assets/PG7.jpg";
 import pg8 from "@/assets/PG8.jpg";
+import pg9 from "@/assets/PG9.jpeg";
+import pg10 from "@/assets/PG10.jpeg";
+import pg11 from "@/assets/PG11.jpeg";
+import pg12 from "@/assets/PG12.jpeg";
+import pg01 from "@/assets/PG01.jpg";
+import pg02 from "@/assets/PG02.jpg";
+import pg03 from "@/assets/PG03.jpg";
+import pg04 from "@/assets/PG04.jpg";
+import pg05 from "@/assets/PG05.jpg";
+import pg06 from "@/assets/PG06.jpg";
+import pg07 from "@/assets/PG07.jpg";
+import pg08 from "@/assets/PG08.jpg";
 
 import anu1 from "@/assets/anubhoomi1.jpg";
 import anu2 from "@/assets/anubhoomi2.jpg";
@@ -1960,118 +1972,395 @@ export const properties: Property[] = [
     tag: "Featured",
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.1067070565095!2d88.46135057530385!3d22.687071279410393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89fa179da6727%3A0x5f9ce1cab13c7363!2sSPACIA!5e0!3m2!1sen!2sin!4v1778823414750!5m2!1sen!2sin",
   },
-  {
-    id: "2",
-    slug: "primus-ganges",
-    name: "Primus Ganges",
-    tagline: "Live by the river. Move naturally. Stay connected.",
-    developer: "Srijan",
-    city: "Kolkata",
-    location: "Srijan Ganga City, Batanagar",
-    priceLabel: "₹30.00 L onwards",
-    priceMin: 30,
-    bhk: [0, 1, 2],
-    sizeRange: "499 – 1311 sq.ft.",
-    possession: "2030",
-    configuration: "Senior Living · 1 Tower · 202 Apartments",
-    status: "Under Construction",
-    intent: ["Buy", "Luxury", "Senior Living"],
-    cover: pg1,
 
-    gallery: [
-      pg1,
-      pg2,
-      pg3,
-      pg4,
-      pg5,
-      pg6,
-      pg7,
-      pg8,
-    ],
+{
+  id: "2",
 
-    story: [
-      "Life begins after 55 beside the timeless Ganges.",
-      "Inspired by the world’s Blue Zones for healthier, longer living.",
-      "A senior living community designed for freedom, care, and connection.",
-    ],
+  slug: "primus-ganges",
 
-    highlights: {
-      amenities: [
-        "24×7 Medical Support",
-        "Housekeeping",
-        "Concierge Services",
-        "Chef Curated Meals",
-        "Dining Hall",
-        "Health Station",
-        "Doctor’s Room",
-        "Indoor Games",
-        "Double Height Reception Lounge",
-        "Senior Wellness Programs",
-      ],
+  name: "Primus Ganges",
 
-      connectivity: [
-        "Located inside 55-acre Srijan Ganga City",
-        "Direct Ganges Riverside Access",
-        "Well-connected to Central Kolkata",
-        "Smooth connectivity to Esplanade",
-        "Riverside Lifestyle Community",
-      ],
+  tagline:
+    "Blue Zone Inspired Senior Living Beside The Timeless Ganges.",
 
-      lifestyle: [
-        "Blue Zone Inspired Living",
-        "Senior-Friendly Layouts",
-        "Anti-skid Flooring",
-        "Grab Rails & Safety Features",
-        "Mindful Community Design",
-        "Nutritionist-Guided Meals",
-        "Wellness-Centric Living",
-        "Age-Reversing Lifestyle Concept",
-      ],
-    },
+  developer: "Srijan",
 
-    nearby: {
-      metro: "Upcoming nearby metro connectivity",
-      school: "Nearby educational institutions",
-      hospital: "24×7 Medical Support within community",
-    },
+  city: "Kolkata",
 
-    investment: {
-      roi: "10–14%",
-      demand: "Rising",
-      growth: "High Potential",
-      appreciation: "Growing demand for premium senior living",
-    },
+  location:
+    "Srijan Ganga City, Batanagar, Kolkata",
 
-    propertyDetails:
-      "Primus Ganges by Srijan Realty is a premium senior living community located inside the iconic 55-acre riverside township, Srijan Ganga City, Batanagar. Designed for residents aged 55 and above, the project blends wellness, comfort, safety, and community living inspired by the world’s Blue Zones. The development offers Studio, 1 & 2 BHK residences with concierge services, housekeeping, chef-curated meals, 24×7 medical support, wellness programs, anti-skid flooring, grab rails, and thoughtfully planned senior-friendly layouts beside the serene Ganges riverfront.",
+  priceLabel: "Studio Apartments from ₹33 Lakhs",
 
-    specifications: {
-      towers: "1 Tower",
-      apartments: "202 Apartments",
-      township: "55 Acres",
-      propertyType: "Senior Living",
-      support: "24×7 Medical Support",
-      services: "Housekeeping & Concierge",
-    },
+  priceMin: 33,
 
-    features: [
-      "Senior Living Community",
-      "Blue Zone Inspired Lifestyle",
+  bhk: [0, 1, 2],
+
+  sizeRange:
+    "499 – 1311 sq.ft.",
+
+  possession: "2030",
+
+  configuration:
+    "26.35 Acres Township · Tower 23 Dedicated To Senior Living · G+18 · 202 River-Facing Units",
+
+  status: "Under Construction",
+
+  intent: [
+    "Buy",
+    "Luxury",
+    "Senior Living",
+    "Riverfront",
+    "Invest",
+    "Residential",
+  ],
+
+  cover: pg1,
+
+  gallery: [
+    pg1,
+    pg2,
+    pg3,
+    pg4,
+    pg5,
+    pg6,
+    pg7,
+    pg8,
+    pg9,
+    pg10,
+    pg11,
+    pg12,
+  ],
+
+  story: [
+    "Life begins after 55 beside the timeless Ganges in a wellness-driven riverfront community.",
+    "Inspired by the world's Blue Zones to promote longer, healthier, and more active lives.",
+    "A thoughtfully designed senior living ecosystem blending healthcare, hospitality, safety, community, and investment growth.",
+  ],
+
+  highlights: {
+    amenities: [
+      "24×7×365 Doctor On Call",
+      "Reception & Nursing Station",
+      "Health Station",
+      "Doctor’s Room",
+      "Senior Clubhouse",
+      "Dining Hall",
       "Chef Curated Meals",
-      "24×7 Medical Care",
+      "Customized Diet Food Service",
       "Housekeeping Services",
-      "Concierge Assistance",
-      "Anti-skid Flooring",
-      "Grab Rails & Safety Design",
-      "Riverfront Living",
-      "Wellness Focused Amenities",
+      "Concierge Services",
+      "Indoor Games",
+      "Meditation Spaces",
+      "Jogging Facilities",
+      "Exercise Zones",
+      "Community Gathering Areas",
+      "Wellness Programs",
+      "Reading Lounge",
+      "Social Activity Areas",
+      "Double Height Reception Lounge",
+      "Senior Wellness Events",
+      "Riverfront Walking Experience",
     ],
 
-    rera: "WBRERA/P/SOU/2025/002901",
+    connectivity: [
+      "Located inside 26.35 Acre Srijan Ganga City",
+      "Riverfront Living beside the Ganges",
+      "Smooth connectivity to Central Kolkata",
+      "Connected to Esplanade & Major City Corridors",
+      "Integrated Township Infrastructure",
+      "Peaceful Riverside Environment",
+      "Accessible Healthcare & Urban Facilities Nearby",
+    ],
 
-    tag: "Featured",
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.564712892983!2d88.23776311051628!3d22.52050917944351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bffcef1950b%3A0x9421c7834177172!2sThe%20Royal%20Ganges%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1777890097694!5m2!1sen!2sin",
+    lifestyle: [
+      "Blue Zone Inspired Living",
+      "Multi-Generational Living Concept",
+      "All Units River Facing",
+      "Pollution-Free Environment",
+      "Senior-Friendly Architecture",
+      "Active Lifestyle Ecosystem",
+      "Nutrition-Focused Wellness",
+      "Medical Assisted Independent Living",
+      "Wellness & Community Bonding",
+      "Future Ready Senior Living",
+      "Safe & Secure Living Environment",
+      "Mindful Riverside Lifestyle",
+    ],
   },
+
+  nearby: {
+    metro:
+      "Upcoming metro connectivity with access to Central Kolkata corridors",
+
+    school:
+      "Educational institutions and urban infrastructure within easy reach",
+
+    hospital:
+      "24×7 Medical Support, Doctor On Call & Nursing Facilities within community",
+  },
+
+  investment: {
+    roi: "10–16%",
+
+    demand: "Rising",
+
+    growth:
+      "Emerging Senior Living Investment Segment",
+
+    appreciation:
+      "Strong future appreciation potential driven by rising demand for organized senior living communities in Kolkata",
+  },
+
+  propertyDetails:
+    "Primus Ganges by Srijan Realty is a premium Blue Zone inspired senior living community located inside the iconic riverfront township Srijan Ganga City in Batanagar, Kolkata. Spread across a 26.35-acre integrated township, Tower 23 is exclusively dedicated to senior living with 202 thoughtfully designed river-facing residences. The project combines wellness, healthcare, safety, hospitality, and community living into one future-ready ecosystem for residents aged 55 years and above. Inspired by global Blue Zone principles for healthier and longer lives, Primus Ganges offers studio, 1 BHK, and 2 BHK residences equipped with panic buttons, motion sensors, anti-skid flooring, threshold-free layouts, grab rails, nursing support, concierge services, chef-curated meals, and active lifestyle amenities. Unlike traditional retirement homes, Primus Ganges promotes a multi-generational living concept where families can stay together while seniors enjoy independent, secure, and medically assisted living beside the serene Ganges riverfront.",
+
+  awards: [
+    "Blue Zone Inspired Senior Living Concept",
+    "Riverfront Senior Living Community",
+  ],
+
+  specifications: {
+    landArea: "26.35 Acres",
+
+    township:
+      "Integrated Riverfront Township",
+
+    towers: "23 Towers",
+
+    towerConfiguration:
+      "Tower 23 Dedicated To Senior Living",
+
+    floors: "G + 18 Floors",
+
+    apartments: "202 Units",
+
+    propertyType:
+      "Senior Living Community",
+
+    riverViews:
+      "All Units River Facing",
+
+    support:
+      "24×7×365 Doctor On Call & Medical Support",
+
+    services:
+      "Housekeeping, Concierge & Wellness Services",
+
+    security:
+      "3 Tier Gated Security",
+
+    club:
+      "Dedicated Senior Clubhouse",
+
+    lifestyleConcept:
+      "Blue Zone Inspired Living",
+
+    accessibility:
+      "Senior Friendly Architecture",
+
+    possession:
+      "2030",
+  },
+
+  features: [
+    "All River Facing Apartments",
+    "Blue Zone Inspired Living",
+    "Senior Friendly Design",
+    "Threshold-Free Flooring",
+    "Panic Button Systems",
+    "Motion Sensors",
+    "Curved Safety Walls",
+    "Anti-Skid Flooring",
+    "Grab Rails & Safety Handles",
+    "24×7 Medical Support",
+    "Nursing Station",
+    "Doctor On Call",
+    "Housekeeping Services",
+    "Concierge Assistance",
+    "Customized Diet Food Service",
+    "Wellness Programs",
+    "Meditation & Exercise Areas",
+    "Multi-Generational Living",
+    "Pollution-Free Riverside Environment",
+    "Future Ready Senior Living Investment",
+  ],
+
+  pricing: [
+    {
+      size: "Studio Apartments · 499 – 562 sq.ft",
+      price: "₹33 Lakhs onwards",
+    },
+
+    {
+      size: "1 BHK Apartments · 941 – 959 sq.ft",
+      price: "Price On Request",
+    },
+
+    {
+      size: "2 BHK Apartments · 1311 sq.ft",
+      price: "Price On Request",
+    },
+  ],
+
+  apartmentVariants: {
+    readyToMove: [],
+
+    underConstruction: [
+      {
+        type: "Studio Apartments",
+        price: "₹33 Lakhs onwards",
+      },
+
+      {
+        type: "1 BHK Senior Residences",
+        price: "Price On Request",
+      },
+
+      {
+        type: "2 BHK Senior Residences",
+        price: "Price On Request",
+      },
+    ],
+  },
+
+  floorPlans: {
+    studio: [
+      "499 sq.ft",
+      "522 sq.ft",
+      "523 sq.ft",
+      "562 sq.ft",
+    ],
+
+    oneBHK: [
+      "941 sq.ft",
+      "947 sq.ft",
+      "949 sq.ft",
+      "959 sq.ft",
+    ],
+
+    twoBHK: [
+      "1311 sq.ft",
+    ],
+  },
+
+  locationAdvantages: {
+    businessDistricts: [
+      "Easy connectivity to Central Kolkata",
+      "Smooth access to Esplanade",
+      "Integrated township infrastructure",
+    ],
+
+    healthcare: [
+      "24×7 Nursing Support",
+      "Doctor’s Clinic",
+      "Medical Assistance Facilities",
+      "Health Monitoring Support",
+    ],
+
+    education: [
+      "Nearby educational institutions",
+      "Connected urban social infrastructure",
+    ],
+
+    entertainment: [
+      "Riverfront lifestyle experience",
+      "Integrated township amenities",
+      "Community gathering spaces",
+      "Senior clubhouse activities",
+    ],
+  },
+
+  sustainabilityFeatures: [
+    "Pollution-Free Riverside Environment",
+    "Open Green Spaces",
+    "Wellness-Centric Community Planning",
+    "Natural Ventilation & Riverfront Openness",
+    "Healthy Active Lifestyle Infrastructure",
+  ],
+
+  specificationsDetails: {
+    structure:
+      "Senior-friendly RCC framed structure with safety-focused planning",
+
+    flooring:
+      "Matt finish anti-skid vitrified flooring throughout the unit",
+
+    kitchen:
+      "Counter slab heights designed as per NBC accessibility standards",
+
+    toilets:
+      "Senior-friendly toilets with foldable grab bars & thermostatic shower mixers",
+
+    windows:
+      "Large river-facing windows for natural light & ventilation",
+
+    electrical:
+      "Wide rocker switches & bedside 2-way lighting controls",
+
+    security:
+      "3 Tier Security with panic buttons & motion sensors",
+
+    elevators:
+      "High-speed elevators with senior accessibility",
+
+    lobby:
+      "Double-height reception lounge with nursing & concierge support",
+  },
+
+  centralParkFeatures: [
+    "Riverfront Walking Zones",
+    "Meditation Spaces",
+    "Community Wellness Activities",
+    "Exercise Facilities",
+    "Social Gathering Areas",
+    "Senior Recreation Spaces",
+  ],
+
+  developerDetails:
+    "Srijan Realty is one of Eastern India’s leading real estate developers known for creating landmark residential townships, luxury developments, commercial spaces, and innovative lifestyle communities. Primus Ganges represents Srijan’s future-forward vision for organized senior living in Kolkata.",
+
+  marketingPartner:
+    "Srijan Realty",
+
+  adsCampaignHighlights: [
+    "Blue Zone Inspired Senior Living",
+    "All Units River Facing",
+    "Studio Apartments from ₹33 Lakhs",
+    "24×7 Medical Support",
+    "Multi-Generational Living",
+    "Pollution-Free Riverside Lifestyle",
+    "Dedicated Senior Living Tower",
+    "3 Tier Gated Security",
+    "Future Ready Senior Living Investment",
+    "Located Beside The Ganges",
+  ],
+
+  rera:
+    "WBRERA/P/SOU/2025/002901",
+
+  tag:
+    "Blue Zone Inspired Senior Living",
+
+  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.564712892983!2d88.23776311051628!3d22.52050917944351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bffcef1950b%3A0x9421c7834177172!2sThe%20Royal%20Ganges%20-%20Srijan%20Realty!5e0!3m2!1sen!2sin!4v1777890097694!5m2!1sen!2sin",
+
+  plans: {
+    master: pg01,
+
+    unit: [
+      pg03,
+      pg04,
+      pg05,
+      pg06,
+      pg07,
+      pg08,
+    ],
+
+    site: [
+      pg02,
+    ],
+  },
+},
 
   {
     id: "3",
