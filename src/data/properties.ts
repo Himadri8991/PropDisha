@@ -1998,7 +1998,7 @@ export const properties: Property[] = [
   bhk: [0, 1, 2],
 
   sizeRange:
-    "499 – 1311 sq.ft.",
+    "Super Built-up Area 499 – 1311 sq.ft.",
 
   possession: "April 2030",
 
