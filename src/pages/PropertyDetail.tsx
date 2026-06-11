@@ -377,7 +377,7 @@ const PropertyDetail = () => {
                   <item.Icon className="w-5 h-5 text-gold group-hover:scale-110 transition-transform duration-500" />
                   <span className="text-[10px] tracking-[0.3em] uppercase text-foreground/40">{item.label}</span>
                 </div>
-                <p className="font-display text-2xl group-hover:text-gold transition-colors">{item.value}</p>
+                <p className="font-display text-2xl group-hover:text-gold transition-colors whitespace-pre-line">{item.value}</p>
               </motion.div>
             ))}
           </div>
