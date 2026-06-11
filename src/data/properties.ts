@@ -1991,19 +1991,19 @@ export const properties: Property[] = [
   location:
     "Srijan Ganga City, Batanagar, Kolkata",
 
-  priceLabel: "Studio Apartments from ₹33 Lakhs",
+  priceLabel: "Studio Apartments from ₹31 Lakhs",
 
-  priceMin: 33,
+  priceMin: 31,
 
   bhk: [0, 1, 2],
 
   sizeRange:
     "499 – 1311 sq.ft.",
 
-  possession: "2030",
+  possession: "April 2030",
 
   configuration:
-    "26.35 Acres Township · Tower 23 Dedicated To Senior Living · G+18 · 202 River-Facing Units",
+    "26.53 Acres Township · Tower 23 Dedicated To Senior Living · G+18 · 202 River-Facing Units",
 
   status: "Under Construction",
 
@@ -2065,7 +2065,7 @@ export const properties: Property[] = [
     ],
 
     connectivity: [
-      "Located inside 26.35 Acre Srijan Ganga City",
+      "Located inside 26.53 Acre Srijan Ganga City",
       "Riverfront Living beside the Ganges",
       "Smooth connectivity to Central Kolkata",
       "Connected to Esplanade & Major City Corridors",
@@ -2114,7 +2114,7 @@ export const properties: Property[] = [
   },
 
   propertyDetails:
-    "Primus Ganges by Srijan Realty is a premium Blue Zone inspired senior living community located inside the iconic riverfront township Srijan Ganga City in Batanagar, Kolkata. Spread across a 26.35-acre integrated township, Tower 23 is exclusively dedicated to senior living with 202 thoughtfully designed river-facing residences. The project combines wellness, healthcare, safety, hospitality, and community living into one future-ready ecosystem for residents aged 55 years and above. Inspired by global Blue Zone principles for healthier and longer lives, Primus Ganges offers studio, 1 BHK, and 2 BHK residences equipped with panic buttons, motion sensors, anti-skid flooring, threshold-free layouts, grab rails, nursing support, concierge services, chef-curated meals, and active lifestyle amenities. Unlike traditional retirement homes, Primus Ganges promotes a multi-generational living concept where families can stay together while seniors enjoy independent, secure, and medically assisted living beside the serene Ganges riverfront.",
+    "Primus Ganges by Srijan Realty is a premium Blue Zone inspired senior living community located inside the iconic riverfront township Srijan Ganga City in Batanagar, Kolkata. Spread across a 26.53-acre integrated township, Tower 23 is exclusively dedicated to senior living with 202 thoughtfully designed river-facing residences. The project combines wellness, healthcare, safety, hospitality, and community living into one future-ready ecosystem for residents aged 55 years and above. Inspired by global Blue Zone principles for healthier and longer lives, Primus Ganges offers studio, 1 BHK, and 2 BHK residences equipped with panic buttons, motion sensors, anti-skid flooring, threshold-free layouts, grab rails, nursing support, concierge services, chef-curated meals, and active lifestyle amenities. Unlike traditional retirement homes, Primus Ganges promotes a multi-generational living concept where families can stay together while seniors enjoy independent, secure, and medically assisted living beside the serene Ganges riverfront.",
 
   awards: [
     "Blue Zone Inspired Senior Living Concept",
@@ -2122,7 +2122,7 @@ export const properties: Property[] = [
   ],
 
   specifications: {
-    landArea: "26.35 Acres",
+    landArea: "26.53 Acres",
 
     township:
       "Integrated Riverfront Township",
@@ -2148,9 +2148,6 @@ export const properties: Property[] = [
     services:
       "Housekeeping, Concierge & Wellness Services",
 
-    security:
-      "3 Tier Gated Security",
-
     club:
       "Dedicated Senior Clubhouse",
 
@@ -2161,7 +2158,7 @@ export const properties: Property[] = [
       "Senior Friendly Architecture",
 
     possession:
-      "2030",
+      "April 2030",
   },
 
   features: [
@@ -2190,7 +2187,7 @@ export const properties: Property[] = [
   pricing: [
     {
       size: "Studio Apartments · 499 – 562 sq.ft",
-      price: "₹33 Lakhs onwards",
+      price: "₹31 Lakhs onwards",
     },
 
     {
@@ -2210,7 +2207,7 @@ export const properties: Property[] = [
     underConstruction: [
       {
         type: "Studio Apartments",
-        price: "₹33 Lakhs onwards",
+        price: "₹31 Lakhs onwards",
       },
 
       {
@@ -2299,9 +2296,6 @@ export const properties: Property[] = [
     electrical:
       "Wide rocker switches & bedside 2-way lighting controls",
 
-    security:
-      "3 Tier Security with panic buttons & motion sensors",
-
     elevators:
       "High-speed elevators with senior accessibility",
 
@@ -2332,7 +2326,6 @@ export const properties: Property[] = [
     "Multi-Generational Living",
     "Pollution-Free Riverside Lifestyle",
     "Dedicated Senior Living Tower",
-    "3 Tier Gated Security",
     "Future Ready Senior Living Investment",
     "Located Beside The Ganges",
   ],
