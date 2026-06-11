@@ -2321,7 +2321,7 @@ export const properties: Property[] = [
   adsCampaignHighlights: [
     "Blue Zone Inspired Senior Living",
     "All Units River Facing",
-    "Studio Apartments from ₹33 Lakhs",
+    "Studio Apartments from ₹31 Lakhs",
     "24×7 Medical Support",
     "Multi-Generational Living",
     "Pollution-Free Riverside Lifestyle",
