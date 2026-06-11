@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
-import { properties, type Intent } from "@/data/properties";
+import { properties, type Intent, formatBhk } from "@/data/properties";
 import { useSEO } from "@/hooks/useSEO";
 
 const cities = ["All", "Kolkata", "Howrah"] as const;
@@ -442,7 +442,7 @@ const Properties = () => {
                         <div className="flex items-center gap-2 text-foreground/50 text-xs font-light mb-1">
                           <MapPin className="w-3 h-3 text-gold" />{p.location}
                         </div>
-                        <p className="text-[10px] text-foreground/30 mb-5">{p.status} · {p.bhk[0] === 0 ? "Office" : `${p.bhk.join(", ")} BHK`} · {p.sizeRange}</p>
+                        <p className="text-[10px] text-foreground/30 mb-5">{p.status} · {formatBhk(p.bhk, p.intent)} · {p.sizeRange}</p>
                         <div className="flex items-center justify-between pt-5 border-t border-white/5">
                           <span className="text-base font-medium text-gradient-gold">{p.priceLabel}</span>
                           <div className="w-9 h-9 rounded-full border border-white/10 grid place-items-center group-hover:bg-gold group-hover:border-gold transition-all duration-500">
@@ -494,7 +494,7 @@ const Properties = () => {
                         <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-white/5">
                           {[
                             p.status,
-                            p.bhk[0] === 0 ? "Office Space" : `${p.bhk.join("/")} BHK`,
+                            formatBhk(p.bhk, p.intent),
                             p.sizeRange,
                             `Possession: ${p.possession}`,
                             `ROI: ${p.investment.roi}`,

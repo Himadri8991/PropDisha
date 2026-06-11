@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
-import { getProperty, properties } from "@/data/properties";
+import { getProperty, properties, formatBhk } from "@/data/properties";
 import { toast } from "sonner";
 import EnquiryModal from "@/components/EnquiryModal";
 import { useSEO } from "@/hooks/useSEO";
@@ -360,11 +360,7 @@ const PropertyDetail = () => {
         <div className="container-luxe">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-24">
 {[
-              { Icon: BedDouble, label: "Configuration", value: (() => {
-                const bhk = property.bhk;
-                if (!bhk || bhk.length === 0) return "Office";
-                return `${bhk.join(", ")} BHK`;
-              })() },
+              { Icon: BedDouble, label: "Configuration", value: formatBhk(property.bhk, property.intent) },
               { Icon: Ruler, label: "Carpet Area", value: property.sizeRange },
               { Icon: Calendar, label: "Possession", value: property.possession },
               { Icon: ShieldCheck, label: "RERA Status", value: "Registered" },

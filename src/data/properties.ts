@@ -21,18 +21,18 @@ import pg5 from "@/assets/PG5.jpg";
 import pg6 from "@/assets/PG6.jpg";
 import pg7 from "@/assets/PG7.jpg";
 import pg8 from "@/assets/PG8.jpg";
-import pg9 from "@/assets/PG9.jpeg";
-import pg10 from "@/assets/PG10.jpeg";
-import pg11 from "@/assets/PG11.jpeg";
-import pg12 from "@/assets/PG12.jpeg";
-import pg01 from "@/assets/PG01.jpg";
-import pg02 from "@/assets/PG02.jpg";
-import pg03 from "@/assets/PG03.jpg";
-import pg04 from "@/assets/PG04.jpg";
-import pg05 from "@/assets/PG05.jpg";
-import pg06 from "@/assets/PG06.jpg";
-import pg07 from "@/assets/PG07.jpg";
-import pg08 from "@/assets/PG08.jpg";
+import pg9 from "@/assets/pg9.jpeg";
+import pg10 from "@/assets/pg10.jpeg";
+import pg11 from "@/assets/pg11.jpeg";
+import pg12 from "@/assets/pg12.jpeg";
+import pg01 from "@/assets/pg01.jpg";
+import pg02 from "@/assets/pg02.jpg";
+import pg03 from "@/assets/pg03.jpg";
+import pg04 from "@/assets/pg04.jpg";
+import pg05 from "@/assets/pg05.jpg";
+import pg06 from "@/assets/pg06.jpg";
+import pg07 from "@/assets/pg07.jpg";
+import pg08 from "@/assets/pg08.jpg";
 
 import anu1 from "@/assets/anubhoomi1.jpg";
 import anu2 from "@/assets/anubhoomi2.jpg";
@@ -14914,3 +14914,21 @@ export const properties: Property[] = [
 ];
 
 export const getProperty = (slug: string) => properties.find((p) => p.slug === slug);
+
+export const formatBhk = (bhk: number[], intent: string[]) => {
+  if (intent.includes("Plots")) return "Plots";
+  if (intent.includes("Office Space") || intent.includes("Office") || intent.includes("Commercial")) return "Office Space";
+  if (intent.includes("Warehousing") || intent.includes("Warehouse")) return "Warehousing";
+  if (intent.includes("Industrial")) return "Industrial Space";
+  if (!bhk || bhk.length === 0) return "Residential";
+  
+  const hasStudio = bhk.includes(0);
+  const numericBhk = bhk.filter(b => b > 0);
+  
+  if (numericBhk.length === 0) {
+    return hasStudio ? "Studio" : "Residential";
+  }
+  
+  const bhkStr = `${numericBhk.join(", ")} BHK`;
+  return hasStudio ? `Studio, ${bhkStr}` : bhkStr;
+};

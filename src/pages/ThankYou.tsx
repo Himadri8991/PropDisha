@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
-import { properties } from "@/data/properties";
+import { properties, formatBhk } from "@/data/properties";
 import { useSEO } from "@/hooks/useSEO";
 
 const ThankYou = () => {
@@ -334,7 +334,7 @@ const ThankYou = () => {
                       <div className="flex items-center gap-2 text-foreground/50 text-xs font-light mb-1">
                         <MapPin className="w-3 h-3 text-gold" /> {p.location}
                       </div>
-                      <p className="text-[10px] text-foreground/30 mb-5">{p.status} · {p.bhk[0] === 0 ? "Office" : `${p.bhk.join(", ")} BHK`} · {p.sizeRange}</p>
+                      <p className="text-[10px] text-foreground/30 mb-5">{p.status} · {formatBhk(p.bhk, p.intent)} · {p.sizeRange}</p>
                       
                       <div className="flex items-center justify-between pt-5 border-t border-white/5">
                         <span className="text-base font-medium text-gradient-gold">{p.priceLabel}</span>
