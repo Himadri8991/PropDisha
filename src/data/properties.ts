@@ -1544,7 +1544,7 @@ import udyatt19 from "@/assets/udyatt19.webp";
 
 
 
-export type Intent = "Buy" | "Invest" | "Commercial" | "Luxury" | "Residential" | "Senior Living" | "Retail" | "Office Space" | "Industrial" | "Warehousing" | "IT Park" | "Hotel" | "Business" | "Affordable" | "Warehouse" | "Office" | "Plots" | "Riverfront" | "Villa" | "Resort" | "Nature" | "Duplex" | "Family" | "Township" | "Ultra Luxury";
+export type Intent = "Buy" | "Invest" | "Commercial" | "Luxury" | "Residential" | "Senior Living" | "Retail" | "Office Space" | "Industrial" | "Warehousing" | "IT Park" | "Hotel" | "Business" | "Affordable" | "Warehouse" | "Office" | "Plots" | "Riverfront" | "Villa" | "Resort" | "Nature" | "Duplex" | "Family" | "Township" | "Ultra Luxury" |"Studio";
 
 export type Property = {
   id: string;
@@ -1557,6 +1557,7 @@ export type Property = {
   location: string;
   priceLabel: string;
   priceMin: number;
+  // Some projects include non-numeric BHK types like "Studio".
   bhk: number[];
   sizeRange: string;
   possession: string;

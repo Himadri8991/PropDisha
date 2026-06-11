@@ -359,8 +359,12 @@ const PropertyDetail = () => {
       <section className="py-20 border-b border-white/5 bg-navy-deep/50">
         <div className="container-luxe">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-24">
-            {[
-              { Icon: BedDouble, label: "Configuration", value: property.bhk[0] === 0 ? "Office" : `${property.bhk.join(", ")} BHK` },
+{[
+              { Icon: BedDouble, label: "Configuration", value: (() => {
+                const bhk = property.bhk;
+                if (!bhk || bhk.length === 0) return "Office";
+                return `${bhk.join(", ")} BHK`;
+              })() },
               { Icon: Ruler, label: "Carpet Area", value: property.sizeRange },
               { Icon: Calendar, label: "Possession", value: property.possession },
               { Icon: ShieldCheck, label: "RERA Status", value: "Registered" },
